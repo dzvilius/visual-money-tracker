@@ -46,13 +46,21 @@ _Features to be implemented in the future:_
 
 ## Structure
 
-...
+<u>*The Mindmap*</u>
+
+![alt text](ux/Wireframes/Mindmap.png)
 
 ## Skeleton
 
 #### Wireframes
 
-...
+<u>*Dashboard view*</u>
+
+![alt text](ux/Wireframes/Dashboard.png)
+
+<u>*Transactions view*</u>
+
+![alt text](ux/Wireframes/Transactions.png)
 
 ## Surface
 
