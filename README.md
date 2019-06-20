@@ -1,6 +1,6 @@
 # Visual Money Tracker
 
-A data dashboard with transactions overview and charts built with D3.js library. 
+A data dashboard with transactions overview and charts built with D3.js library.
 
 ## UX
 
@@ -22,6 +22,8 @@ To learn more about the needs of user, please read the [Project Brief](ux/Projec
 
 **_"As a user, I want to see my transactions in one place, so that, I can see my income, spending and balance at once"_** (Dashboard main page)
 
+---
+
 - As a user, I want to see my transactions in one place, so that, I can see all information at once.
   - [ ] Create a dashboard
   - [ ] Load data from CSV via D3.js API
@@ -29,7 +31,7 @@ To learn more about the needs of user, please read the [Project Brief](ux/Projec
   - [ ] SVG based
   - [ ] Euro currency
 
-------
+---
 
 **_"As a user, I want to see my total amounts, so that, I can see my income, spending and balance."_** (Overview section)
 
@@ -43,7 +45,7 @@ To learn more about the needs of user, please read the [Project Brief](ux/Projec
   - [ ] Create a function to calculate the balance.
   - [ ] Output 12 months balance value in 'Overview' section.
 
-------
+---
 
 **_"As a user, I want to see my transactions data visually, so that, I can see my income, spending and balance over the period of 12 months."_** (Overview chart)
 
@@ -57,7 +59,7 @@ To learn more about the needs of user, please read the [Project Brief](ux/Projec
   - [ ] Display the data as a line chart with data points for each month.
   - [ ] Blue colour scheme.
 
-------
+---
 
 **_"As a user, I want to see a visual chart for my income only, so that, I can see my earnings in more detail."_**
 
@@ -66,7 +68,7 @@ To learn more about the needs of user, please read the [Project Brief](ux/Projec
   - [ ] Display a percentage value.
   - [ ] Multi colour scheme with shades.
 
-------
+---
 
 **_"As a user, I want to see a visual chart for my spending only, so that, I can see how much I spend in more detail."_**
 
@@ -75,7 +77,7 @@ To learn more about the needs of user, please read the [Project Brief](ux/Projec
   - [ ] Display a percentage value.
   - [ ] Multi colour scheme with shades.
 
-------
+---
 
 **_"As a user, I want easy access to a complete transactions list, so that, I can see all of my transactions."_**
 
@@ -84,6 +86,7 @@ To learn more about the needs of user, please read the [Project Brief](ux/Projec
   - [ ] ~~Filter by month~~
   - [ ] ~~View individual transaction~~
 
+---
 
 ## Features
 
@@ -103,7 +106,7 @@ _Features to be implemented in the future:_
 
 ## Structure
 
-<u>*The Mindmap*</u>
+<u>_The Mindmap_</u>
 
 ![alt text](ux/Wireframes/Mindmap.png)
 
@@ -111,11 +114,11 @@ _Features to be implemented in the future:_
 
 #### Wireframes
 
-<u>*Dashboard view*</u>
+<u>_Dashboard view_</u>
 
 ![alt text](ux/Wireframes/Dashboard.png)
 
-<u>*Transactions view*</u>
+<u>_Transactions view_</u>
 
 ![alt text](ux/Wireframes/Transactions.png)
 
@@ -132,7 +135,6 @@ _Features to be implemented in the future:_
 #### Design Mockups
 
 ...
-
 
 ## Tech
 
