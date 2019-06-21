@@ -20,20 +20,19 @@ To learn more about the needs of user, please read the [Project Brief](ux/Projec
 
 ### Stories
 
-**_"As a user, I want to see my transactions in one place, so that, I can see my income, spending and balance at once"_** (Dashboard main page)
-
 ---
+
+**_"As a user, I want to see my transactions in one place, so that, I can see my income, spending and balance at once."_**
 
 - As a user, I want to see my transactions in one place, so that, I can see all information at once.
-  - [ ] Create a dashboard
-  - [ ] Load data from CSV via D3.js API
-  - [ ] DC.js library for chart inter connections and filtering
-  - [ ] SVG based
-  - [ ] Euro currency
+  - [ ] Create a layout template for dashboard.
+  - [ ] Load data from CSV via D3.js API.
+  - [ ] Add DC.js for charts interlinking.
+  - [ ] Format currency in Euros.
 
 ---
 
-**_"As a user, I want to see my total amounts, so that, I can see my income, spending and balance."_** (Overview section)
+**_"As a user, I want to see my total amounts, so that, I can see my income, spending and balance."_**
 
 - As a user, I want to see my income total, so that, I can see how much I earned.
   - [ ] Create a function to calculate income total.
@@ -47,7 +46,7 @@ To learn more about the needs of user, please read the [Project Brief](ux/Projec
 
 ---
 
-**_"As a user, I want to see my transactions data visually, so that, I can see my income, spending and balance over the period of 12 months."_** (Overview chart)
+**_"As a user, I want to see my transactions data visually, so that, I can see my income, spending and balance over the period of 12 months."_**
 
 - As a user, I want to see my income visually, so that, I know how much I earned over the year.
   - [ ] Display the data as a line chart with data points for each month.
@@ -83,14 +82,14 @@ To learn more about the needs of user, please read the [Project Brief](ux/Projec
 
 - As a user, I want to see a full list of transactions, so that, I can see all details.
   - [ ] Display a table with all transactions.
-  - [ ] ~~Filter by month~~
-  - [ ] ~~View individual transaction~~
+  - [ ] ~~Filter by month.~~
+  - [ ] ~~View individual transaction.~~
 
 ---
 
 ## Features
 
-- Data visualisation with chart
+- Data visualisation with charts
 - Single page application (SPA)
 - CSV import via API
 - Data overview
