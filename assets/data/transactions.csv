@@ -1,363 +1,363 @@
 id,date,payee,category,account,amount
 1,01-Jan-18,Salary,Income,Bank Account,"4,000.00"
 2,01-Jan-18,Groceries,Food,Cash,-56.98
-3,01-Jan-18,Fuel,Auto,Cash,-50
-4,02-Jan-18,Parking,Auto,Cash,-1.2
-5,02-Jan-18,Top Up,Communications,Bank Account,-20
-6,09-Jan-18,Shop,Other,Cash,-25
-7,11-Jan-18,Parking,Auto,Cash,-1.2
-8,11-Jan-18,Shop,Other,Bank Account,-3
-9,14-Jan-18,Internet,Communications,Bank Account,-45
-10,14-Jan-18,Shop,Other,Cash,-64
-11,16-Jan-18,Fuel,Auto,Cash,-50
-12,18-Jan-18,TV,Entertainment,Bank Account,-24.3
-13,21-Jan-18,Groceries,Food,Cash,-23
-14,22-Jan-18,Freelance,Income,Bank Account,800
-15,23-Jan-18,Parking,Auto,Cash,-1.2
-16,23-Jan-18,Shop,Other,Bank Account,-78
-17,24-Jan-18,Shop,Other,Bank Account,-11
-18,25-Jan-18,Fuel,Auto,Cash,-50
-19,25-Jan-18,Groceries,Food,Cash,-87.3
+3,01-Jan-18,Fuel,Auto,Cash,-50.00
+4,02-Jan-18,Parking,Auto,Cash,-1.20
+5,02-Jan-18,Top Up,Communications,Bank Account,-20.00
+6,09-Jan-18,Shop,Other,Cash,-25.00
+7,11-Jan-18,Parking,Auto,Cash,-1.20
+8,11-Jan-18,Shop,Other,Bank Account,-3.00
+9,14-Jan-18,Internet,Communications,Bank Account,-45.00
+10,14-Jan-18,Shop,Other,Cash,-64.00
+11,16-Jan-18,Fuel,Auto,Cash,-50.00
+12,18-Jan-18,TV,Entertainment,Bank Account,-24.30
+13,21-Jan-18,Groceries,Food,Cash,-23.00
+14,22-Jan-18,Freelance,Income,Bank Account,800.00
+15,23-Jan-18,Parking,Auto,Cash,-1.20
+16,23-Jan-18,Shop,Other,Bank Account,-78.00
+17,24-Jan-18,Shop,Other,Bank Account,-11.00
+18,25-Jan-18,Fuel,Auto,Cash,-50.00
+19,25-Jan-18,Groceries,Food,Cash,-87.30
 20,27-Jan-18,Rent,Home,Bank Account,"-1,000.00"
-21,29-Jan-18,Car Insurance,Auto,Bank Account,-95
-22,29-Jan-18,Parking,Auto,Cash,-1.2
-23,30-Jan-18,Fuel,Auto,Cash,-50
-24,31-Jan-18,Spotify,Entertainment,Bank Account,-9
+21,29-Jan-18,Car Insurance,Auto,Bank Account,-95.00
+22,29-Jan-18,Parking,Auto,Cash,-1.20
+23,30-Jan-18,Fuel,Auto,Cash,-50.00
+24,31-Jan-18,Spotify,Entertainment,Bank Account,-9.00
 25,01-Feb-18,Salary,Income,Bank Account,"4,000.00"
-26,02-Feb-18,Shop,Other,Cash,-11
-27,02-Feb-18,Shop,Other,Bank Account,-23.3
-28,03-Feb-18,Shop,Other,Bank Account,-34.5
-29,04-Feb-18,Parking,Auto,Cash,-1.2
-30,05-Feb-18,Shop,Other,Cash,-2.5
-31,07-Feb-18,Groceries,Food,Cash,-100
-32,07-Feb-18,Shop,Other,Cash,-21
-33,08-Feb-18,Parking,Auto,Cash,-1.2
-34,09-Feb-18,Shop,Other,Bank Account,-3
-35,10-Feb-18,Shop,Other,Cash,-50
-36,10-Feb-18,TV,Entertainment,Bank Account,-24.3
-37,12-Feb-18,Groceries,Food,Cash,-77.3
-38,12-Feb-18,Parking,Auto,Cash,-1.2
-39,16-Feb-18,Internet,Communications,Bank Account,-45
-40,17-Feb-18,Parking,Auto,Cash,-1.2
-41,19-Feb-18,Top Up,Communications,Bank Account,-20
-42,20-Feb-18,Freelance,Income,Bank Account,800
+26,02-Feb-18,Shop,Other,Cash,-11.00
+27,02-Feb-18,Shop,Other,Bank Account,-23.30
+28,03-Feb-18,Shop,Other,Bank Account,-34.50
+29,04-Feb-18,Parking,Auto,Cash,-1.20
+30,05-Feb-18,Shop,Other,Cash,-2.50
+31,07-Feb-18,Groceries,Food,Cash,-100.00
+32,07-Feb-18,Shop,Other,Cash,-21.00
+33,08-Feb-18,Parking,Auto,Cash,-1.20
+34,09-Feb-18,Shop,Other,Bank Account,-3.00
+35,10-Feb-18,Shop,Other,Cash,-50.00
+36,10-Feb-18,TV,Entertainment,Bank Account,-24.30
+37,12-Feb-18,Groceries,Food,Cash,-77.30
+38,12-Feb-18,Parking,Auto,Cash,-1.20
+39,16-Feb-18,Internet,Communications,Bank Account,-45.00
+40,17-Feb-18,Parking,Auto,Cash,-1.20
+41,19-Feb-18,Top Up,Communications,Bank Account,-20.00
+42,20-Feb-18,Freelance,Income,Bank Account,800.00
 43,26-Feb-18,Rent,Home,Bank Account,"-1,000.00"
-44,27-Feb-18,Groceries,Food,Cash,-23.2
-45,27-Feb-18,Parking,Auto,Cash,-1.2
-46,28-Feb-18,Car Insurance,Auto,Bank Account,-95
-47,28-Feb-18,Spotify,Entertainment,Bank Account,-9
+44,27-Feb-18,Groceries,Food,Cash,-23.20
+45,27-Feb-18,Parking,Auto,Cash,-1.20
+46,28-Feb-18,Car Insurance,Auto,Bank Account,-95.00
+47,28-Feb-18,Spotify,Entertainment,Bank Account,-9.00
 48,01-Mar-18,Salary,Income,Bank Account,"4,000.00"
-49,02-Mar-18,Ntag,,Bank Account,-12
-50,04-Mar-18,Groceries,Food,Cash,-77.3
-51,04-Mar-18,Shop,Other,Cash,-26.7
-52,05-Mar-18,Parking,Auto,Cash,-1.2
-53,06-Mar-18,Shop,Other,Bank Account,-34
-54,07-Mar-18,Shop,Other,Cash,-45
-55,09-Mar-18,Parking,Auto,Cash,-1.2
-56,12-Mar-18,Freelance,Income,Bank Account,800
-57,13-Mar-18,TV,Entertainment,Bank Account,-24.3
-58,15-Mar-18,Shop,Other,Bank Account,-11
-59,16-Mar-18,Internet,Communications,Bank Account,-45
-60,19-Mar-18,Groceries,Food,Cash,-23.2
-61,19-Mar-18,Top Up,Communications,Bank Account,-20
-62,19-Mar-18,Shop,Other,Cash,-23.7
-63,25-Mar-18,Parking,Auto,Cash,-1.2
-64,27-Mar-18,Shop,Other,Cash,-23.6
-65,27-Mar-18,Road Tax,Auto,Bank Account,-180
-66,27-Mar-18,Parking,Auto,Cash,-1.2
-67,27-Mar-18,Car Insurance,Auto,Bank Account,-95
+49,02-Mar-18,Ntag,,Bank Account,-12.00
+50,04-Mar-18,Groceries,Food,Cash,-77.30
+51,04-Mar-18,Shop,Other,Cash,-26.70
+52,05-Mar-18,Parking,Auto,Cash,-1.20
+53,06-Mar-18,Shop,Other,Bank Account,-34.00
+54,07-Mar-18,Shop,Other,Cash,-45.00
+55,09-Mar-18,Parking,Auto,Cash,-1.20
+56,12-Mar-18,Freelance,Income,Bank Account,800.00
+57,13-Mar-18,TV,Entertainment,Bank Account,-24.30
+58,15-Mar-18,Shop,Other,Bank Account,-11.00
+59,16-Mar-18,Internet,Communications,Bank Account,-45.00
+60,19-Mar-18,Groceries,Food,Cash,-23.20
+61,19-Mar-18,Top Up,Communications,Bank Account,-20.00
+62,19-Mar-18,Shop,Other,Cash,-23.70
+63,25-Mar-18,Parking,Auto,Cash,-1.20
+64,27-Mar-18,Shop,Other,Cash,-23.60
+65,27-Mar-18,Road Tax,Auto,Bank Account,-180.00
+66,27-Mar-18,Parking,Auto,Cash,-1.20
+67,27-Mar-18,Car Insurance,Auto,Bank Account,-95.00
 68,30-Mar-18,Rent,Home,Bank Account,"-1,000.00"
-69,31-Mar-18,Spotify,Entertainment,Bank Account,-9
+69,31-Mar-18,Spotify,Entertainment,Bank Account,-9.00
 70,01-Apr-18,Salary,Income,Bank Account,"4,000.00"
-71,02-Apr-18,Shop,Other,Cash,-7
-72,03-Apr-18,Shop,Other,Cash,-8
-73,04-Apr-18,Parking,Auto,Cash,-1.2
-74,04-Apr-18,Shop,Other,Bank Account,-23.5
-75,05-Apr-18,Groceries,Food,Cash,-23.2
-76,05-Apr-18,Shop,Other,Cash,-11.5
-77,05-Apr-18,Shop,Other,Bank Account,-34.5
-78,06-Apr-18,Shop,Other,Bank Account,-23
-79,07-Apr-18,Parking,Auto,Cash,-1.2
-80,07-Apr-18,Shop,Other,Cash,-10
-81,09-Apr-18,Shop,Other,Cash,-4
-82,10-Apr-18,Freelance,Income,Bank Account,600
-83,11-Apr-18,Top Up,Communications,Bank Account,-20
-84,13-Apr-18,TV,Entertainment,Bank Account,-24.3
-85,14-Apr-18,Groceries,Food,Cash,-45.3
-86,17-Apr-18,Internet,Communications,Bank Account,-45
-87,17-Apr-18,Shop,Other,Cash,-31.5
-88,19-Apr-18,Parking,Auto,Cash,-1.2
-89,19-Apr-18,Shop,Other,Bank Account,-15
-90,20-Apr-18,Shop,Other,Bank Account,-14
-91,20-Apr-18,Shop,Other,Bank Account,-11.5
-92,21-Apr-18,Shop,Other,Cash,-78
-93,22-Apr-18,Parking,Auto,Cash,-1.2
-94,22-Apr-18,Groceries,Food,Cash,-23.5
-95,22-Apr-18,Shop,Other,Cash,-11
-96,22-Apr-18,Shop,Other,Bank Account,-4.7
-97,23-Apr-18,Shop,Other,Bank Account,-3.8
-98,23-Apr-18,Shop,Other,Cash,-5.2
-99,24-Apr-18,Parking,Auto,Cash,-1.2
-100,24-Apr-18,Shop,Other,Bank Account,-25.8
-101,25-Apr-18,Shop,Other,Cash,-45
-102,25-Apr-18,Shop,Other,Cash,-12
-103,25-Apr-18,Parking,Auto,Cash,-1.2
-104,26-Apr-18,Groceries,Food,Cash,-25.8
-105,26-Apr-18,Shop,Other,Bank Account,-5
-106,27-Apr-18,Shop,Other,Cash,-2
-107,28-Apr-18,Shop,Other,Cash,-2
-108,29-Apr-18,Car Insurance,Auto,Bank Account,-95
+71,02-Apr-18,Shop,Other,Cash,-7.00
+72,03-Apr-18,Shop,Other,Cash,-8.00
+73,04-Apr-18,Parking,Auto,Cash,-1.20
+74,04-Apr-18,Shop,Other,Bank Account,-23.50
+75,05-Apr-18,Groceries,Food,Cash,-23.20
+76,05-Apr-18,Shop,Other,Cash,-11.50
+77,05-Apr-18,Shop,Other,Bank Account,-34.50
+78,06-Apr-18,Shop,Other,Bank Account,-23.00
+79,07-Apr-18,Parking,Auto,Cash,-1.20
+80,07-Apr-18,Shop,Other,Cash,-10.00
+81,09-Apr-18,Shop,Other,Cash,-4.00
+82,10-Apr-18,Freelance,Income,Bank Account,600.00
+83,11-Apr-18,Top Up,Communications,Bank Account,-20.00
+84,13-Apr-18,TV,Entertainment,Bank Account,-24.30
+85,14-Apr-18,Groceries,Food,Cash,-45.30
+86,17-Apr-18,Internet,Communications,Bank Account,-45.00
+87,17-Apr-18,Shop,Other,Cash,-31.50
+88,19-Apr-18,Parking,Auto,Cash,-1.20
+89,19-Apr-18,Shop,Other,Bank Account,-15.00
+90,20-Apr-18,Shop,Other,Bank Account,-14.00
+91,20-Apr-18,Shop,Other,Bank Account,-11.50
+92,21-Apr-18,Shop,Other,Cash,-78.00
+93,22-Apr-18,Parking,Auto,Cash,-1.20
+94,22-Apr-18,Groceries,Food,Cash,-23.50
+95,22-Apr-18,Shop,Other,Cash,-11.00
+96,22-Apr-18,Shop,Other,Bank Account,-4.70
+97,23-Apr-18,Shop,Other,Bank Account,-3.80
+98,23-Apr-18,Shop,Other,Cash,-5.20
+99,24-Apr-18,Parking,Auto,Cash,-1.20
+100,24-Apr-18,Shop,Other,Bank Account,-25.80
+101,25-Apr-18,Shop,Other,Cash,-45.00
+102,25-Apr-18,Shop,Other,Cash,-12.00
+103,25-Apr-18,Parking,Auto,Cash,-1.20
+104,26-Apr-18,Groceries,Food,Cash,-25.80
+105,26-Apr-18,Shop,Other,Bank Account,-5.00
+106,27-Apr-18,Shop,Other,Cash,-2.00
+107,28-Apr-18,Shop,Other,Cash,-2.00
+108,29-Apr-18,Car Insurance,Auto,Bank Account,-95.00
 109,30-Apr-18,Rent,Home,Bank Account,"-1,000.00"
-110,30-Apr-18,Spotify,Entertainment,Bank Account,-9
+110,30-Apr-18,Spotify,Entertainment,Bank Account,-9.00
 111,01-May-18,Salary,Income,Bank Account,"4,000.00"
-112,03-May-18,Shop,Other,Cash,-4.7
-113,03-May-18,Shop,Other,Bank Account,-4.7
-114,04-May-18,Groceries,Food,Cash,-25.8
-115,06-May-18,Parking,Auto,Cash,-1.2
-116,06-May-18,Parking,Auto,Cash,-1.2
-117,06-May-18,Parking,Auto,Cash,-1.2
-118,07-May-18,Shop,Other,Bank Account,-11.5
-119,07-May-18,Shop,Other,Cash,-23
-120,07-May-18,Shop,Other,Cash,-11.5
-121,07-May-18,Freelance,Income,Bank Account,800
-122,07-May-18,Shop,Other,Cash,-34
-123,08-May-18,Parking,Auto,Cash,-1.2
-124,08-May-18,Groceries,Food,Cash,-100
-125,08-May-18,Top Up,Communications,Bank Account,-20
-126,09-May-18,Shop,Other,Cash,-23
-127,10-May-18,Ice Cream,Other,Cash,-4.3
-128,10-May-18,TV,Entertainment,Bank Account,-24.3
-129,10-May-18,Shop,Other,Cash,-11.5
-130,11-May-18,Shop,Other,Cash,-4.7
-131,12-May-18,Groceries,Food,Cash,-25.8
-132,14-May-18,Shop,Other,Cash,-23
-133,15-May-18,Internet,Communications,Bank Account,-45
-134,18-May-18,Parking,Auto,Cash,-1.2
-135,18-May-18,Parking,Auto,Cash,-1.2
-136,19-May-18,Shop,Other,Bank Account,-11.5
-137,20-May-18,Shop,Other,Bank Account,-4.7
-138,20-May-18,Shop,Other,Bank Account,-17
-139,21-May-18,Shop,Other,Cash,-4.7
-140,22-May-18,Shop,Other,Cash,-24
-141,23-May-18,Shop,Other,Cash,-2
-142,24-May-18,Parking,Auto,Cash,-1.2
+112,03-May-18,Shop,Other,Cash,-4.70
+113,03-May-18,Shop,Other,Bank Account,-4.70
+114,04-May-18,Groceries,Food,Cash,-25.80
+115,06-May-18,Parking,Auto,Cash,-1.20
+116,06-May-18,Parking,Auto,Cash,-1.20
+117,06-May-18,Parking,Auto,Cash,-1.20
+118,07-May-18,Shop,Other,Bank Account,-11.50
+119,07-May-18,Shop,Other,Cash,-23.00
+120,07-May-18,Shop,Other,Cash,-11.50
+121,07-May-18,Freelance,Income,Bank Account,800.00
+122,07-May-18,Shop,Other,Cash,-34.00
+123,08-May-18,Parking,Auto,Cash,-1.20
+124,08-May-18,Groceries,Food,Cash,-100.00
+125,08-May-18,Top Up,Communications,Bank Account,-20.00
+126,09-May-18,Shop,Other,Cash,-23.00
+127,10-May-18,Ice Cream,Other,Cash,-4.30
+128,10-May-18,TV,Entertainment,Bank Account,-24.30
+129,10-May-18,Shop,Other,Cash,-11.50
+130,11-May-18,Shop,Other,Cash,-4.70
+131,12-May-18,Groceries,Food,Cash,-25.80
+132,14-May-18,Shop,Other,Cash,-23.00
+133,15-May-18,Internet,Communications,Bank Account,-45.00
+134,18-May-18,Parking,Auto,Cash,-1.20
+135,18-May-18,Parking,Auto,Cash,-1.20
+136,19-May-18,Shop,Other,Bank Account,-11.50
+137,20-May-18,Shop,Other,Bank Account,-4.70
+138,20-May-18,Shop,Other,Bank Account,-17.00
+139,21-May-18,Shop,Other,Cash,-4.70
+140,22-May-18,Shop,Other,Cash,-24.00
+141,23-May-18,Shop,Other,Cash,-2.00
+142,24-May-18,Parking,Auto,Cash,-1.20
 143,26-May-18,Groceries,Food,Cash,-53.67
 144,27-May-18,Rent,Home,Bank Account,"-1,000.00"
-145,27-May-18,Parking,Auto,Cash,-1.2
-146,27-May-18,Shop,Other,Cash,-11.5
-147,29-May-18,Car Insurance,Auto,Bank Account,-95
-148,29-May-18,Shop,Other,Cash,-4.7
-149,30-May-18,Spotify,Entertainment,Bank Account,-9
+145,27-May-18,Parking,Auto,Cash,-1.20
+146,27-May-18,Shop,Other,Cash,-11.50
+147,29-May-18,Car Insurance,Auto,Bank Account,-95.00
+148,29-May-18,Shop,Other,Cash,-4.70
+149,30-May-18,Spotify,Entertainment,Bank Account,-9.00
 150,01-Jun-18,Salary,Income,Bank Account,"4,000.00"
-151,01-Jun-18,Shop,Other,Cash,-4.7
-152,07-Jun-18,Shop,Other,Cash,-17
+151,01-Jun-18,Shop,Other,Cash,-4.70
+152,07-Jun-18,Shop,Other,Cash,-17.00
 153,11-Jun-18,Groceries,Food,Cash,-46.78
-154,12-Jun-18,Shop,Other,Cash,-4.7
-155,12-Jun-18,Shop,Other,Cash,-17
-156,12-Jun-18,Freelance,Income,Bank Account,200
-157,12-Jun-18,Shop,Other,Cash,-3.8
-158,13-Jun-18,TV,Entertainment,Bank Account,-24.3
-159,13-Jun-18,Shop,Other,Cash,-3.8
-160,15-Jun-18,Top Up,Communications,Bank Account,-20
-161,17-Jun-18,Internet,Communications,Bank Account,-45
-162,18-Jun-18,Shop,Other,Cash,-3.8
+154,12-Jun-18,Shop,Other,Cash,-4.70
+155,12-Jun-18,Shop,Other,Cash,-17.00
+156,12-Jun-18,Freelance,Income,Bank Account,200.00
+157,12-Jun-18,Shop,Other,Cash,-3.80
+158,13-Jun-18,TV,Entertainment,Bank Account,-24.30
+159,13-Jun-18,Shop,Other,Cash,-3.80
+160,15-Jun-18,Top Up,Communications,Bank Account,-20.00
+161,17-Jun-18,Internet,Communications,Bank Account,-45.00
+162,18-Jun-18,Shop,Other,Cash,-3.80
 163,18-Jun-18,Groceries,Food,Cash,-53.67
-164,20-Jun-18,Shop,Other,Cash,-4.7
-165,20-Jun-18,Shop,Other,Bank Account,-17
-166,22-Jun-18,Ice Cream,Other,Cash,-4.3
-167,22-Jun-18,Parking,Auto,Cash,-1.2
-168,22-Jun-18,Shop,Other,Cash,-3.8
+164,20-Jun-18,Shop,Other,Cash,-4.70
+165,20-Jun-18,Shop,Other,Bank Account,-17.00
+166,22-Jun-18,Ice Cream,Other,Cash,-4.30
+167,22-Jun-18,Parking,Auto,Cash,-1.20
+168,22-Jun-18,Shop,Other,Cash,-3.80
 169,22-Jun-18,Groceries,Food,Cash,-56.98
-170,22-Jun-18,Shop,Other,Cash,-11.5
-171,22-Jun-18,Shop,Other,Cash,-23
-172,22-Jun-18,Shop,Other,Cash,-11.5
-173,24-Jun-18,Shop,Other,Cash,-3.8
-174,24-Jun-18,Shop,Other,Cash,-3.8
-175,25-Jun-18,Groceries,Food,Cash,-25.8
-176,26-Jun-18,Road Tax,Auto,Bank Account,-180
-177,26-Jun-18,Shop,Other,Cash,-3.8
-178,26-Jun-18,Freelance,Income,Bank Account,800
-179,27-Jun-18,Shop,Other,Cash,-4.7
-180,28-Jun-18,Shop,Other,Cash,-17
-181,29-Jun-18,Car Insurance,Auto,Bank Account,-95
+170,22-Jun-18,Shop,Other,Cash,-11.50
+171,22-Jun-18,Shop,Other,Cash,-23.00
+172,22-Jun-18,Shop,Other,Cash,-11.50
+173,24-Jun-18,Shop,Other,Cash,-3.80
+174,24-Jun-18,Shop,Other,Cash,-3.80
+175,25-Jun-18,Groceries,Food,Cash,-25.80
+176,26-Jun-18,Road Tax,Auto,Bank Account,-180.00
+177,26-Jun-18,Shop,Other,Cash,-3.80
+178,26-Jun-18,Freelance,Income,Bank Account,800.00
+179,27-Jun-18,Shop,Other,Cash,-4.70
+180,28-Jun-18,Shop,Other,Cash,-17.00
+181,29-Jun-18,Car Insurance,Auto,Bank Account,-95.00
 182,30-Jun-18,Rent,Home,Bank Account,"-1,000.00"
-183,30-Jun-18,Parking,Auto,Cash,-1.2
-184,30-Jun-18,Spotify,Entertainment,Bank Account,-9
+183,30-Jun-18,Parking,Auto,Cash,-1.20
+184,30-Jun-18,Spotify,Entertainment,Bank Account,-9.00
 185,01-Jul-18,Salary,Income,Bank Account,"4,000.00"
-186,01-Jul-18,Shop,Other,Cash,-17
-187,02-Jul-18,Shop,Other,Cash,-17
-188,04-Jul-18,Groceries,Food,Cash,-87.7
-189,06-Jul-18,Shop,Other,Bank Account,-4.7
-190,06-Jul-18,Shop,Other,Bank Account,-17
-191,06-Jul-18,Parking,Auto,Cash,-1.2
-192,08-Jul-18,Shop,Other,Cash,-4.7
-193,10-Jul-18,Shop,Other,Cash,-17
-194,11-Jul-18,Ice Cream,Other,Cash,-4.3
-195,11-Jul-18,TV,Entertainment,Bank Account,-24.3
-196,13-Jul-18,Top Up,Communications,Bank Account,-20
-197,14-Jul-18,Groceries,Food,Cash,-100
-198,15-Jul-18,Internet,Communications,Bank Account,-45
-199,16-Jul-18,Freelance,Income,Bank Account,500
-200,16-Jul-18,Shop,Other,Cash,-3.8
-201,17-Jul-18,Shop,Other,Cash,-11.5
-202,18-Jul-18,Shop,Other,Bank Account,-23
-203,22-Jul-18,Shop,Other,Cash,-11.5
-204,26-Jul-18,Parking,Auto,Cash,-1.2
-205,26-Jul-18,Shop,Other,Cash,-17
-206,27-Jul-18,Groceries,Food,Cash,-47.3
-207,27-Jul-18,Shop,Other,Cash,-17
+186,01-Jul-18,Shop,Other,Cash,-17.00
+187,02-Jul-18,Shop,Other,Cash,-17.00
+188,04-Jul-18,Groceries,Food,Cash,-87.70
+189,06-Jul-18,Shop,Other,Bank Account,-4.70
+190,06-Jul-18,Shop,Other,Bank Account,-17.00
+191,06-Jul-18,Parking,Auto,Cash,-1.20
+192,08-Jul-18,Shop,Other,Cash,-4.70
+193,10-Jul-18,Shop,Other,Cash,-17.00
+194,11-Jul-18,Ice Cream,Other,Cash,-4.30
+195,11-Jul-18,TV,Entertainment,Bank Account,-24.30
+196,13-Jul-18,Top Up,Communications,Bank Account,-20.00
+197,14-Jul-18,Groceries,Food,Cash,-100.00
+198,15-Jul-18,Internet,Communications,Bank Account,-45.00
+199,16-Jul-18,Freelance,Income,Bank Account,500.00
+200,16-Jul-18,Shop,Other,Cash,-3.80
+201,17-Jul-18,Shop,Other,Cash,-11.50
+202,18-Jul-18,Shop,Other,Bank Account,-23.00
+203,22-Jul-18,Shop,Other,Cash,-11.50
+204,26-Jul-18,Parking,Auto,Cash,-1.20
+205,26-Jul-18,Shop,Other,Cash,-17.00
+206,27-Jul-18,Groceries,Food,Cash,-47.30
+207,27-Jul-18,Shop,Other,Cash,-17.00
 208,28-Jul-18,Rent,Home,Bank Account,"-1,000.00"
-209,28-Jul-18,Car Insurance,Auto,Bank Account,-95
-210,30-Jul-18,Ice Cream,Other,Cash,-4.3
-211,30-Jul-18,Shop,Other,Cash,-3.8
-212,31-Jul-18,Spotify,Entertainment,Bank Account,-9
+209,28-Jul-18,Car Insurance,Auto,Bank Account,-95.00
+210,30-Jul-18,Ice Cream,Other,Cash,-4.30
+211,30-Jul-18,Shop,Other,Cash,-3.80
+212,31-Jul-18,Spotify,Entertainment,Bank Account,-9.00
 213,01-Aug-18,Salary,Income,Bank Account,"4,000.00"
-214,01-Aug-18,Shop,Other,Cash,-3.8
-215,02-Aug-18,Shop,Other,Cash,-11.5
-216,03-Aug-18,Shop,Other,Cash,-23
-217,05-Aug-18,Shop,Other,Bank Account,-11.5
-218,07-Aug-18,Parking,Auto,Cash,-1.2
-219,07-Aug-18,Shop,Other,Cash,-3.8
-220,07-Aug-18,Shop,Other,Cash,-11.5
-221,07-Aug-18,Groceries,Food,Cash,-20
-222,07-Aug-18,Shop,Other,Cash,-3.8
-223,08-Aug-18,Top Up,Communications,Bank Account,-20
-224,08-Aug-18,Shop,Other,Cash,-3.8
-225,09-Aug-18,Shop,Other,Cash,-3.8
-226,13-Aug-18,Freelance,Income,Bank Account,600
-227,14-Aug-18,Shop,Other,Cash,-11.5
-228,15-Aug-18,TV,Entertainment,Bank Account,-24.3
-229,15-Aug-18,Internet,Communications,Bank Account,-45
-230,16-Aug-18,Parking,Auto,Cash,-1.2
-231,17-Aug-18,Ice Cream,Other,Cash,-4.3
-232,18-Aug-18,Groceries,Food,Cash,-72
-233,18-Aug-18,Shop,Other,Cash,-11.5
-234,18-Aug-18,Shop,Other,Bank Account,-23
-235,19-Aug-18,Shop,Other,Bank Account,-11.5
-236,22-Aug-18,Shop,Other,Bank Account,-4.7
-237,23-Aug-18,Shop,Other,Cash,-17
-238,24-Aug-18,Shop,Other,Cash,-3.8
-239,24-Aug-18,Parking,Auto,Cash,-1.2
-240,25-Aug-18,Shop,Other,Cash,-11.5
+214,01-Aug-18,Shop,Other,Cash,-3.80
+215,02-Aug-18,Shop,Other,Cash,-11.50
+216,03-Aug-18,Shop,Other,Cash,-23.00
+217,05-Aug-18,Shop,Other,Bank Account,-11.50
+218,07-Aug-18,Parking,Auto,Cash,-1.20
+219,07-Aug-18,Shop,Other,Cash,-3.80
+220,07-Aug-18,Shop,Other,Cash,-11.50
+221,07-Aug-18,Groceries,Food,Cash,-20.00
+222,07-Aug-18,Shop,Other,Cash,-3.80
+223,08-Aug-18,Top Up,Communications,Bank Account,-20.00
+224,08-Aug-18,Shop,Other,Cash,-3.80
+225,09-Aug-18,Shop,Other,Cash,-3.80
+226,13-Aug-18,Freelance,Income,Bank Account,600.00
+227,14-Aug-18,Shop,Other,Cash,-11.50
+228,15-Aug-18,TV,Entertainment,Bank Account,-24.30
+229,15-Aug-18,Internet,Communications,Bank Account,-45.00
+230,16-Aug-18,Parking,Auto,Cash,-1.20
+231,17-Aug-18,Ice Cream,Other,Cash,-4.30
+232,18-Aug-18,Groceries,Food,Cash,-72.00
+233,18-Aug-18,Shop,Other,Cash,-11.50
+234,18-Aug-18,Shop,Other,Bank Account,-23.00
+235,19-Aug-18,Shop,Other,Bank Account,-11.50
+236,22-Aug-18,Shop,Other,Bank Account,-4.70
+237,23-Aug-18,Shop,Other,Cash,-17.00
+238,24-Aug-18,Shop,Other,Cash,-3.80
+239,24-Aug-18,Parking,Auto,Cash,-1.20
+240,25-Aug-18,Shop,Other,Cash,-11.50
 241,25-Aug-18,Rent,Home,Bank Account,"-1,000.00"
-242,26-Aug-18,Groceries,Food,Cash,-140.1
-243,27-Aug-18,Shop,Other,Cash,-11.5
-244,27-Aug-18,Car Insurance,Auto,Bank Account,-95
-245,28-Aug-18,Spotify,Entertainment,Bank Account,-9
-246,31-Aug-18,Parking,Auto,Cash,-1.2
+242,26-Aug-18,Groceries,Food,Cash,-140.10
+243,27-Aug-18,Shop,Other,Cash,-11.50
+244,27-Aug-18,Car Insurance,Auto,Bank Account,-95.00
+245,28-Aug-18,Spotify,Entertainment,Bank Account,-9.00
+246,31-Aug-18,Parking,Auto,Cash,-1.20
 247,01-Sep-18,Salary,Income,Bank Account,"4,000.00"
-248,06-Sep-18,Shop,Other,Cash,-4.7
-249,07-Sep-18,Shop,Other,Cash,-17
-250,07-Sep-18,Groceries,Food,Cash,-89.6
-251,08-Sep-18,Shop,Other,Cash,-11.5
-252,10-Sep-18,Top Up,Communications,Bank Account,-20
-253,10-Sep-18,Parking,Auto,Cash,-1.2
-254,10-Sep-18,Shop,Other,Cash,-11.5
-255,11-Sep-18,TV,Entertainment,Bank Account,-24.3
-256,16-Sep-18,Freelance,Income,Bank Account,800
-257,18-Sep-18,Internet,Communications,Bank Account,-45
-258,18-Sep-18,Parking,Auto,Cash,-1.2
-259,20-Sep-18,Shop,Other,Cash,-3.8
-260,23-Sep-18,Groceries,Food,Cash,-56.8
-261,24-Sep-18,Shop,Other,Bank Account,-4.7
-262,24-Sep-18,Shop,Other,Cash,-17
-263,25-Sep-18,Ice Cream,Other,Cash,-4.3
-264,25-Sep-18,Shop,Other,Cash,-3.8
-265,26-Sep-18,Parking,Auto,Cash,-1.2
-266,26-Sep-18,Groceries,Food,Cash,-45.7
-267,27-Sep-18,Road Tax,Auto,Bank Account,-180
-268,28-Sep-18,Shop,Other,Cash,-11.5
-269,28-Sep-18,Parking,Auto,Cash,-1.2
+248,06-Sep-18,Shop,Other,Cash,-4.70
+249,07-Sep-18,Shop,Other,Cash,-17.00
+250,07-Sep-18,Groceries,Food,Cash,-89.60
+251,08-Sep-18,Shop,Other,Cash,-11.50
+252,10-Sep-18,Top Up,Communications,Bank Account,-20.00
+253,10-Sep-18,Parking,Auto,Cash,-1.20
+254,10-Sep-18,Shop,Other,Cash,-11.50
+255,11-Sep-18,TV,Entertainment,Bank Account,-24.30
+256,16-Sep-18,Freelance,Income,Bank Account,800.00
+257,18-Sep-18,Internet,Communications,Bank Account,-45.00
+258,18-Sep-18,Parking,Auto,Cash,-1.20
+259,20-Sep-18,Shop,Other,Cash,-3.80
+260,23-Sep-18,Groceries,Food,Cash,-56.80
+261,24-Sep-18,Shop,Other,Bank Account,-4.70
+262,24-Sep-18,Shop,Other,Cash,-17.00
+263,25-Sep-18,Ice Cream,Other,Cash,-4.30
+264,25-Sep-18,Shop,Other,Cash,-3.80
+265,26-Sep-18,Parking,Auto,Cash,-1.20
+266,26-Sep-18,Groceries,Food,Cash,-45.70
+267,27-Sep-18,Road Tax,Auto,Bank Account,-180.00
+268,28-Sep-18,Shop,Other,Cash,-11.50
+269,28-Sep-18,Parking,Auto,Cash,-1.20
 270,28-Sep-18,Rent,Home,Bank Account,"-1,000.00"
-271,29-Sep-18,Car Insurance,Auto,Bank Account,-95
-272,29-Sep-18,Spotify,Entertainment,Bank Account,-9
-273,29-Sep-18,Shop,Other,Cash,-3.8
+271,29-Sep-18,Car Insurance,Auto,Bank Account,-95.00
+272,29-Sep-18,Spotify,Entertainment,Bank Account,-9.00
+273,29-Sep-18,Shop,Other,Cash,-3.80
 274,01-Oct-18,Salary,Income,Bank Account,"4,000.00"
-275,03-Oct-18,Shop,Other,Cash,-11.5
-276,04-Oct-18,Shop,Other,Cash,-23
-277,04-Oct-18,Shop,Other,Cash,-11.5
-278,05-Oct-18,Groceries,Food,Cash,-20
-279,05-Oct-18,Parking,Auto,Cash,-1.2
-280,06-Oct-18,Shop,Other,Cash,-11.5
-281,07-Oct-18,Top Up,Communications,Bank Account,-20
-282,09-Oct-18,Parking,Auto,Cash,-1.2
-283,10-Oct-18,Shop,Other,Cash,-3.8
-284,10-Oct-18,Freelance,Income,Bank Account,800
-285,11-Oct-18,Shop,Other,Cash,-4.7
-286,11-Oct-18,Shop,Other,Cash,-17
-287,13-Oct-18,TV,Entertainment,Bank Account,-24.3
-288,14-Oct-18,Groceries,Food,Cash,-170.3
-289,14-Oct-18,Shop,Other,Cash,-11.5
-290,16-Oct-18,Parking,Auto,Cash,-1.2
-291,18-Oct-18,Internet,Communications,Bank Account,-45
-292,18-Oct-18,Shop,Other,Cash,-11.5
-293,18-Oct-18,Shop,Other,Cash,-11.5
-294,19-Oct-18,Parking,Auto,Cash,-1.2
-295,20-Oct-18,Shop,Other,Cash,-4.7
-296,20-Oct-18,Shop,Other,Bank Account,-17
-297,20-Oct-18,Shop,Other,Bank Account,-4.7
-298,21-Oct-18,Shop,Other,Cash,-17
-299,23-Oct-18,Groceries,Food,Cash,-100
-300,24-Oct-18,Parking,Auto,Cash,-1.2
-301,24-Oct-18,Freelance,Income,Bank Account,400
-302,24-Oct-18,Shop,Other,Cash,-11.5
-303,25-Oct-18,Shop,Other,Cash,-23
-304,25-Oct-18,Shop,Other,Cash,-11.5
-305,25-Oct-18,Parking,Auto,Cash,-1.2
-306,27-Oct-18,Shop,Other,Cash,-3.8
-307,29-Oct-18,Spotify,Entertainment,Bank Account,-9
-308,29-Oct-18,Car Insurance,Auto,Bank Account,-95
-309,29-Oct-18,Freelance,Income,Bank Account,200
-310,31-Oct-18,Parking,Auto,Cash,-1.2
-311,31-Oct-18,Groceries,Food,Cash,-65.2
+275,03-Oct-18,Shop,Other,Cash,-11.50
+276,04-Oct-18,Shop,Other,Cash,-23.00
+277,04-Oct-18,Shop,Other,Cash,-11.50
+278,05-Oct-18,Groceries,Food,Cash,-20.00
+279,05-Oct-18,Parking,Auto,Cash,-1.20
+280,06-Oct-18,Shop,Other,Cash,-11.50
+281,07-Oct-18,Top Up,Communications,Bank Account,-20.00
+282,09-Oct-18,Parking,Auto,Cash,-1.20
+283,10-Oct-18,Shop,Other,Cash,-3.80
+284,10-Oct-18,Freelance,Income,Bank Account,800.00
+285,11-Oct-18,Shop,Other,Cash,-4.70
+286,11-Oct-18,Shop,Other,Cash,-17.00
+287,13-Oct-18,TV,Entertainment,Bank Account,-24.30
+288,14-Oct-18,Groceries,Food,Cash,-170.30
+289,14-Oct-18,Shop,Other,Cash,-11.50
+290,16-Oct-18,Parking,Auto,Cash,-1.20
+291,18-Oct-18,Internet,Communications,Bank Account,-45.00
+292,18-Oct-18,Shop,Other,Cash,-11.50
+293,18-Oct-18,Shop,Other,Cash,-11.50
+294,19-Oct-18,Parking,Auto,Cash,-1.20
+295,20-Oct-18,Shop,Other,Cash,-4.70
+296,20-Oct-18,Shop,Other,Bank Account,-17.00
+297,20-Oct-18,Shop,Other,Bank Account,-4.70
+298,21-Oct-18,Shop,Other,Cash,-17.00
+299,23-Oct-18,Groceries,Food,Cash,-100.00
+300,24-Oct-18,Parking,Auto,Cash,-1.20
+301,24-Oct-18,Freelance,Income,Bank Account,400.00
+302,24-Oct-18,Shop,Other,Cash,-11.50
+303,25-Oct-18,Shop,Other,Cash,-23.00
+304,25-Oct-18,Shop,Other,Cash,-11.50
+305,25-Oct-18,Parking,Auto,Cash,-1.20
+306,27-Oct-18,Shop,Other,Cash,-3.80
+307,29-Oct-18,Spotify,Entertainment,Bank Account,-9.00
+308,29-Oct-18,Car Insurance,Auto,Bank Account,-95.00
+309,29-Oct-18,Freelance,Income,Bank Account,200.00
+310,31-Oct-18,Parking,Auto,Cash,-1.20
+311,31-Oct-18,Groceries,Food,Cash,-65.20
 312,31-Oct-18,Rent,Home,Bank Account,"-1,000.00"
 313,01-Nov-18,Salary,Income,Bank Account,"4,000.00"
-314,01-Nov-18,Shop,Other,Cash,-11.5
-315,04-Nov-18,Shop,Other,Bank Account,-23
-316,04-Nov-18,Shop,Other,Bank Account,-11.5
+314,01-Nov-18,Shop,Other,Cash,-11.50
+315,04-Nov-18,Shop,Other,Bank Account,-23.00
+316,04-Nov-18,Shop,Other,Bank Account,-11.50
 317,05-Nov-18,Groceries,Food,Cash,-80.36
-318,06-Nov-18,Shop,Other,Cash,-11.5
-319,06-Nov-18,Top Up,Communications,Bank Account,-20
-320,07-Nov-18,Shop,Other,Cash,-3.8
-321,07-Nov-18,Parking,Auto,Cash,-1.2
-322,09-Nov-18,Shop,Other,Cash,-11.5
-323,10-Nov-18,Shop,Other,Cash,-23
-324,12-Nov-18,Shop,Other,Cash,-11.5
-325,12-Nov-18,TV,Entertainment,Bank Account,-24.3
-326,14-Nov-18,Freelance,Income,Bank Account,400
-327,14-Nov-18,Parking,Auto,Cash,-1.2
-328,15-Nov-18,Internet,Communications,Bank Account,-45
-329,17-Nov-18,Shop,Other,Cash,-4.7
-330,18-Nov-18,Shop,Other,Cash,-17
-331,21-Nov-18,Groceries,Food,Cash,-35
-332,22-Nov-18,Shop,Other,Bank Account,-11.5
-333,23-Nov-18,Parking,Auto,Cash,-1.2
-334,23-Nov-18,Shop,Other,Cash,-3.8
-335,24-Nov-18,Spotify,Entertainment,Bank Account,-9
-336,25-Nov-18,Groceries,Food,Cash,-132.5
-337,28-Nov-18,Car Insurance,Auto,Bank Account,-95
-338,28-Nov-18,Parking,Auto,Cash,-1.2
+318,06-Nov-18,Shop,Other,Cash,-11.50
+319,06-Nov-18,Top Up,Communications,Bank Account,-20.00
+320,07-Nov-18,Shop,Other,Cash,-3.80
+321,07-Nov-18,Parking,Auto,Cash,-1.20
+322,09-Nov-18,Shop,Other,Cash,-11.50
+323,10-Nov-18,Shop,Other,Cash,-23.00
+324,12-Nov-18,Shop,Other,Cash,-11.50
+325,12-Nov-18,TV,Entertainment,Bank Account,-24.30
+326,14-Nov-18,Freelance,Income,Bank Account,400.00
+327,14-Nov-18,Parking,Auto,Cash,-1.20
+328,15-Nov-18,Internet,Communications,Bank Account,-45.00
+329,17-Nov-18,Shop,Other,Cash,-4.70
+330,18-Nov-18,Shop,Other,Cash,-17.00
+331,21-Nov-18,Groceries,Food,Cash,-35.00
+332,22-Nov-18,Shop,Other,Bank Account,-11.50
+333,23-Nov-18,Parking,Auto,Cash,-1.20
+334,23-Nov-18,Shop,Other,Cash,-3.80
+335,24-Nov-18,Spotify,Entertainment,Bank Account,-9.00
+336,25-Nov-18,Groceries,Food,Cash,-132.50
+337,28-Nov-18,Car Insurance,Auto,Bank Account,-95.00
+338,28-Nov-18,Parking,Auto,Cash,-1.20
 339,30-Nov-18,Rent,Home,Bank Account,"-1,000.00"
 340,01-Dec-18,Salary,Income,Bank Account,"4,000.00"
-341,01-Dec-18,Shop,Other,Cash,-4.7
-342,02-Dec-18,Shop,Other,Cash,-17
+341,01-Dec-18,Shop,Other,Cash,-4.70
+342,02-Dec-18,Shop,Other,Cash,-17.00
 343,05-Dec-18,Groceries,Food,Cash,-120.54
-344,06-Dec-18,Parking,Auto,Cash,-1.2
-345,07-Dec-18,Shop,Other,Bank Account,-4.7
-346,07-Dec-18,Shop,Other,Cash,-17
-347,08-Dec-18,Top Up,Communications,Bank Account,-20
-348,08-Dec-18,Shop,Other,Cash,-11.5
-349,08-Dec-18,Freelance,Income,Bank Account,800
-350,09-Dec-18,Shop,Other,Cash,-3.8
-351,14-Dec-18,Parking,Auto,Cash,-1.2
-352,14-Dec-18,TV,Entertainment,Bank Account,-24.3
-353,16-Dec-18,Internet,Communications,Bank Account,-45
-354,16-Dec-18,Shop,Other,Cash,-11.5
-355,16-Dec-18,Road Tax,Auto,Bank Account,-180
-356,18-Dec-18,Parking,Auto,Cash,-1.2
-357,19-Dec-18,Gifts,Other,Cash,-500
-358,19-Dec-18,Shop,Other,Cash,-3.8
+344,06-Dec-18,Parking,Auto,Cash,-1.20
+345,07-Dec-18,Shop,Other,Bank Account,-4.70
+346,07-Dec-18,Shop,Other,Cash,-17.00
+347,08-Dec-18,Top Up,Communications,Bank Account,-20.00
+348,08-Dec-18,Shop,Other,Cash,-11.50
+349,08-Dec-18,Freelance,Income,Bank Account,800.00
+350,09-Dec-18,Shop,Other,Cash,-3.80
+351,14-Dec-18,Parking,Auto,Cash,-1.20
+352,14-Dec-18,TV,Entertainment,Bank Account,-24.30
+353,16-Dec-18,Internet,Communications,Bank Account,-45.00
+354,16-Dec-18,Shop,Other,Cash,-11.50
+355,16-Dec-18,Road Tax,Auto,Bank Account,-180.00
+356,18-Dec-18,Parking,Auto,Cash,-1.20
+357,19-Dec-18,Gifts,Other,Cash,-500.00
+358,19-Dec-18,Shop,Other,Cash,-3.80
 359,20-Dec-18,Groceries,Food,Cash,-301.32
-360,21-Dec-18,Car Insurance,Auto,Bank Account,-95
+360,21-Dec-18,Car Insurance,Auto,Bank Account,-95.00
 361,27-Dec-18,Rent,Home,Bank Account,"-1,000.00"
-362,27-Dec-18,Spotify,Entertainment,Bank Account,-9
+362,27-Dec-18,Spotify,Entertainment,Bank Account,-9.00
