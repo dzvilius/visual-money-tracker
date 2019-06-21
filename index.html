@@ -2,7 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
 
     <title>Visual Money Tracker</title>
     <meta
@@ -11,16 +14,117 @@
     />
 
     <link
+      href="https://fonts.googleapis.com/css?family=Ubuntu:400,500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     />
+    <link rel="stylesheet" href="./assets/styles/app.css" />
   </head>
 
   <body>
-    <div class="app">
-      <div class="container">
-        <!-- app -->
+    <div id="app" class="AppContainer">
+
+      <!--// Application Navigation //-->
+      <div class="AppNavbar">
+
+        <!--// Bootstrap Container //-->
+        <div class="container">
+          <a href="/" class="AppNavbar__logo"><span>VMT</span></a>
+        </div>
+        <!--// Bootstrap Container //-->
+
       </div>
+      <!--// Application Navigation //-->
+
+      <!--// Bootstrap Container //-->
+      <div class="container">
+        <div class="row">
+          <div class="col-md">
+
+            <!--// Transactions Overview //-->
+            <div class="DataOverview">
+              <h2 class="DataOverview__headline">Overview (12 months)</h2>
+              <div class="DataOverview__item">
+                <span class="DataOverview__item-headline">Total Income:</span>
+                <span class="DataOverview__item-amount">€57,600</ispan>
+              </div>
+              <div class="DataOverview__item">
+                <span class="DataOverview__item-headline">Total Spent:</span>
+                <span class="DataOverview__item-amount">€39,600</span>
+              </div>
+              <div class="DataOverview__item">
+                <span class="DataOverview__item-headline">Balance:</span>
+                <span class="DataOverview__item-amount">€18,000</span>
+              </div>
+            </div>
+            <!--// Transactions Overview //-->
+
+          </div>
+          <div class="col-md">
+
+            <!--// Overview Chart //-->
+            <div class="OverviewChart">
+              <div id="lineChart">
+                <span class="temp">*DC.js line chart</span>
+              </div>
+            </div>
+            <!--// Overview Chart //-->
+
+          </div>
+        </div>
+      </div>
+      <!--// Bootstrap Container //-->
+
+      <!--// Bootstrap Container //-->
+      <div class="container">
+        <div class="row">
+          <div class="col-md">
+
+            <!--// Income Summary //-->
+            <div class="DataSummary">
+              <div class="DataSummary__content">
+                <h2 class="DataSummary__headline">Income in June</h2>
+                <div>€4,800</div>
+              </div>
+              <div class="DataSummary__chart">
+                <div id="pieChartIncome">
+                  <span class="temp">*DC.js pie chart</span>
+                </div>
+              </div>
+            </div>
+            <!--// Income Summary //-->
+
+          </div>
+          <div class="col-md">
+
+            <!--// Spending Summary //-->
+            <div class="DataSummary">
+              <div class="DataSummary__content">
+                <h2 class="DataSummary__headline">Spending in June</h2>
+                <div>€3,300</div>
+              </div>
+              <div class="DataSummary__chart">
+                <div id="pieChartSpending">
+                  <span class="temp">*DC.js pie chart</span>
+                </div>
+              </div>
+            </div>
+            <!--// Spending Summary //-->
+
+          </div>
+          <div class="col-12">
+            <div class="RecentTransactions">
+                <span class="temp">*DC.js table</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--// Bootstrap Container //-->
+
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.2/d3.min.js"></script>

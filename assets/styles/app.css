@@ -1,0 +1,102 @@
+/*
+  Visual Money Tracker v1.0.0 | github.com/dzvilius/visual-money-tracker
+  Author: Vilius Dzemyda | hello@viliusdzemyda.com
+
+  Colour Palette:
+    #485665
+    #f2f0df
+    #232c33
+*/
+
+/* ========================================================================== //
+// BASE
+// ========================================================================== */
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background: #f2f0df;
+  color: #232c33;
+}
+
+.temp {
+  font-size: 12px;
+  color: #666;
+  font-style: italic;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+/* ========================================================================== //
+// COMPONENTS
+// ========================================================================== */
+
+/* APP NAVBAR =============================================================== */
+
+.AppNavbar {
+  height: 50px;
+  color: #fff;
+  background: #485665;
+  display: flex;
+  align-items: center;
+}
+
+.AppNavbar__logo {
+  display: block;
+  padding: 6px;
+  width: 100px;
+  color: #fff;
+}
+
+/* DATA OVERVIEW ============================================================ */
+
+.DataOverview {
+  background: #fff;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+
+.DataOverview__headline {
+  font-size: 20px;
+  margin-bottom: 24px;
+}
+
+/* OVERVIEW CHART =========================================================== */
+
+.OverviewChart {
+  background: #fff;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+
+/* DATA SUMMARY ============================================================= */
+
+.DataSummary {
+  background: #fff;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+
+.DataSummary__content {
+  position: relative;
+  text-align: center;
+}
+
+.DataSummary__headline {
+  font-size: 20px;
+}
+
+/* RECENT TRANSACTIONS ====================================================== */
+
+.RecentTransactions {
+  background: #fff;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 4px;
+}
