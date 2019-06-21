@@ -125,7 +125,7 @@ _Features to be implemented in the future:_
 
 #### Fonts
 
-...
+- Ubuntu - https://fonts.google.com/specimen/Ubuntu (Primary font)
 
 #### Colours
 
