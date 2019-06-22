@@ -27,30 +27,28 @@
 
   <body>
     <div id="app" class="AppContainer">
-
-      <!--// Application Navigation //-->
-      <div class="AppNavbar">
-
-        <!--// Bootstrap Container //-->
+      <nav class="AppNavbar">
         <div class="container">
-          <a href="/" class="AppNavbar__logo"><span>VMT</span></a>
+          <a href="/" class="AppNavbar__logo">VMT</a>
+          <div class="AppNavbar__menu">
+            <a href="/" class="AppNavbar__menu-item">Dashboard</a>
+            <a href="transactions.html" class="AppNavbar__menu-item"
+              >Transactions</a
+            >
+          </div>
         </div>
-        <!--// Bootstrap Container //-->
+        <!-- .container (Bootstrap) -->
+      </nav>
+      <!-- .AppNavbar -->
 
-      </div>
-      <!--// Application Navigation //-->
-
-      <!--// Bootstrap Container //-->
       <div class="container">
         <div class="row">
           <div class="col-md">
-
-            <!--// Transactions Overview //-->
             <div class="DataOverview">
               <h2 class="DataOverview__headline">Overview (12 months)</h2>
               <div class="DataOverview__item">
                 <span class="DataOverview__item-headline">Total Income:</span>
-                <span class="DataOverview__item-amount">€57,600</ispan>
+                <span class="DataOverview__item-amount">€57,600</span>
               </div>
               <div class="DataOverview__item">
                 <span class="DataOverview__item-headline">Total Spent:</span>
@@ -61,30 +59,23 @@
                 <span class="DataOverview__item-amount">€18,000</span>
               </div>
             </div>
-            <!--// Transactions Overview //-->
-
+            <!--.DataOverview -->
           </div>
           <div class="col-md">
-
-            <!--// Overview Chart //-->
             <div class="OverviewChart">
               <div id="lineChart">
                 <span class="temp">*DC.js line chart</span>
               </div>
             </div>
-            <!--// Overview Chart //-->
-
+            <!--.OverviewChart -->
           </div>
         </div>
       </div>
-      <!--// Bootstrap Container //-->
+      <!-- .container (Bootstrap) -->
 
-      <!--// Bootstrap Container //-->
       <div class="container">
         <div class="row">
           <div class="col-md">
-
-            <!--// Income Summary //-->
             <div class="DataSummary">
               <div class="DataSummary__content">
                 <h2 class="DataSummary__headline">Income in June</h2>
@@ -96,12 +87,9 @@
                 </div>
               </div>
             </div>
-            <!--// Income Summary //-->
-
+            <!--.DataSummary -->
           </div>
           <div class="col-md">
-
-            <!--// Spending Summary //-->
             <div class="DataSummary">
               <div class="DataSummary__content">
                 <h2 class="DataSummary__headline">Spending in June</h2>
@@ -113,18 +101,25 @@
                 </div>
               </div>
             </div>
-            <!--// Spending Summary //-->
-
+            <!--.DataSummary -->
           </div>
           <div class="col-12">
             <div class="RecentTransactions">
-                <span class="temp">*DC.js table</span>
+              <span class="temp">*DC.js table</span>
             </div>
+            <!--.RecentTransactions -->
           </div>
         </div>
       </div>
-      <!--// Bootstrap Container //-->
+      <!-- .container (Bootstrap) -->
 
+      <footer class="AppFooter">
+        <div class="container">
+          &copy; 2019 Visual Money Tracker
+        </div>
+        <!-- .container (Bootstrap) -->
+      </footer>
+      <!-- .AppFooter -->
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.2/d3.min.js"></script>

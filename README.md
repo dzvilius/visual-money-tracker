@@ -25,7 +25,7 @@ To learn more about the needs of user, please read the [Project Brief](ux/Projec
 **_"As a user, I want to see my transactions in one place, so that, I can see my income, spending and balance at once."_**
 
 - As a user, I want to see my transactions in one place, so that, I can see all information at once.
-  - [ ] Create a layout template for dashboard.
+  - [x] Create a layout template for dashboard.
   - [ ] Load data from CSV via D3.js API.
   - [ ] Add DC.js for charts interlinking.
   - [ ] Format currency in Euros.
@@ -84,6 +84,15 @@ To learn more about the needs of user, please read the [Project Brief](ux/Projec
   - [ ] Display a table with all transactions.
   - [ ] ~~Filter by month.~~
   - [ ] ~~View individual transaction.~~
+
+---
+
+**_"As a user, I want to see my recent transactions, so that, I can know where I spent my money lately."_**
+
+- As a user, I want to see my recent transactions, so that, I can know where I spent my money lately.
+  - [ ] Create a function to output 5 recent transactions.
+  - [ ] Display a table with transactions.
+  - [ ] Access to all transaction link.
 
 ---
 
