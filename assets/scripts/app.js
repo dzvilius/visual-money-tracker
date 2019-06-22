@@ -28,37 +28,27 @@ d3.csv('./assets/data/transactions.csv').then(function(data) {
     return d.order
   })
 
+  // Render a table with all transactions
   tableAllTransactions
     .dimension(orderDimension)
-
     .size(1000)
-
     .showSections(false)
-
     .columns(['date', 'payee', 'amount'])
-
     .sortBy(function(d) {
       return d.order
     })
-
     .order(d3.ascending)
-
   tableAllTransactions.render()
 
+  // Render a table with 5 recent transactions
   tableRecentTransactions
     .dimension(orderDimension)
-
     .size(5)
-
     .showSections(false)
-
     .columns(['date', 'payee', 'amount'])
-
     .sortBy(function(d) {
       return d.order
     })
-
     .order(d3.descending)
-
   tableRecentTransactions.render()
 })
