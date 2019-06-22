@@ -84,6 +84,10 @@ body {
   color: #fff;
 }
 
+.AppNavbar__menu-item--active {
+  text-decoration: underline;
+}
+
 /* DATA OVERVIEW ============================================================ */
 
 .DataOverview {
@@ -125,17 +129,31 @@ body {
   font-size: 20px;
 }
 
-/* RECENT TRANSACTIONS ====================================================== */
+/* TRANSACTIONS LIST ======================================================== */
 
-.RecentTransactions {
+.TransactionsList {
   background: #fff;
   padding: 20px;
   margin: 10px 0;
   border-radius: 4px;
 }
 
+.TransactionsList__headline {
+  font-size: 20px;
+  margin-bottom: 24px;
+}
+
+.TransactionsList__table > table {
+  font-size: 14px;
+}
+
+/* APP FOOTER =============================================================== */
+
 .AppFooter {
-  padding: 2px 4px;
   font-size: 14px;
   color: #485665;
+}
+
+.AppFooter__copy {
+  padding: 12px;
 }

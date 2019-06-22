@@ -26,7 +26,7 @@ To learn more about the needs of user, please read the [Project Brief](ux/Projec
 
 - As a user, I want to see my transactions in one place, so that, I can see all information at once.
   - [x] Create a layout template for dashboard.
-  - [ ] Load data from CSV via D3.js API.
+  - [x] Load data from CSV via D3.js API.
   - [ ] Add DC.js for charts interlinking.
   - [ ] Format currency in Euros.
 
@@ -81,7 +81,7 @@ To learn more about the needs of user, please read the [Project Brief](ux/Projec
 **_"As a user, I want easy access to a complete transactions list, so that, I can see all of my transactions."_**
 
 - As a user, I want to see a full list of transactions, so that, I can see all details.
-  - [ ] Display a table with all transactions.
+  - [x] Display a table with all transactions.
   - [ ] ~~Filter by month.~~
   - [ ] ~~View individual transaction.~~
 
@@ -90,8 +90,8 @@ To learn more about the needs of user, please read the [Project Brief](ux/Projec
 **_"As a user, I want to see my recent transactions, so that, I can know where I spent my money lately."_**
 
 - As a user, I want to see my recent transactions, so that, I can know where I spent my money lately.
-  - [ ] Create a function to output 5 recent transactions.
-  - [ ] Display a table with transactions.
+  - [x] Create a function to output 5 recent transactions.
+  - [x] Display a table with transactions.
   - [ ] Access to all transaction link.
 
 ---
