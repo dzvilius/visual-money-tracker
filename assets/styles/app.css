@@ -152,6 +152,11 @@ body {
   text-align: right;
 }
 
+.TransactionsList__action {
+  padding: 20px 0;
+  text-align: center;
+}
+
 /* APP FOOTER =============================================================== */
 
 .AppFooter {
