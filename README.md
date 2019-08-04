@@ -1,18 +1,19 @@
 # Visual Money Tracker
 
-A data dashboard with transactions overview and charts built with D3.js library.
+A data dashboard application to visualise personal income and spending.
+
+[Live Preview](https://elastic-hawking-05c821.netlify.com/)
 
 ## UX
 
-Income and spending data visualisation with D3 charts.
+An overview data dashboard with charts and list of transactions to visualise and track the money flow.
 
-To learn more about the needs of user, please read the [Project Brief](ux/Project_Brief.md) document.
+To learn more about the needs of the user, please read the [Project Brief](ux/Project_Brief.md) document.
 
 #### Objectives
 
-- See a better overview of personal finances
-- Increase money saving
-- Reduce money spending
+- See a better overview of personal finances.
+- Help to reduce spending and increase saving.
 
 ### Users
 
@@ -25,9 +26,9 @@ To learn more about the needs of user, please read the [Project Brief](ux/Projec
 **_"As a user, I want to see my transactions in one place, so that, I can see my income, spending and balance at once."_**
 
 - As a user, I want to see my transactions in one place, so that, I can see all information at once.
-  - [x] Create a layout template for dashboard.
-  - [x] Load data from CSV via D3.js API.
-  - [ ] Add DC.js for charts interlinking.
+  - [x] Create a layout template for the dashboard.
+  - [x] Import data from CSV via D3.js API.
+  - [ ] Add DC.js charts interlinking.
   - [ ] Format currency in Euros.
 
 ---
@@ -98,11 +99,9 @@ To learn more about the needs of user, please read the [Project Brief](ux/Projec
 
 ## Features
 
-- Data visualisation with charts
-- Single page application (SPA)
+- Data visualisation with D3 charts
 - CSV import via API
 - Data overview
-- Data charts
 - Data filtering
 - Mobile optimised
 
@@ -150,7 +149,7 @@ A list of all of the languages, frameworks and libraries used to construct this 
 
 - JavaScript, HTML & CSS
 - D3.js API
-  - Load transactions data from CVS file.
+  - Import transactions from CVS file.
 - DC.js library
   - Pie chart
   - Line chart
@@ -158,7 +157,7 @@ A list of all of the languages, frameworks and libraries used to construct this 
 - SVG
   - Draw the charts using dynamic data
 - Jasmine
-  - Test driven development
+  - Test Driven Development
 - Bootstrap CSS - https://getbootstrap.com
   - Grid for application layout
 - Google Fonts - https://fonts.google.com
