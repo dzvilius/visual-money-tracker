@@ -37,7 +37,7 @@ d3.csv('./assets/data/transactions.csv').then(function(data) {
     .sortBy(function(d) {
       return d.order
     })
-    .order(d3.ascending)
+    .order(d3.descending)
   tableAllTransactions.render()
 
   // Render a table with 5 recent transactions
