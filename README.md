@@ -12,8 +12,10 @@ To learn more about the needs of the user, please read the [Project Brief](ux/Pr
 
 #### Objectives
 
-- See a better overview of personal finances.
-- Help to reduce spending and increase saving.
+- Display a breakdown of totals
+- Compare income vs spending
+- Sort the transactions
+- Calculate and display the balance
 
 ### Users
 
@@ -23,79 +25,109 @@ To learn more about the needs of the user, please read the [Project Brief](ux/Pr
 
 ---
 
-**_"As a user, I want to see my transactions in one place, so that, I can see my income, spending and balance at once."_**
+**_(1) - "As a user, I want to navigate around the app, so that, I can access the sections I need."_**
 
-- As a user, I want to see my transactions in one place, so that, I can see all information at once.
-  - [x] Create a layout template for the dashboard.
-  - [x] Import data from CSV via D3.js API.
-  - [ ] Add DC.js charts interlinking.
-  - [ ] Format currency in Euros.
+- As a user, I want to navigate to main page, so that, I can see the dashboard.
+  - [x] Add logo with hyperlink to home page.
+  - [x] Add menu hyperlink to home page.
+- As a user, I want to navigate to transactions page, so that, I can see the list of transactions.
+  - [x] Add menu hyperlink to transactions page.
 
 ---
 
-**_"As a user, I want to see my total amounts, so that, I can see my income, spending and balance."_**
+**_(2) - "As a user, I want to see a breakdown of transactions, so that, I can see total income, spending and balance at once."_**
 
+- As a user, I want to see the section title, so that, I know the overview timeframe.
+  - [x] Add section heading.
 - As a user, I want to see my income total, so that, I can see how much I earned.
-  - [ ] Create a function to calculate income total.
-  - [ ] Output 12 months income total value in 'Overview' section.
-- As a user, I want to see my expanses total, so that, I can see how much I spent.
-  - [ ] Create a function to calculate spending total.
-  - [ ] Output 12 months spending total value in 'Overview' section.
+  - [x] Add item name.
+  - [ ] Calculate 12 months income total.
+  - [ ] Output value in Euros.
+- As a user, I want to see my spending total, so that, I can see how much I spent.
+  - [x] Add item name.
+  - [ ] Calculate and output total spending for 12 months.
+  - [ ] Output value in Euros.
 - As a user, I want to see my balance, so that, I can see how much I have.
-  - [ ] Create a function to calculate the balance.
-  - [ ] Output 12 months balance value in 'Overview' section.
+  - [x] Add item name.
+  - [ ] Calculate 12 months balance and output value in euros.
+  - [ ] Output value in Euros.
 
 ---
 
-**_"As a user, I want to see my transactions data visually, so that, I can see my income, spending and balance over the period of 12 months."_**
+**_(3) - "As a user, I want to see my transactions data visually, so that, I can compare my income, spending and balance over the period of 12 months."_**
 
 - As a user, I want to see my income visually, so that, I know how much I earned over the year.
-  - [ ] Display the data as a line chart with data points for each month.
-  - [ ] Green colour scheme.
+  - [ ] Load income data from CSV file.
+  - [ ] Calculate monthly total.
+  - [ ] Display a line chart with data points for each month.
+  - [ ] Make the line green.
 - As a user, I want to see my spending visually, so that, I know how much I spent over the year.
-  - [ ] Display the data as a line chart with data points for each month.
-  - [ ] Red colour scheme.
+  - [ ] Load spending data from CSV file.
+  - [ ] Calculate monthly total.
+  - [ ] Display a line chart with data points for each month.
+  - [ ] Make the line red.
 - As a user, I want to see my balance visually, so that, I know how my balance changed over the year.
-  - [ ] Display the data as a line chart with data points for each month.
-  - [ ] Blue colour scheme.
+  - [ ] Load balance data from CSV file.
+  - [ ] Calculate monthly total.
+  - [ ] Display a line chart with data points for each month.
+  - [ ] Make the line blue.
+- As a user, I want choose what data to display, so that, I can personalise my experience.
+  - [ ] Create a chart data selector.
 
 ---
 
-**_"As a user, I want to see a visual chart for my income only, so that, I can see my earnings in more detail."_**
+**_(4) - "As a user, I want to view my income breakdown, so that, I can see current month earnings in more detail."_**
 
-- As a user, I want to see my income as a chart, so that, I can see what percentage comes from each source.
-  - [ ] Display the data as a pie chart split into categories for each income source.
-  - [ ] Display a percentage value.
-  - [ ] Multi colour scheme with shades.
+- As a user, I want to see my income total for the current month, so that, I know how much I've earned this month.
+  - [ ] Add section heading.
+  - [ ] Calculate income total for the current month.
+  - [ ] Output value in Euros.
+- As a user, I want to see my income as chart, so that, I know what percentage I've received from each source.
+  - [ ] Display a pie chart with percentage values for each income source.
+- As a user, I want to see an income source breakdown, so that, I can see each item in more detail.
+  - [ ] Display item breakdown for each income category.
 
 ---
 
-**_"As a user, I want to see a visual chart for my spending only, so that, I can see how much I spend in more detail."_**
+**_(5) - "As a user, I want to view my spending breakdown, so that, I can see current month spending in more detail."_**
 
 - As a user, I want to see my spending as chart, so that, I can see what percentage goes to each spending category.
-  - [ ] Display the data as a pie chart split into categories for each spending category.
-  - [ ] Display a percentage value.
-  - [ ] Multi colour scheme with shades.
+  - [ ] Add section heading.
+  - [ ] Calculate spending total for the current month.
+  - [ ] Output value in Euros.
+ - As a user, I want to see my spending as chart, so that, I know what percentage I've spent in each category.
+     - [ ] Display a pie chart with percentage values for each spending category.
+- As a user, I want to see an income source breakdown, so that, I can see each item in more detail.
+  - [ ] Display item breakdown for each spending category.
 
 ---
 
-**_"As a user, I want easy access to a complete transactions list, so that, I can see all of my transactions."_**
+**_(6) - "As a user, I want to see my recent transactions, so that, I know where I spent my money lately."_**
 
-- As a user, I want to see a full list of transactions, so that, I can see all details.
-  - [x] Display a table with all transactions.
-  - [ ] ~~Filter by month.~~
-  - [ ] ~~View individual transaction.~~
+- As a user, I want to view recent transactions, so that, I can see my latest income and spending.
+  - [x] Load 5 recent transactions from CSV file.
+  - [x] Output transactions data as a date, payee and amount.
+  - [x] Sort transactions in descending order.
+- As a user, I want to access all transactions, so that, I can see my all transactions.
+  - [ ] Add 'View all transactions' button.
+
+---
+
+**_(7) - "As a user, I want to see a complete list of transactions, so that, I can see all of my income and spending."_**
+
+- As a user, I want to see a complete list of transactions, so that, I can see all items at once.
+  - [x] Load all transactions from CSV file.
+  - [x] Output transactions data as a date, payee and amount.
+  - [x] Sort transactions in descending order.
+  - [ ] Filter data by each month or full year.
 
 ---
 
-**_"As a user, I want to see my recent transactions, so that, I can know where I spent my money lately."_**
-
-- As a user, I want to see my recent transactions, so that, I can know where I spent my money lately.
-  - [x] Create a function to output 5 recent transactions.
-  - [x] Display a table with transactions.
-  - [ ] Access to all transaction link.
+**_(8) - "As a user, I want to view individual transaction, so that, I can see the details for each item."_**
+_Feature Request!_
 
 ---
+
 
 ## Features
 
@@ -107,13 +139,14 @@ To learn more about the needs of the user, please read the [Project Brief](ux/Pr
 
 _Features to be implemented in the future:_
 
+- Filter recent transaction based on chart selection
 - View an individual transaction
 - Add new transaction
 - Edit current transaction
 
 ## Structure
 
-<u>_The Mindmap_</u>
+_The Mindmap_
 
 ![alt text](ux/Wireframes/Mindmap.png)
 
@@ -121,11 +154,11 @@ _Features to be implemented in the future:_
 
 #### Wireframes
 
-<u>_Dashboard view_</u>
+_Dashboard view_
 
 ![alt text](ux/Wireframes/Dashboard.png)
 
-<u>_Transactions view_</u>
+_Transactions view_
 
 ![alt text](ux/Wireframes/Transactions.png)
 
