@@ -2,21 +2,20 @@
 
 Build a data dashboard to visualise money transactions.
 
-_"The customer is a personal user and has recently experienced difficulties managing his finances. He is looking for a simple solution to track the finances."_
+_"The customer is a personal user and has recently experienced difficulties managing his money. He is looking for a simple solution to visualise and track his money flow."_
 
 **Requirements:**
 
-- Load CSV file with transactions
+- Import transactions from CSV file
 - Display a numeric data overview for 12 months
 - Display a line chart for 12 months and filter by type
-- Display a table and filter by a category
 - Display a pie chart for each transaction type
+- Display a list of transactions and sort by month
 
 **Assets provided:**
 
-- Transactions & Types
-- Accounts & Categories
+- Transactions CSV file
 
 **Notes:**
 
-He would like to be able to view the application on mobile devices.
+The user wants to view the application on mobile devices.
