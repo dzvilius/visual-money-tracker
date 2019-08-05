@@ -108,8 +108,8 @@ To learn more about the needs of the user, please read the [Project Brief](ux/Pr
   - [x] Load 5 recent transactions from CSV file.
   - [x] Output transactions data as a date, payee and amount.
   - [x] Sort transactions in descending order.
-- As a user, I want to access all transactions, so that, I can see my all transactions.
-  - [ ] Add 'View all transactions' button.
+- As a user, I want to access all transactions, so that, I can see all of my transactions.
+  - [x] Add 'View all transactions' button.
 
 ---
 
