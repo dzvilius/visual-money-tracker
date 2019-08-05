@@ -79,6 +79,8 @@ body {
   font-size: 14px;
 }
 
+
+
 .AppNavbar__menu-item:hover,
 .AppNavbar__menu-item:active {
   color: #fff;
@@ -127,6 +129,21 @@ body {
 
 .DataSummary__headline {
   font-size: 20px;
+}
+
+.DataSummary__chart {
+  background: #eee;
+  padding: 20px 0;
+}
+
+.DataSummary__chart .pie-label {
+  font-size: 14px;
+}
+
+.DataSummary__pie-chart {
+  margin: auto;
+  /* background: red; */
+  max-width: 290px;
 }
 
 /* TRANSACTIONS LIST ======================================================== */
