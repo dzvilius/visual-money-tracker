@@ -5,7 +5,7 @@
 dc.config.defaultColors(d3.schemeSet2)
 
 // Total income display
-//var numberDisplayIncome = dc.numberDisplay('#numberDisplayIncome')
+var numberDisplayIncome = dc.numberDisplay('#numberDisplayIncome')
 
 // Income breakdown chart
 var pieChartIncome = dc.pieChart('#pieChartIncome')
@@ -23,7 +23,6 @@ var tableRecentTransactions = dc.dataTable('#tableRecentTransactions')
 d3.csv('./assets/data/transactions.csv').then(function(transactions) {
   // Set date format to'd/m/year'
   var dateFormat = d3.timeFormat('%d/%m/%Y')
-  //console.log(transactions)
 
   // Format the transactions
   transactions.forEach(function(d) {
@@ -41,8 +40,6 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
         .toString()
         .replace(/\B(?=(\d{3})+(?!\d))/g, ',')
     }
-    //d.amount = Math.abs(d.amount)
-    //console.log(d.in)
   })
 
   // Set crossfilter
@@ -58,6 +55,11 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     return d.category
   })
 
+  // Type dimension
+  var typeDim = ndx.dimension(function(d) {
+    return d.type
+  })
+
   // Income dimension
   var inDim = ndx.dimension(function(d) {
     return d.in
@@ -67,15 +69,6 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
   var outDim = ndx.dimension(function(d) {
     return d.out
   })
-
-  // Total income dimension
-  // var totalIncomeGroup = inDim.group().reduceSum(function(d) {
-  //   return d.amount
-  // })
-
-  // var totalIncomeGroup = inDim.group().reduceSum(function(d) {
-  //   return d.amount
-  // })
 
   // Income group
   var inGroup = categoryDim.group().reduceSum(function(d) {
@@ -87,13 +80,20 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     return d.out
   })
 
+  // Total income dimension
+  var totalInGroup = typeDim.group().reduceSum(function(d) {
+    return d.in
+  })
+
+  //console.log(inDim.All())
+
   // Render number display with income total
-  // numberDisplayIncome
-  //   .formatNumber(function(d) {
-  //     return '€' + d3.format(',')(d)
-  //   })
-  //   .group(totalIncomeGroup)
-  // numberDisplayIncome.render()
+  numberDisplayIncome
+    .formatNumber(function(d) {
+      return '€' + d3.format(',')(d)
+    })
+    .group(totalInGroup)
+  numberDisplayIncome.render()
 
   // Render pie chart with income breakdown
   pieChartIncome
@@ -106,7 +106,6 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     .group(inGroup)
     .on('pretransition', function(chart) {
       chart.selectAll('text.pie-slice').text(function(d) {
-        //console.log(JSON.stringify(d))
         if (d.data.value !== 0) {
           return (
             dc.utils.printSingleValue(
@@ -129,7 +128,6 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     .group(outGroup)
     .on('pretransition', function(chart) {
       chart.selectAll('text.pie-slice').text(function(d) {
-        //console.log(JSON.stringify(d))
         if (d.data.value !== 0) {
           return (
             dc.utils.printSingleValue(
