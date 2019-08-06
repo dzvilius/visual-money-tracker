@@ -10,6 +10,9 @@ dc.config.defaultColors(d3.schemeSet2)
 // Income breakdown chart
 var pieChartIncome = dc.pieChart('#pieChartIncome')
 
+// Spending breakdown chart
+var pieChartSpending = dc.pieChart('#pieChartSpending')
+
 // All transactions table
 var tableAllTransactions = dc.dataTable('#tableAllTransactions')
 
@@ -59,13 +62,11 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
   var inDim = ndx.dimension(function(d) {
     return d.in
   })
-  //inDim.filter('IN')
 
   // Spending dimension
   var outDim = ndx.dimension(function(d) {
     return d.out
   })
-  //outDim.filter('OUT')
 
   // Total income dimension
   // var totalIncomeGroup = inDim.group().reduceSum(function(d) {
@@ -83,10 +84,8 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
 
   // Spending group
   var outGroup = categoryDim.group().reduceSum(function(d) {
-    return d.amount
+    return d.out
   })
-
-  //console.log(incomeGroup.all())
 
   // Render number display with income total
   // numberDisplayIncome
@@ -96,7 +95,7 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
   //   .group(totalIncomeGroup)
   // numberDisplayIncome.render()
 
-  // Render pie chart with income source breakdown
+  // Render pie chart with income breakdown
   pieChartIncome
     .width(290)
     .height(290)
@@ -118,6 +117,29 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
       })
     })
   pieChartIncome.render()
+
+  // Render pie chart with spending breakdown
+  pieChartSpending
+    .width(290)
+    .height(290)
+    .innerRadius(60)
+    .externalLabels(30)
+    .externalRadiusPadding(60)
+    .dimension(outDim)
+    .group(outGroup)
+    .on('pretransition', function(chart) {
+      chart.selectAll('text.pie-slice').text(function(d) {
+        //console.log(JSON.stringify(d))
+        if (d.data.value !== 0) {
+          return (
+            dc.utils.printSingleValue(
+              ((d.endAngle - d.startAngle) / (2 * Math.PI)) * 100
+            ) + '%'
+          )
+        }
+      })
+    })
+  pieChartSpending.render()
 
   // Render table with all transactions
   tableAllTransactions
