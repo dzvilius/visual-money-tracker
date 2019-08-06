@@ -110,7 +110,7 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
         if (d.data.value !== 0) {
           return (
             dc.utils.printSingleValue(
-              ((d.endAngle - d.startAngle) / (2 * Math.PI)) * 100
+              Math.round(((d.endAngle - d.startAngle) / (2 * Math.PI)) * 100)
             ) + '%'
           )
         }
@@ -133,7 +133,7 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
         if (d.data.value !== 0) {
           return (
             dc.utils.printSingleValue(
-              ((d.endAngle - d.startAngle) / (2 * Math.PI)) * 100
+              Math.round(((d.endAngle - d.startAngle) / (2 * Math.PI)) * 100)
             ) + '%'
           )
         }
