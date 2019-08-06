@@ -79,11 +79,11 @@ To learn more about the needs of the user, please read the [Project Brief](ux/Pr
 **_(4) - "As a user, I want to view my income breakdown, so that, I can see current month earnings in more detail."_**
 
 - As a user, I want to see my income total for the current month, so that, I know how much I've earned this month.
-  - [ ] Add section heading.
+  - [x] Add section heading.
   - [ ] Calculate income total for the current month.
-  - [ ] Output value in Euros.
+  - [x] Output value in Euros.
 - As a user, I want to see my income as chart, so that, I know what percentage I've received from each source.
-  - [ ] Display a pie chart with percentage values for each income source.
+  - [x] Display a pie chart with percentage values for each income source.
 - As a user, I want to see an income source breakdown, so that, I can see each item in more detail.
   - [ ] Display item breakdown for each income category.
 
@@ -91,12 +91,12 @@ To learn more about the needs of the user, please read the [Project Brief](ux/Pr
 
 **_(5) - "As a user, I want to view my spending breakdown, so that, I can see current month spending in more detail."_**
 
-- As a user, I want to see my spending as chart, so that, I can see what percentage goes to each spending category.
-  - [ ] Add section heading.
+- As a user, I want to see my spending total for the current month, so that, I can see how much I've spent this month.
+  - [x] Add section heading.
   - [ ] Calculate spending total for the current month.
-  - [ ] Output value in Euros.
+  - [x] Output value in Euros.
  - As a user, I want to see my spending as chart, so that, I know what percentage I've spent in each category.
-     - [ ] Display a pie chart with percentage values for each spending category.
+     - [x] Display a pie chart with percentage values for each spending category.
 - As a user, I want to see an income source breakdown, so that, I can see each item in more detail.
   - [ ] Display item breakdown for each spending category.
 
