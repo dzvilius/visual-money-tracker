@@ -4,13 +4,22 @@
 // Set default colour scheme
 dc.config.defaultColors(d3.schemeSet2)
 
-// Total income display
+// 12 months income number display
+var numberDisplayYearIncome = dc.numberDisplay('#numberDisplayYearIncome')
+
+// 12 months spending number display
+var numberDisplayYearSpending = dc.numberDisplay('#numberDisplayYearSpending')
+
+// 12 months balance number display
+var numberDisplayYearBalance = dc.numberDisplay('#numberDisplayYearBalance')
+
+// Total income for current month number display
 var numberDisplayIncome = dc.numberDisplay('#numberDisplayIncome')
 
-// Total spending display
+// Total spending for current month number display
 var numberDisplaySpending = dc.numberDisplay('#numberDisplaySpending')
 
-// Income breakdown chart
+// Income chart
 var pieChartIncome = dc.pieChart('#pieChartIncome')
 
 // Disable legend with 0 value
@@ -22,7 +31,7 @@ dc.override(pieChartIncome, 'legendables', function() {
   })
 })
 
-// Spending breakdown chart
+// Spending chart
 var pieChartSpending = dc.pieChart('#pieChartSpending')
 
 // Disable legend with 0 value
@@ -41,7 +50,7 @@ var tableAllTransactions = dc.dataTable('#tableAllTransactions')
 var tableRecentTransactions = dc.dataTable('#tableRecentTransactions')
 
 // Import transactions from CSV
-d3.csv('./assets/data/transactions.csv').then(function(transactions) {
+d3.csv('./assets/data/transactions-temp.csv').then(function(transactions) {
   // Set date format to'd/m/year'
   var dateFormat = d3.timeFormat('%d/%m/%Y')
 
@@ -67,6 +76,33 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     }
   })
 
+  var test = function () {
+    return 2 + 2
+  }
+
+  // function sum( obj ) {
+  //   var sum = 0;
+  //   for( var el in obj ) {
+  //     if( obj.hasOwnProperty( el ) ) {
+  //       sum += parseFloat( obj[el] );
+  //     }
+  //   }
+  //   return sum;
+  // }
+
+  console.log( test() );
+  // var sample = { a: 10 , b: 2 , c:3 };
+  // var summed = sum( +transactions['in'] );
+  // // console.log( 'sum: ' + summed );
+
+
+
+
+
+  // console.log(
+  //   [1, 2, 3, 4].reduce((a, b) => a + b, 0)
+  // )
+
   // Set crossfilter
   var ndx = crossfilter(transactions)
 
@@ -84,7 +120,6 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
   var typeDim = ndx.dimension(function(d) {
     return d.type
   })
-  //typeDim.filter('income')
 
   // Income dimension
   var inDim = ndx.dimension(function(d) {
@@ -115,6 +150,34 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
   var totalOutGroup = typeDim.group().reduceSum(function(d) {
     return d.out
   })
+
+  // Render number display with income total for 12 months
+  numberDisplayYearIncome
+    .formatNumber(function(d) {
+      //return '€' + d3.format(',')(d)
+      return d
+    })
+    .group(totalInGroup)
+  numberDisplayYearIncome.render()
+
+  // Render number display with spending total for 12 months
+  numberDisplayYearSpending
+    .formatNumber(function(d) {
+      //return '€' + d3.format(',')(d)
+      return d
+    })
+    .group(totalOutGroup)
+  numberDisplayYearSpending.render()
+
+  // Render number display with balance for 12 months
+  // numberDisplayYearBalance
+  //   .formatNumber(function(d) {
+  //     //console.log(d)
+  //     //return '€' + d3.format(',')(d)
+  //     return d
+  //   })
+  //   .group(totalYearBalance)
+  // numberDisplayYearBalance.render()
 
   // Render number display with income total
   numberDisplayIncome
