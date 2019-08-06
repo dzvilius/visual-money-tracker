@@ -26,12 +26,20 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
   transactions.forEach(function(d) {
     d.order = Number(d.order)
     d.date = dateFormat(new Date(d.date))
-    d.amountSt = Number(d.amount)
-      .toFixed(2)
-      .toString()
-      .replace(/\B(?=(\d{3})+(?!\d))/g, ',')
-    d.amount = Math.abs(d.amount)
-    //console.log(d.date)
+    if (d.in !== '') {
+      d.inSt = '€' + Number(d.in)
+        .toFixed(2)
+        .toString()
+        .replace(/\B(?=(\d{3})+(?!\d))/g, ',')
+    }
+    if (d.out !== '') {
+      d.outSt = '€' + Number(d.out)
+        .toFixed(2)
+        .toString()
+        .replace(/\B(?=(\d{3})+(?!\d))/g, ',')
+    }
+    //d.amount = Math.abs(d.amount)
+    //console.log(d.in)
   })
 
   // Set crossfilter
@@ -48,21 +56,33 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
   })
 
   // Income dimension
-  var incomeDim = ndx.dimension(function(d) {
-    return d.type
+  var inDim = ndx.dimension(function(d) {
+    return d.in
   })
-  //incomeDim.filter('IN')
+  //inDim.filter('IN')
+
+  // Spending dimension
+  var outDim = ndx.dimension(function(d) {
+    return d.out
+  })
+  //outDim.filter('OUT')
 
   // Total income dimension
-  // var totalIncomeGroup = incomeDim.group().reduceSum(function(d) {
+  // var totalIncomeGroup = inDim.group().reduceSum(function(d) {
   //   return d.amount
   // })
 
-  // var totalIncomeGroup = incomeDim.group().reduceSum(function(d) {
+  // var totalIncomeGroup = inDim.group().reduceSum(function(d) {
   //   return d.amount
   // })
 
-  var incomeGroup = categoryDim.group().reduceSum(function(d) {
+  // Income group
+  var inGroup = categoryDim.group().reduceSum(function(d) {
+    return d.in
+  })
+
+  // Spending group
+  var outGroup = categoryDim.group().reduceSum(function(d) {
     return d.amount
   })
 
@@ -83,8 +103,8 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     .innerRadius(60)
     .externalLabels(30)
     .externalRadiusPadding(60)
-    .dimension(incomeDim)
-    .group(incomeGroup)
+    .dimension(inDim)
+    .group(inGroup)
     .on('pretransition', function(chart) {
       chart.selectAll('text.pie-slice').text(function(d) {
         //console.log(JSON.stringify(d))
@@ -129,9 +149,15 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
       'date',
       'payee',
       {
-        label: 'Amount (€)',
+        label: 'In',
         format: function(d) {
-          return d.amountSt
+          return d.inSt
+        },
+      },
+      {
+        label: 'Out',
+        format: function(d) {
+          return d.outSt
         },
       },
     ])
