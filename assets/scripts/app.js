@@ -7,6 +7,9 @@ dc.config.defaultColors(d3.schemeSet2)
 // Total income display
 var numberDisplayIncome = dc.numberDisplay('#numberDisplayIncome')
 
+// Total spending display
+var numberDisplaySpending = dc.numberDisplay('#numberDisplaySpending')
+
 // Income breakdown chart
 var pieChartIncome = dc.pieChart('#pieChartIncome')
 
@@ -20,7 +23,7 @@ var tableAllTransactions = dc.dataTable('#tableAllTransactions')
 var tableRecentTransactions = dc.dataTable('#tableRecentTransactions')
 
 // Import transactions from CSV
-d3.csv('./assets/data/transactions.csv').then(function(transactions) {
+d3.csv('./assets/data/transactions-temp.csv').then(function(transactions) {
   // Set date format to'd/m/year'
   var dateFormat = d3.timeFormat('%d/%m/%Y')
 
@@ -80,12 +83,15 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     return d.out
   })
 
-  // Total income dimension
+  // Total income group
   var totalInGroup = typeDim.group().reduceSum(function(d) {
     return d.in
   })
 
-  //console.log(inDim.All())
+  // Total spending group
+  var totalOutGroup = typeDim.group().reduceSum(function(d) {
+    return d.out
+  })
 
   // Render number display with income total
   numberDisplayIncome
@@ -95,13 +101,21 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     .group(totalInGroup)
   numberDisplayIncome.render()
 
+  // Render number display with spending total
+  numberDisplaySpending
+    .formatNumber(function(d) {
+      return '€' + d3.format(',')(d)
+    })
+    .group(totalOutGroup)
+  numberDisplaySpending.render()
+
   // Render pie chart with income breakdown
   pieChartIncome
     .width(290)
     .height(290)
     .innerRadius(60)
     .externalLabels(30)
-    .externalRadiusPadding(60)
+    .externalRadiusPadding(50)
     .dimension(inDim)
     .group(inGroup)
     .on('pretransition', function(chart) {
@@ -123,7 +137,7 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     .height(290)
     .innerRadius(60)
     .externalLabels(30)
-    .externalRadiusPadding(60)
+    .externalRadiusPadding(50)
     .dimension(outDim)
     .group(outGroup)
     .on('pretransition', function(chart) {
