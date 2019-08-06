@@ -1,5 +1,5 @@
 order,date,payee,category,account,amount,type,id
-1,01-Jan-18,Company,Salary,Bank Account,1200,IN,91819322-37e4-4bfa-b87b-a3427ffd120b
+1,01-Jan-18,Company,Salary,Bank Account,1230,IN,91819322-37e4-4bfa-b87b-a3427ffd120b
 2,01-Jan-18,Groceries,Food,Cash,-200,OUT,4208cf27-af23-4dd2-90d4-ec1a1c6156c1
 3,01-Jan-18,Web,Salary,Bank Account,1200,IN,3f0eeafd-a088-4b1b-8c45-54e0e68dff8b
 4,02-Jan-18,Parking,Auto,Cash,-200,OUT,9147c756-5256-4115-88db-bdc45927b26d

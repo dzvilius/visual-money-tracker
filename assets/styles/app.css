@@ -117,7 +117,7 @@ body {
 
 .DataSummary {
   background: #fff;
-  padding: 20px;
+  padding: 30px 20px;
   margin: 10px 0;
   border-radius: 4px;
 }
@@ -132,7 +132,6 @@ body {
 }
 
 .DataSummary__chart {
-  background: #eee;
   padding: 20px 0;
 }
 
@@ -142,7 +141,6 @@ body {
 
 .DataSummary__pie-chart {
   margin: auto;
-  /* background: red; */
   max-width: 290px;
 }
 
