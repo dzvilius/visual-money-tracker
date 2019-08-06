@@ -79,8 +79,6 @@ body {
   font-size: 14px;
 }
 
-
-
 .AppNavbar__menu-item:hover,
 .AppNavbar__menu-item:active {
   color: #fff;
@@ -117,8 +115,8 @@ body {
 
 .DataSummary {
   background: #fff;
-  padding: 40px 20px;
-  margin: 10px 0;
+  padding: 40px 20px 20px;
+  margin: 20px 0;
   border-radius: 4px;
 }
 
@@ -132,16 +130,16 @@ body {
 }
 
 .DataSummary__chart {
-  padding: 20px 0;
-}
-
-.DataSummary__chart .pie-label {
-  font-size: 13px;
+  margin-top: 20px;
 }
 
 .DataSummary__pie-chart {
   margin: auto;
   max-width: 290px;
+}
+
+.DataSummary__chart-breakdown {
+  padding: 20px 0;
 }
 
 /* TRANSACTIONS LIST ======================================================== */

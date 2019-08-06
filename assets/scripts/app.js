@@ -13,8 +13,26 @@ var numberDisplaySpending = dc.numberDisplay('#numberDisplaySpending')
 // Income breakdown chart
 var pieChartIncome = dc.pieChart('#pieChartIncome')
 
+// Disable legend with 0 value
+// https://stackoverflow.com/questions/29371256/dc-js-piechart-legend-hide-if-result-is-0
+dc.override(pieChartIncome, 'legendables', function() {
+  var legendables = this._legendables()
+  return legendables.filter(function(l) {
+    return l.data > 0
+  })
+})
+
 // Spending breakdown chart
 var pieChartSpending = dc.pieChart('#pieChartSpending')
+
+// Disable legend with 0 value
+// https://stackoverflow.com/questions/29371256/dc-js-piechart-legend-hide-if-result-is-0
+dc.override(pieChartSpending, 'legendables', function() {
+  var legendables = this._legendables()
+  return legendables.filter(function(l) {
+    return l.data > 0
+  })
+})
 
 // All transactions table
 var tableAllTransactions = dc.dataTable('#tableAllTransactions')
@@ -23,7 +41,7 @@ var tableAllTransactions = dc.dataTable('#tableAllTransactions')
 var tableRecentTransactions = dc.dataTable('#tableRecentTransactions')
 
 // Import transactions from CSV
-d3.csv('./assets/data/transactions-temp.csv').then(function(transactions) {
+d3.csv('./assets/data/transactions.csv').then(function(transactions) {
   // Set date format to'd/m/year'
   var dateFormat = d3.timeFormat('%d/%m/%Y')
 
@@ -32,16 +50,20 @@ d3.csv('./assets/data/transactions-temp.csv').then(function(transactions) {
     d.order = Number(d.order)
     d.date = dateFormat(new Date(d.date))
     if (d.in !== '') {
-      d.inSt = '€' + Number(d.in)
-        .toFixed(2)
-        .toString()
-        .replace(/\B(?=(\d{3})+(?!\d))/g, ',')
+      d.inSt =
+        '€' +
+        Number(d.in)
+          .toFixed(2)
+          .toString()
+          .replace(/\B(?=(\d{3})+(?!\d))/g, ',')
     }
     if (d.out !== '') {
-      d.outSt = '€' + Number(d.out)
-        .toFixed(2)
-        .toString()
-        .replace(/\B(?=(\d{3})+(?!\d))/g, ',')
+      d.outSt =
+        '€' +
+        Number(d.out)
+          .toFixed(2)
+          .toString()
+          .replace(/\B(?=(\d{3})+(?!\d))/g, ',')
     }
   })
 
@@ -62,6 +84,7 @@ d3.csv('./assets/data/transactions-temp.csv').then(function(transactions) {
   var typeDim = ndx.dimension(function(d) {
     return d.type
   })
+  //typeDim.filter('income')
 
   // Income dimension
   var inDim = ndx.dimension(function(d) {
@@ -118,6 +141,16 @@ d3.csv('./assets/data/transactions-temp.csv').then(function(transactions) {
     .externalRadiusPadding(50)
     .dimension(inDim)
     .group(inGroup)
+    .legend(
+      dc
+        .htmlLegend()
+        .container('#htmlLegendIncome')
+        .horizontal(false)
+        .highlightSelected(true)
+        .legendText(function(d) {
+          return d.name + ' €' + d3.format(',')(d.data)
+        })
+    )
     .on('pretransition', function(chart) {
       chart.selectAll('text.pie-slice').text(function(d) {
         if (d.data.value !== 0) {
@@ -140,6 +173,16 @@ d3.csv('./assets/data/transactions-temp.csv').then(function(transactions) {
     .externalRadiusPadding(50)
     .dimension(outDim)
     .group(outGroup)
+    .legend(
+      dc
+        .htmlLegend()
+        .container('#htmlLegendSpending')
+        .horizontal(false)
+        .highlightSelected(true)
+        .legendText(function(d) {
+          return d.name + ' €' + d3.format(',')(d.data)
+        })
+    )
     .on('pretransition', function(chart) {
       chart.selectAll('text.pie-slice').text(function(d) {
         if (d.data.value !== 0) {
