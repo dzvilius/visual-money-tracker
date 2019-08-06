@@ -148,7 +148,7 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
         .horizontal(false)
         .highlightSelected(true)
         .legendText(function(d) {
-          return d.name + ' €' + d3.format(',')(d.data)
+          return d.name + ' - €' + d3.format(',')(d.data)
         })
     )
     .on('pretransition', function(chart) {
@@ -180,7 +180,7 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
         .horizontal(false)
         .highlightSelected(true)
         .legendText(function(d) {
-          return d.name + ' €' + d3.format(',')(d.data)
+          return d.name + ' - €' + d3.format(',')(d.data)
         })
     )
     .on('pretransition', function(chart) {

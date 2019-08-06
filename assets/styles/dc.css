@@ -279,7 +279,7 @@
 div.dc-html-legend {
   overflow-y: auto;
   overflow-x: hidden;
-  max-width: 50%;
+  max-width: 60%;
   margin-left: auto;
   margin-right: auto;
   height: inherit;
@@ -299,7 +299,6 @@ div.dc-html-legend .dc-legend-item-vertical {
   display: block;
   padding-top: 6px;
   padding-bottom: 6px;
-  font-size: 18px;
   cursor: pointer;
 }
 div.dc-html-legend .dc-legend-item-vertical.selected {
@@ -315,8 +314,8 @@ div.dc-html-legend .dc-legend-item-label {
   line-height: 12px;
   display: table-cell;
   vertical-align: middle;
-  padding-left: 3px;
-  padding-right: 3px;
+  padding-left: 8px;
+  padding-right: 0px;
   font-size: 0.75em;
 }
 

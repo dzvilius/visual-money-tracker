@@ -84,7 +84,7 @@ To learn more about the needs of the user, please read the [Project Brief](ux/Pr
   - [x] Output value in Euros.
 - As a user, I want to see my income as chart, so that, I know what percentage I've received from each source.
   - [x] Display a pie chart with percentage values for each income source.
-- As a user, I want to see an income source breakdown, so that, I can see each item in more detail.
+- As a user, I want to see income source breakdown, so that, I can see each item in more detail.
   - [x] Display item breakdown for each income category.
 
 ---
@@ -97,7 +97,7 @@ To learn more about the needs of the user, please read the [Project Brief](ux/Pr
   - [x] Output value in Euros.
  - As a user, I want to see my spending as chart, so that, I know what percentage I've spent in each category.
      - [x] Display a pie chart with percentage values for each spending category.
-- As a user, I want to see an income source breakdown, so that, I can see each item in more detail.
+- As a user, I want to see spending category breakdown, so that, I can see each item in more detail.
   - [x] Display item breakdown for each spending category.
 
 ---
