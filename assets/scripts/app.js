@@ -17,7 +17,7 @@ var tableAllTransactions = dc.dataTable('#tableAllTransactions')
 var tableRecentTransactions = dc.dataTable('#tableRecentTransactions')
 
 // Import transactions from CSV
-d3.csv('./assets/data/transactions-temp.csv').then(function(transactions) {
+d3.csv('./assets/data/transactions.csv').then(function(transactions) {
   // Set date format to'd/m/year'
   var dateFormat = d3.timeFormat('%d/%m/%Y')
   //console.log(transactions)
@@ -26,10 +26,10 @@ d3.csv('./assets/data/transactions-temp.csv').then(function(transactions) {
   transactions.forEach(function(d) {
     d.order = Number(d.order)
     d.date = dateFormat(new Date(d.date))
-    // d.amount = Number(d.amount)
-    //   .toFixed(2)
-    //   .toString()
-    //   .replace(/\B(?=(\d{3})+(?!\d))/g, ',')
+    d.amountSt = Number(d.amount)
+      .toFixed(2)
+      .toString()
+      .replace(/\B(?=(\d{3})+(?!\d))/g, ',')
     d.amount = Math.abs(d.amount)
     //console.log(d.date)
   })
@@ -51,7 +51,7 @@ d3.csv('./assets/data/transactions-temp.csv').then(function(transactions) {
   var incomeDim = ndx.dimension(function(d) {
     return d.type
   })
-  incomeDim.filter('IN')
+  //incomeDim.filter('IN')
 
   // Total income dimension
   // var totalIncomeGroup = incomeDim.group().reduceSum(function(d) {
@@ -66,11 +66,7 @@ d3.csv('./assets/data/transactions-temp.csv').then(function(transactions) {
     return d.amount
   })
 
-  var allGroup = orderDim.group().reduceSum(function(d) {
-    return d.amount
-  })
-
-  console.log(allGroup.all())
+  //console.log(incomeGroup.all())
 
   // Render number display with income total
   // numberDisplayIncome
@@ -84,14 +80,22 @@ d3.csv('./assets/data/transactions-temp.csv').then(function(transactions) {
   pieChartIncome
     .width(290)
     .height(290)
-    .innerRadius(40)
-    .externalLabels(20)
-    .externalRadiusPadding(40)
+    .innerRadius(60)
+    .externalLabels(30)
+    .externalRadiusPadding(60)
     .dimension(incomeDim)
     .group(incomeGroup)
-    .label(function(d) {
-      var label = d.key
-      return label
+    .on('pretransition', function(chart) {
+      chart.selectAll('text.pie-slice').text(function(d) {
+        //console.log(JSON.stringify(d))
+        if (d.data.value !== 0) {
+          return (
+            dc.utils.printSingleValue(
+              ((d.endAngle - d.startAngle) / (2 * Math.PI)) * 100
+            ) + '%'
+          )
+        }
+      })
     })
   pieChartIncome.render()
 
@@ -100,7 +104,16 @@ d3.csv('./assets/data/transactions-temp.csv').then(function(transactions) {
     .dimension(orderDim)
     .size(1000)
     .showSections(false)
-    .columns(['date', 'payee', 'amount'])
+    .columns([
+      'date',
+      'payee',
+      {
+        label: 'Amount (€)',
+        format: function(d) {
+          return d.amountSt
+        },
+      },
+    ])
     .sortBy(function(d) {
       return d.order
     })
@@ -112,7 +125,16 @@ d3.csv('./assets/data/transactions-temp.csv').then(function(transactions) {
     .dimension(orderDim)
     .size(5)
     .showSections(false)
-    .columns(['date', 'payee', 'amount'])
+    .columns([
+      'date',
+      'payee',
+      {
+        label: 'Amount (€)',
+        format: function(d) {
+          return d.amountSt
+        },
+      },
+    ])
     .sortBy(function(d) {
       return d.order
     })
