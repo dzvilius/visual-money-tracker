@@ -67,7 +67,6 @@ To learn more about the needs of the user, please read the [Project Brief](ux/Pr
   - [ ] Display a line chart with data points for each month.
   - [ ] Make the line red.
 - As a user, I want to see my balance visually, so that, I know how my balance changed over the year.
-  - [ ] Load balance data from CSV file.
   - [ ] Calculate monthly total.
   - [ ] Display a line chart with data points for each month.
   - [ ] Make the line blue.
@@ -124,6 +123,7 @@ To learn more about the needs of the user, please read the [Project Brief](ux/Pr
 ---
 
 **_(8) - "As a user, I want to view individual transaction, so that, I can see the details for each item."_**
+
 _Feature Request!_
 
 ---
