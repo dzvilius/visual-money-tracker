@@ -256,8 +256,9 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     .margins({ top: 20, left: 20, right: 20, bottom: 40 })
     .width(null)
     .height(260)
+    .colors(d3.scaleOrdinal(d3.schemeSet2))
     .chart(function(c) {
-      return dc.lineChart(c).curve(d3.curveCardinal)
+      return dc.lineChart(c).curve(d3.curveCardinal).renderArea(true)
     })
     .x(d3.scaleLinear().domain([minDate, maxDate]))
     .brushOn(false)
