@@ -106,9 +106,32 @@ body {
 
 .OverviewChart {
   background: #fff;
-  padding: 20px;
+  padding: 30px;
   margin: 20px 0;
   border-radius: 4px;
+}
+
+.OverviewChart__main {
+  position: relative;
+}
+
+.OverviewChart__legend {
+  position: relative;
+}
+
+#legendYearOverviewChart {
+  height: 22px;
+  width: 100%;
+  position: relative;
+}
+
+#legendYearOverviewChart .dc-html-legend {
+  width: 100%;
+  position: absolute;
+  text-align: right;
+  top: 0px;
+  right: 0;
+  z-index: 10;
 }
 
 /* DATA SUMMARY ============================================================= */

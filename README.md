@@ -41,12 +41,12 @@ To learn more about the needs of the user, please read the [Project Brief](ux/Pr
   - [x] Add section heading.
 - As a user, I want to see my income total, so that, I can see how much I earned.
   - [x] Add item name.
-  - [ ] Calculate 12 months income total.
-  - [ ] Output value in Euros.
+  - [x] Calculate 12 months income total.
+  - [x] Output value in Euros.
 - As a user, I want to see my spending total, so that, I can see how much I spent.
   - [x] Add item name.
-  - [ ] Calculate and output total spending for 12 months.
-  - [ ] Output value in Euros.
+  - [x] Calculate and output total spending for 12 months.
+  - [x] Output value in Euros.
 - As a user, I want to see my balance, so that, I can see how much I have.
   - [x] Add item name.
   - [ ] Calculate 12 months balance and output value in euros.
@@ -57,14 +57,14 @@ To learn more about the needs of the user, please read the [Project Brief](ux/Pr
 **_(3) - "As a user, I want to see my transactions data visually, so that, I can compare my income, spending and balance over the period of 12 months."_**
 
 - As a user, I want to see my income visually, so that, I know how much I earned over the year.
-  - [ ] Load income data from CSV file.
-  - [ ] Calculate monthly total.
-  - [ ] Display a line chart with data points for each month.
+  - [x] Load income data from CSV file.
+  - [x] Calculate monthly total.
+  - [x] Display a line chart with data points for each month.
   - [ ] Make the line green.
 - As a user, I want to see my spending visually, so that, I know how much I spent over the year.
-  - [ ] Load spending data from CSV file.
-  - [ ] Calculate monthly total.
-  - [ ] Display a line chart with data points for each month.
+  - [x] Load spending data from CSV file.
+  - [x] Calculate monthly total.
+  - [x] Display a line chart with data points for each month.
   - [ ] Make the line red.
 - As a user, I want to see my balance visually, so that, I know how my balance changed over the year.
   - [ ] Calculate monthly total.

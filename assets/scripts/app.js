@@ -13,6 +13,9 @@ var numberDisplayYearSpending = dc.numberDisplay('#numberDisplayYearSpending')
 // 12 months balance number display
 var numberDisplayYearBalance = dc.numberDisplay('#numberDisplayYearBalance')
 
+// Income, Spending and Balance line chart for 12 months
+var chartYearOverview = dc.seriesChart('#chartYearOverview')
+
 // Total income for current month number display
 var numberDisplayIncome = dc.numberDisplay('#numberDisplayIncome')
 
@@ -50,7 +53,8 @@ var tableAllTransactions = dc.dataTable('#tableAllTransactions')
 var tableRecentTransactions = dc.dataTable('#tableRecentTransactions')
 
 // Import transactions from CSV
-d3.csv('./assets/data/transactions-temp.csv').then(function(transactions) {
+d3.csv('./assets/data/transactions.csv').then(function(transactions) {
+
   // Set date format to'd/m/year'
   var dateFormat = d3.timeFormat('%d/%m/%Y')
 
@@ -58,50 +62,24 @@ d3.csv('./assets/data/transactions-temp.csv').then(function(transactions) {
   transactions.forEach(function(d) {
     d.order = Number(d.order)
     d.date = dateFormat(new Date(d.date))
-    if (d.in !== '') {
+    if (d.amount_in !== '') {
       d.inSt =
         '€' +
-        Number(d.in)
+        Number(d.amount_in)
           .toFixed(2)
           .toString()
           .replace(/\B(?=(\d{3})+(?!\d))/g, ',')
     }
-    if (d.out !== '') {
+    if (d.amount_out !== '') {
       d.outSt =
         '€' +
-        Number(d.out)
+        Number(d.amount_out)
           .toFixed(2)
           .toString()
           .replace(/\B(?=(\d{3})+(?!\d))/g, ',')
     }
+    d.amount = Math.abs(d.amount_in - d.amount_out)
   })
-
-  var test = function () {
-    return 2 + 2
-  }
-
-  // function sum( obj ) {
-  //   var sum = 0;
-  //   for( var el in obj ) {
-  //     if( obj.hasOwnProperty( el ) ) {
-  //       sum += parseFloat( obj[el] );
-  //     }
-  //   }
-  //   return sum;
-  // }
-
-  console.log( test() );
-  // var sample = { a: 10 , b: 2 , c:3 };
-  // var summed = sum( +transactions['in'] );
-  // // console.log( 'sum: ' + summed );
-
-
-
-
-
-  // console.log(
-  //   [1, 2, 3, 4].reduce((a, b) => a + b, 0)
-  // )
 
   // Set crossfilter
   var ndx = crossfilter(transactions)
@@ -109,6 +87,11 @@ d3.csv('./assets/data/transactions-temp.csv').then(function(transactions) {
   // Order dimension
   var orderDim = ndx.dimension(function(d) {
     return d.order
+  })
+
+  // Month dimension
+  var monthDim = ndx.dimension(function(d) {
+    return [d.type, +d.month]
   })
 
   // Category dimension
@@ -121,41 +104,49 @@ d3.csv('./assets/data/transactions-temp.csv').then(function(transactions) {
     return d.type
   })
 
-  // Income dimension
-  var inDim = ndx.dimension(function(d) {
-    return d.in
-  })
-
-  // Spending dimension
-  var outDim = ndx.dimension(function(d) {
-    return d.out
-  })
-
   // Income group
   var inGroup = categoryDim.group().reduceSum(function(d) {
-    return d.in
+    return +d.amount_in
   })
 
   // Spending group
   var outGroup = categoryDim.group().reduceSum(function(d) {
-    return d.out
+    return +d.amount_out
   })
 
   // Total income group
   var totalInGroup = typeDim.group().reduceSum(function(d) {
-    return d.in
+    return +d.amount_in
   })
 
   // Total spending group
   var totalOutGroup = typeDim.group().reduceSum(function(d) {
-    return d.out
+    return +d.amount_out
   })
+
+  var balanceTest = typeDim.group().reduceSum(function(d) {
+    return +d.amount
+  })
+
+  // Total amount group
+  var totalAmountGroup = monthDim.group().reduceSum(function(d) {
+    return +d.amount
+  })
+
+  var minDate = monthDim.bottom(1)[0].month
+  var maxDate = monthDim.top(1)[0].month
+
+  // Uppercase the first letter
+  // https://flaviocopes.com/how-to-uppercase-first-letter-javascript/
+  const capitalize = s => {
+    if (typeof s !== 'string') return ''
+    return s.charAt(0).toUpperCase() + s.slice(1)
+  }
 
   // Render number display with income total for 12 months
   numberDisplayYearIncome
     .formatNumber(function(d) {
-      //return '€' + d3.format(',')(d)
-      return d
+      return '€' + d3.format(',')(d)
     })
     .group(totalInGroup)
   numberDisplayYearIncome.render()
@@ -163,21 +154,19 @@ d3.csv('./assets/data/transactions-temp.csv').then(function(transactions) {
   // Render number display with spending total for 12 months
   numberDisplayYearSpending
     .formatNumber(function(d) {
-      //return '€' + d3.format(',')(d)
-      return d
+      return '€' + d3.format(',')(d)
     })
     .group(totalOutGroup)
   numberDisplayYearSpending.render()
 
   // Render number display with balance for 12 months
-  // numberDisplayYearBalance
-  //   .formatNumber(function(d) {
-  //     //console.log(d)
-  //     //return '€' + d3.format(',')(d)
-  //     return d
-  //   })
-  //   .group(totalYearBalance)
-  // numberDisplayYearBalance.render()
+  numberDisplayYearBalance
+    .formatNumber(function(d) {
+      //return '€' + d3.format(',')(d)
+      return 123
+    })
+    .group(balanceTest)
+  numberDisplayYearBalance.render()
 
   // Render number display with income total
   numberDisplayIncome
@@ -195,6 +184,51 @@ d3.csv('./assets/data/transactions-temp.csv').then(function(transactions) {
     .group(totalOutGroup)
   numberDisplaySpending.render()
 
+  // Render line chart with 12 month overview
+  chartYearOverview
+    .margins({ top: 20, left: 20, right: 20, bottom: 40 })
+    .width(null)
+    .height(260)
+    .chart(function(c) {
+      return dc.lineChart(c).curve(d3.curveCardinal)
+    })
+    .x(d3.scaleLinear().domain([minDate, maxDate]))
+    .brushOn(false)
+    .clipPadding(10)
+    .elasticY(true)
+    .elasticX(true)
+    .yAxisPadding('30%')
+    .dimension(monthDim)
+    .group(totalAmountGroup)
+    .mouseZoomable(false)
+    .seriesAccessor(function(d) {
+      return d.key[0]
+    })
+    .keyAccessor(function(d) {
+      return +d.key[1]
+    })
+    .valueAccessor(function(d) {
+      return +d.value
+    })
+    .childOptions({
+      renderDataPoints: { radius: 3, fillOpacity: 1, strokeOpacity: 1 },
+    })
+    .legend(
+      dc
+        .htmlLegend()
+        .container('#legendYearOverviewChart')
+        .horizontal(true)
+        .legendText(function(d) {
+          return capitalize(d.name)
+        })
+    )
+  chartYearOverview.yAxis().tickFormat(function(d) {
+    return '€' + d3.format(',d')(d)
+  })
+
+  chartYearOverview.margins().left += 30
+  chartYearOverview.render()
+
   // Render pie chart with income breakdown
   pieChartIncome
     .width(290)
@@ -202,21 +236,19 @@ d3.csv('./assets/data/transactions-temp.csv').then(function(transactions) {
     .innerRadius(60)
     .externalLabels(30)
     .externalRadiusPadding(50)
-    .dimension(inDim)
+    .dimension(categoryDim)
     .group(inGroup)
     .legend(
       dc
         .htmlLegend()
         .container('#htmlLegendIncome')
-        .horizontal(false)
-        .highlightSelected(true)
         .legendText(function(d) {
           return d.name + ' - €' + d3.format(',')(d.data)
         })
     )
     .on('pretransition', function(chart) {
       chart.selectAll('text.pie-slice').text(function(d) {
-        if (d.data.value !== 0) {
+        if (d.value !== 0) {
           return (
             dc.utils.printSingleValue(
               Math.round(((d.endAngle - d.startAngle) / (2 * Math.PI)) * 100)
@@ -234,21 +266,20 @@ d3.csv('./assets/data/transactions-temp.csv').then(function(transactions) {
     .innerRadius(60)
     .externalLabels(30)
     .externalRadiusPadding(50)
-    .dimension(outDim)
+    .dimension(categoryDim)
     .group(outGroup)
     .legend(
       dc
         .htmlLegend()
         .container('#htmlLegendSpending')
         .horizontal(false)
-        .highlightSelected(true)
         .legendText(function(d) {
           return d.name + ' - €' + d3.format(',')(d.data)
         })
     )
     .on('pretransition', function(chart) {
       chart.selectAll('text.pie-slice').text(function(d) {
-        if (d.data.value !== 0) {
+        if (d.value !== 0) {
           return (
             dc.utils.printSingleValue(
               Math.round(((d.endAngle - d.startAngle) / (2 * Math.PI)) * 100)
@@ -268,9 +299,15 @@ d3.csv('./assets/data/transactions-temp.csv').then(function(transactions) {
       'date',
       'payee',
       {
-        label: 'Amount (€)',
+        label: 'In',
         format: function(d) {
-          return d.amountSt
+          return d.inSt
+        },
+      },
+      {
+        label: 'Out',
+        format: function(d) {
+          return d.outSt
         },
       },
     ])
