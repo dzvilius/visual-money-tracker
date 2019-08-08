@@ -152,7 +152,6 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
   var typeMonthDim = ndx.dimension(function(d) {
     return [d.type, +d.month]
   })
-  typeMonthDim.pallet=["red","green"]
 
   // Income group
   var inGroup = categoryDim.group().reduceSum(function(d) {
@@ -202,6 +201,7 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
   // Render timeframe select menu
   timeframeSelectMenu
     .dimension(monthDim)
+    .promptText('Full Year')
     .group(monthGroup)
 
   timeframeSelectMenu.title(function(d) {
