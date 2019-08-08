@@ -18,7 +18,7 @@
 
 body {
   font-family: 'Ubuntu', sans-serif;
-  background: #f2f0df;
+  background: #EEF0F2;
   color: #232c33;
 }
 
@@ -91,7 +91,6 @@ body {
 /* DATA OVERVIEW ============================================================ */
 
 .DataOverview {
-  overflow: hidden;
   height: 100%;
   padding: 20px 0;
 }
@@ -107,6 +106,7 @@ body {
   padding: 40px;
   border-radius: 4px;
   height: 100%;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
 }
 
 .DataOverview__header {
@@ -163,7 +163,6 @@ body {
 /* OVERVIEW CHART =========================================================== */
 
 .OverviewChart {
-  overflow: hidden;
   height: 100%;
   padding-bottom: 20px;
 }
@@ -179,6 +178,7 @@ body {
   padding: 40px;
   border-radius: 4px;
   height: 100%;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
 }
 
 .OverviewChart__main {
@@ -207,7 +207,6 @@ body {
 /* DATA SUMMARY ============================================================= */
 
 .DataSummary {
-  overflow: hidden;
   height: 100%;
   padding-bottom: 20px;
 }
@@ -223,6 +222,7 @@ body {
   padding: 40px;
   border-radius: 4px;
   height: 100%;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
 }
 
 .DataSummary__content {
@@ -253,8 +253,8 @@ body {
 /* TRANSACTIONS LIST ======================================================== */
 
 .TransactionsList {
-  overflow: hidden;
   height: 100%;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
 }
 
 .TransactionsList__body {
@@ -279,11 +279,16 @@ body {
   font-size: 12px;
 }
 
+.TransactionsList__table > table th:nth-child(1) {
+  width: 90px;
+}
+
 .TransactionsList__table > table th:nth-child(3),
 .TransactionsList__table > table td:nth-child(3),
 .TransactionsList__table > table th:nth-child(4),
 .TransactionsList__table > table td:nth-child(4) {
   text-align: right;
+  width: 90px;
 }
 
 .TransactionsList__action {
