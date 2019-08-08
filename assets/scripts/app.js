@@ -152,6 +152,7 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
   var typeMonthDim = ndx.dimension(function(d) {
     return [d.type, +d.month]
   })
+  typeMonthDim.pallet=["red","green"]
 
   // Income group
   var inGroup = categoryDim.group().reduceSum(function(d) {
@@ -263,6 +264,7 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     .x(d3.scaleLinear().domain([minDate, maxDate]))
     .brushOn(false)
     .clipPadding(10)
+    .ordinalColors(['#AADD55','#FF715B'])
     .elasticY(true)
     .elasticX(true)
     .yAxisPadding('30%')
