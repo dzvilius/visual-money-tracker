@@ -91,10 +91,22 @@ body {
 /* DATA OVERVIEW ============================================================ */
 
 .DataOverview {
+  overflow: hidden;
+  height: 100%;
+  padding: 20px 0;
+}
+
+@media (min-width: 768px) {
+  .DataOverview {
+    padding: 30px 0;
+  }
+}
+
+.DataOverview__body {
   background: #fff;
-  padding: 20px;
-  margin: 20px 0;
+  padding: 40px;
   border-radius: 4px;
+  height: 100%;
 }
 
 .DataOverview__headline {
@@ -105,10 +117,22 @@ body {
 /* OVERVIEW CHART =========================================================== */
 
 .OverviewChart {
+  overflow: hidden;
+  height: 100%;
+  padding-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .OverviewChart {
+    padding: 30px 0;
+  }
+}
+
+.OverviewChart__body {
   background: #fff;
-  padding: 30px;
-  margin: 20px 0;
+  padding: 40px;
   border-radius: 4px;
+  height: 100%;
 }
 
 .OverviewChart__main {
@@ -137,13 +161,22 @@ body {
 /* DATA SUMMARY ============================================================= */
 
 .DataSummary {
-  background: #fff;
-  /* padding: 40px 20px 20px; */
-  /* margin: 10px 0; */
-  border-radius: 4px;
-  /* height: 100%; */
-  min-height: 100%;
   overflow: hidden;
+  height: 100%;
+  padding-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .DataSummary {
+    padding-bottom: 30px;
+  }
+}
+
+.DataSummary__body {
+  background: #fff;
+  padding: 40px;
+  border-radius: 4px;
+  height: 100%;
 }
 
 .DataSummary__content {
@@ -172,10 +205,21 @@ body {
 /* TRANSACTIONS LIST ======================================================== */
 
 .TransactionsList {
+  overflow: hidden;
+  height: 100%;
+}
+
+.TransactionsList__body {
   background: #fff;
-  padding: 30px 20px;
-  margin-top: 20px;
+  padding: 20px;
   border-radius: 4px;
+  height: 100%;
+}
+
+@media (min-width: 768px) {
+  .TransactionsList__body {
+    padding: 40px;
+  }
 }
 
 .TransactionsList__headline {
