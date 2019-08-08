@@ -25,6 +25,9 @@ var numberDisplaySpending = dc.numberDisplay('#numberDisplaySpending')
 // Income chart
 var pieChartIncome = dc.pieChart('#pieChartIncome')
 
+// Timeframe select meneu
+var timeframeSelectMenu = dc.selectMenu('#timeframeSelectMenu')
+
 // Disable legend with 0 value
 // https://stackoverflow.com/questions/29371256/dc-js-piechart-legend-hide-if-result-is-0
 dc.override(pieChartIncome, 'legendables', function() {
@@ -54,7 +57,6 @@ var tableRecentTransactions = dc.dataTable('#tableRecentTransactions')
 
 // Import transactions from CSV
 d3.csv('./assets/data/transactions.csv').then(function(transactions) {
-
   // Set date format to'd/m/year'
   var dateFormat = d3.timeFormat('%d/%m/%Y')
 
@@ -91,7 +93,7 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
 
   // Month dimension
   var monthDim = ndx.dimension(function(d) {
-    return [d.type, +d.month]
+    return +d.month
   })
 
   // Category dimension
@@ -102,6 +104,11 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
   // Type dimension
   var typeDim = ndx.dimension(function(d) {
     return d.type
+  })
+
+  // Type + Month dimension
+  var typeMonthDim = ndx.dimension(function(d) {
+    return [d.type, +d.month]
   })
 
   // Income group
@@ -128,13 +135,18 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     return +d.amount
   })
 
+  // Month group
+  var monthGroup = monthDim.group().reduceSum(function(d) {
+    return d.month
+  })
+
   // Total amount group
-  var totalAmountGroup = monthDim.group().reduceSum(function(d) {
+  var totalAmountGroup = typeMonthDim.group().reduceSum(function(d) {
     return +d.amount
   })
 
-  var minDate = monthDim.bottom(1)[0].month
-  var maxDate = monthDim.top(1)[0].month
+  var minDate = typeMonthDim.bottom(1)[0].month
+  var maxDate = typeMonthDim.top(1)[0].month
 
   // Uppercase the first letter
   // https://flaviocopes.com/how-to-uppercase-first-letter-javascript/
@@ -142,6 +154,13 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     if (typeof s !== 'string') return ''
     return s.charAt(0).toUpperCase() + s.slice(1)
   }
+
+  // Render timeframe select menu
+  timeframeSelectMenu
+    .dimension(monthDim)
+    .group(monthGroup)
+    .controlsUseVisibility(true)
+  timeframeSelectMenu.render()
 
   // Render number display with income total for 12 months
   numberDisplayYearIncome
@@ -198,7 +217,7 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     .elasticY(true)
     .elasticX(true)
     .yAxisPadding('30%')
-    .dimension(monthDim)
+    .dimension(typeMonthDim)
     .group(totalAmountGroup)
     .mouseZoomable(false)
     .seriesAccessor(function(d) {
