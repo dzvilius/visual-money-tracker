@@ -256,7 +256,7 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
   // Render line chart with 12 month overview
   chartYearOverview
     .transitionDuration(400)
-    .margins({ top: 20, left: 20, right: 20, bottom: 40 })
+    .margins({ top: 20, left: 0, right: 10, bottom: 40 })
     .width(null)
     .height(260)
     .colors(d3.scaleOrdinal(d3.schemeSet2))
@@ -301,7 +301,7 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     return '€' + d3.format(',d')(d)
   })
 
-  chartYearOverview.margins().left += 30
+  chartYearOverview.margins().left += 50
   chartYearOverview.render()
 
   // Render pie chart with income breakdown
