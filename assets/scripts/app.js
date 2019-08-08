@@ -211,26 +211,28 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
 
   // Render number display with income total for 12 months
   numberDisplayYearIncome
-    //.transitionDuration(0)
+    .transitionDuration(600)
     .formatNumber(function(d) {
-      return '€' + d3.format(',')(d)
+      return '€' + d3.format(',.2r')(d)
     })
     .group(totalInGroup)
   numberDisplayYearIncome.render()
 
   // Render number display with spending total for 12 months
   numberDisplayYearSpending
+    .transitionDuration(600)
     .formatNumber(function(d) {
-      return '€' + d3.format(',')(d)
+      return '€' + d3.format(',.2r')(d)
     })
     .group(totalOutGroup)
   numberDisplayYearSpending.render()
 
   // Render number display with balance for 12 months
   numberDisplayYearBalance
+    .transitionDuration(600)
     .formatNumber(function(d) {
-      //return '€' + d3.format(',')(d)
-      return 123
+      // TO DO: calculate balance
+      return '€' + d3.format(',.2r')(1000)
     })
     .group(balanceTest)
   numberDisplayYearBalance.render()
@@ -238,7 +240,7 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
   // Render number display with income total
   numberDisplayIncome
     .formatNumber(function(d) {
-      return '€' + d3.format(',')(d)
+      return '€' + d3.format(',.2r')(d)
     })
     .group(totalInGroup)
   numberDisplayIncome.render()
@@ -246,7 +248,7 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
   // Render number display with spending total
   numberDisplaySpending
     .formatNumber(function(d) {
-      return '€' + d3.format(',')(d)
+      return '€' + d3.format(',.2r')(d)
     })
     .group(totalOutGroup)
   numberDisplaySpending.render()
