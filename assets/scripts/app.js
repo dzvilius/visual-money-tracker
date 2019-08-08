@@ -22,11 +22,11 @@ var numberDisplayIncome = dc.numberDisplay('#numberDisplayIncome')
 // Total spending for current month number display
 var numberDisplaySpending = dc.numberDisplay('#numberDisplaySpending')
 
-// Income chart
-var pieChartIncome = dc.pieChart('#pieChartIncome')
-
 // Timeframe select meneu
 var timeframeSelectMenu = dc.selectMenu('#timeframeSelectMenu')
+
+// Income chart
+var pieChartIncome = dc.pieChart('#pieChartIncome')
 
 // Disable legend with 0 value
 // https://stackoverflow.com/questions/29371256/dc-js-piechart-legend-hide-if-result-is-0
@@ -93,7 +93,49 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
 
   // Month dimension
   var monthDim = ndx.dimension(function(d) {
-    return +d.month
+    var month = +d.month
+    var monthText = ''
+
+    switch (month) {
+      case 1:
+        monthText = 'January'
+        break
+      case 2:
+        monthText = 'February'
+        break
+      case 3:
+        monthText = 'March'
+        break
+      case 4:
+        monthText = 'April'
+        break
+      case 5:
+        monthText = 'May'
+        break
+      case 6:
+        monthText = 'June'
+        break
+      case 7:
+        monthText = 'July'
+        break
+      case 8:
+        monthText = 'August'
+        break
+      case 9:
+        monthText = 'September'
+        break
+      case 10:
+        monthText = 'October'
+        break
+      case 11:
+        monthText = 'November'
+        break
+      case 12:
+        monthText = 'December'
+        break
+    }
+
+    return [('0' + month).slice(-2), monthText]
   })
 
   // Category dimension
@@ -136,16 +178,17 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
   })
 
   // Month group
-  var monthGroup = monthDim.group().reduceSum(function(d) {
-    return d.month
-  })
+  var monthGroup = monthDim.group()
 
   // Total amount group
   var totalAmountGroup = typeMonthDim.group().reduceSum(function(d) {
     return +d.amount
   })
 
+  // Start of the year
   var minDate = typeMonthDim.bottom(1)[0].month
+
+  // End of the year
   var maxDate = typeMonthDim.top(1)[0].month
 
   // Uppercase the first letter
@@ -159,7 +202,10 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
   timeframeSelectMenu
     .dimension(monthDim)
     .group(monthGroup)
-    .controlsUseVisibility(true)
+
+  timeframeSelectMenu.title(function(d) {
+    return d.key[1]
+  })
   timeframeSelectMenu.render()
 
   // Render number display with income total for 12 months
