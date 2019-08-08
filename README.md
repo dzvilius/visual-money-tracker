@@ -60,18 +60,18 @@ To learn more about the needs of the user, please read the [Project Brief](ux/Pr
   - [x] Load income data from CSV file.
   - [x] Calculate monthly total.
   - [x] Display a line chart with data points for each month.
-  - [ ] Make the line green.
+  - [x] Make the line green.
 - As a user, I want to see my spending visually, so that, I know how much I spent over the year.
   - [x] Load spending data from CSV file.
   - [x] Calculate monthly total.
   - [x] Display a line chart with data points for each month.
-  - [ ] Make the line red.
-- As a user, I want to see my balance visually, so that, I know how my balance changed over the year.
-  - [ ] Calculate monthly total.
-  - [ ] Display a line chart with data points for each month.
-  - [ ] Make the line blue.
+  - [x] Make the line red.
+- ~~As a user, I want to see my balance visually, so that, I know how my balance changed over the year.~~
+  - [ ] ~~Calculate monthly total.~~
+  - [ ] ~~Display a line chart with data points for each month.~~
+  - [ ] ~~Make the line blue.~~
 - As a user, I want choose what data to display, so that, I can personalise my experience.
-  - [ ] Create a chart data selector.
+  - [x] Create a chart data selector.
 
 ---
 
@@ -79,7 +79,7 @@ To learn more about the needs of the user, please read the [Project Brief](ux/Pr
 
 - As a user, I want to see my income total for the current month, so that, I know how much I've earned this month.
   - [x] Add section heading.
-  - [ ] Calculate income total for the current month.
+  - [x] Calculate income total for the current month.
   - [x] Output value in Euros.
 - As a user, I want to see my income as chart, so that, I know what percentage I've received from each source.
   - [x] Display a pie chart with percentage values for each income source.
@@ -92,7 +92,7 @@ To learn more about the needs of the user, please read the [Project Brief](ux/Pr
 
 - As a user, I want to see my spending total for the current month, so that, I can see how much I've spent this month.
   - [x] Add section heading.
-  - [ ] Calculate spending total for the current month.
+  - [x] Calculate spending total for the current month.
   - [x] Output value in Euros.
  - As a user, I want to see my spending as chart, so that, I know what percentage I've spent in each category.
      - [x] Display a pie chart with percentage values for each spending category.
@@ -107,6 +107,7 @@ To learn more about the needs of the user, please read the [Project Brief](ux/Pr
   - [x] Load 5 recent transactions from CSV file.
   - [x] Output transactions data as a date, payee and amount.
   - [x] Sort transactions in descending order.
+  - [x] Filter data by each month or full year.
 - As a user, I want to access all transactions, so that, I can see all of my transactions.
   - [x] Add 'View all transactions' button.
 
@@ -139,7 +140,7 @@ _Feature Request!_
 
 _Features to be implemented in the future:_
 
-- Filter recent transaction based on chart selection
+- Calculate balance and plot data on chart
 - View an individual transaction
 - Add new transaction
 - Edit current transaction
