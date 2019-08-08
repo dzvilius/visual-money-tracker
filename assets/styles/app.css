@@ -109,9 +109,55 @@ body {
   height: 100%;
 }
 
+.DataOverview__header {
+  position: relative;
+}
+
 .DataOverview__headline {
-  font-size: 20px;
-  margin-bottom: 24px;
+  font-size: 24px;
+  margin-bottom: 60px;
+}
+
+.DataOverview__selector {
+  position: absolute;
+  top: 2px;
+  right: 0;
+  width: 100px;
+}
+
+.DataOverview__selector select {
+  display: block;
+  font-size: 14px;
+  width: 100%;
+  text-align: right;
+  user-select: none;
+  height: 24px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+.DataOverview__item {
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+.DataOverview__item--income {
+  border-left: 4px solid #AADD55;
+}
+
+.DataOverview__item--spending {
+  border-left: 4px solid #FF715B;
+}
+
+.DataOverview__item--balance {
+  border-left: 4px solid #8899cc;
+}
+
+.DataOverview__item-headline {
+  display: inline-block;
+  min-width: 150px;
+  font-weight: 600;
 }
 
 /* OVERVIEW CHART =========================================================== */

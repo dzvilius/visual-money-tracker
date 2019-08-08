@@ -259,12 +259,15 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     .height(260)
     .colors(d3.scaleOrdinal(d3.schemeSet2))
     .chart(function(c) {
-      return dc.lineChart(c).curve(d3.curveCardinal).renderArea(true)
+      return dc
+        .lineChart(c)
+        .curve(d3.curveCardinal)
+        .renderArea(true)
     })
     .x(d3.scaleLinear().domain([minDate, maxDate]))
     .brushOn(false)
     .clipPadding(10)
-    .ordinalColors(['#AADD55','#FF715B'])
+    .ordinalColors(['#AADD55', '#FF715B'])
     .elasticY(true)
     .elasticX(true)
     .yAxisPadding('30%')

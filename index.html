@@ -56,26 +56,21 @@
             <div class="DataOverview">
               <div class="DataOverview__body">
 
-                <h1 class="DataOverview__headline">Overview</h1>
-                <div class="DataOverview__item">
+                <div class="DataOverview__header">
+                  <h1 class="DataOverview__headline">Overview</h1>
+                  <div class="DataOverview__selector" id="timeframeSelectMenu"></div>
+                </div>
+                <div class="DataOverview__item DataOverview__item--income">
                   <span class="DataOverview__item-headline">Income:</span>
                   <span class="DataOverview__item-amount" id="numberDisplayYearIncome"></span>
                 </div>
-                <div class="DataOverview__item">
+                <div class="DataOverview__item DataOverview__item--spending">
                   <span class="DataOverview__item-headline">Spending:</span>
                   <span class="DataOverview__item-amount" id="numberDisplayYearSpending"></span>
                 </div>
-                <div class="DataOverview__item">
+                <div class="DataOverview__item DataOverview__item--balance">
                   <span class="DataOverview__item-headline">Balance:</span>
                   <span class="DataOverview__item-amount" id="numberDisplayYearBalance"></span>
-                </div>
-
-                <div id="timeframeSelectMenu">
-                  <div>
-                    <a class='reset'
-                        href='javascript:timeframeSelectMenu.filterAll();dc.redrawAll();'
-                        style='visibility: hidden;'>reset</a>
-                  </div>
                 </div>
 
               </div>
