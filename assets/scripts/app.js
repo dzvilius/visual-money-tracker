@@ -164,6 +164,7 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
 
   // Render number display with income total for 12 months
   numberDisplayYearIncome
+    //.transitionDuration(0)
     .formatNumber(function(d) {
       return '€' + d3.format(',')(d)
     })
@@ -205,6 +206,7 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
 
   // Render line chart with 12 month overview
   chartYearOverview
+    .transitionDuration(400)
     .margins({ top: 20, left: 20, right: 20, bottom: 40 })
     .width(null)
     .height(260)
@@ -250,6 +252,7 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
 
   // Render pie chart with income breakdown
   pieChartIncome
+    .transitionDuration(800)
     .width(290)
     .height(290)
     .innerRadius(60)
@@ -280,6 +283,7 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
 
   // Render pie chart with spending breakdown
   pieChartSpending
+    .transitionDuration(800)
     .width(290)
     .height(290)
     .innerRadius(60)
