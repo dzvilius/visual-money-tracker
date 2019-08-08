@@ -80,6 +80,7 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
           .toString()
           .replace(/\B(?=(\d{3})+(?!\d))/g, ',')
     }
+
     d.amount = Math.abs(d.amount_in - d.amount_out)
   })
 
@@ -174,7 +175,7 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
   })
 
   var balanceTest = typeDim.group().reduceSum(function(d) {
-    return +d.amount
+    return +d.amount_out
   })
 
   // Month group
@@ -213,7 +214,7 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
   numberDisplayYearIncome
     .transitionDuration(600)
     .formatNumber(function(d) {
-      return '€' + d3.format(',.2r')(d)
+      return '€' + d3.format(',.3s')(d)
     })
     .group(totalInGroup)
   numberDisplayYearIncome.render()
@@ -222,7 +223,7 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
   numberDisplayYearSpending
     .transitionDuration(600)
     .formatNumber(function(d) {
-      return '€' + d3.format(',.2r')(d)
+      return '€' + d3.format(',.3s')(d)
     })
     .group(totalOutGroup)
   numberDisplayYearSpending.render()
@@ -232,7 +233,7 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     .transitionDuration(600)
     .formatNumber(function(d) {
       // TO DO: calculate balance
-      return '€' + d3.format(',.2r')(1000)
+      return '€' + d3.format(',.3s')(99999)
     })
     .group(balanceTest)
   numberDisplayYearBalance.render()
@@ -240,7 +241,7 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
   // Render number display with income total
   numberDisplayIncome
     .formatNumber(function(d) {
-      return '€' + d3.format(',.2r')(d)
+      return '€' + d3.format(',.5r')(d)
     })
     .group(totalInGroup)
   numberDisplayIncome.render()
@@ -248,7 +249,7 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
   // Render number display with spending total
   numberDisplaySpending
     .formatNumber(function(d) {
-      return '€' + d3.format(',.2r')(d)
+      return '€' + d3.format(',.5r')(d)
     })
     .group(totalOutGroup)
   numberDisplaySpending.render()
@@ -269,7 +270,7 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     .x(d3.scaleLinear().domain([minDate, maxDate]))
     .brushOn(false)
     .clipPadding(10)
-    .ordinalColors(['#AADD55', '#FF715B'])
+    .ordinalColors(['#66c2a5', '#F45B69'])
     .elasticY(true)
     .elasticX(true)
     .yAxisPadding('30%')
@@ -367,6 +368,33 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     })
   pieChartSpending.render()
 
+  // Render table with 10 recent transactions
+  tableRecentTransactions
+    .dimension(orderDim)
+    .size(10)
+    .showSections(false)
+    .columns([
+      'date',
+      'payee',
+      {
+        label: 'In',
+        format: function(d) {
+          return d.inSt
+        },
+      },
+      {
+        label: 'Out',
+        format: function(d) {
+          return d.outSt
+        },
+      },
+    ])
+    .sortBy(function(d) {
+      return d.order
+    })
+    .order(d3.descending)
+  tableRecentTransactions.render()
+
   // Render table with all transactions
   tableAllTransactions
     .dimension(orderDim)
@@ -393,31 +421,4 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     })
     .order(d3.descending)
   tableAllTransactions.render()
-
-  // Render table with 5 recent transactions
-  tableRecentTransactions
-    .dimension(orderDim)
-    .size(5)
-    .showSections(false)
-    .columns([
-      'date',
-      'payee',
-      {
-        label: 'In',
-        format: function(d) {
-          return d.inSt
-        },
-      },
-      {
-        label: 'Out',
-        format: function(d) {
-          return d.outSt
-        },
-      },
-    ])
-    .sortBy(function(d) {
-      return d.order
-    })
-    .order(d3.descending)
-  tableRecentTransactions.render()
 })

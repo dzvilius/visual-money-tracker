@@ -104,7 +104,7 @@ To learn more about the needs of the user, please read the [Project Brief](ux/Pr
 **_(6) - "As a user, I want to see my recent transactions, so that, I know where I spent my money lately."_**
 
 - As a user, I want to view recent transactions, so that, I can see my latest income and spending.
-  - [x] Load 5 recent transactions from CSV file.
+  - [x] Load 10 recent transactions from CSV file.
   - [x] Output transactions data as a date, payee and amount.
   - [x] Sort transactions in descending order.
   - [x] Filter data by each month or full year.

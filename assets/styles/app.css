@@ -138,25 +138,32 @@ body {
 
 .DataOverview__item {
   font-size: 18px;
+  line-height: 28px;
   margin-bottom: 20px;
-  padding-left: 20px;
+  padding-left: 30px;
+  height: 30px;
 }
 
 .DataOverview__item--income {
-  border-left: 4px solid #AADD55;
+  border-left: 4px solid #66c2a5;
 }
 
 .DataOverview__item--spending {
-  border-left: 4px solid #FF715B;
+  border-left: 4px solid #F45B69;
 }
 
 .DataOverview__item--balance {
-  border-left: 4px solid #8899cc;
+  border-left: 4px solid #7BB2D9;
+}
+
+.DataOverview__item-amount {
+  font-size: 20px;
+  font-weight: 300;
 }
 
 .DataOverview__item-headline {
   display: inline-block;
-  min-width: 150px;
+  min-width: 120px;
   font-weight: 600;
 }
 
@@ -232,8 +239,8 @@ body {
 }
 
 .DataSummary__headline {
-  font-size: 22px;
-  margin-bottom: 10px;
+  font-size: 24px;
+  margin-bottom: 20px;
 }
 
 .DataSummary__chart {
@@ -259,7 +266,7 @@ body {
 
 .TransactionsList__body {
   background: #fff;
-  padding: 20px;
+  padding: 40px 20px;
   border-radius: 4px;
   height: 100%;
 }
@@ -272,6 +279,7 @@ body {
 
 .TransactionsList__headline {
   font-size: 20px;
+  padding: 0 10px;
   margin-bottom: 24px;
 }
 
@@ -281,6 +289,13 @@ body {
 
 .TransactionsList__table > table th:nth-child(1) {
   width: 90px;
+  padding-left: 10px;
+  text-align: left;
+}
+
+.TransactionsList__table > table td:nth-child(1) {
+  text-align: left;
+  padding-left: 10px;
 }
 
 .TransactionsList__table > table th:nth-child(3),
@@ -288,7 +303,8 @@ body {
 .TransactionsList__table > table th:nth-child(4),
 .TransactionsList__table > table td:nth-child(4) {
   text-align: right;
-  width: 90px;
+  padding-right: 10px;
+  width: 80px;
 }
 
 .TransactionsList__action {
