@@ -307,7 +307,7 @@ order,date,day,month,year,payee,category,account,type,amount_in,amount_out,id
 306,27-Oct-18,27,10,2018,Shop,Other,Cash,out,,4,d74cbe1e-46a1-42af-81be-0470fd6a9ad5
 307,29-Oct-18,29,10,2018,Spotify,Entertainment,Bank Account,out,,9,da3f94c3-2f10-4305-8b20-abcddb48ec90
 308,29-Oct-18,29,10,2018,Car Insurance,Auto,Bank Account,out,,95,4b30da63-093d-43f3-94a6-a17fb5a3f915
-309,29-Oct-18,29,10,2018,Online Work,Freelance,Bank Account,out,200,,46bcd832-130b-462d-a35c-8f4f1b01b578
+309,29-Oct-18,29,10,2018,Online Work,Freelance,Bank Account,in,200,,46bcd832-130b-462d-a35c-8f4f1b01b578
 310,31-Oct-18,31,10,2018,Parking,Auto,Cash,out,,1,2fad7d23-bb7e-47ec-898b-472ad46c6ebb
 311,31-Oct-18,31,10,2018,Groceries,Food,Cash,out,,65,346c945c-025d-41f9-816c-4b4d18a8d90f
 312,31-Oct-18,31,10,2018,Rent,Home,Bank Account,out,,1000,e4b08811-dbe0-404d-b021-47b843c7424b
