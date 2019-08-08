@@ -138,12 +138,16 @@ body {
 
 .DataSummary {
   background: #fff;
-  padding: 40px 20px 20px;
-  margin: 10px 0;
+  /* padding: 40px 20px 20px; */
+  /* margin: 10px 0; */
   border-radius: 4px;
+  /* height: 100%; */
+  min-height: 100%;
+  overflow: hidden;
 }
 
 .DataSummary__content {
+  padding-top: 40px;
   position: relative;
   text-align: center;
 }
@@ -162,15 +166,15 @@ body {
 }
 
 .DataSummary__chart-breakdown {
-  padding: 10px 0 20px;
+  padding-bottom: 40px;
 }
 
 /* TRANSACTIONS LIST ======================================================== */
 
 .TransactionsList {
   background: #fff;
-  padding: 20px;
-  margin: 10px 0;
+  padding: 30px 20px;
+  margin-top: 20px;
   border-radius: 4px;
 }
 
@@ -180,7 +184,7 @@ body {
 }
 
 .TransactionsList__table > table {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .TransactionsList__table > table th:nth-child(3),
@@ -203,5 +207,5 @@ body {
 }
 
 .AppFooter__copy {
-  padding: 12px;
+  padding: 24px 12px;
 }
