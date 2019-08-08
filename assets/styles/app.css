@@ -180,17 +180,18 @@ body {
 }
 
 .DataSummary__content {
-  padding-top: 40px;
+  padding-top: 20px;
   position: relative;
   text-align: center;
 }
 
 .DataSummary__headline {
-  font-size: 20px;
+  font-size: 22px;
+  margin-bottom: 10px;
 }
 
 .DataSummary__chart {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .DataSummary__pie-chart {
@@ -199,7 +200,8 @@ body {
 }
 
 .DataSummary__chart-breakdown {
-  padding-bottom: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /* TRANSACTIONS LIST ======================================================== */
