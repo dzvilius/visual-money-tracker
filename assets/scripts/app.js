@@ -81,10 +81,43 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
           .replace(/\B(?=(\d{3})+(?!\d))/g, ',')
     }
     d.amount = Math.abs(d.amount_in - d.amount_out)
+    d.balance = 0
   })
 
   // Set crossfilter
   var ndx = crossfilter(transactions)
+
+
+
+  //var all = ndx.groupAll()
+
+
+  var transactionTypeDim = ndx.dimension(function(d) {
+    return d.type
+  })
+
+  var transactionInDim = ndx.dimension(function(d) {
+    return [d.amount_in, d.amount_out]
+  })
+
+  var transactionInGrp = transactionTypeDim.group().reduceSum(function(d) {
+    return +d.amount_in
+  })
+
+  var transactionOutGrp = transactionTypeDim.group().reduceSum(function(d) {
+    return +d.amount_out
+  })
+
+  // var transactionBalanceGrp = transactionTypeDim.group().reduceSum(function(d) {
+  //   return d.amount_in
+  // })
+
+  var transactionBalanceGrp = transactionInDim.group().reduceSum(function(d) {
+    //d.balance = 1-2
+    return d.amount_in - d.amount_out
+  })
+
+  //console.log(totalTest)
 
   // Order dimension
   var orderDim = ndx.dimension(function(d) {
@@ -215,7 +248,7 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     .formatNumber(function(d) {
       return '€' + d3.format(',.3s')(d)
     })
-    .group(totalInGroup)
+    .group(transactionInGrp)
   numberDisplayYearIncome.render()
 
   // Render number display with spending total for 12 months
@@ -224,7 +257,7 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     .formatNumber(function(d) {
       return '€' + d3.format(',.3s')(d)
     })
-    .group(totalOutGroup)
+    .group(transactionOutGrp)
   numberDisplayYearSpending.render()
 
   // Render number display with balance for 12 months
@@ -232,9 +265,10 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     .transitionDuration(600)
     .formatNumber(function(d) {
       // TO DO: calculate balance
-      return '€' + d3.format(',.3s')(d)
+      //return '€' + d3.format(',.3s')(d)
+      return d
     })
-    .group(totalBalance)
+    .group(transactionBalanceGrp)
   numberDisplayYearBalance.render()
 
   // Render number display with income total
