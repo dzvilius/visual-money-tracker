@@ -1,0 +1,49 @@
+order,date,day,month,year,payee,category,account,type,amount_in,amount_out,id
+1,01-Jan-18,15,1,2018,Company,Salary,Cash,in,3000,,91819322-37e4-4bfa-b87b-a3427ffd120b
+2,01-Jan-18,15,1,2018,Online Work,Freelance,Cash,in,3000,,91819322-37e4-4bfa-b87b-a3427ffd120b
+3,01-Jan-18,15,1,2018,Rent,House,Cash,out,,900,91819322-37e4-4bfa-b87b-a3427ffd120b
+4,01-Jan-18,15,1,2018,Tax,Car,Cash,out,,100,91819322-37e4-4bfa-b87b-a3427ffd120b
+5,01-Jan-18,15,2,2018,Company,Salary,Cash,in,3000,,91819322-37e4-4bfa-b87b-a3427ffd120b
+6,01-Jan-18,15,2,2018,Online Work,Freelance,Cash,in,3000,,91819322-37e4-4bfa-b87b-a3427ffd120b
+7,01-Jan-18,15,2,2018,Rent,House,Cash,out,,900,91819322-37e4-4bfa-b87b-a3427ffd120b
+8,01-Jan-18,15,2,2018,Tax,Car,Cash,out,,100,91819322-37e4-4bfa-b87b-a3427ffd120b
+9,01-Jan-18,15,3,2018,Company,Salary,Cash,in,3000,,91819322-37e4-4bfa-b87b-a3427ffd120b
+10,01-Jan-18,15,3,2018,Online Work,Freelance,Cash,in,3000,,91819322-37e4-4bfa-b87b-a3427ffd120b
+11,01-Jan-18,15,3,2018,Rent,House,Cash,out,,900,91819322-37e4-4bfa-b87b-a3427ffd120b
+12,01-Jan-18,15,3,2018,Tax,Car,Cash,out,,100,91819322-37e4-4bfa-b87b-a3427ffd120b
+13,01-Jan-18,15,4,2018,Company,Salary,Cash,in,3000,,91819322-37e4-4bfa-b87b-a3427ffd120b
+14,01-Jan-18,15,4,2018,Online Work,Freelance,Cash,in,3000,,91819322-37e4-4bfa-b87b-a3427ffd120b
+15,01-Jan-18,15,4,2018,Rent,House,Cash,out,,900,91819322-37e4-4bfa-b87b-a3427ffd120b
+16,01-Jan-18,15,4,2018,Tax,Car,Cash,out,,100,91819322-37e4-4bfa-b87b-a3427ffd120b
+17,01-Jan-18,15,5,2018,Company,Salary,Cash,in,3000,,91819322-37e4-4bfa-b87b-a3427ffd120b
+18,01-Jan-18,15,5,2018,Online Work,Freelance,Cash,in,3000,,91819322-37e4-4bfa-b87b-a3427ffd120b
+19,01-Jan-18,15,5,2018,Rent,House,Cash,out,,900,91819322-37e4-4bfa-b87b-a3427ffd120b
+20,01-Jan-18,15,5,2018,Tax,Car,Cash,out,,100,91819322-37e4-4bfa-b87b-a3427ffd120b
+21,01-Jan-18,15,6,2018,Company,Salary,Cash,in,3000,,91819322-37e4-4bfa-b87b-a3427ffd120b
+22,01-Jan-18,15,6,2018,Online Work,Freelance,Cash,in,3000,,91819322-37e4-4bfa-b87b-a3427ffd120b
+23,01-Jan-18,15,6,2018,Rent,House,Cash,out,,900,91819322-37e4-4bfa-b87b-a3427ffd120b
+24,01-Jan-18,15,6,2018,Tax,Car,Cash,out,,100,91819322-37e4-4bfa-b87b-a3427ffd120b
+25,01-Jan-18,15,7,2018,Company,Salary,Cash,in,3000,,91819322-37e4-4bfa-b87b-a3427ffd120b
+26,01-Jan-18,15,7,2018,Online Work,Freelance,Cash,in,3000,,91819322-37e4-4bfa-b87b-a3427ffd120b
+27,01-Jan-18,15,7,2018,Rent,House,Cash,out,,900,91819322-37e4-4bfa-b87b-a3427ffd120b
+28,01-Jan-18,15,7,2018,Tax,Car,Cash,out,,100,91819322-37e4-4bfa-b87b-a3427ffd120b
+29,01-Jan-18,15,8,2018,Company,Salary,Cash,in,3000,,91819322-37e4-4bfa-b87b-a3427ffd120b
+30,01-Jan-18,15,8,2018,Online Work,Freelance,Cash,in,3000,,91819322-37e4-4bfa-b87b-a3427ffd120b
+31,01-Jan-18,15,8,2018,Rent,House,Cash,out,,900,91819322-37e4-4bfa-b87b-a3427ffd120b
+32,01-Jan-18,15,8,2018,Tax,Car,Cash,out,,100,91819322-37e4-4bfa-b87b-a3427ffd120b
+33,01-Jan-18,15,9,2018,Company,Salary,Cash,in,3000,,91819322-37e4-4bfa-b87b-a3427ffd120b
+34,01-Jan-18,15,9,2018,Online Work,Freelance,Cash,in,3000,,91819322-37e4-4bfa-b87b-a3427ffd120b
+35,01-Jan-18,15,9,2018,Rent,House,Cash,out,,900,91819322-37e4-4bfa-b87b-a3427ffd120b
+36,01-Jan-18,15,9,2018,Tax,Car,Cash,out,,100,91819322-37e4-4bfa-b87b-a3427ffd120b
+37,01-Jan-18,15,10,2018,Company,Salary,Cash,in,3000,,91819322-37e4-4bfa-b87b-a3427ffd120b
+38,01-Jan-18,15,10,2018,Online Work,Freelance,Cash,in,3000,,91819322-37e4-4bfa-b87b-a3427ffd120b
+39,01-Jan-18,15,10,2018,Rent,House,Cash,out,,900,91819322-37e4-4bfa-b87b-a3427ffd120b
+40,01-Jan-18,15,10,2018,Tax,Car,Cash,out,,100,91819322-37e4-4bfa-b87b-a3427ffd120b
+41,01-Jan-18,15,11,2018,Company,Salary,Cash,in,3000,,91819322-37e4-4bfa-b87b-a3427ffd120b
+42,01-Jan-18,15,11,2018,Online Work,Freelance,Cash,in,3000,,91819322-37e4-4bfa-b87b-a3427ffd120b
+43,01-Jan-18,15,11,2018,Rent,House,Cash,out,,900,91819322-37e4-4bfa-b87b-a3427ffd120b
+44,01-Jan-18,15,11,2018,Tax,Car,Cash,out,,100,91819322-37e4-4bfa-b87b-a3427ffd120b
+45,01-Jan-18,15,12,2018,Company,Salary,Cash,in,3000,,91819322-37e4-4bfa-b87b-a3427ffd120b
+46,01-Jan-18,15,12,2018,Online Work,Freelance,Cash,in,3000,,91819322-37e4-4bfa-b87b-a3427ffd120b
+47,01-Jan-18,15,12,2018,Rent,House,Cash,out,,900,91819322-37e4-4bfa-b87b-a3427ffd120b
+48,01-Jan-18,15,12,2018,Tax,Car,Cash,out,,100,91819322-37e4-4bfa-b87b-a3427ffd120b

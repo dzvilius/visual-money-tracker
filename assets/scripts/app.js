@@ -80,7 +80,6 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
           .toString()
           .replace(/\B(?=(\d{3})+(?!\d))/g, ',')
     }
-
     d.amount = Math.abs(d.amount_in - d.amount_out)
   })
 
@@ -174,7 +173,7 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     return +d.amount_out
   })
 
-  var balanceTest = typeDim.group().reduceSum(function(d) {
+  var totalBalance = typeDim.group().reduceSum(function(d) {
     return +d.amount_out
   })
 
@@ -233,9 +232,9 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     .transitionDuration(600)
     .formatNumber(function(d) {
       // TO DO: calculate balance
-      return '€' + d3.format(',.3s')(99999)
+      return '€' + d3.format(',.3s')(d)
     })
-    .group(balanceTest)
+    .group(totalBalance)
   numberDisplayYearBalance.render()
 
   // Render number display with income total
