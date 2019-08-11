@@ -1,5 +1,5 @@
 order,date,day,month,year,payee,category,account,type,amount,id
-1,01-Jan-18,1,1,2018,Company,Salary,Bank Account,in,3000,91819322-37e4-4bfa-b87b-a3427ffd120b
+1,10-Jan-18,10,1,2018,Company,Salary,Bank Account,in,3000,91819322-37e4-4bfa-b87b-a3427ffd120b
 2,01-Jan-18,1,1,2018,Groceries,Food,Cash,out,-57,4208cf27-af23-4dd2-90d4-ec1a1c6156c1
 3,01-Jan-18,1,1,2018,Fuel,Auto,Cash,out,-50,3f0eeafd-a088-4b1b-8c45-54e0e68dff8b
 4,02-Jan-18,2,1,2018,Parking,Auto,Cash,out,-1,9147c756-5256-4115-88db-bdc45927b26d
@@ -235,7 +235,7 @@ order,date,day,month,year,payee,category,account,type,amount,id
 234,18-Aug-18,18,8,2018,Shop,Other,Bank Account,out,-23,e4eeefca-e1b6-4292-8e8c-5d3a72eba9da
 235,19-Aug-18,19,8,2018,Shop,Other,Bank Account,out,-12,89a09053-c566-49b6-81d5-85f915fe480d
 236,22-Aug-18,22,8,2018,Shop,Other,Bank Account,out,-5,b29f1188-8c0e-4ec5-85fd-07f2bea236db
-237,23-Aug-18,23,8,2018,Shop,Other,Cash,out,-17,d3440b8c-6990-4bd1-98b1-b1ceb402fbdd
+237,23-Aug-18,23,8,2018,Shop,Other,Cash,out,-1700,d3440b8c-6990-4bd1-98b1-b1ceb402fbdd
 238,24-Aug-18,24,8,2018,Shop,Other,Cash,out,-4,ccc55ad8-db19-4a37-accb-25ec05440be8
 239,24-Aug-18,24,8,2018,Parking,Auto,Cash,out,-1,a5611bab-b37b-4b1e-8ed1-b0080562fdf9
 240,25-Aug-18,25,8,2018,Shop,Other,Cash,out,-12,44ee50b0-6f36-43da-a3b8-1d172b55da6d
@@ -246,7 +246,7 @@ order,date,day,month,year,payee,category,account,type,amount,id
 245,28-Aug-18,28,8,2018,Spotify,Entertainment,Bank Account,out,-9,c61ce4b1-4df4-42b0-9cb0-8b2acf477241
 246,31-Aug-18,31,8,2018,Parking,Auto,Cash,out,-1,6aee55e7-d0b6-4f03-8240-04e5033a694a
 247,01-Sep-18,1,9,2018,Company,Salary,Bank Account,in,4000,51ff2571-5854-44ea-98d4-838a09376a08
-248,06-Sep-18,6,9,2018,Shop,Other,Cash,out,-5,b81e9807-7d0a-4190-8c83-b6675177cb7a
+248,06-Sep-18,6,9,2018,Fix,Auto,Cash,out,-2000,b81e9807-7d0a-4190-8c83-b6675177cb7a
 249,07-Sep-18,7,9,2018,Shop,Other,Cash,out,-17,161a2a43-a8b8-480d-99d7-0ea1600776ed
 250,07-Sep-18,7,9,2018,Groceries,Food,Cash,out,-90,585e8658-1825-46ca-9c87-be874a2f0b0b
 251,08-Sep-18,8,9,2018,Shop,Other,Cash,out,-12,0967a89d-aab9-4fa0-aeec-4875a298dfd7

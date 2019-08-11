@@ -14,7 +14,7 @@ var numberDisplayYearSpending = dc.numberDisplay('#numberDisplayYearSpending')
 var numberDisplayYearBalance = dc.numberDisplay('#numberDisplayYearBalance')
 
 // Income, Spending and Balance line chart for 12 months
-var chartYearOverview = dc.seriesChart('#chartYearOverview')
+var chartYearOverview = dc.compositeChart('#chartYearOverview')
 
 // Total income for current month number display
 var numberDisplayIncome = dc.numberDisplay('#numberDisplayIncome')
@@ -93,6 +93,22 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
 
   // Set crossfilter
   var ndx = crossfilter(transactions)
+
+  var monthDimX = ndx.dimension(function(d) {
+    return d.month
+  })
+
+  var inGrpX = monthDimX.group().reduceSum(function(d) {
+    return d.amount_in
+  })
+
+  var outGrpX = monthDimX.group().reduceSum(function(d) {
+    return d.amount_out
+  })
+
+  var balGrpX = monthDimX.group().reduceSum(function(d) {
+    return d.amount
+  })
 
   var transactionTypeDim = ndx.dimension(function(d) {
     return d.type
@@ -277,7 +293,7 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
   numberDisplayIncome
     .transitionDuration(300)
     .formatNumber(function(d) {
-      return '€' + d3.format(',.5r')(d)
+      return '€' + d3.format(',.4r')(d)
     })
     .group(totalInGroup)
   numberDisplayIncome.render()
@@ -286,46 +302,43 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
   numberDisplaySpending
     .transitionDuration(300)
     .formatNumber(function(d) {
-      return '€' + d3.format(',.5r')(d)
+      return '€' + d3.format(',.4r')(d)
     })
     .group(totalOutGroup)
   numberDisplaySpending.render()
 
   // Render line chart with 12 month overview
   chartYearOverview
-    .transitionDuration(400)
-    .margins({ top: 20, left: 0, right: 10, bottom: 40 })
+    .transitionDuration(600)
     .width(null)
-    .height(260)
+    .height(240)
+    .margins({ top: 0, left: 50, right: 10, bottom: 30 })
     .colors(d3.scaleOrdinal(d3.schemeSet2))
-    .chart(function(c) {
-      return dc
-        .lineChart(c)
-        .curve(d3.curveCardinal)
-        .renderArea(true)
-    })
     .x(d3.scaleLinear().domain([minDate, maxDate]))
     .brushOn(false)
-    .clipPadding(10)
-    .ordinalColors(['#66c2a5', '#F45B69'])
+    .yAxisPadding('20%')
+    .compose([
+      dc
+        .lineChart(chartYearOverview)
+        .dimension(typeMonthDim)
+        .colors('#66c2a5')
+        .group(inGrpX)
+        .renderArea(true)
+        .curve(d3.curveCardinal)
+        .dashStyle([1, 0]),
+      dc
+        .lineChart(chartYearOverview)
+        .dimension(typeMonthDim)
+        .colors('#F45B69')
+        .group(outGrpX)
+        .renderArea(true)
+        .curve(d3.curveCardinal)
+        .dashStyle([1, 0]),
+    ])
     .elasticY(true)
     .elasticX(true)
-    .yAxisPadding('30%')
-    .dimension(typeMonthDim)
-    .group(totalAmountGroup)
-    .mouseZoomable(false)
-    .seriesAccessor(function(d) {
-      return d.key[0]
-    })
-    .keyAccessor(function(d) {
-      return +d.key[1]
-    })
-    .valueAccessor(function(d) {
-      return +d.value
-    })
-    .childOptions({
-      renderDataPoints: { radius: 3, fillOpacity: 1, strokeOpacity: 1 },
-    })
+    .brushOn(false)
+    .renderHorizontalGridLines(true)
     .legend(
       dc
         .htmlLegend()
@@ -335,11 +348,13 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
           return capitalize(d.name)
         })
     )
-  chartYearOverview.yAxis().tickFormat(function(d) {
-    return '€' + d3.format(',d')(d)
-  })
-
-  chartYearOverview.margins().left += 50
+    .childOptions({
+      renderDataPoints: { radius: 4, fillOpacity: 1, strokeOpacity: 1 },
+    })
+    .yAxis()
+    .tickFormat(function(d) {
+      return '€' + d3.format(',d')(d)
+    })
   chartYearOverview.render()
 
   // Render pie chart with income breakdown
