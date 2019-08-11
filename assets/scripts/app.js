@@ -64,60 +64,55 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
   transactions.forEach(function(d) {
     d.order = Number(d.order)
     d.date = dateFormat(new Date(d.date))
-    if (d.amount_in !== '') {
-      d.inSt =
+    d.day = Number(d.day)
+    d.month = Number(d.month)
+    d.amount = Number(d.amount)
+    if (d.amount > 0) {
+      d.amount_in = Number(d.amount)
+      d.amount_out = 0
+      d.amount_in_str =
         '€' +
         Number(d.amount_in)
           .toFixed(2)
           .toString()
           .replace(/\B(?=(\d{3})+(?!\d))/g, ',')
+      d.amount_out_str = ''
     }
-    if (d.amount_out !== '') {
-      d.outSt =
+    if (d.amount < 0) {
+      d.amount_in = 0
+      d.amount_out = Math.abs(d.amount)
+      d.amount_in_str = ''
+      d.amount_out_str =
         '€' +
         Number(d.amount_out)
           .toFixed(2)
           .toString()
           .replace(/\B(?=(\d{3})+(?!\d))/g, ',')
     }
-    d.amount = Math.abs(d.amount_in - d.amount_out)
-    d.balance = 0
   })
 
   // Set crossfilter
   var ndx = crossfilter(transactions)
 
-
-
-  //var all = ndx.groupAll()
-
-
   var transactionTypeDim = ndx.dimension(function(d) {
     return d.type
   })
 
-  var transactionInDim = ndx.dimension(function(d) {
-    return [d.amount_in, d.amount_out]
+  var transactionOutDim = ndx.dimension(function(d) {
+    return d.type
   })
 
-  var transactionInGrp = transactionTypeDim.group().reduceSum(function(d) {
-    return +d.amount_in
+  var transactionInGrp = ndx.groupAll().reduceSum(function(d) {
+    return d.amount_in
   })
 
-  var transactionOutGrp = transactionTypeDim.group().reduceSum(function(d) {
-    return +d.amount_out
+  var transactionOutGrp = ndx.groupAll().reduceSum(function(d) {
+    return d.amount_out
   })
 
-  // var transactionBalanceGrp = transactionTypeDim.group().reduceSum(function(d) {
-  //   return d.amount_in
-  // })
-
-  var transactionBalanceGrp = transactionInDim.group().reduceSum(function(d) {
-    //d.balance = 1-2
-    return d.amount_in - d.amount_out
+  var transactionBalanceGrp = ndx.groupAll().reduceSum(function(d) {
+    return d.amount
   })
-
-  //console.log(totalTest)
 
   // Order dimension
   var orderDim = ndx.dimension(function(d) {
@@ -126,49 +121,49 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
 
   // Month dimension
   var monthDim = ndx.dimension(function(d) {
-    var month = +d.month
-    var monthText = ''
+    var month = d.month
+    var month_str = ''
 
     switch (month) {
       case 1:
-        monthText = 'January'
+        month_str = 'January'
         break
       case 2:
-        monthText = 'February'
+        month_str = 'February'
         break
       case 3:
-        monthText = 'March'
+        month_str = 'March'
         break
       case 4:
-        monthText = 'April'
+        month_str = 'April'
         break
       case 5:
-        monthText = 'May'
+        month_str = 'May'
         break
       case 6:
-        monthText = 'June'
+        month_str = 'June'
         break
       case 7:
-        monthText = 'July'
+        month_str = 'July'
         break
       case 8:
-        monthText = 'August'
+        month_str = 'August'
         break
       case 9:
-        monthText = 'September'
+        month_str = 'September'
         break
       case 10:
-        monthText = 'October'
+        month_str = 'October'
         break
       case 11:
-        monthText = 'November'
+        month_str = 'November'
         break
       case 12:
-        monthText = 'December'
+        month_str = 'December'
         break
     }
 
-    return [('0' + month).slice(-2), monthText]
+    return [('0' + month).slice(-2), month_str]
   })
 
   // Category dimension
@@ -183,7 +178,7 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
 
   // Type + Month dimension
   var typeMonthDim = ndx.dimension(function(d) {
-    return [d.type, +d.month]
+    return [d.type, d.month]
   })
 
   // Income group
@@ -215,7 +210,7 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
 
   // Total amount group
   var totalAmountGroup = typeMonthDim.group().reduceSum(function(d) {
-    return +d.amount
+    return d.amount
   })
 
   // Start of the year
@@ -244,28 +239,35 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
 
   // Render number display with income total for 12 months
   numberDisplayYearIncome
-    .transitionDuration(600)
+    .transitionDuration(300)
     .formatNumber(function(d) {
       return '€' + d3.format(',.3s')(d)
+    })
+    .valueAccessor(function(d) {
+      return d
     })
     .group(transactionInGrp)
   numberDisplayYearIncome.render()
 
   // Render number display with spending total for 12 months
   numberDisplayYearSpending
-    .transitionDuration(600)
+    .transitionDuration(300)
     .formatNumber(function(d) {
       return '€' + d3.format(',.3s')(d)
+    })
+    .valueAccessor(function(d) {
+      return d
     })
     .group(transactionOutGrp)
   numberDisplayYearSpending.render()
 
   // Render number display with balance for 12 months
   numberDisplayYearBalance
-    .transitionDuration(600)
+    .transitionDuration(300)
     .formatNumber(function(d) {
-      // TO DO: calculate balance
-      //return '€' + d3.format(',.3s')(d)
+      return '€' + d3.format(',.3s')(d)
+    })
+    .valueAccessor(function(d) {
       return d
     })
     .group(transactionBalanceGrp)
@@ -273,6 +275,7 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
 
   // Render number display with income total
   numberDisplayIncome
+    .transitionDuration(300)
     .formatNumber(function(d) {
       return '€' + d3.format(',.5r')(d)
     })
@@ -281,6 +284,7 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
 
   // Render number display with spending total
   numberDisplaySpending
+    .transitionDuration(300)
     .formatNumber(function(d) {
       return '€' + d3.format(',.5r')(d)
     })
@@ -412,13 +416,13 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
       {
         label: 'In',
         format: function(d) {
-          return d.inSt
+          return d.amount_in_str
         },
       },
       {
         label: 'Out',
         format: function(d) {
-          return d.outSt
+          return d.amount_out_str
         },
       },
     ])
@@ -439,13 +443,13 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
       {
         label: 'In',
         format: function(d) {
-          return d.inSt
+          return d.amount_in_str
         },
       },
       {
         label: 'Out',
         format: function(d) {
-          return d.outSt
+          return d.amount_out_str
         },
       },
     ])
