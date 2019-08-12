@@ -27,7 +27,7 @@ To learn more about the needs of the user, please read the [Project Brief](ux/Pr
 
 **_(1) - "As a user, I want to navigate around the app, so that, I can access the sections I need."_**
 
-- As a user, I want to navigate to main page, so that, I can see the dashboard.
+- As a user, I want to navigate to main page, so that, I can see the home page.
   - [x] Add logo with hyperlink to home page.
   - [x] Add menu hyperlink to home page.
 - As a user, I want to navigate to transactions page, so that, I can see the list of transactions.
@@ -49,8 +49,8 @@ To learn more about the needs of the user, please read the [Project Brief](ux/Pr
   - [x] Output value in Euros.
 - As a user, I want to see my balance, so that, I can see how much I have.
   - [x] Add item name.
-  - [ ] Calculate 12 months balance and output value in euros.
-  - [ ] Output value in Euros.
+  - [x] Calculate 12 months balance and output value in euros.
+  - [x] Output value in Euros.
 
 ---
 
@@ -66,10 +66,10 @@ To learn more about the needs of the user, please read the [Project Brief](ux/Pr
   - [x] Calculate monthly total.
   - [x] Display a line chart with data points for each month.
   - [x] Make the line red.
-- ~~As a user, I want to see my balance visually, so that, I know how my balance changed over the year.~~
-  - [ ] ~~Calculate monthly total.~~
-  - [ ] ~~Display a line chart with data points for each month.~~
-  - [ ] ~~Make the line blue.~~
+- As a user, I want to see my balance visually, so that, I know how my balance changed over the year.
+  - [x] Calculate monthly total.
+  - [x] Display a line chart with data points for each month.
+  - [x] Make the line blue.
 - As a user, I want choose what data to display, so that, I can personalise my experience.
   - [x] Create a chart data selector.
 
@@ -129,6 +129,23 @@ _Feature Request!_
 
 ---
 
+**_(9) - "As a user, I want to select individual months, so that, I can view transactions for selected months."_**
+
+- As a user, I want to select individual months, so that, I can view transactions for selected months.
+  - [x] All months visible.
+  - [x] Multiple selection.
+  - [x] Filter data for the selection
+
+---
+
+**_(10) - "As a user, I want to select individual years, so that, I can view transactions for selected years."_**
+
+- As a user, I want to select individual years, so that, I can view transactions for selected years.
+  - [x] Menu with year selection.
+  - [x] Filter data for the selection
+
+---
+
 
 ## Features
 
@@ -155,9 +172,9 @@ _The Mindmap_
 
 #### Wireframes
 
-_Dashboard view_
+_Home view_
 
-![alt text](ux/Wireframes/Dashboard.png)
+![alt text](ux/Wireframes/Home.png)
 
 _Transactions view_
 
