@@ -44,6 +44,12 @@ body {
   height: 60px;
   color: #fff;
   background: #485665;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
 }
 
 .AppNavbar__logo,
@@ -86,12 +92,12 @@ body {
 
 .DataOverview {
   height: 100%;
-  padding: 20px 0 10px 0;
+  padding: 80px 0 10px 0;
 }
 
 @media (min-width: 768px) {
   .DataOverview {
-    padding: 30px 0 10px 0;
+    padding: 90px 0 10px 0;
   }
 }
 
