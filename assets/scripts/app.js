@@ -338,12 +338,11 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     .group(typeInGrp)
   summaryInNumber.render()
 
-  // Only render on home page
   summaryInChart
     .transitionDuration(800)
     .width(290)
     .height(290)
-    .innerRadius(60)
+    .innerRadius(70)
     .externalLabels(30)
     .externalRadiusPadding(50)
     .dimension(categoryDim)
@@ -385,7 +384,7 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     .transitionDuration(800)
     .width(290)
     .height(290)
-    .innerRadius(60)
+    .innerRadius(70)
     .externalLabels(30)
     .externalRadiusPadding(50)
     .dimension(categoryDim)
