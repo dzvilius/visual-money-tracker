@@ -4,6 +4,8 @@
 // Set default colour scheme
 dc.config.defaultColors(d3.schemeSet2)
 
+var monthSelector = dc.cboxMenu('#monthSelector')
+
 // 12 months income number display
 var numberDisplayYearIncome = dc.numberDisplay('#numberDisplayYearIncome')
 
@@ -251,6 +253,18 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     return s.charAt(0).toUpperCase() + s.slice(1)
   }
 
+
+  monthSelector
+    .dimension(monthDim)
+    .group(monthGroup)
+    .multiple(true)
+    //    .numberVisible(10)
+    .controlsUseVisibility(true)
+  monthSelector.title(function(d) {
+    return d.key[1]
+  })
+  monthSelector.render()
+
   // Render timeframe select menu
   timeframeSelectMenu
     .dimension(monthDim)
@@ -321,7 +335,7 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     .transitionDuration(600)
     .width(null)
     .height(240)
-    .margins({ top: 0, left: 40, right: 0, bottom: 30 })
+    .margins({ top: 0, left: 40, right: 8, bottom: 30 })
     .colors(d3.scaleOrdinal(d3.schemeSet2))
     .x(d3.scaleLinear().domain([chartYearOverviewMinDate, chartYearOverviewMaxDate]))
     .brushOn(false)

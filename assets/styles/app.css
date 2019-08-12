@@ -92,12 +92,12 @@ body {
 
 .DataOverview {
   height: 100%;
-  padding: 20px 0;
+  padding: 20px 0 10px 0;
 }
 
 @media (min-width: 768px) {
   .DataOverview {
-    padding: 30px 0;
+    padding: 30px 0 10px 0;
   }
 }
 
@@ -152,15 +152,8 @@ body {
   font-size: 18px;
   line-height: 28px;
   margin-bottom: 20px;
-  margin-left: 20px;
   padding-left: 30px;
   height: 30px;
-}
-
-@media (min-width: 768px) {
-  .DataOverview__item {
-    margin-left: 0px;
-  }
 }
 
 .DataOverview__item--income {
@@ -241,6 +234,65 @@ body {
 
 .dc-chart svg {
   width: 100%;
+}
+
+/* MONTH SELECTOR =========================================================== */
+
+.MonthSelector {
+  margin-bottom: 10px;
+}
+
+.MonthSelector .dc-cbox-group {
+  list-style: none;
+  padding: 5px 0;
+  margin: 0;
+  text-align: center;
+}
+
+.MonthSelector .dc-cbox-item {
+  font-size: 12px;
+  padding: 5px 0;
+  width: 33%;
+  display: inline-block;
+}
+
+@media (min-width: 768px) {
+  .MonthSelector .dc-cbox-item {
+    width: 25%;
+  }
+}
+
+.MonthSelector .dc-cbox-item input {
+  display: none;
+}
+
+.MonthSelector .dc-cbox-item label {
+  border: 1px solid #ddd;
+  border-radius: 14px;
+  padding: 2px 0;
+  margin: 0;
+  min-width: 90px;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .MonthSelector .dc-cbox-item label {
+    min-width: 110px;
+  }
+}
+
+.MonthSelector .dc-cbox-item label:hover {
+  border: 1px solid #485665;
+}
+
+.MonthSelector .dc-cbox-item input:checked + label {
+  border: 1px solid #485665;
+  background: #485665;
+  color: #fff;
+}
+
+.MonthSelector input[type='reset'] {
+  display: none !important;
 }
 
 /* DATA SUMMARY ============================================================= */
