@@ -262,6 +262,12 @@ body {
   }
 }
 
+@media (min-width: 992px) {
+  .MonthSelector .dc-cbox-item {
+    width: 15%;
+  }
+}
+
 .MonthSelector .dc-cbox-item input {
   display: none;
 }
@@ -269,13 +275,19 @@ body {
 .MonthSelector .dc-cbox-item label {
   border: 1px solid #ddd;
   border-radius: 14px;
-  padding: 2px 0;
+  padding: 1px 0;
   margin: 0;
   min-width: 90px;
   cursor: pointer;
 }
 
 @media (min-width: 768px) {
+  .MonthSelector .dc-cbox-item label {
+    min-width: 100px;
+  }
+}
+
+@media (min-width: 992px) {
   .MonthSelector .dc-cbox-item label {
     min-width: 110px;
   }
