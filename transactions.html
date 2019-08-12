@@ -27,7 +27,7 @@
   </head>
 
   <body>
-    <div class="AppContainer" id="app">
+    <div class="AppContainer pageTransactions" id="app">
 
       <!-- <div id="htmlLegendIncome"></div> -->
 
@@ -49,22 +49,67 @@
       </nav>
 
       <div class="container">
+        <!-- DATA OVERVIEW -->
+        <div class="DataOverview">
+          <div class="DataOverview__body">
 
-        <!-- TRANSACTIONS LIST -->
-        <div class="TransactionsList">
-          <div class="TransactionsList__body">
+            <div class="DataOverview__selector" id="yearSelector"></div>
 
-            <h1 class="TransactionsList__headline">Transactions</h1>
-            <div class="TransactionsList__table">
-              <table
-                id="transactionsTableAll"
-                class="table table-striped table-bordered table-light table-sm"
-              ></table>
-            </div>
+            <div class="row">
+              <div class="col-12">
+
+                <div class="DataOverview__breakdown">
+                  <div class="DataOverview__header">
+                    <h1 class="DataOverview__headline">Overview</h1>
+                  </div>
+                  <div class="DataOverview__item DataOverview__item--income">
+                    <span class="DataOverview__item-headline">Income:</span>
+                    <span class="DataOverview__item-amount" id="numberDisplayOverviewInNumber"></span>
+                  </div>
+                  <div class="DataOverview__item DataOverview__item--spending">
+                    <span class="DataOverview__item-headline">Spending:</span>
+                    <span class="DataOverview__item-amount" id="numberDisplayOverviewOutNumber"></span>
+                  </div>
+                  <div class="DataOverview__item DataOverview__item--balance">
+                    <span class="DataOverview__item-headline">Balance:</span>
+                    <span class="DataOverview__item-amount" id="numberDisplayOverviewBalNumber"></span>
+                  </div>
+                </div>
+
+              </div><!-- .col -->
+            </div><!-- .row -->
 
           </div>
-        </div><!-- .TransactionsList -->
+        </div><!-- .DataOverview -->
+      </div><!-- .container -->
 
+      <div class="container">
+
+        <div class="MonthSelector" id="monthSelector"></div>
+
+        <div class="row">
+          <div class="col-12">
+
+            <div id="summaryInChartLegend"></div>
+            <div id="summaryOutChartLegend"></div>
+
+            <!-- TRANSACTIONS LIST -->
+            <div class="TransactionsList">
+              <div class="TransactionsList__body">
+
+                <h1 class="TransactionsList__headline">Transactions</h1>
+                <div class="TransactionsList__table">
+                  <table
+                    id="transactionsTableAll"
+                    class="table table-striped table-bordered table-light table-sm"
+                  ></table>
+                </div>
+
+              </div>
+            </div><!-- .TransactionsList -->
+
+          </div><!-- .col -->
+        </div><!-- .row -->
       </div><!-- .container -->
 
       <!-- APP FOOTER -->
@@ -79,7 +124,7 @@
     </div>
 
     <!-- D3, DC and Crossfilter -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.7/d3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.8.2/d3.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/crossfilter/1.3.12/crossfilter.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/dc/3.1.1/dc.min.js"></script>
 

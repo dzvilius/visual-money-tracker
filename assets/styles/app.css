@@ -145,15 +145,21 @@ body {
 
 .DataOverview__headline {
   font-size: 24px;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 
 .DataOverview__item {
   font-size: 18px;
-  line-height: 28px;
+  line-height: 30px;
   margin-bottom: 20px;
   padding-left: 30px;
-  height: 30px;
+}
+
+@media (min-width: 992px) {
+  .pageTransactions .DataOverview__item {
+    display: inline-block;
+    padding-right: 24px;
+  }
 }
 
 .DataOverview__item--income {
@@ -171,12 +177,21 @@ body {
 .DataOverview__item-amount {
   font-size: 20px;
   font-weight: 300;
+  position: relative;
+  bottom: -2px;
 }
 
 .DataOverview__item-headline {
   display: inline-block;
   min-width: 120px;
   font-weight: 600;
+}
+
+@media (min-width: 992px) {
+  .pageTransactions .DataOverview__item-headline {
+    min-width: auto;
+    padding-right: 10px;
+  }
 }
 
 .DataOverview__chart {
@@ -292,7 +307,7 @@ body {
 }
 
 .DataSummary__chart {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .DataSummary__pie-chart {
@@ -303,6 +318,11 @@ body {
 .DataSummary__chart-breakdown {
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.pageTransactions #summaryOutChartLegend,
+.pageTransactions #summaryInChartLegend {
+  display: none;
 }
 
 /* TRANSACTIONS LIST ======================================================== */
@@ -327,7 +347,7 @@ body {
 .TransactionsList__headline {
   font-size: 20px;
   padding: 0 10px;
-  margin-bottom: 24px;
+  margin-bottom: 40px;
   text-align: center;
 }
 

@@ -24,11 +24,13 @@ var overviewChart = dc.compositeChart('#overviewChart') // Overview chart
 
 var summaryInNumber = dc.numberDisplay('#summaryInNumber') // Income category number
 var summaryInChart = dc.pieChart('#summaryInChart') // Income category chart
+var summaryInChartLegend = document.getElementById('summaryInChartLegend') // Income category legend
 
 // SPENDING ================================================================= //
 
 var summaryOutNumber = dc.numberDisplay('#summaryOutNumber') // Spending category number
 var summaryOutChart = dc.pieChart('#summaryOutChart') // Spending category chart
+var summaryOutChartLegend = document.getElementById('summaryOutChartLegend') // Spending category legend
 
 // TRANSACTIONS ============================================================= //
 
@@ -284,7 +286,11 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     .height(240)
     .margins({ top: 0, left: 50, right: 8, bottom: 30 })
     .colors(d3.scaleOrdinal(d3.schemeSet2))
-    .x(d3.scaleLinear().domain([monthDim.bottom(1)[0].month, monthDim.top(1)[0].month]))
+    .x(
+      d3
+        .scaleLinear()
+        .domain([monthDim.bottom(1)[0].month, monthDim.top(1)[0].month])
+    )
     .brushOn(false)
     .yAxisPadding('20%')
     .compose([
@@ -332,6 +338,7 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     .group(typeInGrp)
   summaryInNumber.render()
 
+  // Only render on home page
   summaryInChart
     .transitionDuration(800)
     .width(290)
@@ -344,7 +351,7 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     .legend(
       dc
         .htmlLegend()
-        .container('#htmlLegendIncome')
+        .container(summaryInChartLegend)
         .legendText(function(d) {
           return d.name + ' - €' + d3.format(',')(d.data)
         })
@@ -386,7 +393,7 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     .legend(
       dc
         .htmlLegend()
-        .container('#htmlLegendSpending')
+        .container(summaryOutChartLegend)
         .horizontal(false)
         .legendText(function(d) {
           return d.name + ' - €' + d3.format(',')(d.data)
