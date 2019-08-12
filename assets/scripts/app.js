@@ -10,36 +10,36 @@ dc.config.defaultColors(d3.schemeSet2)
 
 // TIMEFRAME SELECTORS ====================================================== //
 
-var yearSelector = dc.selectMenu('#yearSelector') // Year
-var monthSelector = dc.cboxMenu('#monthSelector') // Month
+var yearSelector = dc.selectMenu('#yearSelector') // Year select menu
+var monthSelector = dc.cboxMenu('#monthSelector') // Month select menu
 
 // OVERVIEW ================================================================= //
 
-var overviewInNumber = dc.numberDisplay('#numberDisplayOverviewInNumber') // In
-var overviewOutNumber = dc.numberDisplay('#numberDisplayOverviewOutNumber') // Out
-var overviewBalNumber = dc.numberDisplay('#numberDisplayOverviewBalNumber') // Balance
-var overviewChart = dc.compositeChart('#overviewChart')
+var overviewInNumber = dc.numberDisplay('#numberDisplayOverviewInNumber') // Overview income number
+var overviewOutNumber = dc.numberDisplay('#numberDisplayOverviewOutNumber') // Overview spending number
+var overviewBalNumber = dc.numberDisplay('#numberDisplayOverviewBalNumber') // Overview balance number
+var overviewChart = dc.compositeChart('#overviewChart') // Overview chart
 
 // INCOME =================================================================== //
 
-var summaryInNumber = dc.numberDisplay('#summaryInNumber')
-var summaryInChart = dc.pieChart('#summaryInChart')
+var summaryInNumber = dc.numberDisplay('#summaryInNumber') // Income category number
+var summaryInChart = dc.pieChart('#summaryInChart') // Income category chart
 
 // SPENDING ================================================================= //
 
-var summaryOutNumber = dc.numberDisplay('#summaryOutNumber')
-var summaryOutChart = dc.pieChart('#summaryOutChart')
+var summaryOutNumber = dc.numberDisplay('#summaryOutNumber') // Spending category number
+var summaryOutChart = dc.pieChart('#summaryOutChart') // Spending category chart
 
 // TRANSACTIONS ============================================================= //
 
-var transactionsTableAll = dc.dataTable('#transactionsTableAll')
-var transactionsTableShort = dc.dataTable('#transactionsTableShort')
+var transactionsTableAll = dc.dataTable('#transactionsTableAll') // All transactions list
+var transactionsTableShort = dc.dataTable('#transactionsTableShort') // Short transactions list
 
 // =============================================================================
 // MAIN
 // =============================================================================
 
-d3.csv('./assets/data/transactions-temp.csv').then(function(transactions) {
+d3.csv('./assets/data/transactions.csv').then(function(transactions) {
   // Set date format to'd/m/year'
   var dateFormat = d3.timeFormat('%d/%m/%Y')
 
