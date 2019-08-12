@@ -1,73 +1,55 @@
 // Visual Money Tracker v1.0.0 | github.com/dzvilius/visual-money-tracker
 // Author: Vilius Dzemyda | hello@viliusdzemyda.com
 
-// Set default colour scheme
+// =============================================================================
+// BASE
+// =============================================================================
+
+// Set default D3 colour scheme
 dc.config.defaultColors(d3.schemeSet2)
 
-var monthSelector = dc.cboxMenu('#monthSelector')
+// TIMEFRAME SELECTORS ====================================================== //
 
-// 12 months income number display
-var numberDisplayYearIncome = dc.numberDisplay('#numberDisplayYearIncome')
+var yearSelector = dc.selectMenu('#yearSelector') // Year
+var monthSelector = dc.cboxMenu('#monthSelector') // Month
 
-// 12 months spending number display
-var numberDisplayYearSpending = dc.numberDisplay('#numberDisplayYearSpending')
+// OVERVIEW ================================================================= //
 
-// 12 months balance number display
-var numberDisplayYearBalance = dc.numberDisplay('#numberDisplayYearBalance')
+var overviewInNumber = dc.numberDisplay('#numberDisplayOverviewInNumber') // In
+var overviewOutNumber = dc.numberDisplay('#numberDisplayOverviewOutNumber') // Out
+var overviewBalNumber = dc.numberDisplay('#numberDisplayOverviewBalNumber') // Balance
+var overviewChart = dc.compositeChart('#overviewChart')
 
-// Income, Spending and Balance line chart for 12 months
-var chartYearOverview = dc.compositeChart('#chartYearOverview')
+// INCOME =================================================================== //
 
-// Total income for current month number display
-var numberDisplayIncome = dc.numberDisplay('#numberDisplayIncome')
+var summaryInNumber = dc.numberDisplay('#summaryInNumber')
+var summaryInChart = dc.pieChart('#summaryInChart')
 
-// Total spending for current month number display
-var numberDisplaySpending = dc.numberDisplay('#numberDisplaySpending')
+// SPENDING ================================================================= //
 
-// Timeframe select meneu
-var timeframeSelectMenu = dc.selectMenu('#timeframeSelectMenu')
+var summaryOutNumber = dc.numberDisplay('#summaryOutNumber')
+var summaryOutChart = dc.pieChart('#summaryOutChart')
 
-// Income chart
-var pieChartIncome = dc.pieChart('#pieChartIncome')
+// TRANSACTIONS ============================================================= //
 
-// Disable legend with 0 value
-// https://stackoverflow.com/questions/29371256/dc-js-piechart-legend-hide-if-result-is-0
-dc.override(pieChartIncome, 'legendables', function() {
-  var legendables = this._legendables()
-  return legendables.filter(function(l) {
-    return l.data > 0
-  })
-})
+var transactionsTableAll = dc.dataTable('#transactionsTableAll')
+var transactionsTableShort = dc.dataTable('#transactionsTableShort')
 
-// Spending chart
-var pieChartSpending = dc.pieChart('#pieChartSpending')
+// =============================================================================
+// MAIN
+// =============================================================================
 
-// Disable legend with 0 value
-// https://stackoverflow.com/questions/29371256/dc-js-piechart-legend-hide-if-result-is-0
-dc.override(pieChartSpending, 'legendables', function() {
-  var legendables = this._legendables()
-  return legendables.filter(function(l) {
-    return l.data > 0
-  })
-})
-
-// All transactions table
-var tableAllTransactions = dc.dataTable('#tableAllTransactions')
-
-// Recent transactions table
-var tableRecentTransactions = dc.dataTable('#tableRecentTransactions')
-
-// Import transactions from CSV
-d3.csv('./assets/data/transactions.csv').then(function(transactions) {
+d3.csv('./assets/data/transactions-temp.csv').then(function(transactions) {
   // Set date format to'd/m/year'
   var dateFormat = d3.timeFormat('%d/%m/%Y')
 
-  // Format the transactions
+  // Format CSV data
   transactions.forEach(function(d) {
     d.order = Number(d.order)
     d.date = dateFormat(new Date(d.date))
     d.day = Number(d.day)
     d.month = Number(d.month)
+    d.year = Number(d.year)
     d.amount = Number(d.amount)
     if (d.amount > 0) {
       d.amount_in = Number(d.amount)
@@ -93,64 +75,34 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     }
   })
 
-  // Set crossfilter
+  // ===========================================================================
+  // DC & CROSSFILTER
+  // ===========================================================================
+
+  // Set Crossfilter
   var ndx = crossfilter(transactions)
 
-  var chartYearOverviewDim = ndx.dimension(function(d) {
-    return d.month
-  })
+  // ===========================================================================
+  // DIMENSIONS
+  // ===========================================================================
 
-  var chartYearOverviewGrpIn = chartYearOverviewDim
-    .group()
-    .reduceSum(function(d) {
-      return d.amount_in
-    })
-
-  var chartYearOverviewGrpOut = chartYearOverviewDim
-    .group()
-    .reduceSum(function(d) {
-      return d.amount_out
-    })
-
-  var chartYearOverviewGrpBal = chartYearOverviewDim
-    .group()
-    .reduceSum(function(d) {
-      return d.amount
-    })
-
-  // Start of the year
-  var chartYearOverviewMinDate = chartYearOverviewDim.bottom(1)[0].month
-
-  // End of the year
-  var chartYearOverviewMaxDate = chartYearOverviewDim.top(1)[0].month
-
-  var transactionTypeDim = ndx.dimension(function(d) {
-    return d.type
-  })
-
-  var transactionOutDim = ndx.dimension(function(d) {
-    return d.type
-  })
-
-  var transactionInGrp = ndx.groupAll().reduceSum(function(d) {
-    return d.amount_in
-  })
-
-  var transactionOutGrp = ndx.groupAll().reduceSum(function(d) {
-    return d.amount_out
-  })
-
-  var transactionBalanceGrp = ndx.groupAll().reduceSum(function(d) {
-    return d.amount
-  })
-
-  // Order dimension
+  // Order
   var orderDim = ndx.dimension(function(d) {
     return d.order
   })
 
-  // Month dimension
+  // Year
+  var yearDim = ndx.dimension(function(d) {
+    return d.year
+  })
+
+  // Month number
   var monthDim = ndx.dimension(function(d) {
+    return d.month
+  })
+
+  // Month name
+  var monthStrDim = ndx.dimension(function(d) {
     var month = d.month
     var month_str = ''
 
@@ -196,90 +148,104 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     return [('0' + month).slice(-2), month_str]
   })
 
-  // Category dimension
-  var categoryDim = ndx.dimension(function(d) {
-    return d.category
-  })
-
-  // Type dimension
+  // Type
   var typeDim = ndx.dimension(function(d) {
     return d.type
   })
 
-  // Type + Month dimension
-  var typeMonthDim = ndx.dimension(function(d) {
-    return [d.type, d.month]
+  // Category
+  var categoryDim = ndx.dimension(function(d) {
+    return d.category
   })
 
-  // Income group
-  var inGroup = categoryDim.group().reduceSum(function(d) {
-    return +d.amount_in
+  // ===========================================================================
+  // GROUPS
+  // ===========================================================================
+
+  // Years
+  var yearGrp = yearDim.group()
+
+  // Months
+  var monthGrp = monthStrDim.group()
+
+  // Total income
+  var titalInGrp = ndx.groupAll().reduceSum(function(d) {
+    return d.amount_in
   })
 
-  // Spending group
-  var outGroup = categoryDim.group().reduceSum(function(d) {
-    return +d.amount_out
+  // Total spending
+  var totalOutGrp = ndx.groupAll().reduceSum(function(d) {
+    return d.amount_out
   })
 
-  // Total income group
-  var totalInGroup = typeDim.group().reduceSum(function(d) {
-    return +d.amount_in
-  })
-
-  // Total spending group
-  var totalOutGroup = typeDim.group().reduceSum(function(d) {
-    return +d.amount_out
-  })
-
-  var totalBalance = typeDim.group().reduceSum(function(d) {
-    return +d.amount_out
-  })
-
-  // Month group
-  var monthGroup = monthDim.group()
-
-  // Total amount group
-  var totalAmountGroup = typeMonthDim.group().reduceSum(function(d) {
+  // Total balance
+  var totalBalGrp = ndx.groupAll().reduceSum(function(d) {
     return d.amount
   })
 
-  // Start of the year
-  var minDate = typeMonthDim.bottom(1)[0].month
+  // Monthly income
+  var monthInGrp = monthDim.group().reduceSum(function(d) {
+    return d.amount_in
+  })
 
-  // End of the year
-  var maxDate = typeMonthDim.top(1)[0].month
+  // Monthly spending
+  var monthOutGrp = monthDim.group().reduceSum(function(d) {
+    return d.amount_out
+  })
 
-  // Uppercase the first letter
-  // https://flaviocopes.com/how-to-uppercase-first-letter-javascript/
-  const capitalize = s => {
-    if (typeof s !== 'string') return ''
-    return s.charAt(0).toUpperCase() + s.slice(1)
-  }
+  // Monthly balance
+  var monthBalGrp = monthDim.group().reduceSum(function(d) {
+    return d.amount
+  })
+
+  // Type income
+  var typeInGrp = typeDim.group().reduceSum(function(d) {
+    return d.amount_in
+  })
+
+  // Type spending
+  var typeOutGrp = typeDim.group().reduceSum(function(d) {
+    return d.amount_out
+  })
+
+  // Category income
+  var categoryInGrp = categoryDim.group().reduceSum(function(d) {
+    return d.amount_in
+  })
+
+  // Category spending
+  var categoryOutGrp = categoryDim.group().reduceSum(function(d) {
+    return d.amount_out
+  })
+
+  // ===========================================================================
+  // TIMEFRAME SELECTORS
+  // ===========================================================================
+
+  yearSelector
+    .dimension(yearDim)
+    .promptText('All Years')
+    .group(yearGrp)
+    .title(function(d) {
+      return d.key
+    })
+  yearSelector.render()
 
   monthSelector
-    .dimension(monthDim)
-    .group(monthGroup)
+    .dimension(monthStrDim)
+    .group(monthGrp)
     .multiple(true)
-    //    .numberVisible(10)
     .controlsUseVisibility(true)
-  monthSelector.title(function(d) {
-    return d.key[1]
-  })
+    .title(function(d) {
+      return d.key[1]
+    })
   monthSelector.render()
 
-  // Render timeframe select menu
-  timeframeSelectMenu
-    .dimension(monthDim)
-    .promptText('Full Year')
-    .group(monthGroup)
+  // ===========================================================================
+  // OVERVIEW
+  // ===========================================================================
 
-  timeframeSelectMenu.title(function(d) {
-    return d.key[1]
-  })
-  timeframeSelectMenu.render()
-
-  // Render number display with income total for 12 months
-  numberDisplayYearIncome
+  overviewInNumber
     .transitionDuration(300)
     .formatNumber(function(d) {
       return '€' + d3.format(',.3s')(d)
@@ -287,11 +253,10 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     .valueAccessor(function(d) {
       return d
     })
-    .group(transactionInGrp)
-  numberDisplayYearIncome.render()
+    .group(titalInGrp)
+  overviewInNumber.render()
 
-  // Render number display with spending total for 12 months
-  numberDisplayYearSpending
+  overviewOutNumber
     .transitionDuration(300)
     .formatNumber(function(d) {
       return '€' + d3.format(',.3s')(d)
@@ -299,11 +264,10 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     .valueAccessor(function(d) {
       return d
     })
-    .group(transactionOutGrp)
-  numberDisplayYearSpending.render()
+    .group(totalOutGrp)
+  overviewOutNumber.render()
 
-  // Render number display with balance for 12 months
-  numberDisplayYearBalance
+  overviewBalNumber
     .transitionDuration(300)
     .formatNumber(function(d) {
       return '€' + d3.format(',.3s')(d)
@@ -311,60 +275,37 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     .valueAccessor(function(d) {
       return d
     })
-    .group(transactionBalanceGrp)
-  numberDisplayYearBalance.render()
+    .group(totalBalGrp)
+  overviewBalNumber.render()
 
-  // Render number display with income total
-  numberDisplayIncome
-    .transitionDuration(300)
-    .formatNumber(function(d) {
-      return '€' + d3.format(',.4r')(d)
-    })
-    .group(totalInGroup)
-  numberDisplayIncome.render()
-
-  // Render number display with spending total
-  numberDisplaySpending
-    .transitionDuration(300)
-    .formatNumber(function(d) {
-      return '€' + d3.format(',.4r')(d)
-    })
-    .group(totalOutGroup)
-  numberDisplaySpending.render()
-
-  // Render line chart with 12 month overview
-  chartYearOverview
+  overviewChart
     .transitionDuration(600)
     .width(null)
     .height(240)
-    .margins({ top: 0, left: 40, right: 8, bottom: 30 })
+    .margins({ top: 0, left: 50, right: 8, bottom: 30 })
     .colors(d3.scaleOrdinal(d3.schemeSet2))
-    .x(
-      d3
-        .scaleLinear()
-        .domain([chartYearOverviewMinDate, chartYearOverviewMaxDate])
-    )
+    .x(d3.scaleLinear().domain([monthDim.bottom(1)[0].month, monthDim.top(1)[0].month]))
     .brushOn(false)
     .yAxisPadding('20%')
     .compose([
       dc
-        .lineChart(chartYearOverview)
-        .dimension(chartYearOverviewDim)
+        .lineChart(overviewChart)
+        .dimension(monthDim)
         .colors('#66c2a5')
         .curve(d3.curveCardinal)
-        .group(chartYearOverviewGrpIn),
+        .group(monthInGrp),
       dc
-        .lineChart(chartYearOverview)
-        .dimension(chartYearOverviewDim)
+        .lineChart(overviewChart)
+        .dimension(monthDim)
         .colors('#F45B69')
         .curve(d3.curveCardinal)
-        .group(chartYearOverviewGrpOut),
+        .group(monthOutGrp),
       dc
-        .lineChart(chartYearOverview)
-        .dimension(chartYearOverviewDim)
+        .lineChart(overviewChart)
+        .dimension(monthDim)
         .colors('#4F86C6')
         .curve(d3.curveCardinal)
-        .group(chartYearOverviewGrpBal),
+        .group(monthBalGrp),
     ])
     .elasticY(true)
     .elasticX(true)
@@ -377,10 +318,21 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     .tickFormat(function(d) {
       return '€' + d3.format(',d')(d)
     })
-  chartYearOverview.render()
+  overviewChart.render()
 
-  // Render pie chart with income breakdown
-  pieChartIncome
+  // ===========================================================================
+  // INCOME
+  // ===========================================================================
+
+  summaryInNumber
+    .transitionDuration(300)
+    .formatNumber(function(d) {
+      return '€' + d3.format(',.4r')(d)
+    })
+    .group(typeInGrp)
+  summaryInNumber.render()
+
+  summaryInChart
     .transitionDuration(800)
     .width(290)
     .height(290)
@@ -388,7 +340,7 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     .externalLabels(30)
     .externalRadiusPadding(50)
     .dimension(categoryDim)
-    .group(inGroup)
+    .group(categoryInGrp)
     .legend(
       dc
         .htmlLegend()
@@ -408,10 +360,21 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
         }
       })
     })
-  pieChartIncome.render()
+  summaryInChart.render()
 
-  // Render pie chart with spending breakdown
-  pieChartSpending
+  // ===========================================================================
+  // SPENDING
+  // ===========================================================================
+
+  summaryOutNumber
+    .transitionDuration(300)
+    .formatNumber(function(d) {
+      return '€' + d3.format(',.4r')(d)
+    })
+    .group(typeOutGrp)
+  summaryOutNumber.render()
+
+  summaryOutChart
     .transitionDuration(800)
     .width(290)
     .height(290)
@@ -419,7 +382,7 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     .externalLabels(30)
     .externalRadiusPadding(50)
     .dimension(categoryDim)
-    .group(outGroup)
+    .group(categoryOutGrp)
     .legend(
       dc
         .htmlLegend()
@@ -440,10 +403,13 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
         }
       })
     })
-  pieChartSpending.render()
+  summaryOutChart.render()
 
-  // Render table with 10 recent transactions
-  tableRecentTransactions
+  // ===========================================================================
+  // TRANSACTIONS
+  // ===========================================================================
+
+  transactionsTableShort
     .dimension(orderDim)
     .size(10)
     .showSections(false)
@@ -467,10 +433,9 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
       return d.order
     })
     .order(d3.descending)
-  tableRecentTransactions.render()
+  transactionsTableShort.render()
 
-  // Render table with all transactions
-  tableAllTransactions
+  transactionsTableAll
     .dimension(orderDim)
     .size(1000)
     .showSections(false)
@@ -494,5 +459,27 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
       return d.order
     })
     .order(d3.descending)
-  tableAllTransactions.render()
+  transactionsTableAll.render()
+})
+
+// =============================================================================
+// UTILITIES
+// =============================================================================
+
+// https://stackoverflow.com/questions/29371256/dc-js-piechart-legend-hide-if-result-is-0
+
+// Disable income pie chart legend if value is 0
+dc.override(summaryInChart, 'legendables', function() {
+  var legendables = this._legendables()
+  return legendables.filter(function(l) {
+    return l.data > 0
+  })
+})
+
+// Disable spending pie chart legend if value is 0
+dc.override(summaryOutChart, 'legendables', function() {
+  var legendables = this._legendables()
+  return legendables.filter(function(l) {
+    return l.data > 0
+  })
 })
