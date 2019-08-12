@@ -100,26 +100,29 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     return d.month
   })
 
-  var chartYearOverviewGrpIn = chartYearOverviewDim.group().reduceSum(function(d) {
-    return d.amount_in
-  })
+  var chartYearOverviewGrpIn = chartYearOverviewDim
+    .group()
+    .reduceSum(function(d) {
+      return d.amount_in
+    })
 
-  var chartYearOverviewGrpOut = chartYearOverviewDim.group().reduceSum(function(d) {
-    return d.amount_out
-  })
+  var chartYearOverviewGrpOut = chartYearOverviewDim
+    .group()
+    .reduceSum(function(d) {
+      return d.amount_out
+    })
 
-  var chartYearOverviewGrpBal = chartYearOverviewDim.group().reduceSum(function(d) {
-    return d.amount
-  })
+  var chartYearOverviewGrpBal = chartYearOverviewDim
+    .group()
+    .reduceSum(function(d) {
+      return d.amount
+    })
 
   // Start of the year
   var chartYearOverviewMinDate = chartYearOverviewDim.bottom(1)[0].month
 
   // End of the year
   var chartYearOverviewMaxDate = chartYearOverviewDim.top(1)[0].month
-
-
-
 
   var transactionTypeDim = ndx.dimension(function(d) {
     return d.type
@@ -253,7 +256,6 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     return s.charAt(0).toUpperCase() + s.slice(1)
   }
 
-
   monthSelector
     .dimension(monthDim)
     .group(monthGroup)
@@ -337,7 +339,11 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     .height(240)
     .margins({ top: 0, left: 40, right: 8, bottom: 30 })
     .colors(d3.scaleOrdinal(d3.schemeSet2))
-    .x(d3.scaleLinear().domain([chartYearOverviewMinDate, chartYearOverviewMaxDate]))
+    .x(
+      d3
+        .scaleLinear()
+        .domain([chartYearOverviewMinDate, chartYearOverviewMaxDate])
+    )
     .brushOn(false)
     .yAxisPadding('20%')
     .compose([
@@ -353,22 +359,19 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
         .colors('#F45B69')
         .curve(d3.curveCardinal)
         .group(chartYearOverviewGrpOut),
+      dc
+        .lineChart(chartYearOverview)
+        .dimension(chartYearOverviewDim)
+        .colors('#4F86C6')
+        .curve(d3.curveCardinal)
+        .group(chartYearOverviewGrpBal),
     ])
     .elasticY(true)
     .elasticX(true)
     .brushOn(false)
     .renderHorizontalGridLines(true)
-    // .legend(
-    //   dc
-    //     .htmlLegend()
-    //     .container('#legendYearOverviewChart')
-    //     .horizontal(true)
-    //     .legendText(function(d) {
-    //       return capitalize(d.name)
-    //     })
-    // )
     .childOptions({
-      renderDataPoints: { radius: 4, fillOpacity: 1, strokeOpacity: 1 },
+      renderDataPoints: { radius: 3, fillOpacity: 1, strokeOpacity: 1 },
     })
     .yAxis()
     .tickFormat(function(d) {
