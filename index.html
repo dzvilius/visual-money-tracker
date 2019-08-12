@@ -49,52 +49,53 @@
       </nav>
 
       <div class="container">
-        <div class="row">
-          <div class="col-md-6">
+
 
             <!-- DATA OVERVIEW -->
             <div class="DataOverview">
               <div class="DataOverview__body">
-
-                <div class="DataOverview__header">
-                  <h1 class="DataOverview__headline">Overview</h1>
                   <div class="DataOverview__selector" id="timeframeSelectMenu"></div>
+
+              <div class="row">
+              <div class="col-md-5 col-lg-4">
+
+                <div class="DataOverview__breakdown">
+                  <div class="DataOverview__header">
+                    <h1 class="DataOverview__headline">Overview</h1>
+                  </div>
+                  <div class="DataOverview__item DataOverview__item--income">
+                    <span class="DataOverview__item-headline">Income:</span>
+                    <span class="DataOverview__item-amount" id="numberDisplayYearIncome"></span>
+                  </div>
+                  <div class="DataOverview__item DataOverview__item--spending">
+                    <span class="DataOverview__item-headline">Spending:</span>
+                    <span class="DataOverview__item-amount" id="numberDisplayYearSpending"></span>
+                  </div>
+                  <div class="DataOverview__item DataOverview__item--balance">
+                    <span class="DataOverview__item-headline">Balance:</span>
+                    <span class="DataOverview__item-amount" id="numberDisplayYearBalance"></span>
+                  </div>
                 </div>
-                <div class="DataOverview__item DataOverview__item--income">
-                  <span class="DataOverview__item-headline">Income:</span>
-                  <span class="DataOverview__item-amount" id="numberDisplayYearIncome"></span>
+
+              </div><!-- .col -->
+              <div class="col-md-7 col-lg-8">
+
+                <div class="DataOverview__chart">
+                  <div class="OverviewChart__legend">
+                    <div id="legendYearOverviewChart"></div>
+                  </div>
+                  <div class="OverviewChart__main">
+                    <div id="chartYearOverview"></div>
+                  </div>
                 </div>
-                <div class="DataOverview__item DataOverview__item--spending">
-                  <span class="DataOverview__item-headline">Spending:</span>
-                  <span class="DataOverview__item-amount" id="numberDisplayYearSpending"></span>
-                </div>
-                <div class="DataOverview__item DataOverview__item--balance">
-                  <span class="DataOverview__item-headline">Balance:</span>
-                  <span class="DataOverview__item-amount" id="numberDisplayYearBalance"></span>
-                </div>
+
+              </div><!-- .col -->
+              </div><!-- .row -->
 
               </div>
             </div><!-- .DataOverview -->
 
-          </div><!-- .col -->
-          <div class="col-md-6">
 
-            <!-- YEAR OVERVIEW CHART -->
-            <div class="OverviewChart">
-              <div class="OverviewChart__body">
-
-                <div class="OverviewChart__legend">
-                  <div id="legendYearOverviewChart"></div>
-                </div>
-                <div class="OverviewChart__main">
-                  <div id="chartYearOverview"></div>
-                </div>
-
-              </div>
-            </div><!-- .OverviewChart -->
-
-          </div><!-- .col -->
-        </div><!-- .row -->
       </div><!-- .container -->
 
       <div class="container">

@@ -94,21 +94,30 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
   // Set crossfilter
   var ndx = crossfilter(transactions)
 
-  var monthDimX = ndx.dimension(function(d) {
+  var chartYearOverviewDim = ndx.dimension(function(d) {
     return d.month
   })
 
-  var inGrpX = monthDimX.group().reduceSum(function(d) {
+  var chartYearOverviewGrpIn = chartYearOverviewDim.group().reduceSum(function(d) {
     return d.amount_in
   })
 
-  var outGrpX = monthDimX.group().reduceSum(function(d) {
+  var chartYearOverviewGrpOut = chartYearOverviewDim.group().reduceSum(function(d) {
     return d.amount_out
   })
 
-  var balGrpX = monthDimX.group().reduceSum(function(d) {
+  var chartYearOverviewGrpBal = chartYearOverviewDim.group().reduceSum(function(d) {
     return d.amount
   })
+
+  // Start of the year
+  var chartYearOverviewMinDate = chartYearOverviewDim.bottom(1)[0].month
+
+  // End of the year
+  var chartYearOverviewMaxDate = chartYearOverviewDim.top(1)[0].month
+
+
+
 
   var transactionTypeDim = ndx.dimension(function(d) {
     return d.type
@@ -312,42 +321,38 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     .transitionDuration(600)
     .width(null)
     .height(240)
-    .margins({ top: 0, left: 50, right: 10, bottom: 30 })
+    .margins({ top: 0, left: 40, right: 0, bottom: 30 })
     .colors(d3.scaleOrdinal(d3.schemeSet2))
-    .x(d3.scaleLinear().domain([minDate, maxDate]))
+    .x(d3.scaleLinear().domain([chartYearOverviewMinDate, chartYearOverviewMaxDate]))
     .brushOn(false)
     .yAxisPadding('20%')
     .compose([
       dc
         .lineChart(chartYearOverview)
-        .dimension(typeMonthDim)
+        .dimension(chartYearOverviewDim)
         .colors('#66c2a5')
-        .group(inGrpX)
-        .renderArea(true)
         .curve(d3.curveCardinal)
-        .dashStyle([1, 0]),
+        .group(chartYearOverviewGrpIn),
       dc
         .lineChart(chartYearOverview)
-        .dimension(typeMonthDim)
+        .dimension(chartYearOverviewDim)
         .colors('#F45B69')
-        .group(outGrpX)
-        .renderArea(true)
         .curve(d3.curveCardinal)
-        .dashStyle([1, 0]),
+        .group(chartYearOverviewGrpOut),
     ])
     .elasticY(true)
     .elasticX(true)
     .brushOn(false)
     .renderHorizontalGridLines(true)
-    .legend(
-      dc
-        .htmlLegend()
-        .container('#legendYearOverviewChart')
-        .horizontal(true)
-        .legendText(function(d) {
-          return capitalize(d.name)
-        })
-    )
+    // .legend(
+    //   dc
+    //     .htmlLegend()
+    //     .container('#legendYearOverviewChart')
+    //     .horizontal(true)
+    //     .legendText(function(d) {
+    //       return capitalize(d.name)
+    //     })
+    // )
     .childOptions({
       renderDataPoints: { radius: 4, fillOpacity: 1, strokeOpacity: 1 },
     })

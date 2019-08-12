@@ -107,22 +107,21 @@ body {
   border-radius: 4px;
   height: 100%;
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
-}
-
-.DataOverview__header {
   position: relative;
-}
-
-.DataOverview__headline {
-  font-size: 24px;
-  margin-bottom: 60px;
 }
 
 .DataOverview__selector {
   position: absolute;
-  top: 2px;
-  right: 0;
+  top: 40px;
+  right: 40px;
   width: 100px;
+  z-index: 10;
+}
+
+@media (min-width: 768px) {
+  .DataOverview__selector {
+    top: 30px;
+  }
 }
 
 .DataOverview__selector select {
@@ -136,12 +135,32 @@ body {
   outline: none;
 }
 
+.DataOverview__breakdown {
+  width: 100%;
+}
+
+.DataOverview__header {
+  position: relative;
+}
+
+.DataOverview__headline {
+  font-size: 24px;
+  margin-bottom: 60px;
+}
+
 .DataOverview__item {
   font-size: 18px;
   line-height: 28px;
   margin-bottom: 20px;
+  margin-left: 20px;
   padding-left: 30px;
   height: 30px;
+}
+
+@media (min-width: 768px) {
+  .DataOverview__item {
+    margin-left: 0px;
+  }
 }
 
 .DataOverview__item--income {
@@ -167,9 +186,17 @@ body {
   font-weight: 600;
 }
 
+.DataOverview__chart {
+  padding-top: 20px;
+  width: 100%;
+}
+
+
+
+
 /* OVERVIEW CHART =========================================================== */
 
-.OverviewChart {
+/* .OverviewChart {
   height: 100%;
   padding-bottom: 20px;
 }
@@ -186,7 +213,7 @@ body {
   border-radius: 4px;
   height: 100%;
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
-}
+} */
 
 .OverviewChart__main {
   position: relative;
@@ -209,6 +236,11 @@ body {
   top: 0px;
   right: 0;
   z-index: 10;
+}
+
+
+.dc-chart svg {
+  width: 100%;
 }
 
 /* DATA SUMMARY ============================================================= */
