@@ -38,6 +38,83 @@ var transactionsTableAll = dc.dataTable('#transactionsTableAll') // All transact
 var transactionsTableShort = dc.dataTable('#transactionsTableShort') // Short transactions list
 
 // =============================================================================
+// FUNCTIONS
+// =============================================================================
+
+// TABLE COLUMNS ===========================+++++============================ //
+
+function tableColConfig() {
+  // Create template for DC table
+  return [
+    'date',
+    'payee',
+    {
+      label: 'In',
+      format: function(d) {
+        return d.amount_in_str
+      },
+    },
+    {
+      label: 'Out',
+      format: function(d) {
+        return d.amount_out_str
+      },
+    },
+  ]
+}
+
+// CREATE MONTH NAMES ======================================================= //
+
+function monthName(monthNum) {
+  var month_str = ''
+
+  // Set month name for each number
+  switch (monthNum) {
+    case 1:
+      month_str = 'January'
+      break
+    case 2:
+      month_str = 'February'
+      break
+    case 3:
+      month_str = 'March'
+      break
+    case 4:
+      month_str = 'April'
+      break
+    case 5:
+      month_str = 'May'
+      break
+    case 6:
+      month_str = 'June'
+      break
+    case 7:
+      month_str = 'July'
+      break
+    case 8:
+      month_str = 'August'
+      break
+    case 9:
+      month_str = 'September'
+      break
+    case 10:
+      month_str = 'October'
+      break
+    case 11:
+      month_str = 'November'
+      break
+    case 12:
+      month_str = 'December'
+      break
+  }
+
+  // Add 0 to single digits for correct sorting
+  return [('0' + monthNum).slice(-2), month_str]
+}
+
+//console.log(monthName(1))
+
+// =============================================================================
 // MAIN
 // =============================================================================
 
@@ -56,6 +133,8 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     d.month = Number(d.month)
     d.year = Number(d.year)
     d.amount = Number(d.amount)
+
+    // Income amount with Euro currency as string
     if (d.amount > 0) {
       d.amount_in = Number(d.amount)
       d.amount_out = 0
@@ -67,6 +146,8 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
           .replace(/\B(?=(\d{3})+(?!\d))/g, ',')
       d.amount_out_str = ''
     }
+
+    // Spending amount with Euro currency as string
     if (d.amount < 0) {
       d.amount_in = 0
       d.amount_out = Math.abs(d.amount)
@@ -108,49 +189,7 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
 
   // Month name
   var monthStrDim = ndx.dimension(function(d) {
-    var month = d.month
-    var month_str = ''
-
-    switch (month) {
-      case 1:
-        month_str = 'January'
-        break
-      case 2:
-        month_str = 'February'
-        break
-      case 3:
-        month_str = 'March'
-        break
-      case 4:
-        month_str = 'April'
-        break
-      case 5:
-        month_str = 'May'
-        break
-      case 6:
-        month_str = 'June'
-        break
-      case 7:
-        month_str = 'July'
-        break
-      case 8:
-        month_str = 'August'
-        break
-      case 9:
-        month_str = 'September'
-        break
-      case 10:
-        month_str = 'October'
-        break
-      case 11:
-        month_str = 'November'
-        break
-      case 12:
-        month_str = 'December'
-        break
-    }
-
-    return [('0' + month).slice(-2), month_str]
+    return monthName(d.month)
   })
 
   // Type
@@ -444,28 +483,6 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
 // =============================================================================
 // UTILITIES
 // =============================================================================
-
-// Table columns configuration
-function tableColConfig() {
-  return [
-    'date',
-    'payee',
-    {
-      label: 'In',
-      format: function(d) {
-        // Amount value formatted as sring
-        return d.amount_in_str
-      },
-    },
-    {
-      label: 'Out',
-      format: function(d) {
-        // Amount value formatted as sring
-        return d.amount_out_str
-      },
-    },
-  ]
-}
 
 // https://stackoverflow.com/questions/29371256/dc-js-piechart-legend-hide-if-result-is-0
 
