@@ -125,24 +125,49 @@ User needs checklist:
 - [x] User can select category and see the spending for that category.
 - [x] User can see list of transactions and filter them by year, month or category.
 
+### TDD
+
+- [x] Check if table contains correct amount of columns.
+- [x] Check for correct column names.
+- [x] Check if month names are correct.
+- [x] Check if month names has correct data type.
+
 ### Code
 
-...
+The application was checked with W3C [HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Felastic-hawking-05c821.netlify.com%2F) and [CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Felastic-hawking-05c821.netlify.com%2Fassets%2Fstyles%2Fapp.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) validators, and the issues where fixed accordingly.
 
 ### Browsers
 
-...
+Tested on the following browsers:
+
+**Physical devices**
+
+- Chrome 75 / MacOS High Sierra 10 / iMac
+- Firefox 66 / MacOS High Sierra 10 / iMac
+- Safari 12 / MacOS High Sierra 10 / iMac
+- Chrome 70 / Linux Mint 19 / Asus Notebook
+- Chrome 76 / iOS 12/ iPhone 6s
+- Safari 12 / iOS 12 / iPhone 6s
 
 ## Deployment
 
-...
+The application is deployed to Netlify. To see a working version please go to: [Live Preview](https://elastic-hawking-05c821.netlify.com/).
 
-## Credits
+To run project locally you do not need any additional software.
 
-#### Media
+The application can be deployed to any static application hosting provider.
 
-...
+I am using Netlify because it can automatically deploy the application each time I push my commits to GitHub repository.
+
+To deploy the application to [Netlify](https://www.netlify.com/) you need to sign up for an account first. Choose the 'New site from Git' option, then pick your online git hosting service provider and grant a permission to access your repository. And it's done! Now each time you commit to GitHub or your preferred service Netlify will automatically deploy the application.
 
 #### Acknowledgements
 
-...
+Tool to create data structure and generate CSV file:
+
+- https://mockaroo.com/
+
+Useful resources:
+
+- https://www.tutorialspoint.com/dcjs
+- https://dc-js.github.io/dc.js/examples/

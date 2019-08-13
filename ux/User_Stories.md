@@ -113,7 +113,7 @@ _Feature Request!_
 - As a user, I want to select individual months, so that, I can view transactions for selected months.
   - [x] All months visible.
   - [x] Multiple selection.
-  - [x] Filter data for the selection
+  - [x] Filter data for the selection.
 
 ---
 
@@ -121,6 +121,6 @@ _Feature Request!_
 
 - As a user, I want to select individual years, so that, I can view transactions for selected years.
   - [x] Menu with year selection.
-  - [x] Filter data for the selection
+  - [x] Filter data for the selection.
 
 ---

@@ -1,725 +1,725 @@
 order,date,day,month,year,payee,category,account,type,amount,id
-1,01-Jan-18,1,1,2018,Company,Salary,Bank Account,in,3000,336335d2-f2fc-4f75-a050-f0a439eff71a
-2,01-Jan-18,1,1,2018,Groceries,Food,Cash,out,-57,75eee4fd-c60b-4c9d-a24b-4625c098ce0c
-3,01-Jan-18,1,1,2018,Fuel,Auto,Cash,out,-50,94017a94-e38d-44c9-9b5c-3eea381cb761
-4,02-Jan-18,2,1,2018,Parking,Auto,Cash,out,-1,4e8eedc5-5bbb-4635-a389-b119b40e4f81
-5,02-Jan-18,2,1,2018,Top Up,Communications,Bank Account,out,-20,3276f624-ee57-4f94-96bf-47a825d731f9
-6,09-Jan-18,9,1,2018,Shop,Other,Cash,out,-25,e67bb1f5-3aab-49ff-a134-6880a3ad4b27
-7,11-Jan-18,11,1,2018,Parking,Auto,Cash,out,-1,e89eb8bc-811b-440c-ac53-8885d83838e8
-8,11-Jan-18,11,1,2018,Shop,Other,Bank Account,out,-3,7196c147-d42c-4ce9-89de-00232e783bc6
-9,14-Jan-18,14,1,2018,Internet,Communications,Bank Account,out,-45,611a08b1-9d98-47d3-a49a-40db8badb60b
-10,14-Jan-18,14,1,2018,Shop,Other,Cash,out,-64,168fc22d-17ac-439e-90c1-26234eeee9cd
-11,16-Jan-18,16,1,2018,Fuel,Auto,Cash,out,-50,f3817a67-d882-4948-adb8-a8b892344980
-12,18-Jan-18,18,1,2018,TV,Entertainment,Bank Account,out,-24,fac16ab3-cd9e-4fa2-999c-d398205c948c
-13,21-Jan-18,21,1,2018,Groceries,Food,Cash,out,-23,c25b25e9-7c32-40f0-a4b1-cff0dc224bf1
-14,22-Jan-18,22,1,2018,Online Work,Freelance,Bank Account,in,800,2dcede75-2a32-45ce-95a9-92e2dc113cc2
-15,23-Jan-18,23,1,2018,Parking,Auto,Cash,out,-1,d3bd87ad-a9c1-4183-b24d-5a966d8af957
-16,23-Jan-18,23,1,2018,Shop,Other,Bank Account,out,-78,b45b8d80-89ab-4552-90d7-78e1b7c2274d
-17,24-Jan-18,24,1,2018,Shop,Other,Bank Account,out,-11,44861ed3-6b5c-47b9-ae9c-dc8cde7b07e1
-18,25-Jan-18,25,1,2018,Fuel,Auto,Cash,out,-50,d5e50b66-799a-4690-9ffb-b1b056ecb604
-19,25-Jan-18,25,1,2018,Groceries,Food,Cash,out,-87,edd08925-9122-4343-8d9b-e6d0f7b3e0d8
-20,27-Jan-18,27,1,2018,Rent,Home,Bank Account,out,-800,52fa36eb-0f42-47da-8232-18d74e15f665
-21,29-Jan-18,29,1,2018,Car Insurance,Auto,Bank Account,out,-95,e58cfb6d-b517-46cd-9ff5-9763389c5853
-22,29-Jan-18,29,1,2018,Parking,Auto,Cash,out,-1,8436dcf0-cb2f-4b83-bd96-12fd003bad9b
-23,30-Jan-18,30,1,2018,Fuel,Auto,Cash,out,-50,41b2cd34-0531-44af-a83d-add846a51e9c
-24,31-Jan-18,31,1,2018,Spotify,Entertainment,Bank Account,out,-9,8680973f-54ed-4cbb-80e7-72829dfd0f84
-25,01-Feb-18,1,2,2018,Company,Salary,Bank Account,in,3300,e28a1350-7d39-408d-83f1-8e330193fc81
-26,02-Feb-18,2,2,2018,Shop,Other,Cash,out,-11,8f0b531f-15cf-4c2a-8ee9-4139c07d32eb
-27,02-Feb-18,2,2,2018,Shop,Other,Bank Account,out,-23,34ca1876-7459-463e-a24f-1f8d47ab9b4b
-28,03-Feb-18,3,2,2018,Shop,Other,Bank Account,out,-35,be353113-8f58-4632-a669-72d489b2fb7a
-29,04-Feb-18,4,2,2018,Parking,Auto,Cash,out,-1,b8dd111f-c8af-4d4d-adcb-63ccdd428287
-30,05-Feb-18,5,2,2018,Shop,Other,Cash,out,-3,d7e2c421-94f8-48ce-b3c3-6882767b5c28
-31,07-Feb-18,7,2,2018,Groceries,Food,Cash,out,-100,05d2150d-88b7-4c05-bbc3-dae639bf659c
-32,07-Feb-18,7,2,2018,Shop,Other,Cash,out,-21,195bdcd7-def6-41e8-bee8-fab93528d52a
-33,08-Feb-18,8,2,2018,Parking,Auto,Cash,out,-1,53f23c3d-20c8-4c09-8ada-a10b46bfca2f
-34,09-Feb-18,9,2,2018,Shop,Other,Bank Account,out,-3,71cab46b-5372-4b13-b557-bb563e29f9a4
-35,10-Feb-18,10,2,2018,Shop,Other,Cash,out,-50,7fd6e95f-9167-4fce-8049-614083e26696
-36,10-Feb-18,10,2,2018,TV,Entertainment,Bank Account,out,-24,5e7e743c-df4c-44ca-8b6c-922b23a0fe98
-37,12-Feb-18,12,2,2018,Groceries,Food,Cash,out,-77,992c9380-60a3-4404-b5af-50532c2bb30f
-38,12-Feb-18,12,2,2018,Parking,Auto,Cash,out,-1,6f3217de-4467-4bdf-97b2-2b60956c206b
-39,16-Feb-18,16,2,2018,Internet,Communications,Bank Account,out,-45,45beedae-6d6f-4b8e-b7a7-c912bf917db4
-40,17-Feb-18,17,2,2018,Parking,Auto,Cash,out,-1,29389202-bf82-446d-829f-0def6dd10279
-41,19-Feb-18,19,2,2018,Top Up,Communications,Bank Account,out,-20,b751cc41-adf2-4455-be20-fc70e4c7ea82
-42,20-Feb-18,20,2,2018,Online Work,Freelance,Bank Account,in,800,0860ff40-4a8c-49e5-b555-c366aba64cf1
-43,26-Feb-18,26,2,2018,Rent,Home,Bank Account,out,-800,57e06ab5-8c76-40ac-8f71-67083dd184be
-44,27-Feb-18,27,2,2018,Groceries,Food,Cash,out,-23,4d7248df-fec1-4dc7-b41a-2a274438f71a
-45,27-Feb-18,27,2,2018,Parking,Auto,Cash,out,-1,5356bb8a-f5d4-43fe-a154-7784ff3f5cc4
-46,28-Feb-18,28,2,2018,Car Insurance,Auto,Bank Account,out,-95,386de8ca-f5b9-45a0-8845-c44fabcb20f9
-47,28-Feb-18,28,2,2018,Spotify,Entertainment,Bank Account,out,-9,91f5bef5-c19d-46fa-a87a-a189a37101e0
-48,01-Mar-18,1,3,2018,Company,Salary,Bank Account,in,4000,f461b9d2-8286-44bb-9476-1abf6dcc7cf1
-49,02-Mar-18,2,3,2018,Shop,Food,Bank Account,out,-12,83e37241-c07a-4910-9566-40fbb255fc64
-50,04-Mar-18,4,3,2018,Groceries,Food,Cash,out,-77,7b026519-57df-4498-85be-756afa6ccce7
-51,04-Mar-18,4,3,2018,Shop,Other,Cash,out,-27,47b5e048-428b-4f8d-a4fd-cd9f6128d33d
-52,05-Mar-18,5,3,2018,Parking,Auto,Cash,out,-1,e3b829d1-ff8f-47bc-9521-72ab77fe154c
-53,06-Mar-18,6,3,2018,Shop,Other,Bank Account,out,-34,32394c1b-7ed4-467d-b7dc-b5898ed572e9
-54,07-Mar-18,7,3,2018,Shop,Other,Cash,out,-45,ca695225-625e-4209-9ac0-353540609893
-55,09-Mar-18,9,3,2018,Parking,Auto,Cash,out,-1,cce822e0-5316-439a-8e87-69f9f659f4ca
-56,12-Mar-18,12,3,2018,Online Work,Freelance,Bank Account,in,800,6c91b90d-7825-4f9f-ae6c-0f97c4f20916
-57,13-Mar-18,13,3,2018,TV,Entertainment,Bank Account,out,-24,5c352ccd-c6ab-40bc-8cd0-4482df803e96
-58,15-Mar-18,15,3,2018,Shop,Other,Bank Account,out,-11,6a941fd5-f326-4ae1-8dde-23ecfd666b24
-59,16-Mar-18,16,3,2018,Internet,Communications,Bank Account,out,-45,a43c7ff9-f966-4b44-8eb1-ad2a18126a1b
-60,19-Mar-18,19,3,2018,Groceries,Food,Cash,out,-23,e632add5-d046-416e-a485-a1fe4d3b75f8
-61,19-Mar-18,19,3,2018,Top Up,Communications,Bank Account,out,-20,a154dc61-8e9d-4a67-8287-642c9c2fc72c
-62,19-Mar-18,19,3,2018,Shop,Other,Cash,out,-24,0ec2588b-a99b-4a9d-a1e2-a42ad38faaee
-63,25-Mar-18,25,3,2018,Parking,Auto,Cash,out,-1,bb0fa10a-4a59-4e95-8b43-e70fbc6f7de5
-64,27-Mar-18,27,3,2018,Shop,Other,Cash,out,-24,1546db91-36a9-429d-a563-c93a529255fa
-65,27-Mar-18,27,3,2018,Road Tax,Auto,Bank Account,out,-180,6c6b77f7-5c05-42fd-bb6a-9c6b2ef4f088
-66,27-Mar-18,27,3,2018,Parking,Auto,Cash,out,-1,9dc36b73-1e3a-454b-89a0-058b8d8875d3
-67,27-Mar-18,27,3,2018,Car Insurance,Auto,Bank Account,out,-95,60a0b862-853b-4da3-adf9-9c5f1dec8e86
-68,30-Mar-18,30,3,2018,Rent,Home,Bank Account,out,-800,f4224855-c27f-4795-a32e-ccaf5dbf5aa6
-69,31-Mar-18,31,3,2018,Spotify,Entertainment,Bank Account,out,-9,1b79be28-b274-4303-95e1-421b48a1d133
-70,01-Apr-18,1,4,2018,Company,Salary,Bank Account,in,4000,9143c92e-ae86-4414-9ba6-91dee31340c3
-71,02-Apr-18,2,4,2018,Shop,Other,Cash,out,-7,a185caae-44a9-4b09-bf58-c5a60f4b6427
-72,03-Apr-18,3,4,2018,Shop,Other,Cash,out,-8,6c27c4f6-005a-4e67-bc72-212d3021ebe0
-73,04-Apr-18,4,4,2018,Parking,Auto,Cash,out,-1,5f75c71d-2c2c-4cfe-af17-2082f3af015a
-74,04-Apr-18,4,4,2018,Shop,Other,Bank Account,out,-24,2d0b5e02-ee11-4b5d-86fa-14391127febe
-75,05-Apr-18,5,4,2018,Groceries,Food,Cash,out,-23,d871f369-59e3-4674-9ad9-431bf3fd9a40
-76,05-Apr-18,5,4,2018,Shop,Other,Cash,out,-12,027455cf-1143-4c49-82e3-073e0369283e
-77,05-Apr-18,5,4,2018,Shop,Other,Bank Account,out,-35,d0f34365-a0eb-4de9-8793-0d894be56790
-78,06-Apr-18,6,4,2018,Shop,Other,Bank Account,out,-23,58724c24-c9aa-45d0-b765-ca1bb9330379
-79,07-Apr-18,7,4,2018,Parking,Auto,Cash,out,-1,ef3d2643-3cd7-4d78-aec1-fd6418a4bbb2
-80,07-Apr-18,7,4,2018,Shop,Other,Cash,out,-10,7bc833c2-4930-4380-8fdf-74c4fd9e823f
-81,09-Apr-18,9,4,2018,Shop,Other,Cash,out,-4,e2c7019f-ea54-421d-af10-b8e823725eca
-82,10-Apr-18,10,4,2018,Online Work,Freelance,Bank Account,in,600,182a3f56-9df6-418e-8504-bcd894e77eb4
-83,11-Apr-18,11,4,2018,Top Up,Communications,Bank Account,out,-20,bef30c5b-fafd-4f98-b1ee-7e1b6710a743
-84,13-Apr-18,13,4,2018,TV,Entertainment,Bank Account,out,-24,c6d2325d-08a1-4171-8230-59a99bd184c4
-85,14-Apr-18,14,4,2018,Groceries,Food,Cash,out,-45,524208d3-45d7-4f59-bebc-9986162601e9
-86,17-Apr-18,17,4,2018,Internet,Communications,Bank Account,out,-45,ff3f037b-f9a7-4cf0-8039-97428fbd7a3f
-87,17-Apr-18,17,4,2018,Shop,Other,Cash,out,-32,0644fdde-0fbd-4e3a-ba11-bbd60f598609
-88,19-Apr-18,19,4,2018,Parking,Auto,Cash,out,-1,94ccd849-2651-4cb0-8b82-149e63a07658
-89,19-Apr-18,19,4,2018,Shop,Other,Bank Account,out,-15,a620854b-6bee-409b-8841-8908f73681a3
-90,20-Apr-18,20,4,2018,Shop,Other,Bank Account,out,-14,835ea7a4-3f91-4ce5-8b0e-6e3c095a4986
-91,20-Apr-18,20,4,2018,Shop,Other,Bank Account,out,-12,f43ef1bc-c023-4b22-b53b-6595a4ac531c
-92,21-Apr-18,21,4,2018,Shop,Other,Cash,out,-78,7c36c3c3-b50c-46b8-811f-60f11268c5fe
-93,22-Apr-18,22,4,2018,Parking,Auto,Cash,out,-1,8a9f572e-bc5f-415f-b4d6-44d5ad5eae58
-94,22-Apr-18,22,4,2018,Groceries,Food,Cash,out,-24,3a4bd1cd-290e-424b-aa86-8982507d3565
-95,22-Apr-18,22,4,2018,Shop,Other,Cash,out,-11,ae83930d-609b-4bc0-a416-4abde5794881
-96,22-Apr-18,22,4,2018,Shop,Other,Bank Account,out,-5,ff86e543-34bf-41b9-b34b-14bc3308bd16
-97,23-Apr-18,23,4,2018,Shop,Other,Bank Account,out,-4,7f829c50-0319-4e11-8b6f-1948ea92a421
-98,23-Apr-18,23,4,2018,Shop,Other,Cash,out,-5,1cfe6120-caa5-4a62-9d48-5ba71e58ec7c
-99,24-Apr-18,24,4,2018,Parking,Auto,Cash,out,-1,69a51c01-7d6c-4e20-bb9f-3f84f6cbe82a
-100,24-Apr-18,24,4,2018,Shop,Other,Bank Account,out,-26,52330c07-1303-40b2-ae83-84e03dd3780a
-101,25-Apr-18,25,4,2018,Shop,Other,Cash,out,-45,2968c156-7165-4f73-bb51-29c8362d16cf
-102,25-Apr-18,25,4,2018,Shop,Other,Cash,out,-12,d96b550c-9d91-43c3-b1c1-1ef179138033
-103,25-Apr-18,25,4,2018,Parking,Auto,Cash,out,-1,d382f956-dd33-4d07-87f4-6f0a9b12c0d2
-104,26-Apr-18,26,4,2018,Groceries,Food,Cash,out,-26,97cd2dda-70d0-4909-a8da-835d0eec123b
-105,26-Apr-18,26,4,2018,Shop,Other,Bank Account,out,-5,d0002b6b-823f-4876-b426-a667002b888e
-106,27-Apr-18,27,4,2018,Shop,Other,Cash,out,-2,7453e226-a867-4291-a683-d816d79a2840
-107,28-Apr-18,28,4,2018,Shop,Other,Cash,out,-2,fd759903-e04e-4591-adfe-b30d0f0b7f9a
-108,29-Apr-18,29,4,2018,Car Insurance,Auto,Bank Account,out,-95,74ae4b3b-05b7-44ba-88d0-c37858877ef8
-109,30-Apr-18,30,4,2018,Rent,Home,Bank Account,out,-800,23b1142d-1f13-4c7b-9933-46d1593bd426
-110,30-Apr-18,30,4,2018,Spotify,Entertainment,Bank Account,out,-9,f01ecb54-5930-4038-8728-48d19342d7f2
-111,01-May-18,1,5,2018,Company,Salary,Bank Account,in,4000,1c97f83b-8980-4dd9-b989-0b4e2576c471
-112,03-May-18,3,5,2018,Shop,Other,Cash,out,-5,5d5c7519-df13-4003-966a-16ddf7a3d290
-113,03-May-18,3,5,2018,Shop,Other,Bank Account,out,-5,a23f16df-b72b-4b24-8e57-6f8339aad8c4
-114,04-May-18,4,5,2018,Groceries,Food,Cash,out,-26,49360861-3d64-421c-97f5-2641115a5860
-115,06-May-18,6,5,2018,Parking,Auto,Cash,out,-1,edb98fab-eac9-4607-b6d0-97f5b587f163
-116,06-May-18,6,5,2018,Parking,Auto,Cash,out,-1,7062b70b-a9b0-460a-8076-c140640fb937
-117,06-May-18,6,5,2018,Parking,Auto,Cash,out,-1,cf9d3a8d-aa52-412b-80a4-03f2da465efa
-118,07-May-18,7,5,2018,Shop,Other,Bank Account,out,-12,779123ae-a7ae-4c0e-b9a7-58eb4dfca36d
-119,07-May-18,7,5,2018,Shop,Other,Cash,out,-23,462b33b4-9841-4ba6-8b04-a13c6d47a644
-120,07-May-18,7,5,2018,Shop,Other,Cash,out,-12,755f9184-c7be-424b-b4a2-b86af5c2b628
-121,07-May-18,7,5,2018,Online Work,Freelance,Bank Account,in,800,6105ac3e-dc61-4505-8d03-5b8ff1100e37
-122,07-May-18,7,5,2018,Shop,Other,Cash,out,-34,f3a37bee-fff7-4bb6-9db0-2d62aede77d1
-123,08-May-18,8,5,2018,Parking,Auto,Cash,out,-1,9074725e-a457-4a4c-a795-f3927e9aa608
-124,08-May-18,8,5,2018,Groceries,Food,Cash,out,-100,b0c48f0c-33a8-4d97-b941-8fb5322273fd
-125,08-May-18,8,5,2018,Top Up,Communications,Bank Account,out,-20,286850b0-9652-4e90-a019-7c791a5507a1
-126,09-May-18,9,5,2018,Shop,Other,Cash,out,-23,309deb77-eb68-46a9-91cc-5425b2542fbd
-127,10-May-18,10,5,2018,Ice Cream,Other,Cash,out,-4,1ca2b50b-5b72-4ae0-844b-ac0aa327e073
-128,10-May-18,10,5,2018,TV,Entertainment,Bank Account,out,-24,0a11e721-0215-4390-89d2-2340e458dc73
-129,10-May-18,10,5,2018,Shop,Other,Cash,out,-12,e473157d-a668-4ebf-85bf-6aade791a1e1
-130,11-May-18,11,5,2018,Shop,Other,Cash,out,-5,7e41bf07-e51f-4b81-a4b3-d0fffd645192
-131,12-May-18,12,5,2018,Groceries,Food,Cash,out,-26,78edcfe5-bd8c-4f59-ace7-ccc5146de1de
-132,14-May-18,14,5,2018,Shop,Other,Cash,out,-23,d95922cc-9997-4557-9e27-97ceee783c2c
-133,15-May-18,15,5,2018,Internet,Communications,Bank Account,out,-45,31c27773-307d-42bb-a9fd-fea5887afeb8
-134,18-May-18,18,5,2018,Parking,Auto,Cash,out,-1,98504f14-3047-4401-8eff-30683dd87d54
-135,18-May-18,18,5,2018,Parking,Auto,Cash,out,-1,f08eb7f0-bccf-4f76-bf3f-de1d6d07ec65
-136,19-May-18,19,5,2018,Shop,Other,Bank Account,out,-12,56a9f3d6-027e-49cc-8f9f-8286329063fc
-137,20-May-18,20,5,2018,Shop,Other,Bank Account,out,-5,82bbabcb-60aa-43a5-9e86-f63130842acd
-138,20-May-18,20,5,2018,Shop,Other,Bank Account,out,-17,53ca706a-647b-4c86-a9e6-a5a639dba7ea
-139,21-May-18,21,5,2018,Shop,Other,Cash,out,-5,308f72d2-bd88-4d4c-a390-11253a95df95
-140,22-May-18,22,5,2018,Shop,Other,Cash,out,-24,5c5d586d-5421-4b64-b2e1-c64a81a2b1e2
-141,23-May-18,23,5,2018,Shop,Other,Cash,out,-2,a4ed0400-2d25-48f9-b5c2-4a8b02b30a07
-142,24-May-18,24,5,2018,Parking,Auto,Cash,out,-1,b4464140-dbc2-4b43-83ff-c883c70bd17c
-143,26-May-18,26,5,2018,Groceries,Food,Cash,out,-54,b1176155-8e46-4cf8-b859-285cb56ca687
-144,27-May-18,27,5,2018,Rent,Home,Bank Account,out,-800,3b1c04d4-d92e-42f9-a286-1787ccdd5f0c
-145,27-May-18,27,5,2018,Parking,Auto,Cash,out,-1,27a3ba4a-b9b3-4af4-aeaf-c0c87aa1b9f5
-146,27-May-18,27,5,2018,Shop,Other,Cash,out,-12,1450b65c-8c39-40a6-9254-5f1a3ff10f71
-147,29-May-18,29,5,2018,Car Insurance,Auto,Bank Account,out,-95,abf90882-8f63-4ec8-928f-c94fde739c42
-148,29-May-18,29,5,2018,Shop,Other,Cash,out,-5,019c7435-b581-4335-9592-edef4772652f
-149,30-May-18,30,5,2018,Spotify,Entertainment,Bank Account,out,-9,a8bb9349-221f-47bc-bcb6-7de82789e105
-150,01-Jun-18,1,6,2018,Company,Salary,Bank Account,in,4000,9316f8b7-a293-498b-8f7a-dc67182dc6ee
-151,01-Jun-18,1,6,2018,Shop,Other,Cash,out,-5,38a30240-2c7a-4ec7-bc69-cda52d9884e0
-152,07-Jun-18,7,6,2018,Shop,Other,Cash,out,-17,5208a60b-b037-4816-a8c1-50733339ff84
-153,11-Jun-18,11,6,2018,Groceries,Food,Cash,out,-47,3d208031-7247-481c-b603-6f0af20e3662
-154,12-Jun-18,12,6,2018,Shop,Other,Cash,out,-5,fdafea92-a41e-4145-946c-d7b03edef725
-155,12-Jun-18,12,6,2018,Shop,Other,Cash,out,-17,62806cc9-c54f-49ae-a5dc-969908d64d4e
-156,12-Jun-18,12,6,2018,Online Work,Freelance,Bank Account,in,200,09e30cda-07db-4ed6-bbb2-bfdb4f49024c
-157,12-Jun-18,12,6,2018,Shop,Other,Cash,out,-4,fdc569cf-b260-4776-9987-a1a58b1d759e
-158,13-Jun-18,13,6,2018,TV,Entertainment,Bank Account,out,-24,63d9c3cc-a66f-4d0f-a5fb-4559b8b02470
-159,13-Jun-18,13,6,2018,Shop,Other,Cash,out,-4,1e0daf35-c41a-4678-a485-7bfa3e907f8b
-160,15-Jun-18,15,6,2018,Top Up,Communications,Bank Account,out,-20,6bb9f2e3-a030-4d3d-aee8-5ec7577bd560
-161,17-Jun-18,17,6,2018,Internet,Communications,Bank Account,out,-45,b35dd78c-d7d0-456b-93ec-ae51887c04a8
-162,18-Jun-18,18,6,2018,Shop,Other,Cash,out,-4,83e7e33d-8b81-4f97-8ace-9b08019c3fa4
-163,18-Jun-18,18,6,2018,Groceries,Food,Cash,out,-54,3bbfe182-5cba-4215-8095-478f646ade0f
-164,20-Jun-18,20,6,2018,Shop,Other,Cash,out,-5,16ea0695-9efa-4b65-9463-971a5e144570
-165,20-Jun-18,20,6,2018,Shop,Other,Bank Account,out,-17,18d15b1b-4296-4ac3-9aa8-14e6cff63589
-166,22-Jun-18,22,6,2018,Ice Cream,Other,Cash,out,-4,b1b2b522-7677-4e90-bb04-55d14e5cc004
-167,22-Jun-18,22,6,2018,Parking,Auto,Cash,out,-1,76c571b4-e06f-4090-9ad0-e9ee17bcebb9
-168,22-Jun-18,22,6,2018,Shop,Other,Cash,out,-4,6a596696-9a68-4fbc-a285-afa4f6d75ef7
-169,22-Jun-18,22,6,2018,Groceries,Food,Cash,out,-57,aeb8511d-1d23-42df-92aa-02814c0895d3
-170,22-Jun-18,22,6,2018,Shop,Other,Cash,out,-12,10154b3d-6ee6-4ca1-acbe-7995530d113c
-171,22-Jun-18,22,6,2018,Shop,Other,Cash,out,-23,d131ea47-61cb-4ddb-baf8-402b71a100ab
-172,22-Jun-18,22,6,2018,Shop,Other,Cash,out,-12,177eb539-7369-418d-9a3f-fa0113dee6e8
-173,24-Jun-18,24,6,2018,Shop,Other,Cash,out,-4,65e76a99-57f2-4222-98fa-3d1722cf9e18
-174,24-Jun-18,24,6,2018,Shop,Other,Cash,out,-4,2bad90de-70a2-48e0-854b-c67c52230e5e
-175,25-Jun-18,25,6,2018,Groceries,Food,Cash,out,-26,ded1ab35-c474-4186-92ae-5fcf23b45371
-176,26-Jun-18,26,6,2018,Road Tax,Auto,Bank Account,out,-180,a6a47fef-0622-489a-8484-f186c0a19306
-177,26-Jun-18,26,6,2018,Shop,Other,Cash,out,-4,22631382-e14c-4df0-a507-a54c3a1797ab
-178,26-Jun-18,26,6,2018,Online Work,Freelance,Bank Account,in,800,d8b63070-42e9-4c1d-9618-6a6838e77fb6
-179,27-Jun-18,27,6,2018,Shop,Other,Cash,out,-5,f2f17823-77f2-4089-a1d7-5bd27996a689
-180,28-Jun-18,28,6,2018,Shop,Other,Cash,out,-17,d9846671-e0a3-4250-9d94-6671e0caf318
-181,29-Jun-18,29,6,2018,Car Insurance,Auto,Bank Account,out,-95,8059f15b-c1af-4950-a5b7-c3476aadcc8d
-182,30-Jun-18,30,6,2018,Rent,Home,Bank Account,out,-800,b7e4eabc-2e3f-4754-a97e-87608a4fd9c5
-183,30-Jun-18,30,6,2018,Parking,Auto,Cash,out,-1,994b3d69-b3fe-4086-91c0-48bf24ed9493
-184,30-Jun-18,30,6,2018,Spotify,Entertainment,Bank Account,out,-9,2bd87b69-e246-4eef-9c07-a4805422fe7f
-185,01-Jul-18,1,7,2018,Company,Salary,Bank Account,in,4000,0903d115-1860-4a6a-a4f1-0a8dd1741d36
-186,01-Jul-18,1,7,2018,Shop,Other,Cash,out,-17,27de7e30-882f-43f8-9e9b-c4b2df305667
-187,02-Jul-18,2,7,2018,Shop,Other,Cash,out,-17,61081b38-10cb-4174-b7a9-b970bfc8e1ba
-188,04-Jul-18,4,7,2018,Groceries,Food,Cash,out,-88,8dcdea52-5b35-4b73-8d2f-6cac468a8af1
-189,06-Jul-18,6,7,2018,Shop,Other,Bank Account,out,-5,6446c86f-00a3-4cc9-8b1c-3ed08096b863
-190,06-Jul-18,6,7,2018,Shop,Other,Bank Account,out,-17,cb543995-18be-459e-a0b8-35eaa622fb9c
-191,06-Jul-18,6,7,2018,Parking,Auto,Cash,out,-1,ecbbc89e-3f35-43ec-bb67-d542918e7b96
-192,08-Jul-18,8,7,2018,Shop,Other,Cash,out,-5,2a290af0-a51a-4cf9-a732-95007d2b17ec
-193,10-Jul-18,10,7,2018,Shop,Other,Cash,out,-17,6a5a2b3c-ab10-4cda-ad18-2bb7d89ec887
-194,11-Jul-18,11,7,2018,Ice Cream,Other,Cash,out,-4,0f4942ea-b821-45d1-b1e4-623682d6d2a1
-195,11-Jul-18,11,7,2018,TV,Entertainment,Bank Account,out,-24,6087f846-9fbd-410d-9b05-eef77481247d
-196,13-Jul-18,13,7,2018,Top Up,Communications,Bank Account,out,-20,f992a35c-468a-4731-bf4f-a67989cf44c2
-197,14-Jul-18,14,7,2018,Groceries,Food,Cash,out,-100,e701800f-146c-43df-86b4-959543c5daba
-198,15-Jul-18,15,7,2018,Internet,Communications,Bank Account,out,-45,593693b3-8e4e-467f-a749-7559d43e0a47
-199,16-Jul-18,16,7,2018,Online Work,Freelance,Bank Account,in,500,c61579b3-078f-4b7c-acf3-5e1d3e896451
-200,16-Jul-18,16,7,2018,Shop,Other,Cash,out,-4,c6f9f304-4ef4-4d32-9b3a-da1a0864dbe6
-201,17-Jul-18,17,7,2018,Shop,Other,Cash,out,-12,3df76198-f3a8-4493-80db-ee13dd75b8a7
-202,18-Jul-18,18,7,2018,Shop,Other,Bank Account,out,-23,aaab315e-f067-4d65-b49d-809a922a9784
-203,22-Jul-18,22,7,2018,Shop,Other,Cash,out,-12,0a569cb1-f188-4ea9-9c4e-fdd45ce7ab46
-204,26-Jul-18,26,7,2018,Parking,Auto,Cash,out,-1,7dc2fb8d-c02c-4be8-b30f-af84df0b9b2d
-205,26-Jul-18,26,7,2018,Shop,Other,Cash,out,-17,36a74d9f-e881-45c7-a4e7-cb6af148ddc0
-206,27-Jul-18,27,7,2018,Groceries,Food,Cash,out,-47,23a86c16-b766-465b-8c1f-b3fab72275a3
-207,27-Jul-18,27,7,2018,Shop,Other,Cash,out,-17,44350d23-4bf5-4f97-9a78-8225909e88bf
-208,28-Jul-18,28,7,2018,Rent,Home,Bank Account,out,-800,c42dad2f-f8ab-42bf-b7fb-d2076a02e54f
-209,28-Jul-18,28,7,2018,Car Insurance,Auto,Bank Account,out,-95,f5f8eea3-d527-484a-b0b2-b5ba806b608a
-210,30-Jul-18,30,7,2018,Ice Cream,Other,Cash,out,-4,9b0b42bc-d414-4d9a-93f2-fdb580e59dfe
-211,30-Jul-18,30,7,2018,Shop,Other,Cash,out,-4,81f7c569-e77a-44bd-be21-bf4318cac164
-212,31-Jul-18,31,7,2018,Spotify,Entertainment,Bank Account,out,-9,55453041-6276-44f8-9848-cd99e8f729b3
-213,01-Aug-18,1,8,2018,Company,Salary,Bank Account,in,4000,4773650d-1108-461e-88f8-1409c3eb9874
-214,01-Aug-18,1,8,2018,Shop,Other,Cash,out,-4,0c51437d-6bcf-416a-9b6c-21d87d4788cb
-215,02-Aug-18,2,8,2018,Shop,Other,Cash,out,-12,023a0bff-5292-4814-999f-b9a831dffb67
-216,03-Aug-18,3,8,2018,Shop,Other,Cash,out,-23,94d1f334-326c-43b9-aa34-1558c34d2ac1
-217,05-Aug-18,5,8,2018,Shop,Other,Bank Account,out,-12,38842379-0ce3-40eb-8b5a-d68b40d8a445
-218,07-Aug-18,7,8,2018,Parking,Auto,Cash,out,-1,965b1b33-ebc0-4f73-b2fc-58867e30d16c
-219,07-Aug-18,7,8,2018,Shop,Other,Cash,out,-4,af1b0d55-def9-4e99-bbe0-d1c1c6339987
-220,07-Aug-18,7,8,2018,Shop,Other,Cash,out,-12,f04d6ea6-a37d-4597-ad33-bfbaa157dc34
-221,07-Aug-18,7,8,2018,Groceries,Food,Cash,out,-20,5eec0489-35e8-4f74-87d2-7fec94e2d53a
-222,07-Aug-18,7,8,2018,Shop,Other,Cash,out,-4,11ec9aee-860e-431a-b32b-0f9cb21e67db
-223,08-Aug-18,8,8,2018,Top Up,Communications,Bank Account,out,-20,e893eac0-df0a-4f8a-837b-fbf16a34f8c1
-224,08-Aug-18,8,8,2018,Shop,Other,Cash,out,-4,ccec6585-c7d5-48ba-9b21-31b86b7afcc4
-225,09-Aug-18,9,8,2018,Shop,Other,Cash,out,-4,18127c4c-fbeb-4557-afef-a330e2aeb623
-226,13-Aug-18,13,8,2018,Online Work,Freelance,Bank Account,in,600,bada6a1b-9a43-44ac-9de7-88a9f89f8faa
-227,14-Aug-18,14,8,2018,Shop,Other,Cash,out,-12,7767baca-c569-4702-8c0b-6a2f72abd691
-228,15-Aug-18,15,8,2018,TV,Entertainment,Bank Account,out,-24,f5685593-49ce-41a8-9b8b-2bea11db6220
-229,15-Aug-18,15,8,2018,Internet,Communications,Bank Account,out,-45,8484f80a-6378-45d2-a5a9-449a4354234b
-230,16-Aug-18,16,8,2018,Parking,Auto,Cash,out,-1,59fec061-42c6-4a57-ba66-463b239bc5c7
-231,17-Aug-18,17,8,2018,Ice Cream,Other,Cash,out,-4,5786ba2c-ce42-4ac1-a96a-896edad89bbb
-232,18-Aug-18,18,8,2018,Groceries,Food,Cash,out,-72,282c9afb-3467-48cd-9b86-05bb6b1b56e4
-233,18-Aug-18,18,8,2018,Shop,Other,Cash,out,-12,40ec684b-cfcd-44e7-8050-d5dbc3ae03f2
-234,18-Aug-18,18,8,2018,Shop,Other,Bank Account,out,-23,37be289a-e875-4632-a8ac-ba6c6b5ab323
-235,19-Aug-18,19,8,2018,Shop,Other,Bank Account,out,-12,4e578a9e-7fd8-4c4a-9c9b-1f49866f00ca
-236,22-Aug-18,22,8,2018,Shop,Other,Bank Account,out,-5,9991875f-c376-4445-9089-3f6952e7c638
-237,23-Aug-18,23,8,2018,Shop,Other,Cash,out,-1200,856a2052-c221-426a-91cc-9df3531ccb91
-238,24-Aug-18,24,8,2018,Shop,Other,Cash,out,-4,167ed75a-3176-4854-9859-2d433db5bfc2
-239,24-Aug-18,24,8,2018,Parking,Auto,Cash,out,-1,05b77d82-31b6-4bd6-918c-cba2a0a6d28d
-240,25-Aug-18,25,8,2018,Shop,Other,Cash,out,-12,828934ae-4be8-446a-9c88-c6bfd8984bdb
-241,25-Aug-18,25,8,2018,Rent,Home,Bank Account,out,-800,91818456-9284-4c15-871b-73b0c4821c18
-242,26-Aug-18,26,8,2018,Groceries,Food,Cash,out,-140,093a8006-c188-4bd5-8a02-c674f6cc397b
-243,27-Aug-18,27,8,2018,Shop,Other,Cash,out,-12,95e089fd-5a74-44eb-9100-b7e5234b44fb
-244,27-Aug-18,27,8,2018,Car Insurance,Auto,Bank Account,out,-95,431ee289-d751-423a-a229-2e600f44715e
-245,28-Aug-18,28,8,2018,Spotify,Entertainment,Bank Account,out,-9,a4dfc9b4-ebf1-458e-bf84-24fadc579f4d
-246,31-Aug-18,31,8,2018,Parking,Auto,Cash,out,-1,7aad3d6c-916f-44eb-83ca-14ed766aeccc
-247,01-Sep-18,1,9,2018,Company,Salary,Bank Account,in,4000,b05b27d2-45b0-4d71-8a4f-4739217d17fb
-248,06-Sep-18,6,9,2018,Fix,Auto,Cash,out,-2000,e05817b4-9dd4-4c9e-b3b3-21e40f9692a5
-249,07-Sep-18,7,9,2018,Shop,Other,Cash,out,-17,f2141218-02bb-4173-ba2d-0e58139cdfd6
-250,07-Sep-18,7,9,2018,Groceries,Food,Cash,out,-90,84803a13-b9ed-4963-95f9-545f401ed550
-251,08-Sep-18,8,9,2018,Shop,Other,Cash,out,-12,116030e0-5b3f-46ee-9389-9aa87e64814b
-252,10-Sep-18,10,9,2018,Top Up,Communications,Bank Account,out,-20,f63d9bbc-7ef3-4d1d-a55c-e06d6fc4c778
-253,10-Sep-18,10,9,2018,Parking,Auto,Cash,out,-1,bcf6cba1-bb75-4521-ae2a-5aabf896ed30
-254,10-Sep-18,10,9,2018,Shop,Other,Cash,out,-12,b804968b-34d0-4830-985c-d9dc68f0b30e
-255,11-Sep-18,11,9,2018,TV,Entertainment,Bank Account,out,-24,4944366f-183f-4956-a55b-b0c9f5e88f66
-256,16-Sep-18,16,9,2018,Online Work,Freelance,Bank Account,in,800,95fa7a98-2ef1-40a4-89c0-630a5abc92e0
-257,18-Sep-18,18,9,2018,Internet,Communications,Bank Account,out,-45,48638a41-5054-4bcb-931f-e57898b3c254
-258,18-Sep-18,18,9,2018,Parking,Auto,Cash,out,-1,f74ebf0b-4158-4c88-8f0d-fde22dc47a49
-259,20-Sep-18,20,9,2018,Shop,Other,Cash,out,-4,c8167e35-53b9-4d13-af58-73a1a2ad4e76
-260,23-Sep-18,23,9,2018,Groceries,Food,Cash,out,-57,4d0667a8-b4ba-443a-8bc1-da11ba2847b5
-261,24-Sep-18,24,9,2018,Shop,Other,Bank Account,out,-5,30dc4bfe-04ce-45ba-bdea-fd7384ad0f23
-262,24-Sep-18,24,9,2018,Shop,Other,Cash,out,-17,dfadad72-549e-46f2-954f-999f93662713
-263,25-Sep-18,25,9,2018,Ice Cream,Other,Cash,out,-4,a1c99f7f-5d79-4c40-a2f0-bde3b665b36a
-264,25-Sep-18,25,9,2018,Shop,Other,Cash,out,-4,22fe8443-870e-465a-a5eb-abd546245234
-265,26-Sep-18,26,9,2018,Parking,Auto,Cash,out,-1,58223882-a5c7-486e-8126-7b2b911870a7
-266,26-Sep-18,26,9,2018,Groceries,Food,Cash,out,-46,2b681c0b-4342-4633-9120-2e58085208b5
-267,27-Sep-18,27,9,2018,Road Tax,Auto,Bank Account,out,-180,d65f650e-75cb-4850-8233-25a473e49d3b
-268,28-Sep-18,28,9,2018,Shop,Other,Cash,out,-12,b28c6a72-ce75-4627-82aa-14c0d5398d66
-269,28-Sep-18,28,9,2018,Parking,Auto,Cash,out,-1,8564a115-d080-432f-941c-2a9d9a0592c0
-270,28-Sep-18,28,9,2018,Rent,Home,Bank Account,out,-800,ac1bed00-bd98-4b74-a114-565aafcb3dff
-271,29-Sep-18,29,9,2018,Car Insurance,Auto,Bank Account,out,-95,a415d234-b5fb-406e-a27f-3b556ea0074f
-272,29-Sep-18,29,9,2018,Spotify,Entertainment,Bank Account,out,-9,a3dedfad-904c-4c9b-b830-809587c9f3a0
-273,29-Sep-18,29,9,2018,Shop,Other,Cash,out,-4,eb55c662-11c9-41b4-8b06-1145d8a097bd
-274,01-Oct-18,1,10,2018,Company,Salary,Bank Account,in,4000,84cbfb2f-414a-4dac-b79b-7c07132a89a9
-275,03-Oct-18,3,10,2018,Shop,Other,Cash,out,-12,d92d214e-ac65-4f6c-9681-1fc00a800974
-276,04-Oct-18,4,10,2018,Shop,Other,Cash,out,-23,3fa73002-21ab-40e1-8ac1-4c71b8144b12
-277,04-Oct-18,4,10,2018,Shop,Other,Cash,out,-12,997482ae-23fe-4245-8084-a0d0128d83eb
-278,05-Oct-18,5,10,2018,Groceries,Food,Cash,out,-20,53e9ae4f-2275-4a21-bf6c-5df023526676
-279,05-Oct-18,5,10,2018,Parking,Auto,Cash,out,-1,6f0c874d-9ef9-4e5b-850a-2dbedefac6b9
-280,06-Oct-18,6,10,2018,Shop,Other,Cash,out,-12,5923f116-031d-4b44-b615-1186339da4d9
-281,07-Oct-18,7,10,2018,Top Up,Communications,Bank Account,out,-20,6897c5cb-05b3-4884-a047-440e4f1b9ee1
-282,09-Oct-18,9,10,2018,Parking,Auto,Cash,out,-1,81a9af50-e298-45a5-9b2a-456ef522b9f8
-283,10-Oct-18,10,10,2018,Shop,Other,Cash,out,-4,e9ebfdd8-daca-4aad-b952-5c82dc3f77b1
-284,10-Oct-18,10,10,2018,Online Work,Freelance,Bank Account,in,800,98c65cae-0e2b-4faa-991b-36bf79034f90
-285,11-Oct-18,11,10,2018,Shop,Other,Cash,out,-5,1f64ccda-eb87-46a0-8c8c-9299a7cbbfb8
-286,11-Oct-18,11,10,2018,Shop,Other,Cash,out,-17,2bc4905a-20b9-4c2a-8683-f2dc02bd8060
-287,13-Oct-18,13,10,2018,TV,Entertainment,Bank Account,out,-24,80445947-5bbd-429d-9a8c-d8f62f82a647
-288,14-Oct-18,14,10,2018,Groceries,Food,Cash,out,-170,519ab42f-2fdb-47f1-ad55-e6f96f7f46d0
-289,14-Oct-18,14,10,2018,Shop,Other,Cash,out,-12,f4eeb01c-fb46-4cfd-aa8f-1a00d2888cbe
-290,16-Oct-18,16,10,2018,Parking,Auto,Cash,out,-1,746cdd34-5794-424a-822e-b2e512c24c38
-291,18-Oct-18,18,10,2018,Internet,Communications,Bank Account,out,-45,dd331ecc-542f-4b77-8ddf-6fb8b7abdd95
-292,18-Oct-18,18,10,2018,Shop,Other,Cash,out,-12,11026965-706b-428c-820f-d7449f64c03c
-293,18-Oct-18,18,10,2018,Shop,Other,Cash,out,-12,12e7578d-52c2-488f-b857-d88792275f77
-294,19-Oct-18,19,10,2018,Parking,Auto,Cash,out,-1,f016994f-30e0-43f4-bb46-0adf2fdf7034
-295,20-Oct-18,20,10,2018,Shop,Other,Cash,out,-5,c0eb6627-d372-4e47-8548-1242ea94a0ca
-296,20-Oct-18,20,10,2018,Shop,Other,Bank Account,out,-17,5d0ae861-d321-4268-a44d-3485ddbf7f0a
-297,20-Oct-18,20,10,2018,Shop,Other,Bank Account,out,-5,d8173cca-1591-4538-a22b-05d18a5189a2
-298,21-Oct-18,21,10,2018,Shop,Other,Cash,out,-17,fc696aee-0db3-48fd-bdf9-3416bba60d6f
-299,23-Oct-18,23,10,2018,Groceries,Food,Cash,out,-100,45b14fd1-8a78-454e-8114-9941e113af8b
-300,24-Oct-18,24,10,2018,Parking,Auto,Cash,out,-1,5d661d30-68b1-4b28-824e-9b432085f468
-301,24-Oct-18,24,10,2018,Online Work,Freelance,Bank Account,in,400,7f8fb2fd-f92f-4b6f-92eb-6387cb5b8aa2
-302,24-Oct-18,24,10,2018,Shop,Other,Cash,out,-12,99f09bbb-8439-4395-8518-20e099b739a9
-303,25-Oct-18,25,10,2018,Shop,Other,Cash,out,-23,4b006ccb-2055-41af-af5e-3fa0cc6b957f
-304,25-Oct-18,25,10,2018,Shop,Other,Cash,out,-12,2becea3f-301b-4404-9184-1644300aaa68
-305,25-Oct-18,25,10,2018,Parking,Auto,Cash,out,-1,301011c2-1428-442b-8dfb-0a1acd227fda
-306,27-Oct-18,27,10,2018,Shop,Other,Cash,out,-4,e362305b-c78d-4b19-aae5-c559ab32cec3
-307,29-Oct-18,29,10,2018,Spotify,Entertainment,Bank Account,out,-9,d06d0ff5-a1e6-4cd0-b6de-b4e792393ab4
-308,29-Oct-18,29,10,2018,Car Insurance,Auto,Bank Account,out,-95,be8e8bb0-9cf9-445c-b1c2-f5fac591dc0c
-309,29-Oct-18,29,10,2018,Online Work,Freelance,Bank Account,in,200,feca63c9-b4fe-4dca-b7f3-c834a66da4b7
-310,31-Oct-18,31,10,2018,Parking,Auto,Cash,out,-1,b2d0b062-a475-4988-9d92-6b1601e20cac
-311,31-Oct-18,31,10,2018,Groceries,Food,Cash,out,-65,eb747041-438b-4222-94ad-40f17d420287
-312,31-Oct-18,31,10,2018,Rent,Home,Bank Account,out,-800,11b4c6ee-8e14-4e7c-b0c9-d70a9cc71249
-313,01-Nov-18,1,11,2018,Company,Salary,Bank Account,in,4000,f66cb340-35cf-47ef-a52d-7524e50e54ed
-314,01-Nov-18,1,11,2018,Shop,Other,Cash,out,-12,2660af91-fdc4-46b5-8e16-2bcf13630f0b
-315,04-Nov-18,4,11,2018,Shop,Other,Bank Account,out,-23,ab6b225d-b703-4bfa-9418-2fc5d27ee438
-316,04-Nov-18,4,11,2018,Shop,Other,Bank Account,out,-12,311985ce-d5c0-4e13-92ed-770c39bf6abd
-317,05-Nov-18,5,11,2018,Groceries,Food,Cash,out,-80,683e6a68-0fff-4a08-bd47-816f5c8a4498
-318,06-Nov-18,6,11,2018,Shop,Other,Cash,out,-12,3e33082a-d2de-4255-910a-90d55acabcdf
-319,06-Nov-18,6,11,2018,Top Up,Communications,Bank Account,out,-20,83ec3576-5922-4767-bb24-436ebeb2ed44
-320,07-Nov-18,7,11,2018,Shop,Other,Cash,out,-4,3839de05-8c0d-42eb-a7cf-a0c8a0e9603e
-321,07-Nov-18,7,11,2018,Parking,Auto,Cash,out,-1,34a39451-c0e4-4ad2-a1f0-350a508d791b
-322,09-Nov-18,9,11,2018,Shop,Other,Cash,out,-12,872781b5-c377-428a-b592-c955e25bdcf7
-323,10-Nov-18,10,11,2018,Shop,Other,Cash,out,-23,fa7997d1-80e3-4f40-bb1c-c806c2d44074
-324,12-Nov-18,12,11,2018,Shop,Other,Cash,out,-12,df5c5885-bfcb-48b5-b5dc-4c2c35e82dd5
-325,12-Nov-18,12,11,2018,TV,Entertainment,Bank Account,out,-24,cb592dd9-5c97-4b46-9451-6d6bdb049018
-326,14-Nov-18,14,11,2018,Online Work,Freelance,Bank Account,in,400,a55ae310-ba66-41f2-ba28-75922d12c168
-327,14-Nov-18,14,11,2018,Parking,Auto,Cash,out,-1,937524a9-ec88-4eaf-bbe6-a638da292cc1
-328,15-Nov-18,15,11,2018,Internet,Communications,Bank Account,out,-45,c865e274-cc2d-429e-9883-a83cd884d93b
-329,17-Nov-18,17,11,2018,Shop,Other,Cash,out,-5,bf91b058-dff8-4466-9ab1-ae252a670b95
-330,18-Nov-18,18,11,2018,Shop,Other,Cash,out,-17,598fa749-4d6c-4fcb-85ac-108c77e29567
-331,21-Nov-18,21,11,2018,Groceries,Food,Cash,out,-35,a1022dcf-482b-4c8f-a1e3-5540da536510
-332,22-Nov-18,22,11,2018,Shop,Other,Bank Account,out,-12,130ea5a6-6777-4cae-bbe4-89cd74592013
-333,23-Nov-18,23,11,2018,Parking,Auto,Cash,out,-1,1ad4c8ff-9da0-40fd-a7b6-b3b8e71f2dd5
-334,23-Nov-18,23,11,2018,Shop,Other,Cash,out,-4,be53bf8b-2e5d-4341-b9d7-f1e651e3c830
-335,24-Nov-18,24,11,2018,Spotify,Entertainment,Bank Account,out,-9,55346495-7389-422a-b788-ac44378fa5f8
-336,25-Nov-18,25,11,2018,Groceries,Food,Cash,out,-133,0528bd22-6853-434a-8c0a-ee9003c43f7d
-337,28-Nov-18,28,11,2018,Car Insurance,Auto,Bank Account,out,-95,de0f9b65-be80-43ff-a7df-946df05f0dd5
-338,28-Nov-18,28,11,2018,Parking,Auto,Cash,out,-1,42a233e6-5555-4958-9ef2-28bcb8d46887
-339,30-Nov-18,30,11,2018,Rent,Home,Bank Account,out,-800,d6f0a849-b525-4d5e-ba4c-4400f0ae7701
-340,01-Dec-18,1,12,2018,Company,Salary,Bank Account,in,3200,95ddd1b0-7a9d-441c-ac0b-b08976041f53
-341,01-Dec-18,1,12,2018,Shop,Other,Cash,out,-5,e1f598d6-6464-4332-9219-14e561195914
-342,02-Dec-18,2,12,2018,Shop,Other,Cash,out,-17,b5968267-ba0e-4d40-bfca-772da4ad6bea
-343,05-Dec-18,5,12,2018,Groceries,Food,Cash,out,-121,0c64f211-3664-475a-a6b1-8d28b5f4718d
-344,06-Dec-18,6,12,2018,Parking,Auto,Cash,out,-1,933890dd-1173-4cb5-af4c-ba0250c267c2
-345,07-Dec-18,7,12,2018,Shop,Other,Bank Account,out,-5,e22768c1-fd20-4978-808a-ad6e1a181739
-346,07-Dec-18,7,12,2018,Shop,Other,Cash,out,-17,b7637868-5bb6-435e-ba0f-53c43fec0846
-347,08-Dec-18,8,12,2018,Top Up,Communications,Bank Account,out,-20,5f8841fb-98a5-4e6e-95c3-3808fd4e3ac0
-348,08-Dec-18,8,12,2018,Shop,Other,Cash,out,-12,514a7396-26a1-4363-936e-123c140ca3d8
-349,08-Dec-18,8,12,2018,Online Work,Freelance,Bank Account,in,800,939525d7-5381-4f70-9e54-7dfcb26612d5
-350,09-Dec-18,9,12,2018,Shop,Other,Cash,out,-4,b615493d-aabe-4810-ab91-c7ca530e68bc
-351,14-Dec-18,14,12,2018,Parking,Auto,Cash,out,-1,4f2c165b-4970-49c9-a410-e6dc864b4cde
-352,14-Dec-18,14,12,2018,TV,Entertainment,Bank Account,out,-24,cdd2c4ca-f1d4-4399-8588-8fe27fdbb82c
-353,16-Dec-18,16,12,2018,Internet,Communications,Bank Account,out,-45,d5cdd133-3d9b-4c74-93fc-5e9d2a027c7d
-354,16-Dec-18,16,12,2018,Shop,Other,Cash,out,-12,17f16587-13db-4149-a62b-d333843780af
-355,16-Dec-18,16,12,2018,Road Tax,Auto,Bank Account,out,-180,c452aaa4-17aa-4819-bd18-c04c161afaba
-356,18-Dec-18,18,12,2018,Parking,Auto,Cash,out,-1,fe8c837f-1f56-46bd-9be0-c6289f3ab617
-357,19-Dec-18,19,12,2018,Gifts,Other,Cash,out,-500,b5dff7fe-0c89-4ca4-b624-8e0d17de2d92
-358,19-Dec-18,19,12,2018,Shop,Other,Cash,out,-4,37e20c5e-6440-45c9-bbf0-43223f908bb6
-359,20-Dec-18,20,12,2018,Groceries,Food,Cash,out,-301,4a9545a1-d48c-4ae0-b7e2-84e425921a49
-360,21-Dec-18,21,12,2018,Car Insurance,Auto,Bank Account,out,-95,fe906914-d0c0-473e-b4f1-2a11fe5b0acc
-361,27-Dec-18,27,12,2018,Rent,Home,Bank Account,out,-800,b57ce96a-e950-43b2-ac83-0763e646ad28
-362,27-Dec-18,27,12,2018,Online Work,Freelance,Bank Account,in,800,4e75c74e-e59a-4d49-9fa7-3c006ef06536
-363,01-Jan-19,1,1,2019,Company,Salary,Bank Account,in,3300,5a5a365d-b9b2-4d8f-a289-b2b7e05876de
-364,02-Jan-19,2,1,2019,Shop,Other,Cash,out,-11,0662f575-8c84-4b8c-b3cc-11dc4a986fc6
-365,02-Jan-19,2,1,2019,Shop,Other,Bank Account,out,-23,9c1be032-7e8e-4317-a096-61aeedce7292
-366,03-Jan-19,3,1,2019,Shop,Other,Bank Account,out,-35,73ae086f-dae8-4aa5-9696-5cfce8f0490f
-367,04-Jan-19,4,1,2019,Parking,Auto,Cash,out,-1,aa5a57b9-1e4c-430e-9c70-b9bb47f7082c
-368,05-Jan-19,5,1,2019,Shop,Other,Cash,out,-3,9111e4ad-3bec-48d0-97cf-622db0a51d92
-369,07-Jan-19,7,1,2019,Groceries,Food,Cash,out,-100,13af4754-9ee9-4b0b-b6d1-c8ab489a4877
-370,07-Jan-19,7,1,2019,Shop,Other,Cash,out,-21,a4244e04-6bdb-44de-a4ca-a24ea829e542
-371,08-Jan-19,8,1,2019,Parking,Auto,Cash,out,-1,6d6f3cb2-71ca-4291-93c4-9dce83de4078
-372,09-Jan-19,9,1,2019,Shop,Other,Bank Account,out,-3,ad6f8d62-53fa-4431-8978-fe7411a8f342
-373,10-Jan-19,10,1,2019,Shop,Other,Cash,out,-50,feec1137-745d-442c-98f1-b8f2c29bd02f
-374,10-Jan-19,10,1,2019,TV,Entertainment,Bank Account,out,-24,2c141ff0-098a-4b2d-acb0-1c4d786c4e8e
-375,12-Jan-19,12,1,2019,Groceries,Food,Cash,out,-77,c8d0fa70-2a97-4b98-b094-538bb99081a3
-376,12-Jan-19,12,1,2019,Parking,Auto,Cash,out,-1,28c44528-5bca-4db3-b786-c81dd87090fa
-377,16-Jan-19,16,1,2019,Internet,Communications,Bank Account,out,-45,ea6e2f4e-3346-42e7-8198-e7143cfec837
-378,17-Jan-19,17,1,2019,Parking,Auto,Cash,out,-1,05610706-90f4-468b-9822-70e950e679f8
-379,19-Jan-19,19,1,2019,Top Up,Communications,Bank Account,out,-20,52e0eb1c-d590-4cb6-8588-9387f5453fe9
-380,20-Jan-19,20,1,2019,Online Work,Freelance,Bank Account,in,800,27a48410-a0d3-4a33-9e82-c5a8e277496f
-381,26-Jan-19,26,1,2019,Rent,Home,Bank Account,out,-1000,1dfed77a-5546-44a7-80e9-2fb2f5e33057
-382,27-Jan-19,27,1,2019,Groceries,Food,Cash,out,-23,2328ae84-b13c-475e-ad56-86a03800031e
-383,27-Jan-19,27,1,2019,Parking,Auto,Cash,out,-1,e6809b1a-3894-44ce-88c3-6c524dbe3f87
-384,28-Jan-19,28,1,2019,Car Insurance,Auto,Bank Account,out,-95,ab55af35-a618-46f0-8552-ccd7f3fc69dc
-385,28-Jan-19,28,1,2019,Spotify,Entertainment,Bank Account,out,-9,fa9a87f1-8d2b-441d-a03c-2a11733b8cac
-386,10-Feb-19,10,2,2019,Company,Salary,Bank Account,in,3000,616f167c-0ab7-48fc-ba55-a72cf46f6802
-387,01-Feb-19,1,2,2019,Groceries,Food,Cash,out,-57,f01ba4ca-75ed-4e21-9687-e9c98bdfb9b9
-388,01-Feb-19,1,2,2019,Fuel,Auto,Cash,out,-50,5325dd50-917f-49a5-a134-3f2842c9ad1c
-389,02-Feb-19,2,2,2019,Parking,Auto,Cash,out,-1,9e931c39-4ea7-4b4f-9c78-7fb38a31879d
-390,02-Feb-19,2,2,2019,Top Up,Communications,Bank Account,out,-20,21a419c3-926c-47a4-a688-9d209895039f
-391,09-Feb-19,9,2,2019,Shop,Other,Cash,out,-25,72aab2ec-dab2-4d5f-9cf6-e068309a11e2
-392,11-Feb-19,11,2,2019,Parking,Auto,Cash,out,-1,4659f266-1b8d-48d5-8805-5d578f7280fc
-393,11-Feb-19,11,2,2019,Shop,Other,Bank Account,out,-3,f02cdfa1-6121-4668-894a-4a1f862ac112
-394,14-Feb-19,14,2,2019,Internet,Communications,Bank Account,out,-45,0bb21f7d-c5f3-4bef-8997-2922ce370525
-395,14-Feb-19,14,2,2019,Shop,Other,Cash,out,-64,89349f67-779e-4022-b4f0-48df53fecabb
-396,16-Feb-19,16,2,2019,Fuel,Auto,Cash,out,-50,5a761da0-7aa6-4f42-bac4-a1bbc10d5e9a
-397,18-Feb-19,18,2,2019,TV,Entertainment,Bank Account,out,-24,8de34a8e-d01b-441a-9b1c-3a01b8444de0
-398,21-Feb-19,21,2,2019,Groceries,Food,Cash,out,-23,becf4026-a304-4bbc-8768-b88af6bafe69
-399,22-Feb-19,22,2,2019,Online Work,Freelance,Bank Account,in,800,b5f0eccd-d749-4925-b66a-add4194c6a35
-400,23-Feb-19,23,2,2019,Parking,Auto,Cash,out,-1,10221c90-d41f-4f39-a540-0782ae9faf46
-401,23-Feb-19,23,2,2019,Shop,Other,Bank Account,out,-78,4b2001b5-ded0-4a5f-8cb2-45ff1a046111
-402,24-Feb-19,24,2,2019,Shop,Other,Bank Account,out,-11,3fa2324d-b4ae-41fd-bd26-89b7d4b9d367
-403,25-Feb-19,25,2,2019,Fuel,Auto,Cash,out,-50,4a00dc2f-4730-4e47-8688-27ad2c9f73e7
-404,25-Feb-19,25,2,2019,Groceries,Food,Cash,out,-87,fcc645cd-1b36-40ef-b78b-77839fb5367c
-405,27-Feb-19,27,2,2019,Rent,Home,Bank Account,out,-1000,771ac688-81f6-4b82-b624-5e4f38792be6
+1,2018-01-01,1,1,2018,Company,Salary,Bank Account,in,3000,336335d2-f2fc-4f75-a050-f0a439eff71a
+2,2018-01-01,1,1,2018,Groceries,Food,Cash,out,-57,75eee4fd-c60b-4c9d-a24b-4625c098ce0c
+3,2018-01-01,1,1,2018,Fuel,Auto,Cash,out,-50,94017a94-e38d-44c9-9b5c-3eea381cb761
+4,2018-01-02,2,1,2018,Parking,Auto,Cash,out,-1,4e8eedc5-5bbb-4635-a389-b119b40e4f81
+5,2018-01-02,2,1,2018,Top Up,Communications,Bank Account,out,-20,3276f624-ee57-4f94-96bf-47a825d731f9
+6,2018-01-09,9,1,2018,Shop,Other,Cash,out,-25,e67bb1f5-3aab-49ff-a134-6880a3ad4b27
+7,2018-01-11,11,1,2018,Parking,Auto,Cash,out,-1,e89eb8bc-811b-440c-ac53-8885d83838e8
+8,2018-01-11,11,1,2018,Shop,Other,Bank Account,out,-3,7196c147-d42c-4ce9-89de-00232e783bc6
+9,2018-01-14,14,1,2018,Internet,Communications,Bank Account,out,-45,611a08b1-9d98-47d3-a49a-40db8badb60b
+10,2018-01-14,14,1,2018,Shop,Other,Cash,out,-64,168fc22d-17ac-439e-90c1-26234eeee9cd
+11,2018-01-16,16,1,2018,Fuel,Auto,Cash,out,-50,f3817a67-d882-4948-adb8-a8b892344980
+12,2018-01-18,18,1,2018,TV,Entertainment,Bank Account,out,-24,fac16ab3-cd9e-4fa2-999c-d398205c948c
+13,2018-01-21,21,1,2018,Groceries,Food,Cash,out,-23,c25b25e9-7c32-40f0-a4b1-cff0dc224bf1
+14,2018-01-22,22,1,2018,Online Work,Freelance,Bank Account,in,800,2dcede75-2a32-45ce-95a9-92e2dc113cc2
+15,2018-01-23,23,1,2018,Parking,Auto,Cash,out,-1,d3bd87ad-a9c1-4183-b24d-5a966d8af957
+16,2018-01-23,23,1,2018,Shop,Other,Bank Account,out,-78,b45b8d80-89ab-4552-90d7-78e1b7c2274d
+17,2018-01-24,24,1,2018,Shop,Other,Bank Account,out,-11,44861ed3-6b5c-47b9-ae9c-dc8cde7b07e1
+18,2018-01-25,25,1,2018,Fuel,Auto,Cash,out,-50,d5e50b66-799a-4690-9ffb-b1b056ecb604
+19,2018-01-25,25,1,2018,Groceries,Food,Cash,out,-87,edd08925-9122-4343-8d9b-e6d0f7b3e0d8
+20,2018-01-27,27,1,2018,Rent,Home,Bank Account,out,-800,52fa36eb-0f42-47da-8232-18d74e15f665
+21,2018-01-29,29,1,2018,Car Insurance,Auto,Bank Account,out,-95,e58cfb6d-b517-46cd-9ff5-9763389c5853
+22,2018-01-29,29,1,2018,Parking,Auto,Cash,out,-1,8436dcf0-cb2f-4b83-bd96-12fd003bad9b
+23,2018-01-30,30,1,2018,Fuel,Auto,Cash,out,-50,41b2cd34-0531-44af-a83d-add846a51e9c
+24,2018-01-31,31,1,2018,Spotify,Entertainment,Bank Account,out,-9,8680973f-54ed-4cbb-80e7-72829dfd0f84
+25,2018-02-01,1,2,2018,Company,Salary,Bank Account,in,3300,e28a1350-7d39-408d-83f1-8e330193fc81
+26,2018-02-02,2,2,2018,Shop,Other,Cash,out,-11,8f0b531f-15cf-4c2a-8ee9-4139c07d32eb
+27,2018-02-02,2,2,2018,Shop,Other,Bank Account,out,-23,34ca1876-7459-463e-a24f-1f8d47ab9b4b
+28,2018-02-03,3,2,2018,Shop,Other,Bank Account,out,-35,be353113-8f58-4632-a669-72d489b2fb7a
+29,2018-02-04,4,2,2018,Parking,Auto,Cash,out,-1,b8dd111f-c8af-4d4d-adcb-63ccdd428287
+30,2018-02-05,5,2,2018,Shop,Other,Cash,out,-3,d7e2c421-94f8-48ce-b3c3-6882767b5c28
+31,2018-02-07,7,2,2018,Groceries,Food,Cash,out,-100,05d2150d-88b7-4c05-bbc3-dae639bf659c
+32,2018-02-07,7,2,2018,Shop,Other,Cash,out,-21,195bdcd7-def6-41e8-bee8-fab93528d52a
+33,2018-02-08,8,2,2018,Parking,Auto,Cash,out,-1,53f23c3d-20c8-4c09-8ada-a10b46bfca2f
+34,2018-02-09,9,2,2018,Shop,Other,Bank Account,out,-3,71cab46b-5372-4b13-b557-bb563e29f9a4
+35,2018-02-10,10,2,2018,Shop,Other,Cash,out,-50,7fd6e95f-9167-4fce-8049-614083e26696
+36,2018-02-10,10,2,2018,TV,Entertainment,Bank Account,out,-24,5e7e743c-df4c-44ca-8b6c-922b23a0fe98
+37,2018-02-12,12,2,2018,Groceries,Food,Cash,out,-77,992c9380-60a3-4404-b5af-50532c2bb30f
+38,2018-02-12,12,2,2018,Parking,Auto,Cash,out,-1,6f3217de-4467-4bdf-97b2-2b60956c206b
+39,2018-02-16,16,2,2018,Internet,Communications,Bank Account,out,-45,45beedae-6d6f-4b8e-b7a7-c912bf917db4
+40,2018-02-17,17,2,2018,Parking,Auto,Cash,out,-1,29389202-bf82-446d-829f-0def6dd10279
+41,2018-02-19,19,2,2018,Top Up,Communications,Bank Account,out,-20,b751cc41-adf2-4455-be20-fc70e4c7ea82
+42,2018-02-20,20,2,2018,Online Work,Freelance,Bank Account,in,800,0860ff40-4a8c-49e5-b555-c366aba64cf1
+43,2018-02-26,26,2,2018,Rent,Home,Bank Account,out,-800,57e06ab5-8c76-40ac-8f71-67083dd184be
+44,2018-02-27,27,2,2018,Groceries,Food,Cash,out,-23,4d7248df-fec1-4dc7-b41a-2a274438f71a
+45,2018-02-27,27,2,2018,Parking,Auto,Cash,out,-1,5356bb8a-f5d4-43fe-a154-7784ff3f5cc4
+46,2018-02-28,28,2,2018,Car Insurance,Auto,Bank Account,out,-95,386de8ca-f5b9-45a0-8845-c44fabcb20f9
+47,2018-02-28,28,2,2018,Spotify,Entertainment,Bank Account,out,-9,91f5bef5-c19d-46fa-a87a-a189a37101e0
+48,2018-03-01,1,3,2018,Company,Salary,Bank Account,in,4000,f461b9d2-8286-44bb-9476-1abf6dcc7cf1
+49,2018-03-02,2,3,2018,Shop,Food,Bank Account,out,-12,83e37241-c07a-4910-9566-40fbb255fc64
+50,2018-03-04,4,3,2018,Groceries,Food,Cash,out,-77,7b026519-57df-4498-85be-756afa6ccce7
+51,2018-03-04,4,3,2018,Shop,Other,Cash,out,-27,47b5e048-428b-4f8d-a4fd-cd9f6128d33d
+52,2018-03-05,5,3,2018,Parking,Auto,Cash,out,-1,e3b829d1-ff8f-47bc-9521-72ab77fe154c
+53,2018-03-06,6,3,2018,Shop,Other,Bank Account,out,-34,32394c1b-7ed4-467d-b7dc-b5898ed572e9
+54,2018-03-07,7,3,2018,Shop,Other,Cash,out,-45,ca695225-625e-4209-9ac0-353540609893
+55,2018-03-09,9,3,2018,Parking,Auto,Cash,out,-1,cce822e0-5316-439a-8e87-69f9f659f4ca
+56,2018-03-12,12,3,2018,Online Work,Freelance,Bank Account,in,800,6c91b90d-7825-4f9f-ae6c-0f97c4f20916
+57,2018-03-13,13,3,2018,TV,Entertainment,Bank Account,out,-24,5c352ccd-c6ab-40bc-8cd0-4482df803e96
+58,2018-03-15,15,3,2018,Shop,Other,Bank Account,out,-11,6a941fd5-f326-4ae1-8dde-23ecfd666b24
+59,2018-03-16,16,3,2018,Internet,Communications,Bank Account,out,-45,a43c7ff9-f966-4b44-8eb1-ad2a18126a1b
+60,2018-03-19,19,3,2018,Groceries,Food,Cash,out,-23,e632add5-d046-416e-a485-a1fe4d3b75f8
+61,2018-03-19,19,3,2018,Top Up,Communications,Bank Account,out,-20,a154dc61-8e9d-4a67-8287-642c9c2fc72c
+62,2018-03-19,19,3,2018,Shop,Other,Cash,out,-24,0ec2588b-a99b-4a9d-a1e2-a42ad38faaee
+63,2018-03-25,25,3,2018,Parking,Auto,Cash,out,-1,bb0fa10a-4a59-4e95-8b43-e70fbc6f7de5
+64,2018-03-27,27,3,2018,Shop,Other,Cash,out,-24,1546db91-36a9-429d-a563-c93a529255fa
+65,2018-03-27,27,3,2018,Road Tax,Auto,Bank Account,out,-180,6c6b77f7-5c05-42fd-bb6a-9c6b2ef4f088
+66,2018-03-27,27,3,2018,Parking,Auto,Cash,out,-1,9dc36b73-1e3a-454b-89a0-058b8d8875d3
+67,2018-03-27,27,3,2018,Car Insurance,Auto,Bank Account,out,-95,60a0b862-853b-4da3-adf9-9c5f1dec8e86
+68,2018-03-30,30,3,2018,Rent,Home,Bank Account,out,-800,f4224855-c27f-4795-a32e-ccaf5dbf5aa6
+69,2018-03-31,31,3,2018,Spotify,Entertainment,Bank Account,out,-9,1b79be28-b274-4303-95e1-421b48a1d133
+70,2018-04-01,1,4,2018,Company,Salary,Bank Account,in,4000,9143c92e-ae86-4414-9ba6-91dee31340c3
+71,2018-04-02,2,4,2018,Shop,Other,Cash,out,-7,a185caae-44a9-4b09-bf58-c5a60f4b6427
+72,2018-04-03,3,4,2018,Shop,Other,Cash,out,-8,6c27c4f6-005a-4e67-bc72-212d3021ebe0
+73,2018-04-04,4,4,2018,Parking,Auto,Cash,out,-1,5f75c71d-2c2c-4cfe-af17-2082f3af015a
+74,2018-04-04,4,4,2018,Shop,Other,Bank Account,out,-24,2d0b5e02-ee11-4b5d-86fa-14391127febe
+75,2018-04-05,5,4,2018,Groceries,Food,Cash,out,-23,d871f369-59e3-4674-9ad9-431bf3fd9a40
+76,2018-04-05,5,4,2018,Shop,Other,Cash,out,-12,027455cf-1143-4c49-82e3-073e0369283e
+77,2018-04-05,5,4,2018,Shop,Other,Bank Account,out,-35,d0f34365-a0eb-4de9-8793-0d894be56790
+78,2018-04-06,6,4,2018,Shop,Other,Bank Account,out,-23,58724c24-c9aa-45d0-b765-ca1bb9330379
+79,2018-04-07,7,4,2018,Parking,Auto,Cash,out,-1,ef3d2643-3cd7-4d78-aec1-fd6418a4bbb2
+80,2018-04-07,7,4,2018,Shop,Other,Cash,out,-10,7bc833c2-4930-4380-8fdf-74c4fd9e823f
+81,2018-04-09,9,4,2018,Shop,Other,Cash,out,-4,e2c7019f-ea54-421d-af10-b8e823725eca
+82,2018-04-10,10,4,2018,Online Work,Freelance,Bank Account,in,600,182a3f56-9df6-418e-8504-bcd894e77eb4
+83,2018-04-11,11,4,2018,Top Up,Communications,Bank Account,out,-20,bef30c5b-fafd-4f98-b1ee-7e1b6710a743
+84,2018-04-13,13,4,2018,TV,Entertainment,Bank Account,out,-24,c6d2325d-08a1-4171-8230-59a99bd184c4
+85,2018-04-14,14,4,2018,Groceries,Food,Cash,out,-45,524208d3-45d7-4f59-bebc-9986162601e9
+86,2018-04-17,17,4,2018,Internet,Communications,Bank Account,out,-45,ff3f037b-f9a7-4cf0-8039-97428fbd7a3f
+87,2018-04-17,17,4,2018,Shop,Other,Cash,out,-32,0644fdde-0fbd-4e3a-ba11-bbd60f598609
+88,2018-04-19,19,4,2018,Parking,Auto,Cash,out,-1,94ccd849-2651-4cb0-8b82-149e63a07658
+89,2018-04-19,19,4,2018,Shop,Other,Bank Account,out,-15,a620854b-6bee-409b-8841-8908f73681a3
+90,2018-04-20,20,4,2018,Shop,Other,Bank Account,out,-14,835ea7a4-3f91-4ce5-8b0e-6e3c095a4986
+91,2018-04-20,20,4,2018,Shop,Other,Bank Account,out,-12,f43ef1bc-c023-4b22-b53b-6595a4ac531c
+92,2018-04-21,21,4,2018,Shop,Other,Cash,out,-78,7c36c3c3-b50c-46b8-811f-60f11268c5fe
+93,2018-04-22,22,4,2018,Parking,Auto,Cash,out,-1,8a9f572e-bc5f-415f-b4d6-44d5ad5eae58
+94,2018-04-22,22,4,2018,Groceries,Food,Cash,out,-24,3a4bd1cd-290e-424b-aa86-8982507d3565
+95,2018-04-22,22,4,2018,Shop,Other,Cash,out,-11,ae83930d-609b-4bc0-a416-4abde5794881
+96,2018-04-22,22,4,2018,Shop,Other,Bank Account,out,-5,ff86e543-34bf-41b9-b34b-14bc3308bd16
+97,2018-04-23,23,4,2018,Shop,Other,Bank Account,out,-4,7f829c50-0319-4e11-8b6f-1948ea92a421
+98,2018-04-23,23,4,2018,Shop,Other,Cash,out,-5,1cfe6120-caa5-4a62-9d48-5ba71e58ec7c
+99,2018-04-24,24,4,2018,Parking,Auto,Cash,out,-1,69a51c01-7d6c-4e20-bb9f-3f84f6cbe82a
+100,2018-04-24,24,4,2018,Shop,Other,Bank Account,out,-26,52330c07-1303-40b2-ae83-84e03dd3780a
+101,2018-04-25,25,4,2018,Shop,Other,Cash,out,-45,2968c156-7165-4f73-bb51-29c8362d16cf
+102,2018-04-25,25,4,2018,Shop,Other,Cash,out,-12,d96b550c-9d91-43c3-b1c1-1ef179138033
+103,2018-04-25,25,4,2018,Parking,Auto,Cash,out,-1,d382f956-dd33-4d07-87f4-6f0a9b12c0d2
+104,2018-04-26,26,4,2018,Groceries,Food,Cash,out,-26,97cd2dda-70d0-4909-a8da-835d0eec123b
+105,2018-04-26,26,4,2018,Shop,Other,Bank Account,out,-5,d0002b6b-823f-4876-b426-a667002b888e
+106,2018-04-27,27,4,2018,Shop,Other,Cash,out,-2,7453e226-a867-4291-a683-d816d79a2840
+107,2018-04-28,28,4,2018,Shop,Other,Cash,out,-2,fd759903-e04e-4591-adfe-b30d0f0b7f9a
+108,2018-04-29,29,4,2018,Car Insurance,Auto,Bank Account,out,-95,74ae4b3b-05b7-44ba-88d0-c37858877ef8
+109,2018-04-30,30,4,2018,Rent,Home,Bank Account,out,-800,23b1142d-1f13-4c7b-9933-46d1593bd426
+110,2018-04-30,30,4,2018,Spotify,Entertainment,Bank Account,out,-9,f01ecb54-5930-4038-8728-48d19342d7f2
+111,2018-05-01,1,5,2018,Company,Salary,Bank Account,in,4000,1c97f83b-8980-4dd9-b989-0b4e2576c471
+112,2018-05-03,3,5,2018,Shop,Other,Cash,out,-5,5d5c7519-df13-4003-966a-16ddf7a3d290
+113,2018-05-03,3,5,2018,Shop,Other,Bank Account,out,-5,a23f16df-b72b-4b24-8e57-6f8339aad8c4
+114,2018-05-04,4,5,2018,Groceries,Food,Cash,out,-26,49360861-3d64-421c-97f5-2641115a5860
+115,2018-05-06,6,5,2018,Parking,Auto,Cash,out,-1,edb98fab-eac9-4607-b6d0-97f5b587f163
+116,2018-05-06,6,5,2018,Parking,Auto,Cash,out,-1,7062b70b-a9b0-460a-8076-c140640fb937
+117,2018-05-06,6,5,2018,Parking,Auto,Cash,out,-1,cf9d3a8d-aa52-412b-80a4-03f2da465efa
+118,2018-05-07,7,5,2018,Shop,Other,Bank Account,out,-12,779123ae-a7ae-4c0e-b9a7-58eb4dfca36d
+119,2018-05-07,7,5,2018,Shop,Other,Cash,out,-23,462b33b4-9841-4ba6-8b04-a13c6d47a644
+120,2018-05-07,7,5,2018,Shop,Other,Cash,out,-12,755f9184-c7be-424b-b4a2-b86af5c2b628
+121,2018-05-07,7,5,2018,Online Work,Freelance,Bank Account,in,800,6105ac3e-dc61-4505-8d03-5b8ff1100e37
+122,2018-05-07,7,5,2018,Shop,Other,Cash,out,-34,f3a37bee-fff7-4bb6-9db0-2d62aede77d1
+123,2018-05-08,8,5,2018,Parking,Auto,Cash,out,-1,9074725e-a457-4a4c-a795-f3927e9aa608
+124,2018-05-08,8,5,2018,Groceries,Food,Cash,out,-100,b0c48f0c-33a8-4d97-b941-8fb5322273fd
+125,2018-05-08,8,5,2018,Top Up,Communications,Bank Account,out,-20,286850b0-9652-4e90-a019-7c791a5507a1
+126,2018-05-09,9,5,2018,Shop,Other,Cash,out,-23,309deb77-eb68-46a9-91cc-5425b2542fbd
+127,2018-05-10,10,5,2018,Ice Cream,Other,Cash,out,-4,1ca2b50b-5b72-4ae0-844b-ac0aa327e073
+128,2018-05-10,10,5,2018,TV,Entertainment,Bank Account,out,-24,0a11e721-0215-4390-89d2-2340e458dc73
+129,2018-05-10,10,5,2018,Shop,Other,Cash,out,-12,e473157d-a668-4ebf-85bf-6aade791a1e1
+130,2018-05-11,11,5,2018,Shop,Other,Cash,out,-5,7e41bf07-e51f-4b81-a4b3-d0fffd645192
+131,2018-05-12,12,5,2018,Groceries,Food,Cash,out,-26,78edcfe5-bd8c-4f59-ace7-ccc5146de1de
+132,2018-05-14,14,5,2018,Shop,Other,Cash,out,-23,d95922cc-9997-4557-9e27-97ceee783c2c
+133,2018-05-15,15,5,2018,Internet,Communications,Bank Account,out,-45,31c27773-307d-42bb-a9fd-fea5887afeb8
+134,2018-05-18,18,5,2018,Parking,Auto,Cash,out,-1,98504f14-3047-4401-8eff-30683dd87d54
+135,2018-05-18,18,5,2018,Parking,Auto,Cash,out,-1,f08eb7f0-bccf-4f76-bf3f-de1d6d07ec65
+136,2018-05-19,19,5,2018,Shop,Other,Bank Account,out,-12,56a9f3d6-027e-49cc-8f9f-8286329063fc
+137,2018-05-20,20,5,2018,Shop,Other,Bank Account,out,-5,82bbabcb-60aa-43a5-9e86-f63130842acd
+138,2018-05-20,20,5,2018,Shop,Other,Bank Account,out,-17,53ca706a-647b-4c86-a9e6-a5a639dba7ea
+139,2018-05-21,21,5,2018,Shop,Other,Cash,out,-5,308f72d2-bd88-4d4c-a390-11253a95df95
+140,2018-05-22,22,5,2018,Shop,Other,Cash,out,-24,5c5d586d-5421-4b64-b2e1-c64a81a2b1e2
+141,2018-05-23,23,5,2018,Shop,Other,Cash,out,-2,a4ed0400-2d25-48f9-b5c2-4a8b02b30a07
+142,2018-05-24,24,5,2018,Parking,Auto,Cash,out,-1,b4464140-dbc2-4b43-83ff-c883c70bd17c
+143,2018-05-26,26,5,2018,Groceries,Food,Cash,out,-54,b1176155-8e46-4cf8-b859-285cb56ca687
+144,2018-05-27,27,5,2018,Rent,Home,Bank Account,out,-800,3b1c04d4-d92e-42f9-a286-1787ccdd5f0c
+145,2018-05-27,27,5,2018,Parking,Auto,Cash,out,-1,27a3ba4a-b9b3-4af4-aeaf-c0c87aa1b9f5
+146,2018-05-27,27,5,2018,Shop,Other,Cash,out,-12,1450b65c-8c39-40a6-9254-5f1a3ff10f71
+147,2018-05-29,29,5,2018,Car Insurance,Auto,Bank Account,out,-95,abf90882-8f63-4ec8-928f-c94fde739c42
+148,2018-05-29,29,5,2018,Shop,Other,Cash,out,-5,019c7435-b581-4335-9592-edef4772652f
+149,2018-05-30,30,5,2018,Spotify,Entertainment,Bank Account,out,-9,a8bb9349-221f-47bc-bcb6-7de82789e105
+150,2018-06-01,1,6,2018,Company,Salary,Bank Account,in,4000,9316f8b7-a293-498b-8f7a-dc67182dc6ee
+151,2018-06-01,1,6,2018,Shop,Other,Cash,out,-5,38a30240-2c7a-4ec7-bc69-cda52d9884e0
+152,2018-06-07,7,6,2018,Shop,Other,Cash,out,-17,5208a60b-b037-4816-a8c1-50733339ff84
+153,2018-06-11,11,6,2018,Groceries,Food,Cash,out,-47,3d208031-7247-481c-b603-6f0af20e3662
+154,2018-06-12,12,6,2018,Shop,Other,Cash,out,-5,fdafea92-a41e-4145-946c-d7b03edef725
+155,2018-06-12,12,6,2018,Shop,Other,Cash,out,-17,62806cc9-c54f-49ae-a5dc-969908d64d4e
+156,2018-06-12,12,6,2018,Online Work,Freelance,Bank Account,in,200,09e30cda-07db-4ed6-bbb2-bfdb4f49024c
+157,2018-06-12,12,6,2018,Shop,Other,Cash,out,-4,fdc569cf-b260-4776-9987-a1a58b1d759e
+158,2018-06-13,13,6,2018,TV,Entertainment,Bank Account,out,-24,63d9c3cc-a66f-4d0f-a5fb-4559b8b02470
+159,2018-06-13,13,6,2018,Shop,Other,Cash,out,-4,1e0daf35-c41a-4678-a485-7bfa3e907f8b
+160,2018-06-15,15,6,2018,Top Up,Communications,Bank Account,out,-20,6bb9f2e3-a030-4d3d-aee8-5ec7577bd560
+161,2018-06-17,17,6,2018,Internet,Communications,Bank Account,out,-45,b35dd78c-d7d0-456b-93ec-ae51887c04a8
+162,2018-06-18,18,6,2018,Shop,Other,Cash,out,-4,83e7e33d-8b81-4f97-8ace-9b08019c3fa4
+163,2018-06-18,18,6,2018,Groceries,Food,Cash,out,-54,3bbfe182-5cba-4215-8095-478f646ade0f
+164,2018-06-20,20,6,2018,Shop,Other,Cash,out,-5,16ea0695-9efa-4b65-9463-971a5e144570
+165,2018-06-20,20,6,2018,Shop,Other,Bank Account,out,-17,18d15b1b-4296-4ac3-9aa8-14e6cff63589
+166,2018-06-22,22,6,2018,Ice Cream,Other,Cash,out,-4,b1b2b522-7677-4e90-bb04-55d14e5cc004
+167,2018-06-22,22,6,2018,Parking,Auto,Cash,out,-1,76c571b4-e06f-4090-9ad0-e9ee17bcebb9
+168,2018-06-22,22,6,2018,Shop,Other,Cash,out,-4,6a596696-9a68-4fbc-a285-afa4f6d75ef7
+169,2018-06-22,22,6,2018,Groceries,Food,Cash,out,-57,aeb8511d-1d23-42df-92aa-02814c0895d3
+170,2018-06-22,22,6,2018,Shop,Other,Cash,out,-12,10154b3d-6ee6-4ca1-acbe-7995530d113c
+171,2018-06-22,22,6,2018,Shop,Other,Cash,out,-23,d131ea47-61cb-4ddb-baf8-402b71a100ab
+172,2018-06-22,22,6,2018,Shop,Other,Cash,out,-12,177eb539-7369-418d-9a3f-fa0113dee6e8
+173,2018-06-24,24,6,2018,Shop,Other,Cash,out,-4,65e76a99-57f2-4222-98fa-3d1722cf9e18
+174,2018-06-24,24,6,2018,Shop,Other,Cash,out,-4,2bad90de-70a2-48e0-854b-c67c52230e5e
+175,2018-06-25,25,6,2018,Groceries,Food,Cash,out,-26,ded1ab35-c474-4186-92ae-5fcf23b45371
+176,2018-06-26,26,6,2018,Road Tax,Auto,Bank Account,out,-180,a6a47fef-0622-489a-8484-f186c0a19306
+177,2018-06-26,26,6,2018,Shop,Other,Cash,out,-4,22631382-e14c-4df0-a507-a54c3a1797ab
+178,2018-06-26,26,6,2018,Online Work,Freelance,Bank Account,in,800,d8b63070-42e9-4c1d-9618-6a6838e77fb6
+179,2018-06-27,27,6,2018,Shop,Other,Cash,out,-5,f2f17823-77f2-4089-a1d7-5bd27996a689
+180,2018-06-28,28,6,2018,Shop,Other,Cash,out,-17,d9846671-e0a3-4250-9d94-6671e0caf318
+181,2018-06-29,29,6,2018,Car Insurance,Auto,Bank Account,out,-95,8059f15b-c1af-4950-a5b7-c3476aadcc8d
+182,2018-06-30,30,6,2018,Rent,Home,Bank Account,out,-800,b7e4eabc-2e3f-4754-a97e-87608a4fd9c5
+183,2018-06-30,30,6,2018,Parking,Auto,Cash,out,-1,994b3d69-b3fe-4086-91c0-48bf24ed9493
+184,2018-06-30,30,6,2018,Spotify,Entertainment,Bank Account,out,-9,2bd87b69-e246-4eef-9c07-a4805422fe7f
+185,2018-07-01,1,7,2018,Company,Salary,Bank Account,in,4000,0903d115-1860-4a6a-a4f1-0a8dd1741d36
+186,2018-07-01,1,7,2018,Shop,Other,Cash,out,-17,27de7e30-882f-43f8-9e9b-c4b2df305667
+187,2018-07-02,2,7,2018,Shop,Other,Cash,out,-17,61081b38-10cb-4174-b7a9-b970bfc8e1ba
+188,2018-07-04,4,7,2018,Groceries,Food,Cash,out,-88,8dcdea52-5b35-4b73-8d2f-6cac468a8af1
+189,2018-07-06,6,7,2018,Shop,Other,Bank Account,out,-5,6446c86f-00a3-4cc9-8b1c-3ed08096b863
+190,2018-07-06,6,7,2018,Shop,Other,Bank Account,out,-17,cb543995-18be-459e-a0b8-35eaa622fb9c
+191,2018-07-06,6,7,2018,Parking,Auto,Cash,out,-1,ecbbc89e-3f35-43ec-bb67-d542918e7b96
+192,2018-07-08,8,7,2018,Shop,Other,Cash,out,-5,2a290af0-a51a-4cf9-a732-95007d2b17ec
+193,2018-07-10,10,7,2018,Shop,Other,Cash,out,-17,6a5a2b3c-ab10-4cda-ad18-2bb7d89ec887
+194,2018-07-11,11,7,2018,Ice Cream,Other,Cash,out,-4,0f4942ea-b821-45d1-b1e4-623682d6d2a1
+195,2018-07-11,11,7,2018,TV,Entertainment,Bank Account,out,-24,6087f846-9fbd-410d-9b05-eef77481247d
+196,2018-07-13,13,7,2018,Top Up,Communications,Bank Account,out,-20,f992a35c-468a-4731-bf4f-a67989cf44c2
+197,2018-07-14,14,7,2018,Groceries,Food,Cash,out,-100,e701800f-146c-43df-86b4-959543c5daba
+198,2018-07-15,15,7,2018,Internet,Communications,Bank Account,out,-45,593693b3-8e4e-467f-a749-7559d43e0a47
+199,2018-07-16,16,7,2018,Online Work,Freelance,Bank Account,in,500,c61579b3-078f-4b7c-acf3-5e1d3e896451
+200,2018-07-16,16,7,2018,Shop,Other,Cash,out,-4,c6f9f304-4ef4-4d32-9b3a-da1a0864dbe6
+201,2018-07-17,17,7,2018,Shop,Other,Cash,out,-12,3df76198-f3a8-4493-80db-ee13dd75b8a7
+202,2018-07-18,18,7,2018,Shop,Other,Bank Account,out,-23,aaab315e-f067-4d65-b49d-809a922a9784
+203,2018-07-22,22,7,2018,Shop,Other,Cash,out,-12,0a569cb1-f188-4ea9-9c4e-fdd45ce7ab46
+204,2018-07-26,26,7,2018,Parking,Auto,Cash,out,-1,7dc2fb8d-c02c-4be8-b30f-af84df0b9b2d
+205,2018-07-26,26,7,2018,Shop,Other,Cash,out,-17,36a74d9f-e881-45c7-a4e7-cb6af148ddc0
+206,2018-07-27,27,7,2018,Groceries,Food,Cash,out,-47,23a86c16-b766-465b-8c1f-b3fab72275a3
+207,2018-07-27,27,7,2018,Shop,Other,Cash,out,-17,44350d23-4bf5-4f97-9a78-8225909e88bf
+208,2018-07-28,28,7,2018,Rent,Home,Bank Account,out,-800,c42dad2f-f8ab-42bf-b7fb-d2076a02e54f
+209,2018-07-28,28,7,2018,Car Insurance,Auto,Bank Account,out,-95,f5f8eea3-d527-484a-b0b2-b5ba806b608a
+210,2018-07-30,30,7,2018,Ice Cream,Other,Cash,out,-4,9b0b42bc-d414-4d9a-93f2-fdb580e59dfe
+211,2018-07-30,30,7,2018,Shop,Other,Cash,out,-4,81f7c569-e77a-44bd-be21-bf4318cac164
+212,2018-07-31,31,7,2018,Spotify,Entertainment,Bank Account,out,-9,55453041-6276-44f8-9848-cd99e8f729b3
+213,2018-08-01,1,8,2018,Company,Salary,Bank Account,in,4000,4773650d-1108-461e-88f8-1409c3eb9874
+214,2018-08-01,1,8,2018,Shop,Other,Cash,out,-4,0c51437d-6bcf-416a-9b6c-21d87d4788cb
+215,2018-08-02,2,8,2018,Shop,Other,Cash,out,-12,023a0bff-5292-4814-999f-b9a831dffb67
+216,2018-08-03,3,8,2018,Shop,Other,Cash,out,-23,94d1f334-326c-43b9-aa34-1558c34d2ac1
+217,2018-08-05,5,8,2018,Shop,Other,Bank Account,out,-12,38842379-0ce3-40eb-8b5a-d68b40d8a445
+218,2018-08-07,7,8,2018,Parking,Auto,Cash,out,-1,965b1b33-ebc0-4f73-b2fc-58867e30d16c
+219,2018-08-07,7,8,2018,Shop,Other,Cash,out,-4,af1b0d55-def9-4e99-bbe0-d1c1c6339987
+220,2018-08-07,7,8,2018,Shop,Other,Cash,out,-12,f04d6ea6-a37d-4597-ad33-bfbaa157dc34
+221,2018-08-07,7,8,2018,Groceries,Food,Cash,out,-20,5eec0489-35e8-4f74-87d2-7fec94e2d53a
+222,2018-08-07,7,8,2018,Shop,Other,Cash,out,-4,11ec9aee-860e-431a-b32b-0f9cb21e67db
+223,2018-08-08,8,8,2018,Top Up,Communications,Bank Account,out,-20,e893eac0-df0a-4f8a-837b-fbf16a34f8c1
+224,2018-08-08,8,8,2018,Shop,Other,Cash,out,-4,ccec6585-c7d5-48ba-9b21-31b86b7afcc4
+225,2018-08-09,9,8,2018,Shop,Other,Cash,out,-4,18127c4c-fbeb-4557-afef-a330e2aeb623
+226,2018-08-13,13,8,2018,Online Work,Freelance,Bank Account,in,600,bada6a1b-9a43-44ac-9de7-88a9f89f8faa
+227,2018-08-14,14,8,2018,Shop,Other,Cash,out,-12,7767baca-c569-4702-8c0b-6a2f72abd691
+228,2018-08-15,15,8,2018,TV,Entertainment,Bank Account,out,-24,f5685593-49ce-41a8-9b8b-2bea11db6220
+229,2018-08-15,15,8,2018,Internet,Communications,Bank Account,out,-45,8484f80a-6378-45d2-a5a9-449a4354234b
+230,2018-08-16,16,8,2018,Parking,Auto,Cash,out,-1,59fec061-42c6-4a57-ba66-463b239bc5c7
+231,2018-08-17,17,8,2018,Ice Cream,Other,Cash,out,-4,5786ba2c-ce42-4ac1-a96a-896edad89bbb
+232,2018-08-18,18,8,2018,Groceries,Food,Cash,out,-72,282c9afb-3467-48cd-9b86-05bb6b1b56e4
+233,2018-08-18,18,8,2018,Shop,Other,Cash,out,-12,40ec684b-cfcd-44e7-8050-d5dbc3ae03f2
+234,2018-08-18,18,8,2018,Shop,Other,Bank Account,out,-23,37be289a-e875-4632-a8ac-ba6c6b5ab323
+235,2018-08-19,19,8,2018,Shop,Other,Bank Account,out,-12,4e578a9e-7fd8-4c4a-9c9b-1f49866f00ca
+236,2018-08-22,22,8,2018,Shop,Other,Bank Account,out,-5,9991875f-c376-4445-9089-3f6952e7c638
+237,2018-08-23,23,8,2018,Shop,Other,Cash,out,-1200,856a2052-c221-426a-91cc-9df3531ccb91
+238,2018-08-24,24,8,2018,Shop,Other,Cash,out,-4,167ed75a-3176-4854-9859-2d433db5bfc2
+239,2018-08-24,24,8,2018,Parking,Auto,Cash,out,-1,05b77d82-31b6-4bd6-918c-cba2a0a6d28d
+240,2018-08-25,25,8,2018,Shop,Other,Cash,out,-12,828934ae-4be8-446a-9c88-c6bfd8984bdb
+241,2018-08-25,25,8,2018,Rent,Home,Bank Account,out,-800,91818456-9284-4c15-871b-73b0c4821c18
+242,2018-08-26,26,8,2018,Groceries,Food,Cash,out,-140,093a8006-c188-4bd5-8a02-c674f6cc397b
+243,2018-08-27,27,8,2018,Shop,Other,Cash,out,-12,95e089fd-5a74-44eb-9100-b7e5234b44fb
+244,2018-08-27,27,8,2018,Car Insurance,Auto,Bank Account,out,-95,431ee289-d751-423a-a229-2e600f44715e
+245,2018-08-28,28,8,2018,Spotify,Entertainment,Bank Account,out,-9,a4dfc9b4-ebf1-458e-bf84-24fadc579f4d
+246,2018-08-31,31,8,2018,Parking,Auto,Cash,out,-1,7aad3d6c-916f-44eb-83ca-14ed766aeccc
+247,2018-09-01,1,9,2018,Company,Salary,Bank Account,in,4000,b05b27d2-45b0-4d71-8a4f-4739217d17fb
+248,2018-09-06,6,9,2018,Fix,Auto,Cash,out,-2000,e05817b4-9dd4-4c9e-b3b3-21e40f9692a5
+249,2018-09-07,7,9,2018,Shop,Other,Cash,out,-17,f2141218-02bb-4173-ba2d-0e58139cdfd6
+250,2018-09-07,7,9,2018,Groceries,Food,Cash,out,-90,84803a13-b9ed-4963-95f9-545f401ed550
+251,2018-09-08,8,9,2018,Shop,Other,Cash,out,-12,116030e0-5b3f-46ee-9389-9aa87e64814b
+252,2018-09-10,10,9,2018,Top Up,Communications,Bank Account,out,-20,f63d9bbc-7ef3-4d1d-a55c-e06d6fc4c778
+253,2018-09-10,10,9,2018,Parking,Auto,Cash,out,-1,bcf6cba1-bb75-4521-ae2a-5aabf896ed30
+254,2018-09-10,10,9,2018,Shop,Other,Cash,out,-12,b804968b-34d0-4830-985c-d9dc68f0b30e
+255,2018-09-11,11,9,2018,TV,Entertainment,Bank Account,out,-24,4944366f-183f-4956-a55b-b0c9f5e88f66
+256,2018-09-16,16,9,2018,Online Work,Freelance,Bank Account,in,800,95fa7a98-2ef1-40a4-89c0-630a5abc92e0
+257,2018-09-18,18,9,2018,Internet,Communications,Bank Account,out,-45,48638a41-5054-4bcb-931f-e57898b3c254
+258,2018-09-18,18,9,2018,Parking,Auto,Cash,out,-1,f74ebf0b-4158-4c88-8f0d-fde22dc47a49
+259,2018-09-20,20,9,2018,Shop,Other,Cash,out,-4,c8167e35-53b9-4d13-af58-73a1a2ad4e76
+260,2018-09-23,23,9,2018,Groceries,Food,Cash,out,-57,4d0667a8-b4ba-443a-8bc1-da11ba2847b5
+261,2018-09-24,24,9,2018,Shop,Other,Bank Account,out,-5,30dc4bfe-04ce-45ba-bdea-fd7384ad0f23
+262,2018-09-24,24,9,2018,Shop,Other,Cash,out,-17,dfadad72-549e-46f2-954f-999f93662713
+263,2018-09-25,25,9,2018,Ice Cream,Other,Cash,out,-4,a1c99f7f-5d79-4c40-a2f0-bde3b665b36a
+264,2018-09-25,25,9,2018,Shop,Other,Cash,out,-4,22fe8443-870e-465a-a5eb-abd546245234
+265,2018-09-26,26,9,2018,Parking,Auto,Cash,out,-1,58223882-a5c7-486e-8126-7b2b911870a7
+266,2018-09-26,26,9,2018,Groceries,Food,Cash,out,-46,2b681c0b-4342-4633-9120-2e58085208b5
+267,2018-09-27,27,9,2018,Road Tax,Auto,Bank Account,out,-180,d65f650e-75cb-4850-8233-25a473e49d3b
+268,2018-09-28,28,9,2018,Shop,Other,Cash,out,-12,b28c6a72-ce75-4627-82aa-14c0d5398d66
+269,2018-09-28,28,9,2018,Parking,Auto,Cash,out,-1,8564a115-d080-432f-941c-2a9d9a0592c0
+270,2018-09-28,28,9,2018,Rent,Home,Bank Account,out,-800,ac1bed00-bd98-4b74-a114-565aafcb3dff
+271,2018-09-29,29,9,2018,Car Insurance,Auto,Bank Account,out,-95,a415d234-b5fb-406e-a27f-3b556ea0074f
+272,2018-09-29,29,9,2018,Spotify,Entertainment,Bank Account,out,-9,a3dedfad-904c-4c9b-b830-809587c9f3a0
+273,2018-09-29,29,9,2018,Shop,Other,Cash,out,-4,eb55c662-11c9-41b4-8b06-1145d8a097bd
+274,2018-10-01,1,10,2018,Company,Salary,Bank Account,in,4000,84cbfb2f-414a-4dac-b79b-7c07132a89a9
+275,2018-10-03,3,10,2018,Shop,Other,Cash,out,-12,d92d214e-ac65-4f6c-9681-1fc00a800974
+276,2018-10-04,4,10,2018,Shop,Other,Cash,out,-23,3fa73002-21ab-40e1-8ac1-4c71b8144b12
+277,2018-10-04,4,10,2018,Shop,Other,Cash,out,-12,997482ae-23fe-4245-8084-a0d0128d83eb
+278,2018-10-05,5,10,2018,Groceries,Food,Cash,out,-20,53e9ae4f-2275-4a21-bf6c-5df023526676
+279,2018-10-05,5,10,2018,Parking,Auto,Cash,out,-1,6f0c874d-9ef9-4e5b-850a-2dbedefac6b9
+280,2018-10-06,6,10,2018,Shop,Other,Cash,out,-12,5923f116-031d-4b44-b615-1186339da4d9
+281,2018-10-07,7,10,2018,Top Up,Communications,Bank Account,out,-20,6897c5cb-05b3-4884-a047-440e4f1b9ee1
+282,2018-10-09,9,10,2018,Parking,Auto,Cash,out,-1,81a9af50-e298-45a5-9b2a-456ef522b9f8
+283,2018-10-10,10,10,2018,Shop,Other,Cash,out,-4,e9ebfdd8-daca-4aad-b952-5c82dc3f77b1
+284,2018-10-10,10,10,2018,Online Work,Freelance,Bank Account,in,800,98c65cae-0e2b-4faa-991b-36bf79034f90
+285,2018-10-11,11,10,2018,Shop,Other,Cash,out,-5,1f64ccda-eb87-46a0-8c8c-9299a7cbbfb8
+286,2018-10-11,11,10,2018,Shop,Other,Cash,out,-17,2bc4905a-20b9-4c2a-8683-f2dc02bd8060
+287,2018-10-13,13,10,2018,TV,Entertainment,Bank Account,out,-24,80445947-5bbd-429d-9a8c-d8f62f82a647
+288,2018-10-14,14,10,2018,Groceries,Food,Cash,out,-170,519ab42f-2fdb-47f1-ad55-e6f96f7f46d0
+289,2018-10-14,14,10,2018,Shop,Other,Cash,out,-12,f4eeb01c-fb46-4cfd-aa8f-1a00d2888cbe
+290,2018-10-16,16,10,2018,Parking,Auto,Cash,out,-1,746cdd34-5794-424a-822e-b2e512c24c38
+291,2018-10-18,18,10,2018,Internet,Communications,Bank Account,out,-45,dd331ecc-542f-4b77-8ddf-6fb8b7abdd95
+292,2018-10-18,18,10,2018,Shop,Other,Cash,out,-12,11026965-706b-428c-820f-d7449f64c03c
+293,2018-10-18,18,10,2018,Shop,Other,Cash,out,-12,12e7578d-52c2-488f-b857-d88792275f77
+294,2018-10-19,19,10,2018,Parking,Auto,Cash,out,-1,f016994f-30e0-43f4-bb46-0adf2fdf7034
+295,2018-10-20,20,10,2018,Shop,Other,Cash,out,-5,c0eb6627-d372-4e47-8548-1242ea94a0ca
+296,2018-10-20,20,10,2018,Shop,Other,Bank Account,out,-17,5d0ae861-d321-4268-a44d-3485ddbf7f0a
+297,2018-10-20,20,10,2018,Shop,Other,Bank Account,out,-5,d8173cca-1591-4538-a22b-05d18a5189a2
+298,2018-10-21,21,10,2018,Shop,Other,Cash,out,-17,fc696aee-0db3-48fd-bdf9-3416bba60d6f
+299,2018-10-23,23,10,2018,Groceries,Food,Cash,out,-100,45b14fd1-8a78-454e-8114-9941e113af8b
+300,2018-10-24,24,10,2018,Parking,Auto,Cash,out,-1,5d661d30-68b1-4b28-824e-9b432085f468
+301,2018-10-24,24,10,2018,Online Work,Freelance,Bank Account,in,400,7f8fb2fd-f92f-4b6f-92eb-6387cb5b8aa2
+302,2018-10-24,24,10,2018,Shop,Other,Cash,out,-12,99f09bbb-8439-4395-8518-20e099b739a9
+303,2018-10-25,25,10,2018,Shop,Other,Cash,out,-23,4b006ccb-2055-41af-af5e-3fa0cc6b957f
+304,2018-10-25,25,10,2018,Shop,Other,Cash,out,-12,2becea3f-301b-4404-9184-1644300aaa68
+305,2018-10-25,25,10,2018,Parking,Auto,Cash,out,-1,301011c2-1428-442b-8dfb-0a1acd227fda
+306,2018-10-27,27,10,2018,Shop,Other,Cash,out,-4,e362305b-c78d-4b19-aae5-c559ab32cec3
+307,2018-10-29,29,10,2018,Spotify,Entertainment,Bank Account,out,-9,d06d0ff5-a1e6-4cd0-b6de-b4e792393ab4
+308,2018-10-29,29,10,2018,Car Insurance,Auto,Bank Account,out,-95,be8e8bb0-9cf9-445c-b1c2-f5fac591dc0c
+309,2018-10-29,29,10,2018,Online Work,Freelance,Bank Account,in,200,feca63c9-b4fe-4dca-b7f3-c834a66da4b7
+310,2018-10-31,31,10,2018,Parking,Auto,Cash,out,-1,b2d0b062-a475-4988-9d92-6b1601e20cac
+311,2018-10-31,31,10,2018,Groceries,Food,Cash,out,-65,eb747041-438b-4222-94ad-40f17d420287
+312,2018-10-31,31,10,2018,Rent,Home,Bank Account,out,-800,11b4c6ee-8e14-4e7c-b0c9-d70a9cc71249
+313,2018-11-01,1,11,2018,Company,Salary,Bank Account,in,4000,f66cb340-35cf-47ef-a52d-7524e50e54ed
+314,2018-11-01,1,11,2018,Shop,Other,Cash,out,-12,2660af91-fdc4-46b5-8e16-2bcf13630f0b
+315,2018-11-04,4,11,2018,Shop,Other,Bank Account,out,-23,ab6b225d-b703-4bfa-9418-2fc5d27ee438
+316,2018-11-04,4,11,2018,Shop,Other,Bank Account,out,-12,311985ce-d5c0-4e13-92ed-770c39bf6abd
+317,2018-11-05,5,11,2018,Groceries,Food,Cash,out,-80,683e6a68-0fff-4a08-bd47-816f5c8a4498
+318,2018-11-06,6,11,2018,Shop,Other,Cash,out,-12,3e33082a-d2de-4255-910a-90d55acabcdf
+319,2018-11-06,6,11,2018,Top Up,Communications,Bank Account,out,-20,83ec3576-5922-4767-bb24-436ebeb2ed44
+320,2018-11-07,7,11,2018,Shop,Other,Cash,out,-4,3839de05-8c0d-42eb-a7cf-a0c8a0e9603e
+321,2018-11-07,7,11,2018,Parking,Auto,Cash,out,-1,34a39451-c0e4-4ad2-a1f0-350a508d791b
+322,2018-11-09,9,11,2018,Shop,Other,Cash,out,-12,872781b5-c377-428a-b592-c955e25bdcf7
+323,2018-11-10,10,11,2018,Shop,Other,Cash,out,-23,fa7997d1-80e3-4f40-bb1c-c806c2d44074
+324,2018-11-12,12,11,2018,Shop,Other,Cash,out,-12,df5c5885-bfcb-48b5-b5dc-4c2c35e82dd5
+325,2018-11-12,12,11,2018,TV,Entertainment,Bank Account,out,-24,cb592dd9-5c97-4b46-9451-6d6bdb049018
+326,2018-11-14,14,11,2018,Online Work,Freelance,Bank Account,in,400,a55ae310-ba66-41f2-ba28-75922d12c168
+327,2018-11-14,14,11,2018,Parking,Auto,Cash,out,-1,937524a9-ec88-4eaf-bbe6-a638da292cc1
+328,2018-11-15,15,11,2018,Internet,Communications,Bank Account,out,-45,c865e274-cc2d-429e-9883-a83cd884d93b
+329,2018-11-17,17,11,2018,Shop,Other,Cash,out,-5,bf91b058-dff8-4466-9ab1-ae252a670b95
+330,2018-11-18,18,11,2018,Shop,Other,Cash,out,-17,598fa749-4d6c-4fcb-85ac-108c77e29567
+331,2018-11-21,21,11,2018,Groceries,Food,Cash,out,-35,a1022dcf-482b-4c8f-a1e3-5540da536510
+332,2018-11-22,22,11,2018,Shop,Other,Bank Account,out,-12,130ea5a6-6777-4cae-bbe4-89cd74592013
+333,2018-11-23,23,11,2018,Parking,Auto,Cash,out,-1,1ad4c8ff-9da0-40fd-a7b6-b3b8e71f2dd5
+334,2018-11-23,23,11,2018,Shop,Other,Cash,out,-4,be53bf8b-2e5d-4341-b9d7-f1e651e3c830
+335,2018-11-24,24,11,2018,Spotify,Entertainment,Bank Account,out,-9,55346495-7389-422a-b788-ac44378fa5f8
+336,2018-11-25,25,11,2018,Groceries,Food,Cash,out,-133,0528bd22-6853-434a-8c0a-ee9003c43f7d
+337,2018-11-28,28,11,2018,Car Insurance,Auto,Bank Account,out,-95,de0f9b65-be80-43ff-a7df-946df05f0dd5
+338,2018-11-28,28,11,2018,Parking,Auto,Cash,out,-1,42a233e6-5555-4958-9ef2-28bcb8d46887
+339,2018-11-30,30,11,2018,Rent,Home,Bank Account,out,-800,d6f0a849-b525-4d5e-ba4c-4400f0ae7701
+340,2018-12-01,1,12,2018,Company,Salary,Bank Account,in,3200,95ddd1b0-7a9d-441c-ac0b-b08976041f53
+341,2018-12-01,1,12,2018,Shop,Other,Cash,out,-5,e1f598d6-6464-4332-9219-14e561195914
+342,2018-12-02,2,12,2018,Shop,Other,Cash,out,-17,b5968267-ba0e-4d40-bfca-772da4ad6bea
+343,2018-12-05,5,12,2018,Groceries,Food,Cash,out,-121,0c64f211-3664-475a-a6b1-8d28b5f4718d
+344,2018-12-06,6,12,2018,Parking,Auto,Cash,out,-1,933890dd-1173-4cb5-af4c-ba0250c267c2
+345,2018-12-07,7,12,2018,Shop,Other,Bank Account,out,-5,e22768c1-fd20-4978-808a-ad6e1a181739
+346,2018-12-07,7,12,2018,Shop,Other,Cash,out,-17,b7637868-5bb6-435e-ba0f-53c43fec0846
+347,2018-12-08,8,12,2018,Top Up,Communications,Bank Account,out,-20,5f8841fb-98a5-4e6e-95c3-3808fd4e3ac0
+348,2018-12-08,8,12,2018,Shop,Other,Cash,out,-12,514a7396-26a1-4363-936e-123c140ca3d8
+349,2018-12-08,8,12,2018,Online Work,Freelance,Bank Account,in,800,939525d7-5381-4f70-9e54-7dfcb26612d5
+350,2018-12-09,9,12,2018,Shop,Other,Cash,out,-4,b615493d-aabe-4810-ab91-c7ca530e68bc
+351,2018-12-14,14,12,2018,Parking,Auto,Cash,out,-1,4f2c165b-4970-49c9-a410-e6dc864b4cde
+352,2018-12-14,14,12,2018,TV,Entertainment,Bank Account,out,-24,cdd2c4ca-f1d4-4399-8588-8fe27fdbb82c
+353,2018-12-16,16,12,2018,Internet,Communications,Bank Account,out,-45,d5cdd133-3d9b-4c74-93fc-5e9d2a027c7d
+354,2018-12-16,16,12,2018,Shop,Other,Cash,out,-12,17f16587-13db-4149-a62b-d333843780af
+355,2018-12-16,16,12,2018,Road Tax,Auto,Bank Account,out,-180,c452aaa4-17aa-4819-bd18-c04c161afaba
+356,2018-12-18,18,12,2018,Parking,Auto,Cash,out,-1,fe8c837f-1f56-46bd-9be0-c6289f3ab617
+357,2018-12-19,19,12,2018,Gifts,Other,Cash,out,-500,b5dff7fe-0c89-4ca4-b624-8e0d17de2d92
+358,2018-12-19,19,12,2018,Shop,Other,Cash,out,-4,37e20c5e-6440-45c9-bbf0-43223f908bb6
+359,2018-12-20,20,12,2018,Groceries,Food,Cash,out,-301,4a9545a1-d48c-4ae0-b7e2-84e425921a49
+360,2018-12-21,21,12,2018,Car Insurance,Auto,Bank Account,out,-95,fe906914-d0c0-473e-b4f1-2a11fe5b0acc
+361,2018-12-27,27,12,2018,Rent,Home,Bank Account,out,-800,b57ce96a-e950-43b2-ac83-0763e646ad28
+362,2018-12-27,27,12,2018,Online Work,Freelance,Bank Account,in,800,4e75c74e-e59a-4d49-9fa7-3c006ef06536
+363,2019-01-01,1,1,2019,Company,Salary,Bank Account,in,3300,5a5a365d-b9b2-4d8f-a289-b2b7e05876de
+364,2019-01-02,2,1,2019,Shop,Other,Cash,out,-11,0662f575-8c84-4b8c-b3cc-11dc4a986fc6
+365,2019-01-02,2,1,2019,Shop,Other,Bank Account,out,-23,9c1be032-7e8e-4317-a096-61aeedce7292
+366,2019-01-03,3,1,2019,Shop,Other,Bank Account,out,-35,73ae086f-dae8-4aa5-9696-5cfce8f0490f
+367,2019-01-04,4,1,2019,Parking,Auto,Cash,out,-1,aa5a57b9-1e4c-430e-9c70-b9bb47f7082c
+368,2019-01-05,5,1,2019,Shop,Other,Cash,out,-3,9111e4ad-3bec-48d0-97cf-622db0a51d92
+369,2019-01-07,7,1,2019,Groceries,Food,Cash,out,-100,13af4754-9ee9-4b0b-b6d1-c8ab489a4877
+370,2019-01-07,7,1,2019,Shop,Other,Cash,out,-21,a4244e04-6bdb-44de-a4ca-a24ea829e542
+371,2019-01-08,8,1,2019,Parking,Auto,Cash,out,-1,6d6f3cb2-71ca-4291-93c4-9dce83de4078
+372,2019-01-09,9,1,2019,Shop,Other,Bank Account,out,-3,ad6f8d62-53fa-4431-8978-fe7411a8f342
+373,2019-01-10,10,1,2019,Shop,Other,Cash,out,-50,feec1137-745d-442c-98f1-b8f2c29bd02f
+374,2019-01-10,10,1,2019,TV,Entertainment,Bank Account,out,-24,2c141ff0-098a-4b2d-acb0-1c4d786c4e8e
+375,2019-01-12,12,1,2019,Groceries,Food,Cash,out,-77,c8d0fa70-2a97-4b98-b094-538bb99081a3
+376,2019-01-12,12,1,2019,Parking,Auto,Cash,out,-1,28c44528-5bca-4db3-b786-c81dd87090fa
+377,2019-01-16,16,1,2019,Internet,Communications,Bank Account,out,-45,ea6e2f4e-3346-42e7-8198-e7143cfec837
+378,2019-01-17,17,1,2019,Parking,Auto,Cash,out,-1,05610706-90f4-468b-9822-70e950e679f8
+379,2019-01-19,19,1,2019,Top Up,Communications,Bank Account,out,-20,52e0eb1c-d590-4cb6-8588-9387f5453fe9
+380,2019-01-20,20,1,2019,Online Work,Freelance,Bank Account,in,800,27a48410-a0d3-4a33-9e82-c5a8e277496f
+381,2019-01-26,26,1,2019,Rent,Home,Bank Account,out,-1000,1dfed77a-5546-44a7-80e9-2fb2f5e33057
+382,2019-01-27,27,1,2019,Groceries,Food,Cash,out,-23,2328ae84-b13c-475e-ad56-86a03800031e
+383,2019-01-27,27,1,2019,Parking,Auto,Cash,out,-1,e6809b1a-3894-44ce-88c3-6c524dbe3f87
+384,2019-01-28,28,1,2019,Car Insurance,Auto,Bank Account,out,-95,ab55af35-a618-46f0-8552-ccd7f3fc69dc
+385,2019-01-28,28,1,2019,Spotify,Entertainment,Bank Account,out,-9,fa9a87f1-8d2b-441d-a03c-2a11733b8cac
+386,2019-02-10,10,2,2019,Company,Salary,Bank Account,in,3000,616f167c-0ab7-48fc-ba55-a72cf46f6802
+387,2019-02-01,1,2,2019,Groceries,Food,Cash,out,-57,f01ba4ca-75ed-4e21-9687-e9c98bdfb9b9
+388,2019-02-01,1,2,2019,Fuel,Auto,Cash,out,-50,5325dd50-917f-49a5-a134-3f2842c9ad1c
+389,2019-02-02,2,2,2019,Parking,Auto,Cash,out,-1,9e931c39-4ea7-4b4f-9c78-7fb38a31879d
+390,2019-02-02,2,2,2019,Top Up,Communications,Bank Account,out,-20,21a419c3-926c-47a4-a688-9d209895039f
+391,2019-02-09,9,2,2019,Shop,Other,Cash,out,-25,72aab2ec-dab2-4d5f-9cf6-e068309a11e2
+392,2019-02-11,11,2,2019,Parking,Auto,Cash,out,-1,4659f266-1b8d-48d5-8805-5d578f7280fc
+393,2019-02-11,11,2,2019,Shop,Other,Bank Account,out,-3,f02cdfa1-6121-4668-894a-4a1f862ac112
+394,2019-02-14,14,2,2019,Internet,Communications,Bank Account,out,-45,0bb21f7d-c5f3-4bef-8997-2922ce370525
+395,2019-02-14,14,2,2019,Shop,Other,Cash,out,-64,89349f67-779e-4022-b4f0-48df53fecabb
+396,2019-02-16,16,2,2019,Fuel,Auto,Cash,out,-50,5a761da0-7aa6-4f42-bac4-a1bbc10d5e9a
+397,2019-02-18,18,2,2019,TV,Entertainment,Bank Account,out,-24,8de34a8e-d01b-441a-9b1c-3a01b8444de0
+398,2019-02-21,21,2,2019,Groceries,Food,Cash,out,-23,becf4026-a304-4bbc-8768-b88af6bafe69
+399,2019-02-22,22,2,2019,Online Work,Freelance,Bank Account,in,800,b5f0eccd-d749-4925-b66a-add4194c6a35
+400,2019-02-23,23,2,2019,Parking,Auto,Cash,out,-1,10221c90-d41f-4f39-a540-0782ae9faf46
+401,2019-02-23,23,2,2019,Shop,Other,Bank Account,out,-78,4b2001b5-ded0-4a5f-8cb2-45ff1a046111
+402,2019-02-24,24,2,2019,Shop,Other,Bank Account,out,-11,3fa2324d-b4ae-41fd-bd26-89b7d4b9d367
+403,2019-02-25,25,2,2019,Fuel,Auto,Cash,out,-50,4a00dc2f-4730-4e47-8688-27ad2c9f73e7
+404,2019-02-25,25,2,2019,Groceries,Food,Cash,out,-87,fcc645cd-1b36-40ef-b78b-77839fb5367c
+405,2019-02-27,27,2,2019,Rent,Home,Bank Account,out,-1000,771ac688-81f6-4b82-b624-5e4f38792be6
 406,29-Feb-19,29,2,2019,Car Insurance,Auto,Bank Account,out,-95,12d25c3e-c598-4e20-9a8e-88680cf39432
 407,29-Feb-19,29,2,2019,Parking,Auto,Cash,out,-1,683013d0-a25e-46a3-8a9a-0817340d6ea7
 408,30-Feb-19,30,2,2019,Fuel,Auto,Cash,out,-50,59715e96-7e1a-4294-bbeb-5af816ba6032
 409,31-Feb-19,31,2,2019,Spotify,Entertainment,Bank Account,out,-9,82a611cb-f4ee-4725-9cee-e28b47c69a62
-410,01-Mar-19,1,3,2019,Company,Salary,Bank Account,in,4000,0b2889cc-c8d1-4293-82e4-3a67e1e2fa61
-411,02-Mar-19,2,3,2019,Shop,Other,Cash,out,-7,74c7c8f1-1a6b-47b5-8e57-a459d8eea2a3
-412,03-Mar-19,3,3,2019,Shop,Other,Cash,out,-8,a7c3d266-1afb-4f0a-8148-f47103e27407
-413,04-Mar-19,4,3,2019,Parking,Auto,Cash,out,-1,c3ad17aa-47f7-43a4-beb7-549436c9a145
-414,04-Mar-19,4,3,2019,Shop,Other,Bank Account,out,-24,fe365fbc-9727-4285-b8fa-c8c251ddeb38
-415,05-Mar-19,5,3,2019,Groceries,Food,Cash,out,-23,3a484d43-42a3-498a-a331-6f142720b3cd
-416,05-Mar-19,5,3,2019,Shop,Other,Cash,out,-12,36610b72-cf0e-4ba5-a432-2c7ed114dc8a
-417,05-Mar-19,5,3,2019,Shop,Other,Bank Account,out,-35,89569adf-7bf9-47ad-ba95-a8b64e2736e2
-418,06-Mar-19,6,3,2019,Shop,Other,Bank Account,out,-23,26e3b5e5-1797-4de2-ae4b-2c3fb338ac25
-419,07-Mar-19,7,3,2019,Parking,Auto,Cash,out,-1,93187e75-940e-4312-ae1e-b2053bafa776
-420,07-Mar-19,7,3,2019,Shop,Other,Cash,out,-10,c05302c6-f1da-434f-9351-88882cf8d948
-421,09-Mar-19,9,3,2019,Shop,Other,Cash,out,-4,d968ec23-7da6-45bb-95c9-32a4a4882c10
-422,10-Mar-19,10,3,2019,Online Work,Freelance,Bank Account,in,600,cfffd8e2-b6ac-4b8f-8118-86eb6f8c29b1
-423,11-Mar-19,11,3,2019,Top Up,Communications,Bank Account,out,-20,915a9e36-25ec-4f8d-b6ff-822f2d32089c
-424,13-Mar-19,13,3,2019,TV,Entertainment,Bank Account,out,-24,630447c2-5976-404e-b945-7489fbcd8783
-425,14-Mar-19,14,3,2019,Groceries,Food,Cash,out,-45,28aa83b3-d9bd-46b5-ae62-1b8b793f83fc
-426,17-Mar-19,17,3,2019,Internet,Communications,Bank Account,out,-45,3479c75c-0f37-4481-80e8-81b05f32b330
-427,17-Mar-19,17,3,2019,Shop,Other,Cash,out,-32,716ce691-0e21-490e-a56b-5c5b4fdd7d30
-428,19-Mar-19,19,3,2019,Parking,Auto,Cash,out,-1,d21bf45b-ff8f-4ee0-85f9-b6c613278028
-429,19-Mar-19,19,3,2019,Shop,Other,Bank Account,out,-15,e36c7db6-33e8-4e2c-8f44-83bd14e37c91
-430,20-Mar-19,20,3,2019,Shop,Other,Bank Account,out,-14,8dfd592c-6d0d-43ed-a665-606828f2796f
-431,20-Mar-19,20,3,2019,Shop,Other,Bank Account,out,-12,9193f24f-31ff-45f4-97b1-0e9957e91ba1
-432,21-Mar-19,21,3,2019,Shop,Other,Cash,out,-78,3378c981-9a6a-4366-bc9f-ff9edd808b24
-433,22-Mar-19,22,3,2019,Parking,Auto,Cash,out,-1,db60f035-41ca-4251-8085-6d8457be16c7
-434,22-Mar-19,22,3,2019,Groceries,Food,Cash,out,-24,16b947da-b231-474a-9a97-bccbbff78c6f
-435,22-Mar-19,22,3,2019,Shop,Other,Cash,out,-11,383bcbb1-b8de-4395-a6df-60d80bc2802c
-436,22-Mar-19,22,3,2019,Shop,Other,Bank Account,out,-5,38f3d46e-c23e-4eec-a15b-353a9afe6711
-437,23-Mar-19,23,3,2019,Shop,Other,Bank Account,out,-4,d010dc16-b055-4727-8881-c939f3f83008
-438,23-Mar-19,23,3,2019,Shop,Other,Cash,out,-5,49835e40-c045-4013-b77c-d21a59570560
-439,24-Mar-19,24,3,2019,Parking,Auto,Cash,out,-1,36a4823b-2954-4aeb-a2af-a28dd7b62ddc
-440,24-Mar-19,24,3,2019,Shop,Other,Bank Account,out,-26,e09d1b50-f089-4608-a3df-0ead2010034b
-441,25-Mar-19,25,3,2019,Shop,Other,Cash,out,-45,ab3f51ed-7806-4909-93af-ed581faf1b3b
-442,25-Mar-19,25,3,2019,Shop,Other,Cash,out,-12,127979c9-b149-4e45-a950-2df033f95623
-443,25-Mar-19,25,3,2019,Parking,Auto,Cash,out,-1,6a76d1cb-d208-4455-a63d-2127dca20301
-444,26-Mar-19,26,3,2019,Groceries,Food,Cash,out,-26,8cd919a0-3c29-41b9-86ff-a85c5f5adfe5
-445,26-Mar-19,26,3,2019,Shop,Other,Bank Account,out,-5,daa28029-caa5-4e04-b5a0-1bfa12dfff63
-446,27-Mar-19,27,3,2019,Shop,Other,Cash,out,-2,3f9f0aca-d825-409e-a588-d8720dccfa70
-447,28-Mar-19,28,3,2019,Shop,Other,Cash,out,-2,794845aa-615e-40f9-b622-b5f13b7efc48
-448,29-Mar-19,29,3,2019,Car Insurance,Auto,Bank Account,out,-95,7084b5fb-fcb3-4c1a-9439-cc39893b996f
-449,30-Mar-19,30,3,2019,Rent,Home,Bank Account,out,-1000,51860e17-304a-46a7-9307-e9c01208739a
-450,30-Mar-19,30,3,2019,Spotify,Entertainment,Bank Account,out,-9,0fed155b-80ca-422a-b7e4-e06f015cfd8f
-451,01-Apr-19,1,4,2019,Company,Salary,Bank Account,in,4000,5fe74704-2bf9-4b24-ab4e-16399fc16b32
-452,02-Apr-19,2,4,2019,Shop,Food,Bank Account,out,-12,ae819e14-c784-42e4-b69d-32b2231f2191
-453,04-Apr-19,4,4,2019,Groceries,Food,Cash,out,-77,43d9d18f-6c60-46a4-a8b5-78a246d81f7f
-454,04-Apr-19,4,4,2019,Shop,Other,Cash,out,-27,408531fa-67f7-40dc-bb07-27f707fd9003
-455,05-Apr-19,5,4,2019,Parking,Auto,Cash,out,-1,e9ff8109-ff2e-4733-8779-a9952d801341
-456,06-Apr-19,6,4,2019,Shop,Other,Bank Account,out,-34,84887c7d-fedd-4669-ab47-16645367767b
-457,07-Apr-19,7,4,2019,Shop,Other,Cash,out,-45,efe07210-9e02-49b2-a93f-62e01c7596e3
-458,09-Apr-19,9,4,2019,Parking,Auto,Cash,out,-1,27327a0e-33dd-4cd3-ac9f-0b0afb8ad60b
-459,12-Apr-19,12,4,2019,Online Work,Freelance,Bank Account,in,800,68118144-843c-476d-93cf-1ecaf3cd58e1
-460,13-Apr-19,13,4,2019,TV,Entertainment,Bank Account,out,-24,00adaf75-c38f-4922-a932-768070f696a9
-461,15-Apr-19,15,4,2019,Shop,Other,Bank Account,out,-11,80ca93e8-294e-4c52-8618-e80af33802bc
-462,16-Apr-19,16,4,2019,Internet,Communications,Bank Account,out,-45,7fc013b3-fc5f-4788-a43f-8c02035552bd
-463,19-Apr-19,19,4,2019,Groceries,Food,Cash,out,-23,3d7a663b-383f-4702-9e3b-1902b89bbf51
-464,19-Apr-19,19,4,2019,Top Up,Communications,Bank Account,out,-20,0ccb9890-a95f-437c-86a8-6601902ded2d
-465,19-Apr-19,19,4,2019,Shop,Other,Cash,out,-24,592a990d-a4f3-4423-86ab-325de2dcd18c
-466,25-Apr-19,25,4,2019,Parking,Auto,Cash,out,-1,dc3a9346-ebdf-403d-9d1c-2289e1c68ea4
-467,27-Apr-19,27,4,2019,Shop,Other,Cash,out,-24,e5e18141-abdc-4767-807c-2d39e57f67ff
-468,27-Apr-19,27,4,2019,Road Tax,Auto,Bank Account,out,-180,e4508e1d-6c44-4e50-94d2-66ecb0e8cbbb
-469,27-Apr-19,27,4,2019,Parking,Auto,Cash,out,-1,a486d48a-3882-4a6b-802f-40c3f600f020
-470,27-Apr-19,27,4,2019,Car Insurance,Auto,Bank Account,out,-95,76695d6c-d24e-4f4e-9b97-52bf0fc20f53
-471,30-Apr-19,30,4,2019,Rent,Home,Bank Account,out,-1000,827fbaf5-6b59-4097-a7be-21dae64be537
+410,2019-03-01,1,3,2019,Company,Salary,Bank Account,in,4000,0b2889cc-c8d1-4293-82e4-3a67e1e2fa61
+411,2019-03-02,2,3,2019,Shop,Other,Cash,out,-7,74c7c8f1-1a6b-47b5-8e57-a459d8eea2a3
+412,2019-03-03,3,3,2019,Shop,Other,Cash,out,-8,a7c3d266-1afb-4f0a-8148-f47103e27407
+413,2019-03-04,4,3,2019,Parking,Auto,Cash,out,-1,c3ad17aa-47f7-43a4-beb7-549436c9a145
+414,2019-03-04,4,3,2019,Shop,Other,Bank Account,out,-24,fe365fbc-9727-4285-b8fa-c8c251ddeb38
+415,2019-03-05,5,3,2019,Groceries,Food,Cash,out,-23,3a484d43-42a3-498a-a331-6f142720b3cd
+416,2019-03-05,5,3,2019,Shop,Other,Cash,out,-12,36610b72-cf0e-4ba5-a432-2c7ed114dc8a
+417,2019-03-05,5,3,2019,Shop,Other,Bank Account,out,-35,89569adf-7bf9-47ad-ba95-a8b64e2736e2
+418,2019-03-06,6,3,2019,Shop,Other,Bank Account,out,-23,26e3b5e5-1797-4de2-ae4b-2c3fb338ac25
+419,2019-03-07,7,3,2019,Parking,Auto,Cash,out,-1,93187e75-940e-4312-ae1e-b2053bafa776
+420,2019-03-07,7,3,2019,Shop,Other,Cash,out,-10,c05302c6-f1da-434f-9351-88882cf8d948
+421,2019-03-09,9,3,2019,Shop,Other,Cash,out,-4,d968ec23-7da6-45bb-95c9-32a4a4882c10
+422,2019-03-10,10,3,2019,Online Work,Freelance,Bank Account,in,600,cfffd8e2-b6ac-4b8f-8118-86eb6f8c29b1
+423,2019-03-11,11,3,2019,Top Up,Communications,Bank Account,out,-20,915a9e36-25ec-4f8d-b6ff-822f2d32089c
+424,2019-03-13,13,3,2019,TV,Entertainment,Bank Account,out,-24,630447c2-5976-404e-b945-7489fbcd8783
+425,2019-03-14,14,3,2019,Groceries,Food,Cash,out,-45,28aa83b3-d9bd-46b5-ae62-1b8b793f83fc
+426,2019-03-17,17,3,2019,Internet,Communications,Bank Account,out,-45,3479c75c-0f37-4481-80e8-81b05f32b330
+427,2019-03-17,17,3,2019,Shop,Other,Cash,out,-32,716ce691-0e21-490e-a56b-5c5b4fdd7d30
+428,2019-03-19,19,3,2019,Parking,Auto,Cash,out,-1,d21bf45b-ff8f-4ee0-85f9-b6c613278028
+429,2019-03-19,19,3,2019,Shop,Other,Bank Account,out,-15,e36c7db6-33e8-4e2c-8f44-83bd14e37c91
+430,2019-03-20,20,3,2019,Shop,Other,Bank Account,out,-14,8dfd592c-6d0d-43ed-a665-606828f2796f
+431,2019-03-20,20,3,2019,Shop,Other,Bank Account,out,-12,9193f24f-31ff-45f4-97b1-0e9957e91ba1
+432,2019-03-21,21,3,2019,Shop,Other,Cash,out,-78,3378c981-9a6a-4366-bc9f-ff9edd808b24
+433,2019-03-22,22,3,2019,Parking,Auto,Cash,out,-1,db60f035-41ca-4251-8085-6d8457be16c7
+434,2019-03-22,22,3,2019,Groceries,Food,Cash,out,-24,16b947da-b231-474a-9a97-bccbbff78c6f
+435,2019-03-22,22,3,2019,Shop,Other,Cash,out,-11,383bcbb1-b8de-4395-a6df-60d80bc2802c
+436,2019-03-22,22,3,2019,Shop,Other,Bank Account,out,-5,38f3d46e-c23e-4eec-a15b-353a9afe6711
+437,2019-03-23,23,3,2019,Shop,Other,Bank Account,out,-4,d010dc16-b055-4727-8881-c939f3f83008
+438,2019-03-23,23,3,2019,Shop,Other,Cash,out,-5,49835e40-c045-4013-b77c-d21a59570560
+439,2019-03-24,24,3,2019,Parking,Auto,Cash,out,-1,36a4823b-2954-4aeb-a2af-a28dd7b62ddc
+440,2019-03-24,24,3,2019,Shop,Other,Bank Account,out,-26,e09d1b50-f089-4608-a3df-0ead2010034b
+441,2019-03-25,25,3,2019,Shop,Other,Cash,out,-45,ab3f51ed-7806-4909-93af-ed581faf1b3b
+442,2019-03-25,25,3,2019,Shop,Other,Cash,out,-12,127979c9-b149-4e45-a950-2df033f95623
+443,2019-03-25,25,3,2019,Parking,Auto,Cash,out,-1,6a76d1cb-d208-4455-a63d-2127dca20301
+444,2019-03-26,26,3,2019,Groceries,Food,Cash,out,-26,8cd919a0-3c29-41b9-86ff-a85c5f5adfe5
+445,2019-03-26,26,3,2019,Shop,Other,Bank Account,out,-5,daa28029-caa5-4e04-b5a0-1bfa12dfff63
+446,2019-03-27,27,3,2019,Shop,Other,Cash,out,-2,3f9f0aca-d825-409e-a588-d8720dccfa70
+447,2019-03-28,28,3,2019,Shop,Other,Cash,out,-2,794845aa-615e-40f9-b622-b5f13b7efc48
+448,2019-03-29,29,3,2019,Car Insurance,Auto,Bank Account,out,-95,7084b5fb-fcb3-4c1a-9439-cc39893b996f
+449,2019-03-30,30,3,2019,Rent,Home,Bank Account,out,-1000,51860e17-304a-46a7-9307-e9c01208739a
+450,2019-03-30,30,3,2019,Spotify,Entertainment,Bank Account,out,-9,0fed155b-80ca-422a-b7e4-e06f015cfd8f
+451,2019-04-01,1,4,2019,Company,Salary,Bank Account,in,4000,5fe74704-2bf9-4b24-ab4e-16399fc16b32
+452,2019-04-02,2,4,2019,Shop,Food,Bank Account,out,-12,ae819e14-c784-42e4-b69d-32b2231f2191
+453,2019-04-04,4,4,2019,Groceries,Food,Cash,out,-77,43d9d18f-6c60-46a4-a8b5-78a246d81f7f
+454,2019-04-04,4,4,2019,Shop,Other,Cash,out,-27,408531fa-67f7-40dc-bb07-27f707fd9003
+455,2019-04-05,5,4,2019,Parking,Auto,Cash,out,-1,e9ff8109-ff2e-4733-8779-a9952d801341
+456,2019-04-06,6,4,2019,Shop,Other,Bank Account,out,-34,84887c7d-fedd-4669-ab47-16645367767b
+457,2019-04-07,7,4,2019,Shop,Other,Cash,out,-45,efe07210-9e02-49b2-a93f-62e01c7596e3
+458,2019-04-09,9,4,2019,Parking,Auto,Cash,out,-1,27327a0e-33dd-4cd3-ac9f-0b0afb8ad60b
+459,2019-04-12,12,4,2019,Online Work,Freelance,Bank Account,in,800,68118144-843c-476d-93cf-1ecaf3cd58e1
+460,2019-04-13,13,4,2019,TV,Entertainment,Bank Account,out,-24,00adaf75-c38f-4922-a932-768070f696a9
+461,2019-04-15,15,4,2019,Shop,Other,Bank Account,out,-11,80ca93e8-294e-4c52-8618-e80af33802bc
+462,2019-04-16,16,4,2019,Internet,Communications,Bank Account,out,-45,7fc013b3-fc5f-4788-a43f-8c02035552bd
+463,2019-04-19,19,4,2019,Groceries,Food,Cash,out,-23,3d7a663b-383f-4702-9e3b-1902b89bbf51
+464,2019-04-19,19,4,2019,Top Up,Communications,Bank Account,out,-20,0ccb9890-a95f-437c-86a8-6601902ded2d
+465,2019-04-19,19,4,2019,Shop,Other,Cash,out,-24,592a990d-a4f3-4423-86ab-325de2dcd18c
+466,2019-04-25,25,4,2019,Parking,Auto,Cash,out,-1,dc3a9346-ebdf-403d-9d1c-2289e1c68ea4
+467,2019-04-27,27,4,2019,Shop,Other,Cash,out,-24,e5e18141-abdc-4767-807c-2d39e57f67ff
+468,2019-04-27,27,4,2019,Road Tax,Auto,Bank Account,out,-180,e4508e1d-6c44-4e50-94d2-66ecb0e8cbbb
+469,2019-04-27,27,4,2019,Parking,Auto,Cash,out,-1,a486d48a-3882-4a6b-802f-40c3f600f020
+470,2019-04-27,27,4,2019,Car Insurance,Auto,Bank Account,out,-95,76695d6c-d24e-4f4e-9b97-52bf0fc20f53
+471,2019-04-30,30,4,2019,Rent,Home,Bank Account,out,-1000,827fbaf5-6b59-4097-a7be-21dae64be537
 472,31-Apr-19,31,4,2019,Spotify,Entertainment,Bank Account,out,-9,44dab142-f26f-4a74-bd49-d26e580ff45f
-473,01-May-19,1,5,2019,Company,Salary,Bank Account,in,4000,ad53459a-15b8-42fb-bfad-3dfab6a742ac
-474,01-May-19,1,5,2019,Shop,Other,Cash,out,-5,721ec202-1c80-4ea5-a1b7-9d7bdaf33ac8
-475,07-May-19,7,5,2019,Shop,Other,Cash,out,-17,2281971f-1b07-4e03-a4f9-cf9d0366295f
-476,11-May-19,11,5,2019,Groceries,Food,Cash,out,-47,3ea93cc7-5a78-441c-8614-4fcf56733d46
-477,12-May-19,12,5,2019,Shop,Other,Cash,out,-5,78683a2d-a05f-4cb3-be24-f0a17f05a2a3
-478,12-May-19,12,5,2019,Shop,Other,Cash,out,-17,df83fdc4-851a-45a2-8c3e-9c348e8340a2
-479,12-May-19,12,5,2019,Online Work,Freelance,Bank Account,in,200,f13ad740-ca9c-4c40-b760-15c5457c6f41
-480,12-May-19,12,5,2019,Shop,Other,Cash,out,-4,de630816-3a52-4ccd-a9d1-3b95758e9bac
-481,13-May-19,13,5,2019,TV,Entertainment,Bank Account,out,-24,cb230eee-c79e-4f1e-a547-a2831c336e08
-482,13-May-19,13,5,2019,Shop,Other,Cash,out,-4,5f3c2e2f-ace9-4c29-91ec-076db2c952b6
-483,15-May-19,15,5,2019,Top Up,Communications,Bank Account,out,-20,f6516631-ddb1-453e-b69b-4e4573a5fddd
-484,17-May-19,17,5,2019,Internet,Communications,Bank Account,out,-45,890eb471-da6d-4862-b63d-9579149b8123
-485,18-May-19,18,5,2019,Shop,Other,Cash,out,-4,668d449c-da0d-4dda-b59a-b481ae149532
-486,18-May-19,18,5,2019,Groceries,Food,Cash,out,-54,fce35137-6ebc-41af-886d-ae92f95c6ee2
-487,20-May-19,20,5,2019,Shop,Other,Cash,out,-5,f7df9aae-ef5c-42cd-a7ce-a5eae13f4ac0
-488,20-May-19,20,5,2019,Shop,Other,Bank Account,out,-17,d713a015-a066-4a38-b7ae-b84f0c9a770f
-489,22-May-19,22,5,2019,Ice Cream,Other,Cash,out,-4,1d12e97d-7611-4d42-b721-aa70cf36cd8c
-490,22-May-19,22,5,2019,Parking,Auto,Cash,out,-1,7815e34c-347b-466f-ad67-7479147d3c95
-491,22-May-19,22,5,2019,Shop,Other,Cash,out,-4,020b7db1-cb8b-4e68-a6e9-9572e993da3d
-492,22-May-19,22,5,2019,Groceries,Food,Cash,out,-57,cc470189-45e6-4912-a28d-80e58a136ad0
-493,22-May-19,22,5,2019,Shop,Other,Cash,out,-12,2d09017a-b9f4-4a7f-90d4-8a8a96747a9f
-494,22-May-19,22,5,2019,Shop,Other,Cash,out,-23,23856550-d064-4b98-bb9d-214e94f70dc8
-495,22-May-19,22,5,2019,Shop,Other,Cash,out,-12,d2a625e7-44a5-4780-9ac8-94f69ccf8411
-496,24-May-19,24,5,2019,Shop,Other,Cash,out,-4,a884dbcc-3ad5-4689-8ce7-7cb6a83e2bec
-497,24-May-19,24,5,2019,Shop,Other,Cash,out,-4,ffc1fc7c-ea7a-4ea5-8e43-ed4bef3f635f
-498,25-May-19,25,5,2019,Groceries,Food,Cash,out,-26,d7b67100-6961-4f52-83f0-13b1d440e478
-499,26-May-19,26,5,2019,Road Tax,Auto,Bank Account,out,-180,68538453-97ab-4954-b5ab-7a766de216a1
-500,26-May-19,26,5,2019,Shop,Other,Cash,out,-4,66f99cf5-ddb6-4f87-85a1-da37c1f9ae7a
-501,26-May-19,26,5,2019,Online Work,Freelance,Bank Account,in,800,a5e4f50e-ac8b-4699-b747-7dfa3e30eb90
-502,27-May-19,27,5,2019,Shop,Other,Cash,out,-5,1e2e7628-70cf-4afb-bc79-b9756a2ac627
-503,28-May-19,28,5,2019,Shop,Other,Cash,out,-17,e9e53068-4221-4ad2-bcb1-01c93debb6a3
-504,29-May-19,29,5,2019,Car Insurance,Auto,Bank Account,out,-95,abe2875d-a683-4390-903f-cf35b93763cd
-505,30-May-19,30,5,2019,Rent,Home,Bank Account,out,-1000,6c75fa4f-a2e2-40b8-ad3b-87369ae1fa21
-506,30-May-19,30,5,2019,Parking,Auto,Cash,out,-1,7754e8a3-2bbe-40e3-9e81-4dd9ec79f853
-507,30-May-19,30,5,2019,Spotify,Entertainment,Bank Account,out,-9,b499f66d-c08a-4954-b724-7d60ae58a323
-508,01-Jun-19,1,6,2019,Company,Salary,Bank Account,in,4000,862d3824-d7aa-438f-b202-5750d4624c40
-509,03-Jun-19,3,6,2019,Shop,Other,Cash,out,-5,8d74dcc1-2f2d-4aac-8804-54701d622ee6
-510,03-Jun-19,3,6,2019,Shop,Other,Bank Account,out,-5,c5fd7494-2aef-40a9-96e0-1f3821836b53
-511,04-Jun-19,4,6,2019,Groceries,Food,Cash,out,-26,c816db78-02be-4d23-a88d-d40b161953f6
-512,06-Jun-19,6,6,2019,Parking,Auto,Cash,out,-1,51f5c956-4130-4f28-8596-5ae3eae765bd
-513,06-Jun-19,6,6,2019,Parking,Auto,Cash,out,-1,5d04de08-bac9-44fa-acd1-f732a3a83d3d
-514,06-Jun-19,6,6,2019,Parking,Auto,Cash,out,-1,f0710a6c-8226-4a6c-80ef-56f90381f55c
-515,07-Jun-19,7,6,2019,Shop,Other,Bank Account,out,-12,8640cbd7-1f1d-4786-9c90-635f081cbd61
-516,07-Jun-19,7,6,2019,Shop,Other,Cash,out,-23,0d73e9d1-dc2d-400c-9095-6802e7b9cd5b
-517,07-Jun-19,7,6,2019,Shop,Other,Cash,out,-12,d7a335a2-434a-4c18-852f-0f96c6d8bd58
-518,07-Jun-19,7,6,2019,Online Work,Freelance,Bank Account,in,800,9b6a9c13-890a-4804-ba4d-2a1e290fc478
-519,07-Jun-19,7,6,2019,Shop,Other,Cash,out,-34,b168a6cf-5873-4a19-a0d9-3758d7ddcb71
-520,08-Jun-19,8,6,2019,Parking,Auto,Cash,out,-1,98bb958e-3a8e-4f09-85c3-460f9a7b7070
-521,08-Jun-19,8,6,2019,Groceries,Food,Cash,out,-100,168f0803-68d0-4d58-87a5-dfe730d99b05
-522,08-Jun-19,8,6,2019,Top Up,Communications,Bank Account,out,-20,91efb62f-3d00-4df1-940c-750d92423b4c
-523,09-Jun-19,9,6,2019,Shop,Other,Cash,out,-23,ca244b6e-56ca-4106-b9b7-7f02a9c40f27
-524,10-Jun-19,10,6,2019,Ice Cream,Other,Cash,out,-4,c094e9e0-ed3d-4fd5-aa72-989f619f930a
-525,10-Jun-19,10,6,2019,TV,Entertainment,Bank Account,out,-24,2cd55d3e-ba78-4f8c-ba76-19d5ec067cf4
-526,10-Jun-19,10,6,2019,Shop,Other,Cash,out,-12,e6e54a97-040e-418b-b36d-d7bb1ac59e75
-527,11-Jun-19,11,6,2019,Shop,Other,Cash,out,-5,a29d2e5e-cf70-4631-8ca0-d9c2324dbe25
-528,12-Jun-19,12,6,2019,Groceries,Food,Cash,out,-26,f1d12ae5-e9c1-479b-be26-84c8db72c7b5
-529,14-Jun-19,14,6,2019,Shop,Other,Cash,out,-23,f5f88436-8342-4df0-9fdf-ef068ffd5e9e
-530,15-Jun-19,15,6,2019,Internet,Communications,Bank Account,out,-45,21d0a018-3f5f-4c0e-8030-2a5879355835
-531,18-Jun-19,18,6,2019,Parking,Auto,Cash,out,-1,59b99e38-2415-43b2-b7b8-cf879fe9db85
-532,18-Jun-19,18,6,2019,Parking,Auto,Cash,out,-1,e97f36b4-7757-496d-8150-987049e9c075
-533,19-Jun-19,19,6,2019,Shop,Other,Bank Account,out,-12,daf3c772-f3b4-4ce5-8634-499834fb5544
-534,20-Jun-19,20,6,2019,Shop,Other,Bank Account,out,-5,60dd3c83-93de-433e-ab96-a2ebd266be17
-535,20-Jun-19,20,6,2019,Shop,Other,Bank Account,out,-17,69b5e37e-52ef-4f65-99e1-46572bd10207
-536,21-Jun-19,21,6,2019,Shop,Other,Cash,out,-5,da7d195e-b20f-4c35-bc65-a599bec671c9
-537,22-Jun-19,22,6,2019,Shop,Other,Cash,out,-24,78c39f8c-e73f-47c1-beab-a77c81605815
-538,23-Jun-19,23,6,2019,Shop,Other,Cash,out,-2,9ac88cd0-0afd-460c-9c15-0e49e6798c83
-539,24-Jun-19,24,6,2019,Parking,Auto,Cash,out,-1,b4109d01-ac41-46b7-98c7-5acd1d28b142
-540,26-Jun-19,26,6,2019,Groceries,Food,Cash,out,-54,437b14cd-0f5d-4de4-97d9-86511c4f620c
-541,27-Jun-19,27,6,2019,Rent,Home,Bank Account,out,-1000,7ced1145-a9b9-401c-a190-159d88e0f9a3
-542,27-Jun-19,27,6,2019,Parking,Auto,Cash,out,-1,44d1e554-a437-4f4a-8393-e93dd60dc714
-543,27-Jun-19,27,6,2019,Shop,Other,Cash,out,-12,f0a2df80-1dbc-4739-97f6-974527bd5aa6
-544,29-Jun-19,29,6,2019,Car Insurance,Auto,Bank Account,out,-95,44bbe6da-102e-40dd-a88f-0267faf6b9cc
-545,29-Jun-19,29,6,2019,Shop,Other,Cash,out,-5,b045e942-1c1c-4731-82ae-2fb0b1c94f63
-546,30-Jun-19,30,6,2019,Spotify,Entertainment,Bank Account,out,-9,8e420655-27b4-4adc-9e8d-34d9f0dc2452
-547,01-Jul-19,1,7,2019,Company,Salary,Bank Account,in,4000,87daf487-7330-418f-8ba0-8f2fe9da0635
-548,01-Jul-19,1,7,2019,Shop,Other,Cash,out,-4,ac9ccb47-9a9d-47e7-9132-533b2a4ca382
-549,02-Jul-19,2,7,2019,Shop,Other,Cash,out,-12,2c8245a5-5c55-448f-95eb-06cc8afbdca4
-550,03-Jul-19,3,7,2019,Shop,Other,Cash,out,-23,7ffa25a1-c27c-4e13-bc73-fb1fa543ec26
-551,05-Jul-19,5,7,2019,Shop,Other,Bank Account,out,-12,ea7f7af1-c0a5-4a26-8daa-34c549a3e7ef
-552,07-Jul-19,7,7,2019,Parking,Auto,Cash,out,-1,cf69f357-ba12-4594-b4e3-63531eaf7002
-553,07-Jul-19,7,7,2019,Shop,Other,Cash,out,-4,0197546c-76ae-45d4-97a7-5ec06d936089
-554,07-Jul-19,7,7,2019,Shop,Other,Cash,out,-12,d5ecfa7c-7ec2-447e-aa02-b80ac5a16a0c
-555,07-Jul-19,7,7,2019,Groceries,Food,Cash,out,-20,66b2fd3d-67bd-40fa-8365-a0397fdb56cd
-556,07-Jul-19,7,7,2019,Shop,Other,Cash,out,-4,687ddaa9-2314-4138-bf71-bd3c60a7d025
-557,08-Jul-19,8,7,2019,Top Up,Communications,Bank Account,out,-20,66a4a99c-3e33-44a7-ad23-78989e62f327
-558,08-Jul-19,8,7,2019,Shop,Other,Cash,out,-4,ceecf225-f0c8-4c13-acd8-c0d29ceb0336
-559,09-Jul-19,9,7,2019,Shop,Other,Cash,out,-4,ba2fb449-da7f-4d17-b7b2-36e663b29104
-560,13-Jul-19,13,7,2019,Online Work,Freelance,Bank Account,in,600,1e7ef734-50c5-407b-b201-5169f29b4b82
-561,14-Jul-19,14,7,2019,Shop,Other,Cash,out,-12,438efc2e-8f14-46cc-904b-e3fbe5d7bf4a
-562,15-Jul-19,15,7,2019,TV,Entertainment,Bank Account,out,-24,33407fd7-5d5e-48ff-9977-a76e2ec6db28
-563,15-Jul-19,15,7,2019,Internet,Communications,Bank Account,out,-45,1450ca68-e539-4e9d-8ecd-5f218d78b366
-564,16-Jul-19,16,7,2019,Parking,Auto,Cash,out,-1,6b190104-720a-4bc8-839c-552f8a0957de
-565,17-Jul-19,17,7,2019,Ice Cream,Other,Cash,out,-4,e4125d09-706e-4bac-b088-37c288259768
-566,18-Jul-19,18,7,2019,Groceries,Food,Cash,out,-72,b76ecd32-97c7-4b74-8970-aeb0664c4052
-567,18-Jul-19,18,7,2019,Shop,Other,Cash,out,-12,3dff4952-23ef-49f7-9af5-b90d68c7e396
-568,18-Jul-19,18,7,2019,Shop,Other,Bank Account,out,-23,3c8a109f-23ab-41f5-a3cb-669bc32799d6
-569,19-Jul-19,19,7,2019,Shop,Other,Bank Account,out,-12,4e92ebf5-4ccc-458a-9686-099b70ed4de5
-570,22-Jul-19,22,7,2019,Shop,Other,Bank Account,out,-5,e1105b1a-04fb-4ca1-bc74-f55b7148b8a6
-571,23-Jul-19,23,7,2019,Shop,Other,Cash,out,-10,83a5b728-5028-4723-8e29-fcac1de0a620
-572,24-Jul-19,24,7,2019,Shop,Other,Cash,out,-4,b15860b7-80f3-442f-b950-39b2aaeadd48
-573,24-Jul-19,24,7,2019,Parking,Auto,Cash,out,-1,62d39701-fd7e-47b0-a9cb-dd1dbea15801
-574,25-Jul-19,25,7,2019,Shop,Other,Cash,out,-12,3f74bc2f-1860-4972-9a31-37c87231afff
-575,25-Jul-19,25,7,2019,Rent,Home,Bank Account,out,-1000,5134e44d-181b-42b6-b861-e84a8c5cc127
-576,26-Jul-19,26,7,2019,Groceries,Food,Cash,out,-140,dc1a8e58-8b47-43b2-a788-2297126de92a
-577,27-Jul-19,27,7,2019,Shop,Other,Cash,out,-12,e15c2724-00e3-4342-b61d-2db09eb15ccb
-578,27-Jul-19,27,7,2019,Car Insurance,Auto,Bank Account,out,-95,e01c2ec0-cb5b-4450-a81d-1dfb53456994
-579,28-Jul-19,28,7,2019,Spotify,Entertainment,Bank Account,out,-9,9794a4bb-c9e5-4f66-bf61-91fb7c5d805e
-580,31-Jul-19,31,7,2019,Parking,Auto,Cash,out,-1,7927709c-6300-49fc-ba7f-777bfb517c45
-581,01-Aug-19,1,8,2019,Company,Salary,Bank Account,in,4000,5521857f-2f11-42fe-8fe7-52e0c376d0be
-582,01-Aug-19,1,8,2019,Shop,Other,Cash,out,-17,0fc08a22-1723-4c25-be88-91365cfbfc92
-583,02-Aug-19,2,8,2019,Shop,Other,Cash,out,-17,2abefaab-9b5e-4337-8dd7-f5bee8570bdf
-584,04-Aug-19,4,8,2019,Groceries,Food,Cash,out,-88,121797f6-67d2-4c80-ab6f-97ff997df35c
-585,06-Aug-19,6,8,2019,Shop,Other,Bank Account,out,-5,6da9c54d-be51-4fb0-afe2-055e0aaf934f
-586,06-Aug-19,6,8,2019,Shop,Other,Bank Account,out,-17,144d9c25-08db-4d7d-9f87-78131f0f0a0b
-587,06-Aug-19,6,8,2019,Parking,Auto,Cash,out,-1,e1ed3b4c-3805-429f-bcec-91394d6d35f2
-588,08-Aug-19,8,8,2019,Shop,Other,Cash,out,-5,dda9f8eb-a70d-47a1-acf3-d5ecf9f6ffd6
-589,10-Aug-19,10,8,2019,Shop,Other,Cash,out,-17,be7437fd-b587-4f2b-a0b5-67b3c9bd6ce1
-590,11-Aug-19,11,8,2019,Ice Cream,Other,Cash,out,-4,b9310c59-639f-4f40-bbcc-19f83ec468e1
-591,11-Aug-19,11,8,2019,TV,Entertainment,Bank Account,out,-24,3aefd610-0657-4999-8315-7f37132c08e3
-592,13-Aug-19,13,8,2019,Top Up,Communications,Bank Account,out,-20,81cfa164-e009-4590-8f5a-7aae391073e5
-593,14-Aug-19,14,8,2019,Groceries,Food,Cash,out,-100,af7fe081-dce9-4844-b7f9-583a992c7fac
-594,15-Aug-19,15,8,2019,Internet,Communications,Bank Account,out,-45,78a10661-654c-4fd3-bd1b-686207c99057
-595,16-Aug-19,16,8,2019,Online Work,Freelance,Bank Account,in,500,cafe1101-aba9-46cc-9777-9e9ecb3a168f
-596,16-Aug-19,16,8,2019,Shop,Other,Cash,out,-4,b98e82ea-b806-4c9c-b9f9-1ff39a4f6630
-597,17-Aug-19,17,8,2019,Shop,Other,Cash,out,-12,ad3284ca-0093-4ea5-b002-534f685bb135
-598,18-Aug-19,18,8,2019,Shop,Other,Bank Account,out,-23,2809a091-150a-41e8-af17-e37555b9adf8
-599,22-Aug-19,22,8,2019,Shop,Other,Cash,out,-12,70fb1504-7f9e-415f-a36a-41fc0602f6ed
-600,26-Aug-19,26,8,2019,Parking,Auto,Cash,out,-1,23276bb9-8cac-4118-889d-670d3d9f9f77
-601,26-Aug-19,26,8,2019,Shop,Other,Cash,out,-17,c38a374a-8e49-494d-9e60-db121df583f5
-602,27-Aug-19,27,8,2019,Groceries,Food,Cash,out,-47,2a553e24-633c-4bd5-bd3d-306f7d53a501
-603,27-Aug-19,27,8,2019,Shop,Other,Cash,out,-17,9b19c10e-0c5a-4f0f-b8ac-20f03e00c2a3
-604,28-Aug-19,28,8,2019,Rent,Home,Bank Account,out,-1000,4097c5ed-2869-4f96-aa1b-e4ca51bb514f
-605,28-Aug-19,28,8,2019,Car Insurance,Auto,Bank Account,out,-95,86179a24-86b3-40ac-bc5a-0f08778a053c
-606,30-Aug-19,30,8,2019,Ice Cream,Other,Cash,out,-4,0bb650c4-4479-45ad-ae95-54ce3cd77cfe
-607,30-Aug-19,30,8,2019,Shop,Other,Cash,out,-4,94c8459b-2a57-4c4a-8079-d4d7fc78d705
-608,31-Aug-19,31,8,2019,Spotify,Entertainment,Bank Account,out,-9,8fb8f345-0e41-4f2a-aef4-b285191d6e45
-609,01-Sep-19,1,9,2019,Company,Salary,Bank Account,in,4000,f26be65c-cccd-49c7-af00-2ad24e7fe31a
-610,03-Sep-19,3,9,2019,Shop,Other,Cash,out,-12,2fda68bc-d259-40f2-a44e-adedf9cb6236
-611,04-Sep-19,4,9,2019,Shop,Other,Cash,out,-23,57090fdc-fefa-425d-9ced-92924cf5ad8b
-612,04-Sep-19,4,9,2019,Shop,Other,Cash,out,-12,5fc2bca3-b1b6-475e-9826-ffee20111160
-613,05-Sep-19,5,9,2019,Groceries,Food,Cash,out,-20,5797ce98-ea68-4294-9aff-c94fb5571101
-614,05-Sep-19,5,9,2019,Parking,Auto,Cash,out,-1,d1501d5e-e5ee-40df-b94a-f9a77a9c1444
-615,06-Sep-19,6,9,2019,Shop,Other,Cash,out,-12,2dd935ed-b095-4ad1-891e-6adcc086791a
-616,07-Sep-19,7,9,2019,Top Up,Communications,Bank Account,out,-20,313cc540-3aee-4f4f-87ea-344f40d82723
-617,09-Sep-19,9,9,2019,Parking,Auto,Cash,out,-1,c21dce38-aecf-4e5a-92c8-fb533df4350f
-618,10-Sep-19,10,9,2019,Shop,Other,Cash,out,-4,15dc6da0-8690-48fa-a9af-f4559e8646f9
-619,10-Sep-19,10,9,2019,Online Work,Freelance,Bank Account,in,800,785578fa-9f80-43e1-893c-140c713d52fa
-620,11-Sep-19,11,9,2019,Shop,Other,Cash,out,-5,363efc68-39a5-49f9-91b8-4b0f530d5224
-621,11-Sep-19,11,9,2019,Shop,Other,Cash,out,-17,fbfd7c71-3914-41c6-9ec0-ddd60fdd3a9e
-622,13-Sep-19,13,9,2019,TV,Entertainment,Bank Account,out,-24,8d11b394-d033-496f-ae68-2d9ea13eeeb2
-623,14-Sep-19,14,9,2019,Groceries,Food,Cash,out,-170,52e3c5bc-732d-4e50-8bad-155143e288c8
-624,14-Sep-19,14,9,2019,Shop,Other,Cash,out,-12,42e16176-5503-4ba6-b5e9-1d219a379b2e
-625,16-Sep-19,16,9,2019,Parking,Auto,Cash,out,-1,02527792-e3df-4239-b28f-997be19800dd
-626,18-Sep-19,18,9,2019,Internet,Communications,Bank Account,out,-45,9f104ed7-04b1-4d63-9d09-b35bf80c2583
-627,18-Sep-19,18,9,2019,Shop,Other,Cash,out,-12,abe38059-9078-4411-8895-5a99eee3ff2e
-628,18-Sep-19,18,9,2019,Shop,Other,Cash,out,-12,8d75503e-0227-4994-b181-46ed2e2460fd
-629,19-Sep-19,19,9,2019,Parking,Auto,Cash,out,-1,3fdb778e-2ab2-4b4b-9e50-244764bee276
-630,20-Sep-19,20,9,2019,Shop,Other,Cash,out,-5,dd36ad39-aefc-4781-b5ec-ae150c8d52a6
-631,20-Sep-19,20,9,2019,Shop,Other,Bank Account,out,-17,2d6cfeff-ae60-4081-ab88-3b7876fdce6f
-632,20-Sep-19,20,9,2019,Shop,Other,Bank Account,out,-5,33e96d0a-3593-4450-8795-594d44671b25
-633,21-Sep-19,21,9,2019,Shop,Other,Cash,out,-17,fd3d670f-7c28-4e03-bfcc-7eae71ae77d8
-634,23-Sep-19,23,9,2019,Groceries,Food,Cash,out,-100,14738463-1a12-4bae-b00c-692a0c40886d
-635,24-Sep-19,24,9,2019,Parking,Auto,Cash,out,-1,052f08de-de7d-4904-b030-f44b85f5bc69
-636,24-Sep-19,24,9,2019,Online Work,Freelance,Bank Account,in,400,77de968b-5547-4cf9-8f8a-184dee392acd
-637,24-Sep-19,24,9,2019,Shop,Other,Cash,out,-12,90d2e787-0cfa-4f79-9423-3006e0b1d964
-638,25-Sep-19,25,9,2019,Shop,Other,Cash,out,-23,ae3815e2-363c-4629-8de7-dc675f45419f
-639,25-Sep-19,25,9,2019,Shop,Other,Cash,out,-12,db2228a0-d6bf-4cce-bb0d-7aac79b8a995
-640,25-Sep-19,25,9,2019,Parking,Auto,Cash,out,-1,f80640e9-2ba9-4464-bfdf-55a9bc6c3e37
-641,27-Sep-19,27,9,2019,Shop,Other,Cash,out,-4,b0efffc3-f556-4352-b5ee-43bb9399f82c
-642,29-Sep-19,29,9,2019,Spotify,Entertainment,Bank Account,out,-9,9437394b-83ff-4875-aec8-e9501af12233
-643,29-Sep-19,29,9,2019,Car Insurance,Auto,Bank Account,out,-95,01fe4bef-9b42-48ac-ac6e-309ce8999d2c
-644,29-Sep-19,29,9,2019,Online Work,Freelance,Bank Account,in,200,984eb94b-83ad-4951-ab7c-10c8cad6850c
+473,2019-05-01,1,5,2019,Company,Salary,Bank Account,in,4000,ad53459a-15b8-42fb-bfad-3dfab6a742ac
+474,2019-05-01,1,5,2019,Shop,Other,Cash,out,-5,721ec202-1c80-4ea5-a1b7-9d7bdaf33ac8
+475,2019-05-07,7,5,2019,Shop,Other,Cash,out,-17,2281971f-1b07-4e03-a4f9-cf9d0366295f
+476,2019-05-11,11,5,2019,Groceries,Food,Cash,out,-47,3ea93cc7-5a78-441c-8614-4fcf56733d46
+477,2019-05-12,12,5,2019,Shop,Other,Cash,out,-5,78683a2d-a05f-4cb3-be24-f0a17f05a2a3
+478,2019-05-12,12,5,2019,Shop,Other,Cash,out,-17,df83fdc4-851a-45a2-8c3e-9c348e8340a2
+479,2019-05-12,12,5,2019,Online Work,Freelance,Bank Account,in,200,f13ad740-ca9c-4c40-b760-15c5457c6f41
+480,2019-05-12,12,5,2019,Shop,Other,Cash,out,-4,de630816-3a52-4ccd-a9d1-3b95758e9bac
+481,2019-05-13,13,5,2019,TV,Entertainment,Bank Account,out,-24,cb230eee-c79e-4f1e-a547-a2831c336e08
+482,2019-05-13,13,5,2019,Shop,Other,Cash,out,-4,5f3c2e2f-ace9-4c29-91ec-076db2c952b6
+483,2019-05-15,15,5,2019,Top Up,Communications,Bank Account,out,-20,f6516631-ddb1-453e-b69b-4e4573a5fddd
+484,2019-05-17,17,5,2019,Internet,Communications,Bank Account,out,-45,890eb471-da6d-4862-b63d-9579149b8123
+485,2019-05-18,18,5,2019,Shop,Other,Cash,out,-4,668d449c-da0d-4dda-b59a-b481ae149532
+486,2019-05-18,18,5,2019,Groceries,Food,Cash,out,-54,fce35137-6ebc-41af-886d-ae92f95c6ee2
+487,2019-05-20,20,5,2019,Shop,Other,Cash,out,-5,f7df9aae-ef5c-42cd-a7ce-a5eae13f4ac0
+488,2019-05-20,20,5,2019,Shop,Other,Bank Account,out,-17,d713a015-a066-4a38-b7ae-b84f0c9a770f
+489,2019-05-22,22,5,2019,Ice Cream,Other,Cash,out,-4,1d12e97d-7611-4d42-b721-aa70cf36cd8c
+490,2019-05-22,22,5,2019,Parking,Auto,Cash,out,-1,7815e34c-347b-466f-ad67-7479147d3c95
+491,2019-05-22,22,5,2019,Shop,Other,Cash,out,-4,020b7db1-cb8b-4e68-a6e9-9572e993da3d
+492,2019-05-22,22,5,2019,Groceries,Food,Cash,out,-57,cc470189-45e6-4912-a28d-80e58a136ad0
+493,2019-05-22,22,5,2019,Shop,Other,Cash,out,-12,2d09017a-b9f4-4a7f-90d4-8a8a96747a9f
+494,2019-05-22,22,5,2019,Shop,Other,Cash,out,-23,23856550-d064-4b98-bb9d-214e94f70dc8
+495,2019-05-22,22,5,2019,Shop,Other,Cash,out,-12,d2a625e7-44a5-4780-9ac8-94f69ccf8411
+496,2019-05-24,24,5,2019,Shop,Other,Cash,out,-4,a884dbcc-3ad5-4689-8ce7-7cb6a83e2bec
+497,2019-05-24,24,5,2019,Shop,Other,Cash,out,-4,ffc1fc7c-ea7a-4ea5-8e43-ed4bef3f635f
+498,2019-05-25,25,5,2019,Groceries,Food,Cash,out,-26,d7b67100-6961-4f52-83f0-13b1d440e478
+499,2019-05-26,26,5,2019,Road Tax,Auto,Bank Account,out,-180,68538453-97ab-4954-b5ab-7a766de216a1
+500,2019-05-26,26,5,2019,Shop,Other,Cash,out,-4,66f99cf5-ddb6-4f87-85a1-da37c1f9ae7a
+501,2019-05-26,26,5,2019,Online Work,Freelance,Bank Account,in,800,a5e4f50e-ac8b-4699-b747-7dfa3e30eb90
+502,2019-05-27,27,5,2019,Shop,Other,Cash,out,-5,1e2e7628-70cf-4afb-bc79-b9756a2ac627
+503,2019-05-28,28,5,2019,Shop,Other,Cash,out,-17,e9e53068-4221-4ad2-bcb1-01c93debb6a3
+504,2019-05-29,29,5,2019,Car Insurance,Auto,Bank Account,out,-95,abe2875d-a683-4390-903f-cf35b93763cd
+505,2019-05-30,30,5,2019,Rent,Home,Bank Account,out,-1000,6c75fa4f-a2e2-40b8-ad3b-87369ae1fa21
+506,2019-05-30,30,5,2019,Parking,Auto,Cash,out,-1,7754e8a3-2bbe-40e3-9e81-4dd9ec79f853
+507,2019-05-30,30,5,2019,Spotify,Entertainment,Bank Account,out,-9,b499f66d-c08a-4954-b724-7d60ae58a323
+508,2019-06-01,1,6,2019,Company,Salary,Bank Account,in,4000,862d3824-d7aa-438f-b202-5750d4624c40
+509,2019-06-03,3,6,2019,Shop,Other,Cash,out,-5,8d74dcc1-2f2d-4aac-8804-54701d622ee6
+510,2019-06-03,3,6,2019,Shop,Other,Bank Account,out,-5,c5fd7494-2aef-40a9-96e0-1f3821836b53
+511,2019-06-04,4,6,2019,Groceries,Food,Cash,out,-26,c816db78-02be-4d23-a88d-d40b161953f6
+512,2019-06-06,6,6,2019,Parking,Auto,Cash,out,-1,51f5c956-4130-4f28-8596-5ae3eae765bd
+513,2019-06-06,6,6,2019,Parking,Auto,Cash,out,-1,5d04de08-bac9-44fa-acd1-f732a3a83d3d
+514,2019-06-06,6,6,2019,Parking,Auto,Cash,out,-1,f0710a6c-8226-4a6c-80ef-56f90381f55c
+515,2019-06-07,7,6,2019,Shop,Other,Bank Account,out,-12,8640cbd7-1f1d-4786-9c90-635f081cbd61
+516,2019-06-07,7,6,2019,Shop,Other,Cash,out,-23,0d73e9d1-dc2d-400c-9095-6802e7b9cd5b
+517,2019-06-07,7,6,2019,Shop,Other,Cash,out,-12,d7a335a2-434a-4c18-852f-0f96c6d8bd58
+518,2019-06-07,7,6,2019,Online Work,Freelance,Bank Account,in,800,9b6a9c13-890a-4804-ba4d-2a1e290fc478
+519,2019-06-07,7,6,2019,Shop,Other,Cash,out,-34,b168a6cf-5873-4a19-a0d9-3758d7ddcb71
+520,2019-06-08,8,6,2019,Parking,Auto,Cash,out,-1,98bb958e-3a8e-4f09-85c3-460f9a7b7070
+521,2019-06-08,8,6,2019,Groceries,Food,Cash,out,-100,168f0803-68d0-4d58-87a5-dfe730d99b05
+522,2019-06-08,8,6,2019,Top Up,Communications,Bank Account,out,-20,91efb62f-3d00-4df1-940c-750d92423b4c
+523,2019-06-09,9,6,2019,Shop,Other,Cash,out,-23,ca244b6e-56ca-4106-b9b7-7f02a9c40f27
+524,2019-06-10,10,6,2019,Ice Cream,Other,Cash,out,-4,c094e9e0-ed3d-4fd5-aa72-989f619f930a
+525,2019-06-10,10,6,2019,TV,Entertainment,Bank Account,out,-24,2cd55d3e-ba78-4f8c-ba76-19d5ec067cf4
+526,2019-06-10,10,6,2019,Shop,Other,Cash,out,-12,e6e54a97-040e-418b-b36d-d7bb1ac59e75
+527,2019-06-11,11,6,2019,Shop,Other,Cash,out,-5,a29d2e5e-cf70-4631-8ca0-d9c2324dbe25
+528,2019-06-12,12,6,2019,Groceries,Food,Cash,out,-26,f1d12ae5-e9c1-479b-be26-84c8db72c7b5
+529,2019-06-14,14,6,2019,Shop,Other,Cash,out,-23,f5f88436-8342-4df0-9fdf-ef068ffd5e9e
+530,2019-06-15,15,6,2019,Internet,Communications,Bank Account,out,-45,21d0a018-3f5f-4c0e-8030-2a5879355835
+531,2019-06-18,18,6,2019,Parking,Auto,Cash,out,-1,59b99e38-2415-43b2-b7b8-cf879fe9db85
+532,2019-06-18,18,6,2019,Parking,Auto,Cash,out,-1,e97f36b4-7757-496d-8150-987049e9c075
+533,2019-06-19,19,6,2019,Shop,Other,Bank Account,out,-12,daf3c772-f3b4-4ce5-8634-499834fb5544
+534,2019-06-20,20,6,2019,Shop,Other,Bank Account,out,-5,60dd3c83-93de-433e-ab96-a2ebd266be17
+535,2019-06-20,20,6,2019,Shop,Other,Bank Account,out,-17,69b5e37e-52ef-4f65-99e1-46572bd10207
+536,2019-06-21,21,6,2019,Shop,Other,Cash,out,-5,da7d195e-b20f-4c35-bc65-a599bec671c9
+537,2019-06-22,22,6,2019,Shop,Other,Cash,out,-24,78c39f8c-e73f-47c1-beab-a77c81605815
+538,2019-06-23,23,6,2019,Shop,Other,Cash,out,-2,9ac88cd0-0afd-460c-9c15-0e49e6798c83
+539,2019-06-24,24,6,2019,Parking,Auto,Cash,out,-1,b4109d01-ac41-46b7-98c7-5acd1d28b142
+540,2019-06-26,26,6,2019,Groceries,Food,Cash,out,-54,437b14cd-0f5d-4de4-97d9-86511c4f620c
+541,2019-06-27,27,6,2019,Rent,Home,Bank Account,out,-1000,7ced1145-a9b9-401c-a190-159d88e0f9a3
+542,2019-06-27,27,6,2019,Parking,Auto,Cash,out,-1,44d1e554-a437-4f4a-8393-e93dd60dc714
+543,2019-06-27,27,6,2019,Shop,Other,Cash,out,-12,f0a2df80-1dbc-4739-97f6-974527bd5aa6
+544,2019-06-29,29,6,2019,Car Insurance,Auto,Bank Account,out,-95,44bbe6da-102e-40dd-a88f-0267faf6b9cc
+545,2019-06-29,29,6,2019,Shop,Other,Cash,out,-5,b045e942-1c1c-4731-82ae-2fb0b1c94f63
+546,2019-06-30,30,6,2019,Spotify,Entertainment,Bank Account,out,-9,8e420655-27b4-4adc-9e8d-34d9f0dc2452
+547,2019-07-01,1,7,2019,Company,Salary,Bank Account,in,4000,87daf487-7330-418f-8ba0-8f2fe9da0635
+548,2019-07-01,1,7,2019,Shop,Other,Cash,out,-4,ac9ccb47-9a9d-47e7-9132-533b2a4ca382
+549,2019-07-02,2,7,2019,Shop,Other,Cash,out,-12,2c8245a5-5c55-448f-95eb-06cc8afbdca4
+550,2019-07-03,3,7,2019,Shop,Other,Cash,out,-23,7ffa25a1-c27c-4e13-bc73-fb1fa543ec26
+551,2019-07-05,5,7,2019,Shop,Other,Bank Account,out,-12,ea7f7af1-c0a5-4a26-8daa-34c549a3e7ef
+552,2019-07-07,7,7,2019,Parking,Auto,Cash,out,-1,cf69f357-ba12-4594-b4e3-63531eaf7002
+553,2019-07-07,7,7,2019,Shop,Other,Cash,out,-4,0197546c-76ae-45d4-97a7-5ec06d936089
+554,2019-07-07,7,7,2019,Shop,Other,Cash,out,-12,d5ecfa7c-7ec2-447e-aa02-b80ac5a16a0c
+555,2019-07-07,7,7,2019,Groceries,Food,Cash,out,-20,66b2fd3d-67bd-40fa-8365-a0397fdb56cd
+556,2019-07-07,7,7,2019,Shop,Other,Cash,out,-4,687ddaa9-2314-4138-bf71-bd3c60a7d025
+557,2019-07-08,8,7,2019,Top Up,Communications,Bank Account,out,-20,66a4a99c-3e33-44a7-ad23-78989e62f327
+558,2019-07-08,8,7,2019,Shop,Other,Cash,out,-4,ceecf225-f0c8-4c13-acd8-c0d29ceb0336
+559,2019-07-09,9,7,2019,Shop,Other,Cash,out,-4,ba2fb449-da7f-4d17-b7b2-36e663b29104
+560,2019-07-13,13,7,2019,Online Work,Freelance,Bank Account,in,600,1e7ef734-50c5-407b-b201-5169f29b4b82
+561,2019-07-14,14,7,2019,Shop,Other,Cash,out,-12,438efc2e-8f14-46cc-904b-e3fbe5d7bf4a
+562,2019-07-15,15,7,2019,TV,Entertainment,Bank Account,out,-24,33407fd7-5d5e-48ff-9977-a76e2ec6db28
+563,2019-07-15,15,7,2019,Internet,Communications,Bank Account,out,-45,1450ca68-e539-4e9d-8ecd-5f218d78b366
+564,2019-07-16,16,7,2019,Parking,Auto,Cash,out,-1,6b190104-720a-4bc8-839c-552f8a0957de
+565,2019-07-17,17,7,2019,Ice Cream,Other,Cash,out,-4,e4125d09-706e-4bac-b088-37c288259768
+566,2019-07-18,18,7,2019,Groceries,Food,Cash,out,-72,b76ecd32-97c7-4b74-8970-aeb0664c4052
+567,2019-07-18,18,7,2019,Shop,Other,Cash,out,-12,3dff4952-23ef-49f7-9af5-b90d68c7e396
+568,2019-07-18,18,7,2019,Shop,Other,Bank Account,out,-23,3c8a109f-23ab-41f5-a3cb-669bc32799d6
+569,2019-07-19,19,7,2019,Shop,Other,Bank Account,out,-12,4e92ebf5-4ccc-458a-9686-099b70ed4de5
+570,2019-07-22,22,7,2019,Shop,Other,Bank Account,out,-5,e1105b1a-04fb-4ca1-bc74-f55b7148b8a6
+571,2019-07-23,23,7,2019,Shop,Other,Cash,out,-10,83a5b728-5028-4723-8e29-fcac1de0a620
+572,2019-07-24,24,7,2019,Shop,Other,Cash,out,-4,b15860b7-80f3-442f-b950-39b2aaeadd48
+573,2019-07-24,24,7,2019,Parking,Auto,Cash,out,-1,62d39701-fd7e-47b0-a9cb-dd1dbea15801
+574,2019-07-25,25,7,2019,Shop,Other,Cash,out,-12,3f74bc2f-1860-4972-9a31-37c87231afff
+575,2019-07-25,25,7,2019,Rent,Home,Bank Account,out,-1000,5134e44d-181b-42b6-b861-e84a8c5cc127
+576,2019-07-26,26,7,2019,Groceries,Food,Cash,out,-140,dc1a8e58-8b47-43b2-a788-2297126de92a
+577,2019-07-27,27,7,2019,Shop,Other,Cash,out,-12,e15c2724-00e3-4342-b61d-2db09eb15ccb
+578,2019-07-27,27,7,2019,Car Insurance,Auto,Bank Account,out,-95,e01c2ec0-cb5b-4450-a81d-1dfb53456994
+579,2019-07-28,28,7,2019,Spotify,Entertainment,Bank Account,out,-9,9794a4bb-c9e5-4f66-bf61-91fb7c5d805e
+580,2019-07-31,31,7,2019,Parking,Auto,Cash,out,-1,7927709c-6300-49fc-ba7f-777bfb517c45
+581,2019-08-01,1,8,2019,Company,Salary,Bank Account,in,4000,5521857f-2f11-42fe-8fe7-52e0c376d0be
+582,2019-08-01,1,8,2019,Shop,Other,Cash,out,-17,0fc08a22-1723-4c25-be88-91365cfbfc92
+583,2019-08-02,2,8,2019,Shop,Other,Cash,out,-17,2abefaab-9b5e-4337-8dd7-f5bee8570bdf
+584,2019-08-04,4,8,2019,Groceries,Food,Cash,out,-88,121797f6-67d2-4c80-ab6f-97ff997df35c
+585,2019-08-06,6,8,2019,Shop,Other,Bank Account,out,-5,6da9c54d-be51-4fb0-afe2-055e0aaf934f
+586,2019-08-06,6,8,2019,Shop,Other,Bank Account,out,-17,144d9c25-08db-4d7d-9f87-78131f0f0a0b
+587,2019-08-06,6,8,2019,Parking,Auto,Cash,out,-1,e1ed3b4c-3805-429f-bcec-91394d6d35f2
+588,2019-08-08,8,8,2019,Shop,Other,Cash,out,-5,dda9f8eb-a70d-47a1-acf3-d5ecf9f6ffd6
+589,2019-08-10,10,8,2019,Shop,Other,Cash,out,-17,be7437fd-b587-4f2b-a0b5-67b3c9bd6ce1
+590,2019-08-11,11,8,2019,Ice Cream,Other,Cash,out,-4,b9310c59-639f-4f40-bbcc-19f83ec468e1
+591,2019-08-11,11,8,2019,TV,Entertainment,Bank Account,out,-24,3aefd610-0657-4999-8315-7f37132c08e3
+592,2019-08-13,13,8,2019,Top Up,Communications,Bank Account,out,-20,81cfa164-e009-4590-8f5a-7aae391073e5
+593,2019-08-14,14,8,2019,Groceries,Food,Cash,out,-100,af7fe081-dce9-4844-b7f9-583a992c7fac
+594,2019-08-15,15,8,2019,Internet,Communications,Bank Account,out,-45,78a10661-654c-4fd3-bd1b-686207c99057
+595,2019-08-16,16,8,2019,Online Work,Freelance,Bank Account,in,500,cafe1101-aba9-46cc-9777-9e9ecb3a168f
+596,2019-08-16,16,8,2019,Shop,Other,Cash,out,-4,b98e82ea-b806-4c9c-b9f9-1ff39a4f6630
+597,2019-08-17,17,8,2019,Shop,Other,Cash,out,-12,ad3284ca-0093-4ea5-b002-534f685bb135
+598,2019-08-18,18,8,2019,Shop,Other,Bank Account,out,-23,2809a091-150a-41e8-af17-e37555b9adf8
+599,2019-08-22,22,8,2019,Shop,Other,Cash,out,-12,70fb1504-7f9e-415f-a36a-41fc0602f6ed
+600,2019-08-26,26,8,2019,Parking,Auto,Cash,out,-1,23276bb9-8cac-4118-889d-670d3d9f9f77
+601,2019-08-26,26,8,2019,Shop,Other,Cash,out,-17,c38a374a-8e49-494d-9e60-db121df583f5
+602,2019-08-27,27,8,2019,Groceries,Food,Cash,out,-47,2a553e24-633c-4bd5-bd3d-306f7d53a501
+603,2019-08-27,27,8,2019,Shop,Other,Cash,out,-17,9b19c10e-0c5a-4f0f-b8ac-20f03e00c2a3
+604,2019-08-28,28,8,2019,Rent,Home,Bank Account,out,-1000,4097c5ed-2869-4f96-aa1b-e4ca51bb514f
+605,2019-08-28,28,8,2019,Car Insurance,Auto,Bank Account,out,-95,86179a24-86b3-40ac-bc5a-0f08778a053c
+606,2019-08-30,30,8,2019,Ice Cream,Other,Cash,out,-4,0bb650c4-4479-45ad-ae95-54ce3cd77cfe
+607,2019-08-30,30,8,2019,Shop,Other,Cash,out,-4,94c8459b-2a57-4c4a-8079-d4d7fc78d705
+608,2019-08-31,31,8,2019,Spotify,Entertainment,Bank Account,out,-9,8fb8f345-0e41-4f2a-aef4-b285191d6e45
+609,2019-09-01,1,9,2019,Company,Salary,Bank Account,in,4000,f26be65c-cccd-49c7-af00-2ad24e7fe31a
+610,2019-09-03,3,9,2019,Shop,Other,Cash,out,-12,2fda68bc-d259-40f2-a44e-adedf9cb6236
+611,2019-09-04,4,9,2019,Shop,Other,Cash,out,-23,57090fdc-fefa-425d-9ced-92924cf5ad8b
+612,2019-09-04,4,9,2019,Shop,Other,Cash,out,-12,5fc2bca3-b1b6-475e-9826-ffee20111160
+613,2019-09-05,5,9,2019,Groceries,Food,Cash,out,-20,5797ce98-ea68-4294-9aff-c94fb5571101
+614,2019-09-05,5,9,2019,Parking,Auto,Cash,out,-1,d1501d5e-e5ee-40df-b94a-f9a77a9c1444
+615,2019-09-06,6,9,2019,Shop,Other,Cash,out,-12,2dd935ed-b095-4ad1-891e-6adcc086791a
+616,2019-09-07,7,9,2019,Top Up,Communications,Bank Account,out,-20,313cc540-3aee-4f4f-87ea-344f40d82723
+617,2019-09-09,9,9,2019,Parking,Auto,Cash,out,-1,c21dce38-aecf-4e5a-92c8-fb533df4350f
+618,2019-09-10,10,9,2019,Shop,Other,Cash,out,-4,15dc6da0-8690-48fa-a9af-f4559e8646f9
+619,2019-09-10,10,9,2019,Online Work,Freelance,Bank Account,in,800,785578fa-9f80-43e1-893c-140c713d52fa
+620,2019-09-11,11,9,2019,Shop,Other,Cash,out,-5,363efc68-39a5-49f9-91b8-4b0f530d5224
+621,2019-09-11,11,9,2019,Shop,Other,Cash,out,-17,fbfd7c71-3914-41c6-9ec0-ddd60fdd3a9e
+622,2019-09-13,13,9,2019,TV,Entertainment,Bank Account,out,-24,8d11b394-d033-496f-ae68-2d9ea13eeeb2
+623,2019-09-14,14,9,2019,Groceries,Food,Cash,out,-170,52e3c5bc-732d-4e50-8bad-155143e288c8
+624,2019-09-14,14,9,2019,Shop,Other,Cash,out,-12,42e16176-5503-4ba6-b5e9-1d219a379b2e
+625,2019-09-16,16,9,2019,Parking,Auto,Cash,out,-1,02527792-e3df-4239-b28f-997be19800dd
+626,2019-09-18,18,9,2019,Internet,Communications,Bank Account,out,-45,9f104ed7-04b1-4d63-9d09-b35bf80c2583
+627,2019-09-18,18,9,2019,Shop,Other,Cash,out,-12,abe38059-9078-4411-8895-5a99eee3ff2e
+628,2019-09-18,18,9,2019,Shop,Other,Cash,out,-12,8d75503e-0227-4994-b181-46ed2e2460fd
+629,2019-09-19,19,9,2019,Parking,Auto,Cash,out,-1,3fdb778e-2ab2-4b4b-9e50-244764bee276
+630,2019-09-20,20,9,2019,Shop,Other,Cash,out,-5,dd36ad39-aefc-4781-b5ec-ae150c8d52a6
+631,2019-09-20,20,9,2019,Shop,Other,Bank Account,out,-17,2d6cfeff-ae60-4081-ab88-3b7876fdce6f
+632,2019-09-20,20,9,2019,Shop,Other,Bank Account,out,-5,33e96d0a-3593-4450-8795-594d44671b25
+633,2019-09-21,21,9,2019,Shop,Other,Cash,out,-17,fd3d670f-7c28-4e03-bfcc-7eae71ae77d8
+634,2019-09-23,23,9,2019,Groceries,Food,Cash,out,-100,14738463-1a12-4bae-b00c-692a0c40886d
+635,2019-09-24,24,9,2019,Parking,Auto,Cash,out,-1,052f08de-de7d-4904-b030-f44b85f5bc69
+636,2019-09-24,24,9,2019,Online Work,Freelance,Bank Account,in,400,77de968b-5547-4cf9-8f8a-184dee392acd
+637,2019-09-24,24,9,2019,Shop,Other,Cash,out,-12,90d2e787-0cfa-4f79-9423-3006e0b1d964
+638,2019-09-25,25,9,2019,Shop,Other,Cash,out,-23,ae3815e2-363c-4629-8de7-dc675f45419f
+639,2019-09-25,25,9,2019,Shop,Other,Cash,out,-12,db2228a0-d6bf-4cce-bb0d-7aac79b8a995
+640,2019-09-25,25,9,2019,Parking,Auto,Cash,out,-1,f80640e9-2ba9-4464-bfdf-55a9bc6c3e37
+641,2019-09-27,27,9,2019,Shop,Other,Cash,out,-4,b0efffc3-f556-4352-b5ee-43bb9399f82c
+642,2019-09-29,29,9,2019,Spotify,Entertainment,Bank Account,out,-9,9437394b-83ff-4875-aec8-e9501af12233
+643,2019-09-29,29,9,2019,Car Insurance,Auto,Bank Account,out,-95,01fe4bef-9b42-48ac-ac6e-309ce8999d2c
+644,2019-09-29,29,9,2019,Online Work,Freelance,Bank Account,in,200,984eb94b-83ad-4951-ab7c-10c8cad6850c
 645,31-Sep-19,31,9,2019,Parking,Auto,Cash,out,-1,3464afef-3a4f-438d-9fd4-90a901eb3518
 646,31-Sep-19,31,9,2019,Groceries,Food,Cash,out,-65,b1f9ca99-358d-44cd-938a-1ff516bdfc50
 647,31-Sep-19,31,9,2019,Rent,Home,Bank Account,out,-1000,0c940c59-3f18-4828-a20a-471f05f2d119
-648,01-Oct-19,1,10,2019,Company,Salary,Bank Account,in,4000,21f97713-87cf-46c1-ad1c-79b7430ef0fc
-649,06-Oct-19,6,10,2019,Fix,Auto,Cash,out,-1000,e510e1aa-5f61-49da-bfbf-cd20cf4a629b
-650,07-Oct-19,7,10,2019,Shop,Other,Cash,out,-17,f0613c36-c5f6-4b2a-9339-5568143a7f35
-651,07-Oct-19,7,10,2019,Groceries,Food,Cash,out,-90,268fcb93-c5e6-48f1-ba37-0a254e884495
-652,08-Oct-19,8,10,2019,Shop,Other,Cash,out,-12,84eeeb92-d909-45e9-b06f-99e931a92e01
-653,10-Oct-19,10,10,2019,Top Up,Communications,Bank Account,out,-20,cf3c25bc-f42d-444c-9eb1-88c955494719
-654,10-Oct-19,10,10,2019,Parking,Auto,Cash,out,-1,4a8f4e61-6e19-4b14-90b5-18a04d7f3f76
-655,10-Oct-19,10,10,2019,Shop,Other,Cash,out,-12,801b4db9-7d92-436d-a46f-a9c948fb1b20
-656,11-Oct-19,11,10,2019,TV,Entertainment,Bank Account,out,-24,0228f02f-09da-47ea-9530-1df22c711c2f
-657,16-Oct-19,16,10,2019,Online Work,Freelance,Bank Account,in,800,0574d1e8-5246-4536-bdb7-a21c0cd48396
-658,18-Oct-19,18,10,2019,Internet,Communications,Bank Account,out,-45,1c2d9933-7039-40e4-8bfd-924260f25a6f
-659,18-Oct-19,18,10,2019,Parking,Auto,Cash,out,-1,38df6e4f-5051-4e8d-bf91-901f4bffdf68
-660,20-Oct-19,20,10,2019,Shop,Other,Cash,out,-4,20aa9331-6ef6-4168-ad88-0d3505674064
-661,23-Oct-19,23,10,2019,Groceries,Food,Cash,out,-57,e842ee17-babf-4c62-b8de-d9c6d8b1c52b
-662,24-Oct-19,24,10,2019,Shop,Other,Bank Account,out,-5,55b87b7e-ad6d-4eae-92e4-6c87f155b594
-663,24-Oct-19,24,10,2019,Shop,Other,Cash,out,-17,45e396fc-58cc-4eab-89bd-af2256486930
-664,25-Oct-19,25,10,2019,Ice Cream,Other,Cash,out,-4,c8a574df-7e09-4d9a-9c78-f85cfe034c58
-665,25-Oct-19,25,10,2019,Shop,Other,Cash,out,-4,6d131924-4143-4f6e-ace7-712aabd9fcdc
-666,26-Oct-19,26,10,2019,Parking,Auto,Cash,out,-1,a20d10a1-d10a-4432-ac93-049ad5238fba
-667,26-Oct-19,26,10,2019,Groceries,Food,Cash,out,-46,182ca8fa-a2a0-49e2-bdd7-8579dcfc8f31
-668,27-Oct-19,27,10,2019,Road Tax,Auto,Bank Account,out,-180,0623313b-e898-4878-8ea7-98e852aed022
-669,28-Oct-19,28,10,2019,Shop,Other,Cash,out,-12,6e9ee6cf-5642-40e4-b233-889b18b44781
-670,28-Oct-19,28,10,2019,Parking,Auto,Cash,out,-1,d0815475-f223-4a9f-bbc5-a6dd4020dc50
-671,28-Oct-19,28,10,2019,Rent,Home,Bank Account,out,-1000,4386e2eb-882e-4534-b9b2-45e2c4ac2a35
-672,29-Oct-19,29,10,2019,Car Insurance,Auto,Bank Account,out,-95,e6494901-046e-46b2-ba58-78f1dcd801d4
-673,29-Oct-19,29,10,2019,Spotify,Entertainment,Bank Account,out,-9,91bb4a48-a74c-4e93-80e1-49c340c6df74
-674,29-Oct-19,29,10,2019,Shop,Other,Cash,out,-4,0d0bf2c7-34b2-49f2-8ac2-a448f49e9c65
-675,01-Nov-19,1,11,2019,Company,Salary,Bank Account,in,3000,8c16d83e-fb1c-4823-99ae-b051aa216d45
-676,01-Nov-19,1,11,2019,Shop,Other,Cash,out,-5,537da826-52ce-4795-93d5-dc9884f6ad43
-677,02-Nov-19,2,11,2019,Shop,Other,Cash,out,-17,cbf02c32-44ba-49b9-981c-a2034cc4de42
-678,05-Nov-19,5,11,2019,Groceries,Food,Cash,out,-121,a366ea25-ceb5-4d8a-baad-55ccdf8a436c
-679,06-Nov-19,6,11,2019,Parking,Auto,Cash,out,-1,a5c59920-d66e-4427-be03-b97385b59a6a
-680,07-Nov-19,7,11,2019,Shop,Other,Bank Account,out,-5,9aeaa6c8-2081-4573-8f48-a075d7698139
-681,07-Nov-19,7,11,2019,Shop,Other,Cash,out,-17,4956fb65-9d29-4184-a381-a6bee937f74e
-682,08-Nov-19,8,11,2019,Top Up,Communications,Bank Account,out,-20,2cc8fe05-68e8-427c-91c9-f128d34db557
-683,08-Nov-19,8,11,2019,Shop,Other,Cash,out,-12,6f241150-8481-49c3-98b8-ae1017bae3fa
-684,08-Nov-19,8,11,2019,Online Work,Freelance,Bank Account,in,800,359468e8-8d14-4317-9f85-dc9b0e523ba8
-685,09-Nov-19,9,11,2019,Shop,Other,Cash,out,-4,dd669a84-99c6-42dd-b6d2-75cccf02ae98
-686,14-Nov-19,14,11,2019,Parking,Auto,Cash,out,-1,5fc281f4-da35-49ae-b989-07cf1dd76050
-687,14-Nov-19,14,11,2019,TV,Entertainment,Bank Account,out,-24,7e739a90-5c3f-4672-82af-547363673947
-688,16-Nov-19,16,11,2019,Internet,Communications,Bank Account,out,-45,d6c895eb-36f6-4b16-8cad-a8f2e5ecf88e
-689,16-Nov-19,16,11,2019,Shop,Other,Cash,out,-12,cf3894c4-d043-4f54-b92e-a3ee32e44722
-690,16-Nov-19,16,11,2019,Road Tax,Auto,Bank Account,out,-180,70a611de-1c26-447b-be57-e49864f53295
-691,18-Nov-19,18,11,2019,Parking,Auto,Cash,out,-1,04bbb131-6d1f-422b-a681-7cd6c46742fc
-692,19-Nov-19,19,11,2019,Gifts,Other,Cash,out,-500,fe853751-3db3-411a-86a7-75194df8d9ad
-693,19-Nov-19,19,11,2019,Shop,Other,Cash,out,-4,1ff13647-f265-4abc-b9df-e57506c9b9bb
-694,20-Nov-19,20,11,2019,Groceries,Food,Cash,out,-301,2b86a9f9-adb2-4a0d-b12c-8c9aa89895e5
-695,21-Nov-19,21,11,2019,Car Insurance,Auto,Bank Account,out,-95,239778f3-5121-4a00-890c-856eeb13cdcf
-696,27-Nov-19,27,11,2019,Rent,Home,Bank Account,out,-1000,2dc76c4b-d8f0-474a-845a-65607d4d3b2e
-697,27-Nov-19,27,11,2019,Online Work,Freelance,Bank Account,in,800,01c3a1f7-ae6c-459a-bc56-7e3d775f7e18
-698,01-Dec-19,1,12,2019,Company,Salary,Bank Account,in,5000,18fac943-99d0-42ce-82ab-b866931cee6c
-699,01-Dec-19,1,12,2019,Shop,Other,Cash,out,-12,5a2be334-2134-43c2-ab1a-f7ca2e6ef292
-700,04-Dec-19,4,12,2019,Shop,Other,Bank Account,out,-23,f1e5b8c5-1d4b-4bd6-a045-b2d70681a108
-701,04-Dec-19,4,12,2019,Shop,Other,Bank Account,out,-12,1ec0686e-9de3-4f90-b20a-7bb6b92d99e9
-702,05-Dec-19,5,12,2019,Groceries,Food,Cash,out,-80,3a56ce09-5d8b-4448-87b2-916a6aa450f5
-703,06-Dec-19,6,12,2019,Shop,Other,Cash,out,-12,c25ad55b-1696-45c4-b5bd-fa6fba5fc0f5
-704,06-Dec-19,6,12,2019,Top Up,Communications,Bank Account,out,-20,f9b8e42b-a0ae-41d7-8a96-59cdf2dab72a
-705,07-Dec-19,7,12,2019,Shop,Other,Cash,out,-4,888309b2-9e2f-43e1-ac16-7ca5e94b4891
-706,07-Dec-19,7,12,2019,Parking,Auto,Cash,out,-1,956c4c27-61ef-4d12-ade7-e42c61ad0a28
-707,09-Dec-19,9,12,2019,Shop,Other,Cash,out,-12,de379e76-8cb0-40f6-bb23-fc87e89523ce
-708,10-Dec-19,10,12,2019,Shop,Other,Cash,out,-23,172f0cf7-a6ed-4e96-961b-f0f1749b34e3
-709,12-Dec-19,12,12,2019,Shop,Other,Cash,out,-12,17913ed7-872e-4043-ac31-5e999088a29d
-710,12-Dec-19,12,12,2019,TV,Entertainment,Bank Account,out,-24,18ae89b0-b17a-4bd9-a6be-0732c2e15881
-711,14-Dec-19,14,12,2019,Online Work,Freelance,Bank Account,in,400,af7f0870-a9be-4ade-8bb8-5b553419859e
-712,14-Dec-19,14,12,2019,Parking,Auto,Cash,out,-1,97200081-edd7-40b2-ad28-ba61ad80ab13
-713,15-Dec-19,15,12,2019,Internet,Communications,Bank Account,out,-45,0863679f-19a7-41cb-91ad-b05eca9e2f29
-714,17-Dec-19,17,12,2019,Shop,Other,Cash,out,-5,02e8f2c5-2553-40f5-964d-84fcb9c0de86
-715,18-Dec-19,18,12,2019,Shop,Other,Cash,out,-17,09d0146a-08e8-4327-bf54-1308885ed513
-716,21-Dec-19,21,12,2019,Groceries,Food,Cash,out,-35,9efea1d3-1d9a-47ab-9f6d-43d52126b869
-717,22-Dec-19,22,12,2019,Shop,Other,Bank Account,out,-12,b8921cb7-1e71-416e-9350-f0e7db8779cc
-718,23-Dec-19,23,12,2019,Parking,Auto,Cash,out,-1,9fb2e873-2491-4016-8dad-c9f48835c191
-719,23-Dec-19,23,12,2019,Shop,Other,Cash,out,-4,a0778793-1534-4e17-8999-36dd4fab9911
-720,24-Dec-19,24,12,2019,Spotify,Entertainment,Bank Account,out,-9,12969aa9-6e0d-47a0-ac1c-a3af5ba63268
-721,25-Dec-19,25,12,2019,Groceries,Food,Cash,out,-133,58dd8ce5-d119-416c-83fa-90a4e5518fa6
-722,28-Dec-19,28,12,2019,Car Insurance,Auto,Bank Account,out,-95,8cf3f3c2-1865-49ae-a9b5-5b4051ae6f72
-723,28-Dec-19,28,12,2019,Parking,Auto,Cash,out,-1,dddc184d-11cc-417f-8b6c-040149c4e75b
-724,30-Dec-19,30,12,2019,Rent,Home,Bank Account,out,-1000,1696653a-a883-48d7-801e-87786fb2b9bc
+648,2019-10-01,1,10,2019,Company,Salary,Bank Account,in,4000,21f97713-87cf-46c1-ad1c-79b7430ef0fc
+649,2019-10-06,6,10,2019,Fix,Auto,Cash,out,-1000,e510e1aa-5f61-49da-bfbf-cd20cf4a629b
+650,2019-10-07,7,10,2019,Shop,Other,Cash,out,-17,f0613c36-c5f6-4b2a-9339-5568143a7f35
+651,2019-10-07,7,10,2019,Groceries,Food,Cash,out,-90,268fcb93-c5e6-48f1-ba37-0a254e884495
+652,2019-10-08,8,10,2019,Shop,Other,Cash,out,-12,84eeeb92-d909-45e9-b06f-99e931a92e01
+653,2019-10-10,10,10,2019,Top Up,Communications,Bank Account,out,-20,cf3c25bc-f42d-444c-9eb1-88c955494719
+654,2019-10-10,10,10,2019,Parking,Auto,Cash,out,-1,4a8f4e61-6e19-4b14-90b5-18a04d7f3f76
+655,2019-10-10,10,10,2019,Shop,Other,Cash,out,-12,801b4db9-7d92-436d-a46f-a9c948fb1b20
+656,2019-10-11,11,10,2019,TV,Entertainment,Bank Account,out,-24,0228f02f-09da-47ea-9530-1df22c711c2f
+657,2019-10-16,16,10,2019,Online Work,Freelance,Bank Account,in,800,0574d1e8-5246-4536-bdb7-a21c0cd48396
+658,2019-10-18,18,10,2019,Internet,Communications,Bank Account,out,-45,1c2d9933-7039-40e4-8bfd-924260f25a6f
+659,2019-10-18,18,10,2019,Parking,Auto,Cash,out,-1,38df6e4f-5051-4e8d-bf91-901f4bffdf68
+660,2019-10-20,20,10,2019,Shop,Other,Cash,out,-4,20aa9331-6ef6-4168-ad88-0d3505674064
+661,2019-10-23,23,10,2019,Groceries,Food,Cash,out,-57,e842ee17-babf-4c62-b8de-d9c6d8b1c52b
+662,2019-10-24,24,10,2019,Shop,Other,Bank Account,out,-5,55b87b7e-ad6d-4eae-92e4-6c87f155b594
+663,2019-10-24,24,10,2019,Shop,Other,Cash,out,-17,45e396fc-58cc-4eab-89bd-af2256486930
+664,2019-10-25,25,10,2019,Ice Cream,Other,Cash,out,-4,c8a574df-7e09-4d9a-9c78-f85cfe034c58
+665,2019-10-25,25,10,2019,Shop,Other,Cash,out,-4,6d131924-4143-4f6e-ace7-712aabd9fcdc
+666,2019-10-26,26,10,2019,Parking,Auto,Cash,out,-1,a20d10a1-d10a-4432-ac93-049ad5238fba
+667,2019-10-26,26,10,2019,Groceries,Food,Cash,out,-46,182ca8fa-a2a0-49e2-bdd7-8579dcfc8f31
+668,2019-10-27,27,10,2019,Road Tax,Auto,Bank Account,out,-180,0623313b-e898-4878-8ea7-98e852aed022
+669,2019-10-28,28,10,2019,Shop,Other,Cash,out,-12,6e9ee6cf-5642-40e4-b233-889b18b44781
+670,2019-10-28,28,10,2019,Parking,Auto,Cash,out,-1,d0815475-f223-4a9f-bbc5-a6dd4020dc50
+671,2019-10-28,28,10,2019,Rent,Home,Bank Account,out,-1000,4386e2eb-882e-4534-b9b2-45e2c4ac2a35
+672,2019-10-29,29,10,2019,Car Insurance,Auto,Bank Account,out,-95,e6494901-046e-46b2-ba58-78f1dcd801d4
+673,2019-10-29,29,10,2019,Spotify,Entertainment,Bank Account,out,-9,91bb4a48-a74c-4e93-80e1-49c340c6df74
+674,2019-10-29,29,10,2019,Shop,Other,Cash,out,-4,0d0bf2c7-34b2-49f2-8ac2-a448f49e9c65
+675,2019-11-01,1,11,2019,Company,Salary,Bank Account,in,3000,8c16d83e-fb1c-4823-99ae-b051aa216d45
+676,2019-11-01,1,11,2019,Shop,Other,Cash,out,-5,537da826-52ce-4795-93d5-dc9884f6ad43
+677,2019-11-02,2,11,2019,Shop,Other,Cash,out,-17,cbf02c32-44ba-49b9-981c-a2034cc4de42
+678,2019-11-05,5,11,2019,Groceries,Food,Cash,out,-121,a366ea25-ceb5-4d8a-baad-55ccdf8a436c
+679,2019-11-06,6,11,2019,Parking,Auto,Cash,out,-1,a5c59920-d66e-4427-be03-b97385b59a6a
+680,2019-11-07,7,11,2019,Shop,Other,Bank Account,out,-5,9aeaa6c8-2081-4573-8f48-a075d7698139
+681,2019-11-07,7,11,2019,Shop,Other,Cash,out,-17,4956fb65-9d29-4184-a381-a6bee937f74e
+682,2019-11-08,8,11,2019,Top Up,Communications,Bank Account,out,-20,2cc8fe05-68e8-427c-91c9-f128d34db557
+683,2019-11-08,8,11,2019,Shop,Other,Cash,out,-12,6f241150-8481-49c3-98b8-ae1017bae3fa
+684,2019-11-08,8,11,2019,Online Work,Freelance,Bank Account,in,800,359468e8-8d14-4317-9f85-dc9b0e523ba8
+685,2019-11-09,9,11,2019,Shop,Other,Cash,out,-4,dd669a84-99c6-42dd-b6d2-75cccf02ae98
+686,2019-11-14,14,11,2019,Parking,Auto,Cash,out,-1,5fc281f4-da35-49ae-b989-07cf1dd76050
+687,2019-11-14,14,11,2019,TV,Entertainment,Bank Account,out,-24,7e739a90-5c3f-4672-82af-547363673947
+688,2019-11-16,16,11,2019,Internet,Communications,Bank Account,out,-45,d6c895eb-36f6-4b16-8cad-a8f2e5ecf88e
+689,2019-11-16,16,11,2019,Shop,Other,Cash,out,-12,cf3894c4-d043-4f54-b92e-a3ee32e44722
+690,2019-11-16,16,11,2019,Road Tax,Auto,Bank Account,out,-180,70a611de-1c26-447b-be57-e49864f53295
+691,2019-11-18,18,11,2019,Parking,Auto,Cash,out,-1,04bbb131-6d1f-422b-a681-7cd6c46742fc
+692,2019-11-19,19,11,2019,Gifts,Other,Cash,out,-500,fe853751-3db3-411a-86a7-75194df8d9ad
+693,2019-11-19,19,11,2019,Shop,Other,Cash,out,-4,1ff13647-f265-4abc-b9df-e57506c9b9bb
+694,2019-11-20,20,11,2019,Groceries,Food,Cash,out,-301,2b86a9f9-adb2-4a0d-b12c-8c9aa89895e5
+695,2019-11-21,21,11,2019,Car Insurance,Auto,Bank Account,out,-95,239778f3-5121-4a00-890c-856eeb13cdcf
+696,2019-11-27,27,11,2019,Rent,Home,Bank Account,out,-1000,2dc76c4b-d8f0-474a-845a-65607d4d3b2e
+697,2019-11-27,27,11,2019,Online Work,Freelance,Bank Account,in,800,01c3a1f7-ae6c-459a-bc56-7e3d775f7e18
+698,2019-12-01,1,12,2019,Company,Salary,Bank Account,in,5000,18fac943-99d0-42ce-82ab-b866931cee6c
+699,2019-12-01,1,12,2019,Shop,Other,Cash,out,-12,5a2be334-2134-43c2-ab1a-f7ca2e6ef292
+700,2019-12-04,4,12,2019,Shop,Other,Bank Account,out,-23,f1e5b8c5-1d4b-4bd6-a045-b2d70681a108
+701,2019-12-04,4,12,2019,Shop,Other,Bank Account,out,-12,1ec0686e-9de3-4f90-b20a-7bb6b92d99e9
+702,2019-12-05,5,12,2019,Groceries,Food,Cash,out,-80,3a56ce09-5d8b-4448-87b2-916a6aa450f5
+703,2019-12-06,6,12,2019,Shop,Other,Cash,out,-12,c25ad55b-1696-45c4-b5bd-fa6fba5fc0f5
+704,2019-12-06,6,12,2019,Top Up,Communications,Bank Account,out,-20,f9b8e42b-a0ae-41d7-8a96-59cdf2dab72a
+705,2019-12-07,7,12,2019,Shop,Other,Cash,out,-4,888309b2-9e2f-43e1-ac16-7ca5e94b4891
+706,2019-12-07,7,12,2019,Parking,Auto,Cash,out,-1,956c4c27-61ef-4d12-ade7-e42c61ad0a28
+707,2019-12-09,9,12,2019,Shop,Other,Cash,out,-12,de379e76-8cb0-40f6-bb23-fc87e89523ce
+708,2019-12-10,10,12,2019,Shop,Other,Cash,out,-23,172f0cf7-a6ed-4e96-961b-f0f1749b34e3
+709,2019-12-12,12,12,2019,Shop,Other,Cash,out,-12,17913ed7-872e-4043-ac31-5e999088a29d
+710,2019-12-12,12,12,2019,TV,Entertainment,Bank Account,out,-24,18ae89b0-b17a-4bd9-a6be-0732c2e15881
+711,2019-12-14,14,12,2019,Online Work,Freelance,Bank Account,in,400,af7f0870-a9be-4ade-8bb8-5b553419859e
+712,2019-12-14,14,12,2019,Parking,Auto,Cash,out,-1,97200081-edd7-40b2-ad28-ba61ad80ab13
+713,2019-12-15,15,12,2019,Internet,Communications,Bank Account,out,-45,0863679f-19a7-41cb-91ad-b05eca9e2f29
+714,2019-12-17,17,12,2019,Shop,Other,Cash,out,-5,02e8f2c5-2553-40f5-964d-84fcb9c0de86
+715,2019-12-18,18,12,2019,Shop,Other,Cash,out,-17,09d0146a-08e8-4327-bf54-1308885ed513
+716,2019-12-21,21,12,2019,Groceries,Food,Cash,out,-35,9efea1d3-1d9a-47ab-9f6d-43d52126b869
+717,2019-12-22,22,12,2019,Shop,Other,Bank Account,out,-12,b8921cb7-1e71-416e-9350-f0e7db8779cc
+718,2019-12-23,23,12,2019,Parking,Auto,Cash,out,-1,9fb2e873-2491-4016-8dad-c9f48835c191
+719,2019-12-23,23,12,2019,Online Work,Freelance,Bank Account,in,400,a0778793-1534-4e17-8999-36dd4fab9911
+720,2019-12-24,24,12,2019,Spotify,Entertainment,Bank Account,out,-9,12969aa9-6e0d-47a0-ac1c-a3af5ba63268
+721,2019-12-25,25,12,2019,Groceries,Food,Cash,out,-133,58dd8ce5-d119-416c-83fa-90a4e5518fa6
+722,2019-12-28,28,12,2019,Car Insurance,Auto,Bank Account,out,-95,8cf3f3c2-1865-49ae-a9b5-5b4051ae6f72
+723,2019-12-28,28,12,2019,Parking,Auto,Cash,out,-1,dddc184d-11cc-417f-8b6c-040149c4e75b
+724,2019-12-30,30,12,2019,Rent,Home,Bank Account,out,-1000,1696653a-a883-48d7-801e-87786fb2b9bc

@@ -3,13 +3,14 @@
   Author: Vilius Dzemyda | hello@viliusdzemyda.com
 
   Colour Palette:
+    #66C2A5
+    #F45B69
+    #4F86C6
+    #FC8D62
     #485665
-    #f2f0df
-    #232c33
-    #607890
-    #A9C1D9
-    #CACCB6
-    #8E9E82
+    #6C757E
+    #DEE2E6
+    #EEF0F2
 */
 
 /* ========================================================================== //
@@ -18,7 +19,7 @@
 
 body {
   font-family: 'Ubuntu', sans-serif;
-  background: #EEF0F2;
+  background: #eef0f2;
   color: #232c33;
 }
 
@@ -139,9 +140,14 @@ body {
   width: 100%;
   text-align: right;
   user-select: none;
-  height: 24px;
   border: 1px solid #ddd;
+  text-align: left;
   outline: none;
+  padding: 4px 6px;
+  height: 28px;
+  background: #fbfcfc;
+  border-radius: 4px;
+  font-size: 14px;
 }
 
 .DataOverview__breakdown {
@@ -191,11 +197,11 @@ body {
 }
 
 .DataOverview__item--spending {
-  border-left: 4px solid #F45B69;
+  border-left: 4px solid #f45b69;
 }
 
 .DataOverview__item--balance {
-  border-left: 4px solid #4F86C6;
+  border-left: 4px solid #4f86c6;
 }
 
 .DataOverview__item-amount {

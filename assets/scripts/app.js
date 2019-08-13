@@ -6,36 +6,36 @@
 // =============================================================================
 
 // Set default D3 colour scheme
-dc.config.defaultColors(d3.schemeSet2)
+dc.config.defaultColors(d3.schemeSet2);
 
 // TIMEFRAME SELECTORS ====================================================== //
 
-var yearSelector = dc.selectMenu('#yearSelector') // Year select menu
-var monthSelector = dc.cboxMenu('#monthSelector') // Month select menu
+var yearSelector = dc.selectMenu('#yearSelector'); // Year select menu
+var monthSelector = dc.cboxMenu('#monthSelector'); // Month select menu
 
 // OVERVIEW ================================================================= //
 
-var overviewInNumber = dc.numberDisplay('#numberDisplayOverviewInNumber') // Overview income number
-var overviewOutNumber = dc.numberDisplay('#numberDisplayOverviewOutNumber') // Overview spending number
-var overviewBalNumber = dc.numberDisplay('#numberDisplayOverviewBalNumber') // Overview balance number
-var overviewChart = dc.compositeChart('#overviewChart') // Overview chart
+var overviewInNumber = dc.numberDisplay('#numberDisplayOverviewInNumber'); // Overview income number
+var overviewOutNumber = dc.numberDisplay('#numberDisplayOverviewOutNumber'); // Overview spending number
+var overviewBalNumber = dc.numberDisplay('#numberDisplayOverviewBalNumber'); // Overview balance number
+var overviewChart = dc.compositeChart('#overviewChart'); // Overview chart
 
 // INCOME =================================================================== //
 
-var summaryInNumber = dc.numberDisplay('#summaryInNumber') // Income category number
-var summaryInChart = dc.pieChart('#summaryInChart') // Income category chart
-var summaryInChartLegend = document.getElementById('summaryInChartLegend') // Income category legend
+var summaryInNumber = dc.numberDisplay('#summaryInNumber'); // Income category number
+var summaryInChart = dc.pieChart('#summaryInChart'); // Income category chart
+var summaryInChartLegend = document.getElementById('summaryInChartLegend'); // Income category legend
 
 // SPENDING ================================================================= //
 
-var summaryOutNumber = dc.numberDisplay('#summaryOutNumber') // Spending category number
-var summaryOutChart = dc.pieChart('#summaryOutChart') // Spending category chart
-var summaryOutChartLegend = document.getElementById('summaryOutChartLegend') // Spending category legend
+var summaryOutNumber = dc.numberDisplay('#summaryOutNumber'); // Spending category number
+var summaryOutChart = dc.pieChart('#summaryOutChart'); // Spending category chart
+var summaryOutChartLegend = document.getElementById('summaryOutChartLegend'); // Spending category legend
 
 // TRANSACTIONS ============================================================= //
 
-var transactionsTableAll = dc.dataTable('#transactionsTableAll') // All transactions list
-var transactionsTableShort = dc.dataTable('#transactionsTableShort') // Short transactions list
+var transactionsTableAll = dc.dataTable('#transactionsTableAll'); // All transactions list
+var transactionsTableShort = dc.dataTable('#transactionsTableShort'); // Short transactions list
 
 // =============================================================================
 // FUNCTIONS
@@ -51,68 +51,66 @@ function tableColConfig() {
     {
       label: 'In',
       format: function(d) {
-        return d.amount_in_str
+        return d.amount_in_str;
       },
     },
     {
       label: 'Out',
       format: function(d) {
-        return d.amount_out_str
+        return d.amount_out_str;
       },
     },
-  ]
+  ];
 }
 
 // CREATE MONTH NAMES ======================================================= //
 
 function monthName(monthNum) {
-  var month_str = ''
+  var month_str = '';
 
   // Set month name for each number
   switch (monthNum) {
     case 1:
-      month_str = 'January'
-      break
+      month_str = 'January';
+      break;
     case 2:
-      month_str = 'February'
-      break
+      month_str = 'February';
+      break;
     case 3:
-      month_str = 'March'
-      break
+      month_str = 'March';
+      break;
     case 4:
-      month_str = 'April'
-      break
+      month_str = 'April';
+      break;
     case 5:
-      month_str = 'May'
-      break
+      month_str = 'May';
+      break;
     case 6:
-      month_str = 'June'
-      break
+      month_str = 'June';
+      break;
     case 7:
-      month_str = 'July'
-      break
+      month_str = 'July';
+      break;
     case 8:
-      month_str = 'August'
-      break
+      month_str = 'August';
+      break;
     case 9:
-      month_str = 'September'
-      break
+      month_str = 'September';
+      break;
     case 10:
-      month_str = 'October'
-      break
+      month_str = 'October';
+      break;
     case 11:
-      month_str = 'November'
-      break
+      month_str = 'November';
+      break;
     case 12:
-      month_str = 'December'
-      break
+      month_str = 'December';
+      break;
   }
 
   // Add 0 to single digits for correct sorting
-  return [('0' + monthNum).slice(-2), month_str]
+  return [('0' + monthNum).slice(-2), month_str];
 }
-
-//console.log(monthName(1))
 
 // =============================================================================
 // MAIN
@@ -120,53 +118,53 @@ function monthName(monthNum) {
 
 d3.csv('./assets/data/transactions.csv').then(function(transactions) {
   // Set date format to'd/m/year'
-  var dateFormat = d3.timeFormat('%d/%m/%Y')
+  var dateFormat = d3.timeFormat('%d/%m/%Y');
 
   // Set table columns
-  var tableColFormat = tableColConfig()
+  var tableColFormat = tableColConfig();
 
   // Format CSV data
   transactions.forEach(function(d) {
-    d.order = Number(d.order)
-    d.date = dateFormat(new Date(d.date))
-    d.day = Number(d.day)
-    d.month = Number(d.month)
-    d.year = Number(d.year)
-    d.amount = Number(d.amount)
+    d.order = Number(d.order);
+    d.date = dateFormat(new Date(d.date));
+    d.day = Number(d.day);
+    d.month = Number(d.month);
+    d.year = Number(d.year);
+    d.amount = Number(d.amount);
 
     // Income amount with Euro currency as string
     if (d.amount > 0) {
-      d.amount_in = Number(d.amount)
-      d.amount_out = 0
+      d.amount_in = Number(d.amount);
+      d.amount_out = 0;
       d.amount_in_str =
         '€' +
         Number(d.amount_in)
           .toFixed(2)
           .toString()
-          .replace(/\B(?=(\d{3})+(?!\d))/g, ',')
-      d.amount_out_str = ''
+          .replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+      d.amount_out_str = '';
     }
 
     // Spending amount with Euro currency as string
     if (d.amount < 0) {
-      d.amount_in = 0
-      d.amount_out = Math.abs(d.amount)
-      d.amount_in_str = ''
+      d.amount_in = 0;
+      d.amount_out = Math.abs(d.amount);
+      d.amount_in_str = '';
       d.amount_out_str =
         '€' +
         Number(d.amount_out)
           .toFixed(2)
           .toString()
-          .replace(/\B(?=(\d{3})+(?!\d))/g, ',')
+          .replace(/\B(?=(\d{3})+(?!\d))/g, ',');
     }
-  })
+  });
 
   // ===========================================================================
   // DC & CROSSFILTER
   // ===========================================================================
 
   // Set Crossfilter
-  var ndx = crossfilter(transactions)
+  var ndx = crossfilter(transactions);
 
   // ===========================================================================
   // DIMENSIONS
@@ -174,93 +172,93 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
 
   // Order
   var orderDim = ndx.dimension(function(d) {
-    return d.order
-  })
+    return d.order;
+  });
 
   // Year
   var yearDim = ndx.dimension(function(d) {
-    return d.year
-  })
+    return d.year;
+  });
 
   // Month number
   var monthDim = ndx.dimension(function(d) {
-    return d.month
-  })
+    return d.month;
+  });
 
   // Month name
   var monthStrDim = ndx.dimension(function(d) {
-    return monthName(d.month)
-  })
+    return monthName(d.month);
+  });
 
   // Type
   var typeDim = ndx.dimension(function(d) {
-    return d.type
-  })
+    return d.type;
+  });
 
   // Category
   var categoryDim = ndx.dimension(function(d) {
-    return d.category
-  })
+    return d.category;
+  });
 
   // ===========================================================================
   // GROUPS
   // ===========================================================================
 
   // Years
-  var yearGrp = yearDim.group()
+  var yearGrp = yearDim.group();
 
   // Months
-  var monthGrp = monthStrDim.group()
+  var monthGrp = monthStrDim.group();
 
   // Total income
   var titalInGrp = ndx.groupAll().reduceSum(function(d) {
-    return d.amount_in
-  })
+    return d.amount_in;
+  });
 
   // Total spending
   var totalOutGrp = ndx.groupAll().reduceSum(function(d) {
-    return d.amount_out
-  })
+    return d.amount_out;
+  });
 
   // Total balance
   var totalBalGrp = ndx.groupAll().reduceSum(function(d) {
-    return d.amount
-  })
+    return d.amount;
+  });
 
   // Monthly income
   var monthInGrp = monthDim.group().reduceSum(function(d) {
-    return d.amount_in
-  })
+    return d.amount_in;
+  });
 
   // Monthly spending
   var monthOutGrp = monthDim.group().reduceSum(function(d) {
-    return d.amount_out
-  })
+    return d.amount_out;
+  });
 
   // Monthly balance
   var monthBalGrp = monthDim.group().reduceSum(function(d) {
-    return d.amount
-  })
+    return d.amount;
+  });
 
   // Type income
   var typeInGrp = typeDim.group().reduceSum(function(d) {
-    return d.amount_in
-  })
+    return d.amount_in;
+  });
 
   // Type spending
   var typeOutGrp = typeDim.group().reduceSum(function(d) {
-    return d.amount_out
-  })
+    return d.amount_out;
+  });
 
   // Category income
   var categoryInGrp = categoryDim.group().reduceSum(function(d) {
-    return d.amount_in
-  })
+    return d.amount_in;
+  });
 
   // Category spending
   var categoryOutGrp = categoryDim.group().reduceSum(function(d) {
-    return d.amount_out
-  })
+    return d.amount_out;
+  });
 
   // ===========================================================================
   // TIMEFRAME SELECTORS
@@ -271,9 +269,9 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     .promptText('All Years')
     .group(yearGrp)
     .title(function(d) {
-      return d.key
-    })
-  yearSelector.render()
+      return d.key;
+    });
+  yearSelector.render();
 
   monthSelector
     .dimension(monthStrDim)
@@ -281,9 +279,9 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     .multiple(true)
     .controlsUseVisibility(true)
     .title(function(d) {
-      return d.key[1]
-    })
-  monthSelector.render()
+      return d.key[1];
+    });
+  monthSelector.render();
 
   // ===========================================================================
   // OVERVIEW
@@ -292,35 +290,35 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
   overviewInNumber
     .transitionDuration(300)
     .formatNumber(function(d) {
-      return '€' + d3.format(',.3s')(d)
+      return '€' + d3.format(',.3s')(d);
     })
     .valueAccessor(function(d) {
-      return d
+      return d;
     })
-    .group(titalInGrp)
-  overviewInNumber.render()
+    .group(titalInGrp);
+  overviewInNumber.render();
 
   overviewOutNumber
     .transitionDuration(300)
     .formatNumber(function(d) {
-      return '€' + d3.format(',.3s')(d)
+      return '€' + d3.format(',.3s')(d);
     })
     .valueAccessor(function(d) {
-      return d
+      return d;
     })
-    .group(totalOutGrp)
-  overviewOutNumber.render()
+    .group(totalOutGrp);
+  overviewOutNumber.render();
 
   overviewBalNumber
     .transitionDuration(300)
     .formatNumber(function(d) {
-      return '€' + d3.format(',.3s')(d)
+      return '€' + d3.format(',.3s')(d);
     })
     .valueAccessor(function(d) {
-      return d
+      return d;
     })
-    .group(totalBalGrp)
-  overviewBalNumber.render()
+    .group(totalBalGrp);
+  overviewBalNumber.render();
 
   overviewChart
     .transitionDuration(600)
@@ -364,9 +362,9 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     })
     .yAxis()
     .tickFormat(function(d) {
-      return '€' + d3.format(',d')(d)
-    })
-  overviewChart.render()
+      return '€' + d3.format(',d')(d);
+    });
+  overviewChart.render();
 
   // ===========================================================================
   // INCOME
@@ -375,10 +373,10 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
   summaryInNumber
     .transitionDuration(300)
     .formatNumber(function(d) {
-      return '€' + d3.format(',.3r')(d)
+      return '€' + d3.format(',.3r')(d);
     })
-    .group(typeInGrp)
-  summaryInNumber.render()
+    .group(typeInGrp);
+  summaryInNumber.render();
 
   summaryInChart
     .transitionDuration(800)
@@ -394,7 +392,7 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
         .htmlLegend()
         .container(summaryInChartLegend)
         .legendText(function(d) {
-          return d.name + ' - €' + d3.format(',')(d.data)
+          return d.name + ' - €' + d3.format(',')(d.data);
         })
     )
     .on('pretransition', function(chart) {
@@ -404,11 +402,11 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
             dc.utils.printSingleValue(
               Math.round(((d.endAngle - d.startAngle) / (2 * Math.PI)) * 100)
             ) + '%'
-          )
+          );
         }
-      })
-    })
-  summaryInChart.render()
+      });
+    });
+  summaryInChart.render();
 
   // ===========================================================================
   // SPENDING
@@ -417,10 +415,10 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
   summaryOutNumber
     .transitionDuration(300)
     .formatNumber(function(d) {
-      return '€' + d3.format(',.3r')(d)
+      return '€' + d3.format(',.3r')(d);
     })
-    .group(typeOutGrp)
-  summaryOutNumber.render()
+    .group(typeOutGrp);
+  summaryOutNumber.render();
 
   summaryOutChart
     .transitionDuration(800)
@@ -437,7 +435,7 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
         .container(summaryOutChartLegend)
         .horizontal(false)
         .legendText(function(d) {
-          return d.name + ' - €' + d3.format(',')(d.data)
+          return d.name + ' - €' + d3.format(',')(d.data);
         })
     )
     .on('pretransition', function(chart) {
@@ -447,11 +445,11 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
             dc.utils.printSingleValue(
               Math.round(((d.endAngle - d.startAngle) / (2 * Math.PI)) * 100)
             ) + '%'
-          )
+          );
         }
-      })
-    })
-  summaryOutChart.render()
+      });
+    });
+  summaryOutChart.render();
 
   // ===========================================================================
   // TRANSACTIONS
@@ -463,10 +461,10 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     .showSections(false)
     .columns(tableColFormat)
     .sortBy(function(d) {
-      return d.order
+      return d.order;
     })
-    .order(d3.descending)
-  transactionsTableShort.render()
+    .order(d3.descending);
+  transactionsTableShort.render();
 
   transactionsTableAll
     .dimension(orderDim)
@@ -474,11 +472,11 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     .showSections(false)
     .columns(tableColFormat)
     .sortBy(function(d) {
-      return d.order
+      return d.order;
     })
-    .order(d3.descending)
-  transactionsTableAll.render()
-})
+    .order(d3.descending);
+  transactionsTableAll.render();
+});
 
 // =============================================================================
 // UTILITIES
@@ -488,16 +486,16 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
 
 // Disable income pie chart legend if value is 0
 dc.override(summaryInChart, 'legendables', function() {
-  var legendables = this._legendables()
+  var legendables = this._legendables();
   return legendables.filter(function(l) {
-    return l.data > 0
-  })
-})
+    return l.data > 0;
+  });
+});
 
 // Disable spending pie chart legend if value is 0
 dc.override(summaryOutChart, 'legendables', function() {
-  var legendables = this._legendables()
+  var legendables = this._legendables();
   return legendables.filter(function(l) {
-    return l.data > 0
-  })
-})
+    return l.data > 0;
+  });
+});
