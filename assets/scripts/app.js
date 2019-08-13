@@ -333,7 +333,7 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
   summaryInNumber
     .transitionDuration(300)
     .formatNumber(function(d) {
-      return '€' + d3.format(',.4r')(d)
+      return '€' + d3.format(',.3r')(d)
     })
     .group(typeInGrp)
   summaryInNumber.render()
@@ -375,7 +375,7 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
   summaryOutNumber
     .transitionDuration(300)
     .formatNumber(function(d) {
-      return '€' + d3.format(',.4r')(d)
+      return '€' + d3.format(',.3r')(d)
     })
     .group(typeOutGrp)
   summaryOutNumber.render()
