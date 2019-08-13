@@ -132,6 +132,8 @@ User needs checklist:
 - [x] Check if month names are correct.
 - [x] Check if month names has correct data type.
 
+Check out the [Jasmine Results](https://elastic-hawking-05c821.netlify.com/tests.html)
+
 ### Code
 
 The application was checked with W3C [HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Felastic-hawking-05c821.netlify.com%2F) and [CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Felastic-hawking-05c821.netlify.com%2Fassets%2Fstyles%2Fapp.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) validators, and the issues where fixed accordingly.
