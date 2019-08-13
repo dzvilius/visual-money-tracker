@@ -121,8 +121,8 @@ body {
 
 .DataOverview__selector {
   position: absolute;
-  top: 40px;
-  right: 40px;
+  top: 20px;
+  right: 20px;
   width: 100px;
   z-index: 10;
 }
@@ -130,6 +130,7 @@ body {
 @media (min-width: 768px) {
   .DataOverview__selector {
     top: 30px;
+    right: 40px;
   }
 }
 
@@ -154,7 +155,14 @@ body {
 
 .DataOverview__headline {
   font-size: 24px;
-  margin-bottom: 50px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  .DataOverview__headline {
+    margin-bottom: 50px;
+  }
 }
 
 .DataOverview__item {
