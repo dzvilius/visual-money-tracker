@@ -4,6 +4,8 @@ A data dashboard application to visualise personal income and spending.
 
 [Live Preview](https://elastic-hawking-05c821.netlify.com/)
 
+![alt text](ux/Screenshot.jpg)
+
 ## UX
 
 An overview data dashboard with charts and list of transactions to visualise and track the money flow.
@@ -27,15 +29,17 @@ Check out the [User Stories](ux/Project_Brief.md) for this project.
 
 ## Features
 
-- Data visualisation with D3 charts
-- CSV import via API
-- Data overview
-- Data filtering
-- Mobile optimised
+- Import CSV import via API
+- Format the data
+- Output data as table
+- Visual chart for income categories
+- Visual chart for spending categories
+- Data filtering by year, month, type and category
+- Multiple month selection
+- Responsive UI
 
 _Features to be implemented in the future:_
 
-- Calculate balance and plot data on chart
 - View an individual transaction
 - Add new transaction
 - Edit current transaction
@@ -66,11 +70,15 @@ _Transactions view_
 
 #### Colours
 
-...
+![alt text](ux/Designs/Colours.jpg)
 
 #### Design Mockups
 
-...
+_Small:_ [Home](ux/Designs/Small/Home.png), [Transactions](ux/Designs/Small/Transactions.png)
+
+_Medium:_ [Home](ux/Designs/Medium/Home.png), [Transactions](ux/Designs/Medium/Transactions.png)
+
+_Large:_ [Home](ux/Designs/Large/Home.png), [Transactions](ux/Designs/Large/Transactions.png)
 
 ## Tech
 
@@ -80,17 +88,21 @@ A list of all of the languages, frameworks and libraries used to construct this 
 - D3.js API
   - Import transactions from CVS file.
 - DC.js library
+  - Composite chart
   - Pie chart
-  - Line chart
   - Table view
+  - Number display
+  - Select menu
+  - Checkbox
 - SVG
   - Draw the charts using dynamic data
 - Jasmine
-  - Test Driven Development
+  - Test Driven Development (TDD)
 - Bootstrap CSS - https://getbootstrap.com
-  - Grid for application layout
+  - Grid - for application layout
+  - Buttons - for navigation
 - Google Fonts - https://fonts.google.com
-  - Support non-standard fonts on user browser
+  - Support non-standard fonts in user browser
 - Prettier - https://prettier.io
   - Code clean up
 
@@ -100,9 +112,16 @@ A list of all of the languages, frameworks and libraries used to construct this 
 
 User needs checklist:
 
-- [ ] User is able to see a numeric data overview of the transactions for 12 months.
-- [ ] User is able to see the list of transactions and filter them by category.
-- [ ] User is able to see a line chart for 12 month transactions.
+- [x] User can select year and see the income for that year.
+- [x] User can select year and see the spending for that year.
+- [x] User can select year and see the balance for that year.
+- [x] User can see a dynamic chart that updates based on the selection.
+- [x] User can select multiple months and see the income for those months.
+- [x] User can select multiple months and see the spending for those months.
+- [x] User can select multiple months and see the balance for those months.
+- [x] User can select category and see the income for that category.
+- [x] User can select category and see the spending for that category.
+- [x] User can see list of transactions and filter them by year, month or category.
 
 ### Code
 
