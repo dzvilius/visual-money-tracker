@@ -25,7 +25,7 @@ To learn more about the needs of the user, please read the [Project Brief](ux/Pr
 
 ### Stories
 
-Check out the [User Stories](ux/Project_Brief.md) for this project.
+Check out the [User Stories](ux/User_Stories.md) for this project.
 
 ## Features
 
@@ -85,18 +85,20 @@ _Large:_ [Home](ux/Designs/Large/Home.png), [Transactions](ux/Designs/Large/Tran
 A list of all of the languages, frameworks and libraries used to construct this project.
 
 - JavaScript, HTML & CSS
-- D3.js API
+- D3.js API - https://d3js.org/
   - Import transactions from CVS file.
-- DC.js library
+- DC.js library - https://dc-js.github.io/dc.js/
   - Composite chart
   - Pie chart
   - Table view
   - Number display
   - Select menu
   - Checkbox
+- Crossfilter.js library - https://github.com/crossfilter/crossfilter
+  - Dimensions and filtering
 - SVG
   - Draw the charts using dynamic data
-- Jasmine
+- Jasmine - https://jasmine.github.io/
   - Test Driven Development (TDD)
 - Bootstrap CSS - https://getbootstrap.com
   - Grid - for application layout
