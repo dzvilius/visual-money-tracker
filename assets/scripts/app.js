@@ -283,7 +283,7 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
   overviewChart
     .transitionDuration(600)
     .width(null)
-    .height(240)
+    .height(220)
     .margins({ top: 0, left: 50, right: 8, bottom: 30 })
     .colors(d3.scaleOrdinal(d3.schemeSet2))
     .x(

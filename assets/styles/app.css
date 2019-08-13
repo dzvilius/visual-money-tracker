@@ -121,15 +121,14 @@ body {
 
 .DataOverview__selector {
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 30px;
+  right: 30px;
   width: 100px;
   z-index: 10;
 }
 
 @media (min-width: 768px) {
   .DataOverview__selector {
-    top: 30px;
     right: 40px;
   }
 }
@@ -161,6 +160,7 @@ body {
 
 @media (min-width: 768px) {
   .DataOverview__headline {
+    margin-top: 0;
     margin-bottom: 50px;
   }
 }
@@ -169,7 +169,14 @@ body {
   font-size: 18px;
   line-height: 30px;
   margin-bottom: 20px;
-  padding-left: 30px;
+  padding-left: 20px;
+  margin-left: 20px;
+}
+
+@media (min-width: 768px) {
+  .DataOverview__item {
+    margin-left: 0;
+  }
 }
 
 @media (min-width: 992px) {
@@ -212,10 +219,20 @@ body {
 }
 
 .DataOverview__chart {
-  padding-top: 40px;
-  width: 100%;
+  background: #fff;
+  margin-top: 20px;
+  padding: 20px 10px 0 10px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
 }
 
+@media (min-width: 768px) {
+  .DataOverview__chart {
+    margin-top: 40px;
+  }
+}
+
+#overviewChart,
 #overviewChart svg {
   width: 100%;
 }
