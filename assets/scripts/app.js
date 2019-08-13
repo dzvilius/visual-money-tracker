@@ -45,6 +45,9 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
   // Set date format to'd/m/year'
   var dateFormat = d3.timeFormat('%d/%m/%Y')
 
+  // Set table columns
+  var tableColFormat = tableColConfig()
+
   // Format CSV data
   transactions.forEach(function(d) {
     d.order = Number(d.order)
@@ -419,22 +422,7 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     .dimension(orderDim)
     .size(10)
     .showSections(false)
-    .columns([
-      'date',
-      'payee',
-      {
-        label: 'In',
-        format: function(d) {
-          return d.amount_in_str
-        },
-      },
-      {
-        label: 'Out',
-        format: function(d) {
-          return d.amount_out_str
-        },
-      },
-    ])
+    .columns(tableColFormat)
     .sortBy(function(d) {
       return d.order
     })
@@ -445,22 +433,7 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
     .dimension(orderDim)
     .size(1000)
     .showSections(false)
-    .columns([
-      'date',
-      'payee',
-      {
-        label: 'In',
-        format: function(d) {
-          return d.amount_in_str
-        },
-      },
-      {
-        label: 'Out',
-        format: function(d) {
-          return d.amount_out_str
-        },
-      },
-    ])
+    .columns(tableColFormat)
     .sortBy(function(d) {
       return d.order
     })
@@ -471,6 +444,28 @@ d3.csv('./assets/data/transactions.csv').then(function(transactions) {
 // =============================================================================
 // UTILITIES
 // =============================================================================
+
+// Table columns configuration
+function tableColConfig() {
+  return [
+    'date',
+    'payee',
+    {
+      label: 'In',
+      format: function(d) {
+        // Amount value formatted as sring
+        return d.amount_in_str
+      },
+    },
+    {
+      label: 'Out',
+      format: function(d) {
+        // Amount value formatted as sring
+        return d.amount_out_str
+      },
+    },
+  ]
+}
 
 // https://stackoverflow.com/questions/29371256/dc-js-piechart-legend-hide-if-result-is-0
 
