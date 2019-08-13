@@ -31,7 +31,7 @@ Check out the [User Stories](ux/User_Stories.md) for this project.
 
 - Import CSV import via API
 - Format the data
-- Output data as table
+- Output data as a table
 - Visual chart for income categories
 - Visual chart for spending categories
 - Data filtering by year, month, type and category
@@ -114,23 +114,23 @@ A list of all of the languages, frameworks and libraries used to construct this 
 
 User needs checklist:
 
-- [x] User can select year and see the income for that year.
-- [x] User can select year and see the spending for that year.
-- [x] User can select year and see the balance for that year.
+- [x] User can select a year and see the income for that year.
+- [x] User can select a year and see the spending for that year.
+- [x] User can select a year and see the balance for that year.
 - [x] User can see a dynamic chart that updates based on the selection.
 - [x] User can select multiple months and see the income for those months.
 - [x] User can select multiple months and see the spending for those months.
-- [x] User can select multiple months and see the balance for those months.
-- [x] User can select category and see the income for that category.
-- [x] User can select category and see the spending for that category.
-- [x] User can see list of transactions and filter them by year, month or category.
+- [x] User can select multiple months and know the balance for those months.
+- [x] User can choose a category and see the income for that category.
+- [x] User can choose a category and see the spending for that category.
+- [x] User can see list of transactions and filter them by year, month, type or category.
 
 ### TDD
 
-- [x] Check if table contains correct amount of columns.
-- [x] Check for correct column names.
+- [x] Check if the table contains the correct amount of columns.
+- [x] Check for proper column names.
 - [x] Check if month names are correct.
-- [x] Check if month names has correct data type.
+- [x] Check if month names have the correct data type.
 
 Check out the [Jasmine Results](https://elastic-hawking-05c821.netlify.com/tests.html)
 
@@ -155,17 +155,17 @@ Tested on the following browsers:
 
 The application is deployed to Netlify. To see a working version please go to: [Live Preview](https://elastic-hawking-05c821.netlify.com/).
 
-To run project locally you do not need any additional software.
+To run the project locally, you do not need any additional software.
 
 The application can be deployed to any static application hosting provider.
 
 I am using Netlify because it can automatically deploy the application each time I push my commits to GitHub repository.
 
-To deploy the application to [Netlify](https://www.netlify.com/) you need to sign up for an account first. Choose the 'New site from Git' option, then pick your online git hosting service provider and grant a permission to access your repository. And it's done! Now each time you commit to GitHub or your preferred service Netlify will automatically deploy the application.
+To deploy the application to [Netlify](https://www.netlify.com/), you need to sign up for an account first. Choose the 'New site from Git' option, then pick your online git hosting service provider and grant permission to access your repository. And it's done! Now each time you commit to GitHub or your preferred service, Netlify will automatically deploy the application.
 
 #### Acknowledgements
 
-Tool to create data structure and generate CSV file:
+A tool to create data structure and generate a CSV file:
 
 - https://mockaroo.com/
 
