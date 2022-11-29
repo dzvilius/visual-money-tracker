@@ -29,6 +29,10 @@ Check out the [User Stories](ux/User_Stories.md) for this project.
 
 ## Features
 
+- **New** - Line Compare feature
+
+![Line Compare](ux/new_feature.png)
+
 - Import CSV import via API
 - Format the data
 - Output data as a table
