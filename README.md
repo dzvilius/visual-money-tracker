@@ -2,7 +2,7 @@
 
 A data dashboard application to visualise personal income and spending.
 
-[Live Preview](https://elastic-hawking-05c821.netlify.com/)
+[Live Preview](https://visual-money-tracker.pages.dev/)
 
 ![alt text](ux/Screenshot.jpg)
 
@@ -136,11 +136,11 @@ User needs checklist:
 - [x] Check if month names are correct.
 - [x] Check if month names have the correct data type.
 
-Check out the [Jasmine Results](https://elastic-hawking-05c821.netlify.com/tests.html)
+Check out the [Jasmine Results](https://visual-money-tracker.pages.dev/tests.html)
 
 ### Code
 
-The application was checked with W3C [HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Felastic-hawking-05c821.netlify.com%2F) and [CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Felastic-hawking-05c821.netlify.com%2Fassets%2Fstyles%2Fapp.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) validators, and the issues where fixed accordingly.
+The application was checked with W3C
 
 ### Browsers
 
@@ -157,15 +157,15 @@ Tested on the following browsers:
 
 ## Deployment
 
-The application is deployed to Netlify. To see a working version please go to: [Live Preview](https://elastic-hawking-05c821.netlify.com/).
+The application is deployed to Cloudflare. To see a working version please go to: [Live Preview](https://visual-money-tracker.pages.dev/).
 
 To run the project locally, you do not need any additional software.
 
 The application can be deployed to any static application hosting provider.
 
-I am using Netlify because it can automatically deploy the application each time I push my commits to GitHub repository.
+I am using Cloudflare because it can automatically deploy the application each time I push my commits to GitHub repository.
 
-To deploy the application to [Netlify](https://www.netlify.com/), you need to sign up for an account first. Choose the 'New site from Git' option, then pick your online git hosting service provider and grant permission to access your repository. And it's done! Now each time you commit to GitHub or your preferred service, Netlify will automatically deploy the application.
+To deploy the application to [Cloudflare](https://www.cloudflare.com/), you need to sign up for an account first. Choose the 'New site from Git' option, then pick your online git hosting service provider and grant permission to access your repository. And it's done! Now each time you commit to GitHub or your preferred service, Cloudflare will automatically deploy the application.
 
 #### Acknowledgements
 
